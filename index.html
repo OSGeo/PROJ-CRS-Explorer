@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Javier Jimenez Shaw">
+    <style>
+        thead { font-weight: bold; }
+        tbody tr:nth-child(odd) { background-color: #EEEEEE; }
+
+        #mapid { height: 300px; width: 800px; max-width: 80%;}
+        .area {text-overflow: ellipsis; white-space: nowrap; overflow: hidden; width: 20em; display: block;}
+        .hide {display: none;}
+    </style>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</head>
+
+<body onload="load()">
+    <h1>PROJ 8.1.0 codes</h1>
+    <div id="mapid"></div>
+    <div>Click the map to select a location. <button type="button" id="delete">Delete location</button> <span id="location"></span></div>
+
+    <div id="filters"></div>
+    <div id="authorities"></div>
+    <div id="tables"></div>
+
+    <script>
+        let db = null;
+        let mymap = L.map('mapid').setView([0, 0], 1);
+        let latlng = null;
+        
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            maxZoom: 18,
+        }).addTo(mymap);
+
+        mymap.on('click', function(e) {
+            function normalizeLong(lng) {
+                while(lng < -180){
+                    lng +=360;
+                }
+                while (lng > 180){
+                    lng -= 360;
+                }
+                return lng;
+            }
+            latlng = e.latlng;
+            latlng.lng = normalizeLong(latlng.lng);
+            document.querySelector('#location').innerHTML = 'Clicked location: ' + e.latlng;
+            fillTables();
+        });
+
+        document.querySelector('#delete').addEventListener('click', function () {
+            latlng = null;
+            document.querySelector('#location').innerHTML = '';
+            fillTables();
+        });
+
+        let tabs = [
+            { id:'PROJECTED_CRS', str:'Projected'},
+            { id:'GEOGRAPHIC_2D_CRS', str:'Geographic 2D'},
+            { id:'GEOGRAPHIC_3D_CRS' , str:'Geographic 3D'},
+            { id:'GEOCENTRIC_CRS', str:'Geocentric' },
+            { id:'VERTICAL_CRS', str:'Vertical' },
+            { id:'COMPOUND_CRS', str:'Compound'},
+        ];
+
+        function createCheckboxes() {
+            let div = document.querySelector('#filters');
+            tabs.forEach(tab => {
+                let el = document.createElement('label');
+                el.innerHTML = `<input type="checkbox" id="${tab.id}_CB">${tab.str}`;
+                div.appendChild(el);
+                el.addEventListener('click', function (ev) {
+                    document.querySelector('#' + tab.id + '_DIV').classList[ev.target.checked ? 'remove' : 'add']('hide');
+                    fillTables(tab.id)
+                });
+
+                let tables = document.querySelector('#tables');
+                let tabdiv = document.createElement('div');
+                tabdiv.id = tab.id + "_DIV";
+                tabdiv.classList.add('hide');
+                let head = document.createElement('h3');
+                head.innerHTML = tab.str;
+                tabdiv.appendChild(head);
+                let tb = document.createElement('table');
+                tb.id = tab.id;
+                tabdiv.appendChild(tb);
+                tables.appendChild(tabdiv);
+
+                let header = tb.createTHead();
+                let row = header.insertRow();
+                ['Code', 'Name', 'Area of Use', 'Deprecated', 'link'].forEach(e => row.insertCell().innerHTML = e);
+                let tblBody = document.createElement('tbody');
+                tb.appendChild(tblBody);
+
+            });
+
+            let el = document.createElement('label');
+            div.appendChild(el).innerHTML = `<input type="checkbox" id="ignore_world_CB" checked>Ignore World`;
+            el.querySelector('#ignore_world_CB').addEventListener('click', function () {fillTables()});
+
+            let allowdep = document.createElement('label');
+            div.appendChild(allowdep).innerHTML = `<input type="checkbox" id="allow_deprecated_CB">Allow deprecated`;
+            allowdep.addEventListener('click', function () {fillTables()});
+        }
+
+        function createAuthorities() {
+            let auths = []
+            db.forEach(crs => {
+                if (!auths.includes(crs.auth_name)) {
+                    auths.push(crs.auth_name);
+                }
+            });
+            let div = document.querySelector('#authorities');
+            auths.forEach(auth => {
+                let el = document.createElement('label');
+                el.innerHTML = `<input type="checkbox" id="${auth}" ${auth=="EPSG"?"checked":""}>${auth}`;
+                div.appendChild(el);
+                document.querySelector(`#${auth}`).addEventListener('click', function () {fillTables()});
+            });
+        }
+
+        function fillTables(id) {
+            let filter = {}
+            tabs.forEach(tab => {
+                filter[tab.id] = document.querySelector(`input[id="${tab.id}_CB"]`).checked;
+                if (id && id != tab.id) {
+                    filter[tab.id] = false;
+                }
+                if (!id || id == tab.id) {
+                    document.querySelector('#' + tab.id + ' tbody').innerHTML = "";
+                }
+            });
+            const ignoreWorld = document.querySelector(`input[id="ignore_world_CB"]`).checked;
+            const allowDeprecated = document.querySelector(`input[id="allow_deprecated_CB"]`).checked;
+            db.forEach (crs => {
+                let doit = true;
+                const useAuth = document.querySelector(`input[id="${crs.auth_name}"]`).checked;
+                const ignore = ignoreWorld && crs.area_of_use[0] == -180 && crs.area_of_use[2] == 180;
+                let use = true;
+                if (latlng) { 
+                    use = latlng.lat >= crs.area_of_use[1] && latlng.lat <= crs.area_of_use[3];
+                    let off0 = 0, off2 = 0;
+                    if (crs.area_of_use[0] < crs.area_of_use[2]) {
+                    } else if (latlng.lng > 0){
+                        off2 = 360
+                    } else {
+                        off0 = 360
+                    }
+                    use = use && latlng.lng >= crs.area_of_use[0] - off0 && latlng.lng <= crs.area_of_use[2] + off2
+                }
+                if (filter[crs.type] && use && !ignore && useAuth && (!crs.deprecated || allowDeprecated)) {
+                    let table = document.querySelector('#' + crs.type + ' > tbody');
+                    let row = table.insertRow();
+                    row.insertCell().innerHTML = crs.auth_name + ":" + crs.code;
+                    row.insertCell().innerHTML = crs.name;
+                    let area = row.insertCell();
+                    area.innerHTML = crs.area_of_use[4];
+                    area.title = crs.area_of_use[4];
+                    area.classList.add('area');
+                    row.insertCell().innerHTML = crs.deprecated;
+                }
+            });
+        }
+
+        function loadDb() {
+            let url = 'crslist.json'; 
+            fetch(url, {
+                method: "GET", 
+            })
+            .then(response => response.json())
+            .then(data => { 
+                db = data;
+                createAuthorities();
+            });
+        }
+
+        function load() {
+            createCheckboxes();
+            loadDb();
+        }
+    </script>
+</body>
+</html>
