@@ -12,6 +12,7 @@
         #mapid { height: 300px; width: 800px; max-width: 80%;}
         .area {text-overflow: ellipsis; white-space: nowrap; overflow: hidden; width: 20em; display: block;}
         .hide {display: none;}
+        .codelink {text-decoration: none;}
     </style>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
@@ -28,15 +29,17 @@
 
     <script>
         let db = null;
-        let mymap = L.map('mapid').setView([0, 0], 1);
+        let map = L.map('mapid').setView([0, 0], 1);
         let latlng = null;
+        let marker = null;
+        let rectangles = {};
         
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
             maxZoom: 18,
-        }).addTo(mymap);
+        }).addTo(map);
 
-        mymap.on('click', function(e) {
+        map.on('click', function(e) {
             function normalizeLong(lng) {
                 while(lng < -180){
                     lng +=360;
@@ -47,6 +50,10 @@
                 return lng;
             }
             latlng = e.latlng;
+            if (!marker) {
+                marker = L.circleMarker([0,0], {radius:5}).addTo(map);
+            }
+            marker.setLatLng(latlng);
             latlng.lng = normalizeLong(latlng.lng);
             document.querySelector('#location').innerHTML = 'Clicked location: ' + e.latlng;
             fillTables();
@@ -54,9 +61,27 @@
 
         document.querySelector('#delete').addEventListener('click', function () {
             latlng = null;
+            marker.removeFrom(map);
+            marker = null;
             document.querySelector('#location').innerHTML = '';
             fillTables();
         });
+
+        function clickArea(ev, code, area_of_use) {
+            let rect = null;
+            if (!(code in rectangles)) {
+                rectangles[code] = {};
+                bounds = null;
+                if (area_of_use[0] < area_of_use[2]) {
+                    bounds = [[area_of_use[1], area_of_use[0]], [area_of_use[3], area_of_use[2]]];
+                } else {
+                    bounds = [[area_of_use[1], area_of_use[0]-360], [area_of_use[3], area_of_use[2]]];
+                }
+                rectangles[code].layer = L.rectangle(bounds, {color: 'green'});
+            }
+            layer = rectangles[code].layer;
+            layer[ev.target.checked ? 'addTo' : 'removeFrom'](map);
+        }
 
         let tabs = [
             { id:'PROJECTED_CRS', str:'Projected'},
@@ -92,7 +117,7 @@
 
                 let header = tb.createTHead();
                 let row = header.insertRow();
-                ['Code', 'Name', 'Area of Use', 'Deprecated', 'link'].forEach(e => row.insertCell().innerHTML = e);
+                ['Code', 'Name', 'Area of Use', 'Deprecated'].forEach(e => row.insertCell().innerHTML = e);
                 let tblBody = document.createElement('tbody');
                 tb.appendChild(tblBody);
 
@@ -152,16 +177,27 @@
                     }
                     use = use && latlng.lng >= crs.area_of_use[0] - off0 && latlng.lng <= crs.area_of_use[2] + off2
                 }
+                let code = crs.auth_name + ":" + crs.code;
+                const inRectangles = code in rectangles;
                 if (filter[crs.type] && use && !ignore && useAuth && (!crs.deprecated || allowDeprecated)) {
                     let table = document.querySelector('#' + crs.type + ' > tbody');
                     let row = table.insertRow();
-                    row.insertCell().innerHTML = crs.auth_name + ":" + crs.code;
+                    let tag = crs.auth_name + "_" + crs.code;
+                    let linkedCode = code;
+                    if (crs.auth_name == "EPSG") {
+                        linkedCode = `<a href="https://epsg.org/crs/wkt/id/${crs.code}" target=_blank class="codelink">${code}</a>`;
+                    }
+                    row.insertCell().innerHTML = linkedCode;
                     row.insertCell().innerHTML = crs.name;
                     let area = row.insertCell();
-                    area.innerHTML = crs.area_of_use[4];
+                    area.innerHTML = `<label><input type="checkbox" id="${tag}_CB" ${inRectangles ? "checked":""}> ${crs.area_of_use[4]}</label>`;
+                    document.querySelector(`#${tag}_CB`).addEventListener('click', function (ev) {clickArea(ev, code, crs.area_of_use)});
                     area.title = crs.area_of_use[4];
                     area.classList.add('area');
                     row.insertCell().innerHTML = crs.deprecated;
+                } else if ((!id || id == crs.type) && inRectangles) {
+                    rectangles[code].layer.removeFrom(map);
+                    delete rectangles[code];
                 }
             });
         }
