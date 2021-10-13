@@ -9,7 +9,7 @@
         thead { font-weight: bold; }
         tbody tr:nth-child(odd) { background-color: #EEEEEE; }
 
-        #mapid { height: 300px; width: 800px; max-width: 80%;}
+        #mapid { height: 400px; width: 800px; max-width: 80%;}
         .area {text-overflow: ellipsis; white-space: nowrap; overflow: hidden; width: 20em; display: block;}
         .hide {display: none;}
         .codelink {text-decoration: none;}
@@ -20,12 +20,19 @@
 
 <body onload="load()">
     <h1>PROJ 8.1.1 codes</h1>
+    <div>This page shows a list of the Coordinate Reference Systems included in <a href="https://proj.org" target="_blank">PROJ</a>.
+         <br>You can filter by type, authority and location (clicking on the map).
+         <br>Selecting the area of use of any CRS displays it as a rectangle in the map.
+         <br>Visit the source code in <a href="https://github.com/jjimenezshaw/crs-explorer" target="_blank">GitHub</a>.
+    </div>
+    <br> 
     <div id="mapid"></div>
     <div>Click the map to select a location. <button type="button" id="delete">Delete location</button> <span id="location"></span></div>
 
     <div id="filters"></div>
     <div id="authorities"></div>
     <div id="tables"></div>
+    <div id="message"><br>Select CRS types to display, like Projected, Geographic 2D or Vertical.</div>
 
     <script>
         let db = null;
@@ -96,7 +103,7 @@
             let div = document.querySelector('#filters');
             tabs.forEach(tab => {
                 let el = document.createElement('label');
-                el.innerHTML = `<input type="checkbox" id="${tab.id}_CB">${tab.str}`;
+                el.innerHTML = `<input type="checkbox" class="crstype" id="${tab.id}_CB">${tab.str}`;
                 div.appendChild(el);
                 el.addEventListener('click', function (ev) {
                     document.querySelector('#' + tab.id + '_DIV').classList[ev.target.checked ? 'remove' : 'add']('hide');
@@ -125,10 +132,12 @@
 
             let el = document.createElement('label');
             div.appendChild(el).innerHTML = `<input type="checkbox" id="ignore_world_CB" checked>Ignore World`;
+            el.title = "Do not show CRS with area of use longitude from -180 to 180";
             el.querySelector('#ignore_world_CB').addEventListener('click', function () {fillTables()});
 
             let allowdep = document.createElement('label');
             div.appendChild(allowdep).innerHTML = `<input type="checkbox" id="allow_deprecated_CB">Allow deprecated`;
+            allowdep.title = "Display also deprecated systems";
             allowdep.addEventListener('click', function () {fillTables()});
         }
 
