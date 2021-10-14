@@ -194,7 +194,8 @@
                     let tag = crs.auth_name + "_" + crs.code;
                     let linkedCode = code;
                     if (crs.auth_name == "EPSG") {
-                        linkedCode = `<a href="https://epsg.org/crs/wkt/id/${crs.code}" target=_blank class="codelink">${code}</a>`;
+                        const scapedName = crs.name.replace(/[^0-9a-zA-Z]+/g, '-');
+                        linkedCode = `<a href="https://epsg.org/crs_${crs.code}/${scapedName}.html" target=_blank class="codelink">${code}</a>`;
                     }
                     row.insertCell().innerHTML = linkedCode;
                     row.insertCell().innerHTML = crs.name;

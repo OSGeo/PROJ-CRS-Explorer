@@ -4,9 +4,9 @@ Browse on PROJ coordinate reference systems, fast and easy.
 ## Visit 
 https://jjimenezshaw.github.io/crs-explorer/
 
-Click on the map if you want to select only the systems that include that location. Select as well the type of CRS, and the authority of your interest. For EPSG systems you can click the code-link to visit their specs (there, the link in the top right corner with a globe will show more useful information).
+Click on the map if you want to select only the systems that include that location. Select as well the type of CRS, and the authority of your interest. For EPSG systems you can click the code-link to visit their specs.
 
-Selecting the checkboxes next to the "areas of use" will display a rectange in the map.
+Selecting the checkboxes next to the "areas of use" will display a rectangle in the map.
 
 ## Why
 Many people asked "Which coordinate (reference) system should I use in my project/country/state/location?" or "Really, there is a vertical one in my country?".
