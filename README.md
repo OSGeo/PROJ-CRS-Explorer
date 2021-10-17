@@ -8,6 +8,8 @@ Click on the map if you want to select only the systems that include that locati
 
 Selecting the checkboxes next to the "areas of use" will display a rectangle in the map.
 
+Use the `Filter by name` form to search on the Name column.
+
 ## Why
 Many people asked "Which coordinate (reference) system should I use in my project/country/state/location?" or "Really, there is a vertical one in my country?".
 

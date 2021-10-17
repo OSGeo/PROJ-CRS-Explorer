@@ -31,6 +31,22 @@
 
     <div id="filters"></div>
     <div id="authorities"></div>
+    <br>
+    <div id="searcher">
+        <form>Filter by name: <input type="text" name="value">
+            <button type="submit">Search</button> 
+            <a href="javascript:toggleInfo()" title="Show/hide info" class="codelink"> &#8505; </a>
+            <div class="hide" id="search_info">
+                <ul>
+                    <li>Write many words to do an "and" search on the "Name" column</li>
+                    <li>Enclose the terms in quotes (") to search them together</li>
+                    <li>Add a dash (-) to exclude an expression</li>
+                    <li>Search is case insensitive</li>
+                    <li>example: <code>"sachusetts mainland" -(ftUS)</code></li>
+                </ul>
+            </div>
+        </form>
+    </div>
     <div id="tables"></div>
     <div id="message"><br>Select CRS types to display, like Projected, Geographic 2D or Vertical.</div>
 
@@ -98,6 +114,37 @@
             { id:'VERTICAL_CRS', str:'Vertical' },
             { id:'COMPOUND_CRS', str:'Compound'},
         ];
+
+        var form = document.querySelector("form");
+        form.addEventListener("submit", function(event) {
+            event.preventDefault();
+            let str = form.elements.value.value.trim();
+            tabs.forEach(tab => {
+                let trs = document.querySelectorAll(`#${tab.id} > tbody > tr`);
+                for (var i = 0; i < trs.length; i++) {
+                    trs[i].classList.remove('hide');
+                }
+                if (str) {
+                    let strs = str.match(/(-?".*?"|[^"\s]+)(?=\s*|\s*$)/g); //str.split(' ');
+                    strs = strs.map(x => {
+                        x = x.replaceAll('"', '');
+                        if (x.charAt(0) == '-') {
+                            return `#${tab.id} > tbody > tr[crs_name*="${x.substring(1)}" i]`;
+                        } else {
+                            return `#${tab.id} > tbody > tr:not([crs_name*="${x}" i])`;
+                        }
+                    });
+                    const selector = strs.join(' , ');
+                    let trs = document.querySelectorAll(selector);
+                    for (var i = 0; i < trs.length; i++) {
+                        trs[i].classList.add('hide');
+                    }
+                }
+            });
+        });
+        function toggleInfo() {
+            document.querySelector("#search_info").classList.toggle("hide");
+        }
 
         function createCheckboxes() {
             let div = document.querySelector('#filters');
@@ -191,6 +238,8 @@
                 if (filter[crs.type] && use && !ignore && useAuth && (!crs.deprecated || allowDeprecated)) {
                     let table = document.querySelector('#' + crs.type + ' > tbody');
                     let row = table.insertRow();
+                    row.setAttribute('crs_name', crs.name);
+                    row.setAttribute('crs_id', code);
                     let tag = crs.auth_name + "_" + crs.code;
                     let linkedCode = code;
                     if (crs.auth_name == "EPSG") {
