@@ -8,6 +8,8 @@
     <style>
         thead { font-weight: bold; }
         tbody tr:nth-child(odd) { background-color: #EEEEEE; }
+        th { cursor: pointer; }
+        label { white-space: nowrap; }
 
         #mapid { height: 400px; width: 800px; max-width: 80%;}
         .area {text-overflow: ellipsis; white-space: nowrap; overflow: hidden; width: 20em; display: block;}
@@ -25,7 +27,7 @@
          <br>Selecting the area of use of any CRS displays it as a rectangle in the map.
          <br>Visit the source code in <a href="https://github.com/jjimenezshaw/crs-explorer" target="_blank">GitHub</a>.
     </div>
-    <br> 
+    <br>
     <div id="mapid"></div>
     <div>Click the map to select a location. <button type="button" id="delete">Delete location</button> <span id="location"></span></div>
 
@@ -34,7 +36,7 @@
     <br>
     <div id="searcher">
         <form>Filter by name: <input type="text" name="value">
-            <button type="submit">Search</button> 
+            <button type="submit">Search</button>
             <a href="javascript:toggleInfo()" title="Show/hide info" class="codelink"> &#8505; </a>
             <div class="hide" id="search_info">
                 <ul>
@@ -56,7 +58,7 @@
         let latlng = null;
         let marker = null;
         let rectangles = {};
-        
+
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
             maxZoom: 18,
@@ -141,6 +143,7 @@
                     }
                 }
             });
+            countElements();
         });
         function toggleInfo() {
             document.querySelector("#search_info").classList.toggle("hide");
@@ -163,6 +166,7 @@
                 tabdiv.classList.add('hide');
                 let head = document.createElement('h3');
                 head.innerHTML = tab.str;
+                head.appendChild(document.createElement('span'));
                 tabdiv.appendChild(head);
                 let tb = document.createElement('table');
                 tb.id = tab.id;
@@ -171,9 +175,29 @@
 
                 let header = tb.createTHead();
                 let row = header.insertRow();
-                ['Code', 'Name', 'Area of Use', 'Deprecated'].forEach(e => row.insertCell().innerHTML = e);
+                ['Code', 'Name', 'Area of Use', 'Deprecated'].forEach(e => row.appendChild(document.createElement('th')).innerHTML = e);
                 let tblBody = document.createElement('tbody');
                 tb.appendChild(tblBody);
+
+                const getCellValue = (tr, idx) => {
+                    let str = tr.children[idx].innerText || tr.children[idx].textContent ;
+                    if (idx == 0) {
+                        let v = str.split(':');
+                        str = v[0] + v[1].padStart(7,'0');
+                    }
+                    return str;
+                };
+
+                const comparer = (idx, asc) => (a, b) => ((v1, v2) =>
+                    v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2)
+                    )(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
+
+                tb.querySelectorAll('th').forEach(th => th.addEventListener('click', (() => {
+                    const idx = Array.from(th.parentNode.children).indexOf(th)
+                    Array.from(tblBody.querySelectorAll('tr'))
+                        .sort(comparer(idx, th.asc = !th.asc))
+                        .forEach(tr => tblBody.appendChild(tr) );
+                })));
 
             });
 
@@ -204,6 +228,13 @@
             });
         }
 
+        function countElements() {
+            tabs.forEach(tab => {
+                const c = document.querySelectorAll(`#${tab.id} tbody tr:not(.hide)`).length;
+                document.querySelector(`#${tab.id}_DIV h3 span`).innerHTML = " (" + c + ")";
+            });
+        }
+
         function fillTables(id) {
             let filter = {}
             tabs.forEach(tab => {
@@ -222,7 +253,7 @@
                 const useAuth = document.querySelector(`input[id="${crs.auth_name}"]`).checked;
                 const ignore = ignoreWorld && crs.area_of_use[0] == -180 && crs.area_of_use[2] == 180;
                 let use = true;
-                if (latlng) { 
+                if (latlng) {
                     use = latlng.lat >= crs.area_of_use[1] && latlng.lat <= crs.area_of_use[3];
                     let off0 = 0, off2 = 0;
                     if (crs.area_of_use[0] < crs.area_of_use[2]) {
@@ -259,15 +290,16 @@
                     delete rectangles[code];
                 }
             });
+            countElements();
         }
 
         function loadDb() {
-            let url = 'crslist.json'; 
+            let url = 'crslist.json';
             fetch(url, {
-                method: "GET", 
+                method: "GET",
             })
             .then(response => response.json())
-            .then(data => { 
+            .then(data => {
                 db = data;
                 createAuthorities();
             });
