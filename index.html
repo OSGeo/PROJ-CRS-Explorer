@@ -11,25 +11,29 @@
         th { cursor: pointer; }
         label { white-space: nowrap; }
 
-        #mapid { height: 400px; width: 800px; max-width: 80%;}
-        .area {text-overflow: ellipsis; white-space: nowrap; overflow: hidden; width: 20em; display: block;}
-        .hide {display: none;}
-        .codelink {text-decoration: none;}
+        #mapid { height: 400px; width: 800px; max-width: 80%; }
+        .sticky { position: sticky; top: 0; }
+        .area { text-overflow: ellipsis; white-space: nowrap; overflow: hidden; width: 20em; display: block; }
+        .hide { display: none;}
+        .codelink { text-decoration: none; }
     </style>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 </head>
 
 <body onload="load()">
-    <h1>PROJ 8.1.1 codes</h1>
+    <h1>PROJ <span id="proj_version">8.1.1</span> codes</h1>
     <div>This page shows a list of the Coordinate Reference Systems included in <a href="https://proj.org" target="_blank">PROJ</a>.
+         <span id="version_link"></span>
          <br>You can filter by type, authority and location (clicking on the map).
          <br>Selecting the area of use of any CRS displays it as a rectangle in the map.
          <br>Visit the source code in <a href="https://github.com/jjimenezshaw/crs-explorer" target="_blank">GitHub</a>.
     </div>
     <br>
-    <div id="mapid"></div>
-    <div>Click the map to select a location. <button type="button" id="delete">Delete location</button> <span id="location"></span></div>
+    <div id="mapcont"><div id="mapid"></div></div>
+
+    <div><label title="Keeps the map always visible"><input type="checkbox" id="stickyCb">Sticky map</label> |
+        Click the map to select a location. <button type="button" id="delete">Delete location</button> <span id="location"></span></div>
 
     <div id="filters"></div>
     <div id="authorities"></div>
@@ -58,6 +62,7 @@
         let latlng = null;
         let marker = null;
         let rectangles = {};
+        let hooverRect = null;
 
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
@@ -92,20 +97,36 @@
             fillTables();
         });
 
-        function clickArea(ev, code, area_of_use) {
-            let rect = null;
-            if (!(code in rectangles)) {
-                rectangles[code] = {};
-                bounds = null;
-                if (area_of_use[0] < area_of_use[2]) {
-                    bounds = [[area_of_use[1], area_of_use[0]], [area_of_use[3], area_of_use[2]]];
-                } else {
-                    bounds = [[area_of_use[1], area_of_use[0]-360], [area_of_use[3], area_of_use[2]]];
-                }
-                rectangles[code].layer = L.rectangle(bounds, {color: 'green'});
+        document.querySelector('#stickyCb').addEventListener('click', function (ev) {
+            document.querySelector('#mapcont').classList[ev.target.checked ? 'add' : 'remove']('sticky');
+        });
+
+        function makeRectangle (area_of_use, color) {
+            let bounds = null;
+            if (area_of_use[0] < area_of_use[2]) {
+                bounds = [[area_of_use[1], area_of_use[0]], [area_of_use[3], area_of_use[2]]];
+            } else {
+                bounds = [[area_of_use[1], area_of_use[0]-360], [area_of_use[3], area_of_use[2]]];
             }
-            layer = rectangles[code].layer;
-            layer[ev.target.checked ? 'addTo' : 'removeFrom'](map);
+            return L.rectangle(bounds, {color: color});
+        }
+
+        function clickArea(ev, code, area_of_use) {
+            if (!(code in rectangles)) {
+                rectangles[code] = {layer : makeRectangle(area_of_use, 'green')};
+            }
+            rectangles[code].layer[ev.target.checked ? 'addTo' : 'removeFrom'](map);
+        }
+
+        function mouseOnArea(ev, code, area_of_use, enter) {
+            if (hooverRect) {
+                hooverRect.removeFrom(map);
+                hooverRect = null;
+            }
+            if (enter) {
+                hooverRect = makeRectangle(area_of_use, 'coral');
+                hooverRect.addTo(map);
+            }
         }
 
         let tabs = [
@@ -149,6 +170,11 @@
             document.querySelector("#search_info").classList.toggle("hide");
         }
 
+        function createLinkMetadataVersion() {
+            const version = document.querySelector('#proj_version').innerText;
+            document.querySelector('#version_link').innerHTML =
+                ` (see <a href="https://github.com/OSGeo/PROJ/blob/${version}/data/sql/metadata.sql" target="_blank">metadata file</a>)`;
+        }
         function createCheckboxes() {
             let div = document.querySelector('#filters');
             tabs.forEach(tab => {
@@ -284,6 +310,8 @@
                     document.querySelector(`#${tag}_CB`).addEventListener('click', function (ev) {clickArea(ev, code, crs.area_of_use)});
                     area.title = crs.area_of_use[4];
                     area.classList.add('area');
+                    area.addEventListener('mouseenter', ev => mouseOnArea(ev, code, crs.area_of_use, true));
+                    area.addEventListener('mouseleave', ev => mouseOnArea(ev, code, crs.area_of_use, false));
                     row.insertCell().innerHTML = crs.deprecated;
                 } else if ((!id || id == crs.type) && inRectangles) {
                     rectangles[code].layer.removeFrom(map);
@@ -306,6 +334,7 @@
         }
 
         function load() {
+            createLinkMetadataVersion()
             createCheckboxes();
             loadDb();
         }
