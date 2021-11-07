@@ -7,7 +7,6 @@
     <meta name="author" content="Javier Jimenez Shaw">
     <style>
         thead { font-weight: bold; }
-        tbody tr:nth-child(odd) { background-color: #EEEEEE; }
         th { cursor: pointer; }
         label { white-space: nowrap; }
 
@@ -16,6 +15,8 @@
         .area { text-overflow: ellipsis; white-space: nowrap; overflow: hidden; width: 20em; display: block; }
         .hide { display: none;}
         .codelink { text-decoration: none; }
+        .waiting { cursor: wait !important; }
+        .odd { background-color: #EEEEEE; }
     </style>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
@@ -42,6 +43,7 @@
         <form>Filter by name: <input type="text" name="value">
             <button type="submit">Search</button>
             <a href="javascript:toggleInfo()" title="Show/hide info" class="codelink"> &#8505; </a>
+            <span id="activeSearch" class="hide">Active filter: <span id="activeSearchTxt"></span></span>
             <div class="hide" id="search_info">
                 <ul>
                     <li>Write many words to do an "and" search on the "Name" column</li>
@@ -59,7 +61,15 @@
     <script>
         let db = null;
         let map = L.map('mapid').setView([0, 0], 1);
-        let latlng = null;
+
+        let filters = {
+            latlng : null,
+            searchText : '',
+            ignoreWorld : true,
+            hideDeprecated : true,
+            authorities : {}
+        };
+
         let marker = null;
         let rectangles = {};
         let hooverRect = null;
@@ -79,22 +89,24 @@
                 }
                 return lng;
             }
-            latlng = e.latlng;
+            filters.latlng = e.latlng;
             if (!marker) {
                 marker = L.circleMarker([0,0], {radius:5}).addTo(map);
             }
-            marker.setLatLng(latlng);
-            latlng.lng = normalizeLong(latlng.lng);
+            marker.setLatLng(filters.latlng);
+            filters.latlng.lng = normalizeLong(filters.latlng.lng);
             document.querySelector('#location').innerHTML = 'Clicked location: ' + e.latlng;
-            fillTables();
+            runFilter();
         });
 
         document.querySelector('#delete').addEventListener('click', function () {
-            latlng = null;
-            marker.removeFrom(map);
-            marker = null;
-            document.querySelector('#location').innerHTML = '';
-            fillTables();
+            if (filters.latlng) {
+                filters.latlng = null;
+                marker.removeFrom(map);
+                marker = null;
+                document.querySelector('#location').innerHTML = '';
+                runFilter();
+            }
         });
 
         document.querySelector('#stickyCb').addEventListener('click', function (ev) {
@@ -138,36 +150,23 @@
             { id:'COMPOUND_CRS', str:'Compound'},
         ];
 
-        var form = document.querySelector("form");
+        let form = document.querySelector("form");
         form.addEventListener("submit", function(event) {
             event.preventDefault();
             let str = form.elements.value.value.trim();
-            tabs.forEach(tab => {
-                let trs = document.querySelectorAll(`#${tab.id} > tbody > tr`);
-                for (var i = 0; i < trs.length; i++) {
-                    trs[i].classList.remove('hide');
-                }
-                if (str) {
-                    let strs = str.match(/(-?".*?"|[^"\s]+)(?=\s*|\s*$)/g); //str.split(' ');
-                    strs = strs.map(x => {
-                        x = x.replaceAll('"', '');
-                        if (x.charAt(0) == '-') {
-                            return `#${tab.id} > tbody > tr[crs_name*="${x.substring(1)}" i]`;
-                        } else {
-                            return `#${tab.id} > tbody > tr:not([crs_name*="${x}" i])`;
-                        }
-                    });
-                    const selector = strs.join(' , ');
-                    let trs = document.querySelectorAll(selector);
-                    for (var i = 0; i < trs.length; i++) {
-                        trs[i].classList.add('hide');
-                    }
-                }
-            });
-            countElements();
+            filters.searchText = str;
+
+            if (str) {
+                document.querySelector('#activeSearch').classList.remove('hide');
+                document.querySelector('#activeSearchTxt').innerText = str;
+            } else {
+                document.querySelector('#activeSearch').classList.add('hide');
+            }
+            runFilter();
         });
+
         function toggleInfo() {
-            document.querySelector("#search_info").classList.toggle("hide");
+            document.querySelector("#search_info").classList.toggle('hide');
         }
 
         function createLinkMetadataVersion() {
@@ -175,25 +174,17 @@
             document.querySelector('#version_link').innerHTML =
                 ` (see <a href="https://github.com/OSGeo/PROJ/blob/${version}/data/sql/metadata.sql" target="_blank">metadata file</a>)`;
         }
-        function createCheckboxes() {
-            let div = document.querySelector('#filters');
-            tabs.forEach(tab => {
-                let el = document.createElement('label');
-                el.innerHTML = `<input type="checkbox" class="crstype" id="${tab.id}_CB">${tab.str}`;
-                div.appendChild(el);
-                el.addEventListener('click', function (ev) {
-                    document.querySelector('#' + tab.id + '_DIV').classList[ev.target.checked ? 'remove' : 'add']('hide');
-                    fillTables(tab.id)
-                });
 
+        function createTables() {
+            tabs.forEach(tab => {
                 let tables = document.querySelector('#tables');
                 let tabdiv = document.createElement('div');
                 tabdiv.id = tab.id + "_DIV";
                 tabdiv.classList.add('hide');
-                let head = document.createElement('h3');
-                head.innerHTML = tab.str;
-                head.appendChild(document.createElement('span'));
-                tabdiv.appendChild(head);
+                let h3 = document.createElement('h3');
+                h3.innerHTML = tab.str;
+                h3.appendChild(document.createElement('span'));
+                tabdiv.appendChild(h3);
                 let tb = document.createElement('table');
                 tb.id = tab.id;
                 tabdiv.appendChild(tb);
@@ -201,9 +192,11 @@
 
                 let header = tb.createTHead();
                 let row = header.insertRow();
-                ['Code', 'Name', 'Area of Use', 'Deprecated'].forEach(e => row.appendChild(document.createElement('th')).innerHTML = e);
+                let order = '<span class="order"></span>';
+                ['Code', 'Name', 'Area of Use', 'Deprecated'].forEach(e => row.appendChild(document.createElement('th')).innerHTML = e + order);
                 let tblBody = document.createElement('tbody');
                 tb.appendChild(tblBody);
+                row.querySelector('th').asc = true;
 
                 const getCellValue = (tr, idx) => {
                     let str = tr.children[idx].innerText || tr.children[idx].textContent ;
@@ -224,18 +217,35 @@
                         .sort(comparer(idx, th.asc = !th.asc))
                         .forEach(tr => tblBody.appendChild(tr) );
                 })));
+            });
+        }
 
+        function createCheckboxes() {
+            let div = document.querySelector('#filters');
+            tabs.forEach(tab => {
+                let el = document.createElement('label');
+                el.innerHTML = `<input type="checkbox" class="crstype" id="${tab.id}_CB">${tab.str}`;
+                div.appendChild(el);
+                el.addEventListener('click', function (ev) {
+                    document.querySelector('#' + tab.id + '_DIV').classList[ev.target.checked ? 'remove' : 'add']('hide');
+                });
             });
 
             let el = document.createElement('label');
             div.appendChild(el).innerHTML = `<input type="checkbox" id="ignore_world_CB" checked>Ignore World`;
             el.title = "Do not show CRS with area of use longitude from -180 to 180";
-            el.querySelector('#ignore_world_CB').addEventListener('click', function () {fillTables()});
+            el.querySelector('#ignore_world_CB').addEventListener('click', function (ev) {
+                filters.ignoreWorld = ev.target.checked;
+                runFilter();
+            });
 
             let allowdep = document.createElement('label');
             div.appendChild(allowdep).innerHTML = `<input type="checkbox" id="allow_deprecated_CB">Allow deprecated`;
             allowdep.title = "Display also deprecated systems";
-            allowdep.addEventListener('click', function () {fillTables()});
+            allowdep.addEventListener('click', function (ev) {
+                filters.hideDeprecated = !ev.target.checked;
+                runFilter();
+            });
         }
 
         function createAuthorities() {
@@ -250,8 +260,66 @@
                 let el = document.createElement('label');
                 el.innerHTML = `<input type="checkbox" id="${auth}" ${auth=="EPSG"?"checked":""}>${auth}`;
                 div.appendChild(el);
-                document.querySelector(`#${auth}`).addEventListener('click', function () {fillTables()});
+                filters.authorities[auth] = auth=="EPSG";
+                document.querySelector(`#${auth}`).addEventListener('click', function (ev) {
+                    filters.authorities[auth] = ev.target.checked;
+                    runFilter();
+                });
             });
+        }
+
+        function runFilter() {
+            Array.from(document.querySelectorAll(`tbody > tr`)).forEach(r => r.classList.remove('hide'));
+
+            let selectorsArray = [];
+            if (filters.searchText) {
+                let strs = filters.searchText.match(/(-?".*?"|[^"\s]+)(?=\s*|\s*$)/g); //str.split(' ');
+                selectorsArray = strs.map(x => {
+                    if (x.charAt(0) == '-') {
+                        x = x.replaceAll('"', '');
+                        return `[crs_name*="${x.substring(1)}" i]`;
+                    } else {
+                        x = x.replaceAll('"', '');
+                        return `:not([crs_name*="${x}" i])`;
+                    }
+                });
+            }
+
+            if (filters.ignoreWorld) selectorsArray.push('[data-world="true"]');
+            if (filters.hideDeprecated) selectorsArray.push('[data-deprecated="true"]');
+            Object.keys(filters.authorities).forEach(auth => {
+                if (!filters.authorities[auth]) {
+                    selectorsArray.push(`[data-auth="${auth}"]`);
+                }
+            });
+
+            if (selectorsArray.length > 0) {
+                const selector = selectorsArray.map(e => `tbody > tr${e}`).join(' , ');
+                Array.from(document.querySelectorAll(selector)).forEach(r => r.classList.add('hide'));
+            }
+
+            const latlng = filters.latlng;
+            if (latlng){
+                Array.from(document.querySelectorAll(`tbody > tr:not(.hide)`)).forEach(r => {
+                    let use = true;
+                    use = latlng.lat >= r.area_of_use[1] && latlng.lat <= r.area_of_use[3];
+                    let off0 = 0, off2 = 0;
+                    if (r.area_of_use[0] < r.area_of_use[2]) {
+                    } else if (latlng.lng > 0){
+                        off2 = 360
+                    } else {
+                        off0 = 360
+                    }
+                    use = use && latlng.lng >= r.area_of_use[0] - off0 && latlng.lng <= r.area_of_use[2] + off2
+                    if (!use) r.classList.add('hide');
+                });
+            }
+            let counter = 0;
+            Array.from(document.querySelectorAll(`tbody > tr:not(.hide)`)).forEach(r => {
+                counter += 1;
+                r.classList[counter % 2 ? 'add' : 'remove']('odd');
+            });
+            countElements();
         }
 
         function countElements() {
@@ -261,64 +329,34 @@
             });
         }
 
-        function fillTables(id) {
-            let filter = {}
-            tabs.forEach(tab => {
-                filter[tab.id] = document.querySelector(`input[id="${tab.id}_CB"]`).checked;
-                if (id && id != tab.id) {
-                    filter[tab.id] = false;
-                }
-                if (!id || id == tab.id) {
-                    document.querySelector('#' + tab.id + ' tbody').innerHTML = "";
-                }
-            });
-            const ignoreWorld = document.querySelector(`input[id="ignore_world_CB"]`).checked;
-            const allowDeprecated = document.querySelector(`input[id="allow_deprecated_CB"]`).checked;
+        function fillTables() {
             db.forEach (crs => {
-                let doit = true;
-                const useAuth = document.querySelector(`input[id="${crs.auth_name}"]`).checked;
-                const ignore = ignoreWorld && crs.area_of_use[0] == -180 && crs.area_of_use[2] == 180;
-                let use = true;
-                if (latlng) {
-                    use = latlng.lat >= crs.area_of_use[1] && latlng.lat <= crs.area_of_use[3];
-                    let off0 = 0, off2 = 0;
-                    if (crs.area_of_use[0] < crs.area_of_use[2]) {
-                    } else if (latlng.lng > 0){
-                        off2 = 360
-                    } else {
-                        off0 = 360
-                    }
-                    use = use && latlng.lng >= crs.area_of_use[0] - off0 && latlng.lng <= crs.area_of_use[2] + off2
-                }
                 let code = crs.auth_name + ":" + crs.code;
-                const inRectangles = code in rectangles;
-                if (filter[crs.type] && use && !ignore && useAuth && (!crs.deprecated || allowDeprecated)) {
-                    let table = document.querySelector('#' + crs.type + ' > tbody');
-                    let row = table.insertRow();
-                    row.setAttribute('crs_name', crs.name);
-                    row.setAttribute('crs_id', code);
-                    let tag = crs.auth_name + "_" + crs.code;
-                    let linkedCode = code;
-                    if (crs.auth_name == "EPSG") {
-                        const scapedName = crs.name.replace(/[^0-9a-zA-Z]+/g, '-');
-                        linkedCode = `<a href="https://epsg.org/crs_${crs.code}/${scapedName}.html" target=_blank class="codelink">${code}</a>`;
-                    }
-                    row.insertCell().innerHTML = linkedCode;
-                    row.insertCell().innerHTML = crs.name;
-                    let area = row.insertCell();
-                    area.innerHTML = `<label><input type="checkbox" id="${tag}_CB" ${inRectangles ? "checked":""}> ${crs.area_of_use[4]}</label>`;
-                    document.querySelector(`#${tag}_CB`).addEventListener('click', function (ev) {clickArea(ev, code, crs.area_of_use)});
-                    area.title = crs.area_of_use[4];
-                    area.classList.add('area');
-                    area.addEventListener('mouseenter', ev => mouseOnArea(ev, code, crs.area_of_use, true));
-                    area.addEventListener('mouseleave', ev => mouseOnArea(ev, code, crs.area_of_use, false));
-                    row.insertCell().innerHTML = crs.deprecated;
-                } else if ((!id || id == crs.type) && inRectangles) {
-                    rectangles[code].layer.removeFrom(map);
-                    delete rectangles[code];
+                let table = document.querySelector('#' + crs.type + ' > tbody');
+                let row = table.insertRow();
+                row.setAttribute('crs_name', crs.name);
+                row.setAttribute('data-type', crs.type);
+                row.setAttribute('data-id', code);
+                row.setAttribute('data-auth', crs.auth_name);
+                row.setAttribute('data-deprecated', crs.deprecated);
+                row.setAttribute('data-world', crs.area_of_use[0] == -180 && crs.area_of_use[2] == 180);
+                row.area_of_use = crs.area_of_use.slice(0, 4);
+                let linkedCode = code;
+                if (crs.auth_name == "EPSG") {
+                    const scapedName = crs.name.replace(/[^0-9a-zA-Z]+/g, '-');
+                    linkedCode = `<a href="https://epsg.org/crs_${crs.code}/${scapedName}.html" target=_blank class="codelink">${code}</a>`;
                 }
+                row.insertCell().innerHTML = linkedCode;
+                row.insertCell().innerHTML = crs.name;
+                let area = row.insertCell();
+                area.innerHTML = `<label><input type="checkbox"> ${crs.area_of_use[4]}</label>`;
+                area.querySelector(`input`).addEventListener('click', function (ev) {clickArea(ev, code, crs.area_of_use)});
+                area.title = crs.area_of_use[4];
+                area.classList.add('area');
+                area.addEventListener('mouseenter', ev => mouseOnArea(ev, code, crs.area_of_use, true));
+                area.addEventListener('mouseleave', ev => mouseOnArea(ev, code, crs.area_of_use, false));
+                row.insertCell().innerHTML = crs.deprecated;
             });
-            countElements();
         }
 
         function loadDb() {
@@ -330,13 +368,20 @@
             .then(data => {
                 db = data;
                 createAuthorities();
+                fillTables();
+                runFilter();
+                document.body.classList.remove('waiting');
             });
         }
 
         function load() {
-            createLinkMetadataVersion()
-            createCheckboxes();
-            loadDb();
+            document.body.classList.add('waiting');
+            setTimeout(function() {
+                createLinkMetadataVersion()
+                createCheckboxes();
+                createTables();
+                loadDb();
+            }, 1);
         }
     </script>
 </body>
