@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Javier Jimenez Shaw">
     <style>
+        body { font-family: Lato,proxima-nova,Helvetica Neue,Arial,sans-serif; color: #202020 }
         thead { font-weight: bold; }
         th { cursor: pointer; }
+        td:nth-child(1) { padding-left: 0.25em; padding-right: 0.25em; }
         label { white-space: nowrap; }
 
         #mapid { height: 400px; width: 800px; max-width: 80%; }
@@ -17,6 +19,7 @@
         .codelink { text-decoration: none; }
         .waiting { cursor: wait !important; }
         .odd { background-color: #EEEEEE; }
+        .order { color: #777; font-size: small; padding-left: 0.5em; }
     </style>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
@@ -43,7 +46,7 @@
         <form>Filter by name: <input type="text" name="value">
             <button type="submit">Search</button>
             <a href="javascript:toggleInfo()" title="Show/hide info" class="codelink"> &#8505; </a>
-            <span id="activeSearch" class="hide">Active filter: <span id="activeSearchTxt"></span></span>
+            <span id="activeSearch" class="hide"> Active filter: <span id="activeSearchTxt"></span></span>
             <div class="hide" id="search_info">
                 <ul>
                     <li>Write many words to do an "and" search on the "Name" column</li>
@@ -190,6 +193,8 @@
                 tabdiv.appendChild(tb);
                 tables.appendChild(tabdiv);
 
+                const ascCaret = '&#9650;';
+                const desCaret = '&#9660;';
                 let header = tb.createTHead();
                 let row = header.insertRow();
                 let order = '<span class="order"></span>';
@@ -197,6 +202,7 @@
                 let tblBody = document.createElement('tbody');
                 tb.appendChild(tblBody);
                 row.querySelector('th').asc = true;
+                row.querySelector('.order').innerHTML = ascCaret;
 
                 const getCellValue = (tr, idx) => {
                     let str = tr.children[idx].innerText || tr.children[idx].textContent ;
@@ -212,10 +218,13 @@
                     )(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
 
                 tb.querySelectorAll('th').forEach(th => th.addEventListener('click', (() => {
+                    header.querySelectorAll('.order').forEach(o => o.innerHTML = '');
                     const idx = Array.from(th.parentNode.children).indexOf(th)
                     Array.from(tblBody.querySelectorAll('tr'))
                         .sort(comparer(idx, th.asc = !th.asc))
                         .forEach(tr => tblBody.appendChild(tr) );
+                    colorBackground();
+                    th.querySelector('.order').innerHTML = th.asc ? ascCaret : desCaret;
                 })));
             });
         }
@@ -314,12 +323,16 @@
                     if (!use) r.classList.add('hide');
                 });
             }
+            colorBackground();
+            countElements();
+        }
+
+        function colorBackground() {
             let counter = 0;
             Array.from(document.querySelectorAll(`tbody > tr:not(.hide)`)).forEach(r => {
                 counter += 1;
                 r.classList[counter % 2 ? 'add' : 'remove']('odd');
             });
-            countElements();
         }
 
         function countElements() {
