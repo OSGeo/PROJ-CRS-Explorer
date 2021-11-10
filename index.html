@@ -333,10 +333,12 @@
         }
 
         function colorBackground() {
-            let counter = 0;
-            Array.from(document.querySelectorAll(`tbody > tr:not(.hide)`)).forEach(r => {
-                counter += 1;
-                r.classList[counter % 2 ? 'add' : 'remove']('odd');
+            Array.from(document.querySelectorAll(`tbody`)).forEach(tbody => {
+                let counter = 0;
+                Array.from(tbody.querySelectorAll(`tr:not(.hide)`)).forEach(r => {
+                    counter += 1;
+                    r.classList[counter % 2 ? 'add' : 'remove']('odd');
+                })
             });
         }
 
