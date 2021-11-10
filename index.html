@@ -118,11 +118,16 @@
 
         function makeRectangle (area_of_use, color) {
             let bounds = null;
+
+            let off0 = 0, off2 = 0;
             if (area_of_use[0] < area_of_use[2]) {
-                bounds = [[area_of_use[1], area_of_use[0]], [area_of_use[3], area_of_use[2]]];
+            } else if (Math.abs(area_of_use[0]) < Math.abs(area_of_use[2])) {
+                off2 = 360
             } else {
-                bounds = [[area_of_use[1], area_of_use[0]-360], [area_of_use[3], area_of_use[2]]];
+                off0 = 360
             }
+            bounds = [[area_of_use[1], area_of_use[0]-off0], [area_of_use[3], area_of_use[2]+off2]];
+
             return L.rectangle(bounds, {color: color});
         }
 
