@@ -17,9 +17,9 @@
         .area { text-overflow: ellipsis; white-space: nowrap; overflow: hidden; width: 20em; display: block; }
         .hide { display: none;}
         .codelink { text-decoration: none; }
-        .waiting { cursor: wait !important; }
         .odd { background-color: #EEEEEE; }
         .order { color: #777; font-size: small; padding-left: 0.5em; }
+        .loader-text { padding-left: 2em; color: darkred;}
     </style>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
@@ -40,7 +40,7 @@
         Click the map to select a location. <button type="button" id="delete">Delete location</button> <span id="location"></span></div>
 
     <div id="filters"></div>
-    <div id="authorities"></div>
+    <div><span id="authorities"></span><span class='loader-text'>Loading...</span></div>
     <br>
     <div id="searcher">
         <form>Filter by name: <input type="text" name="value">
@@ -222,7 +222,7 @@
                     v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2)
                     )(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
 
-                tb.querySelectorAll('th').forEach(th => th.addEventListener('click', (() => {
+                tb.querySelectorAll('th').forEach(th => th.addEventListener('click', (() => slowTask(() => {
                     header.querySelectorAll('.order').forEach(o => o.innerHTML = '');
                     const idx = Array.from(th.parentNode.children).indexOf(th)
                     Array.from(tblBody.querySelectorAll('tr'))
@@ -230,7 +230,7 @@
                         .forEach(tr => tblBody.appendChild(tr) );
                     colorBackground();
                     th.querySelector('.order').innerHTML = th.asc ? ascCaret : desCaret;
-                })));
+                }))));
             });
         }
 
@@ -240,15 +240,17 @@
                 let el = document.createElement('label');
                 el.innerHTML = `<input type="checkbox" class="crstype" id="${tab.id}_CB">${tab.str}`;
                 div.appendChild(el);
-                el.addEventListener('click', function (ev) {
-                    document.querySelector('#' + tab.id + '_DIV').classList[ev.target.checked ? 'remove' : 'add']('hide');
+                el.querySelector(`input`).addEventListener('click', function (ev) {
+                    slowTask( function() {
+                        document.querySelector('#' + tab.id + '_DIV').classList[ev.target.checked ? 'remove' : 'add']('hide');
+                    });
                 });
             });
 
             let el = document.createElement('label');
             div.appendChild(el).innerHTML = `<input type="checkbox" id="ignore_world_CB" checked>Ignore World`;
             el.title = "Do not show CRS with area of use longitude from -180 to 180";
-            el.querySelector('#ignore_world_CB').addEventListener('click', function (ev) {
+            el.querySelector('input').addEventListener('change', function (ev) {
                 filters.ignoreWorld = ev.target.checked;
                 runFilter();
             });
@@ -256,7 +258,7 @@
             let allowdep = document.createElement('label');
             div.appendChild(allowdep).innerHTML = `<input type="checkbox" id="allow_deprecated_CB">Allow deprecated`;
             allowdep.title = "Display also deprecated systems";
-            allowdep.addEventListener('click', function (ev) {
+            allowdep.querySelector('input').addEventListener('click', function (ev) {
                 filters.hideDeprecated = !ev.target.checked;
                 runFilter();
             });
@@ -275,14 +277,26 @@
                 el.innerHTML = `<input type="checkbox" id="${auth}" ${auth=="EPSG"?"checked":""}>${auth}`;
                 div.appendChild(el);
                 filters.authorities[auth] = auth=="EPSG";
-                document.querySelector(`#${auth}`).addEventListener('click', function (ev) {
+                document.querySelector(`#${auth}`).addEventListener('change', function (ev) {
                     filters.authorities[auth] = ev.target.checked;
                     runFilter();
                 });
             });
         }
 
+        function slowTask(cb) {
+            document.querySelector('.loader-text').classList.remove('hide');
+            setTimeout(function() {
+                cb();
+                document.querySelector('.loader-text').classList.add('hide');
+                }, 0);
+        }
+
         function runFilter() {
+            slowTask(runFilterCb);
+        }
+
+        function runFilterCb() {
             Array.from(document.querySelectorAll(`tbody > tr`)).forEach(r => r.classList.remove('hide'));
 
             let selectorsArray = [];
@@ -391,12 +405,10 @@
                 fillTables();
                 runFilter();
                 // document.querySelector('#PROJECTED_CRS_CB').click(); // select it by default
-                document.body.classList.remove('waiting');
             });
         }
 
         function load() {
-            document.body.classList.add('waiting');
             setTimeout(function() {
                 createLinkMetadataVersion()
                 createCheckboxes();
