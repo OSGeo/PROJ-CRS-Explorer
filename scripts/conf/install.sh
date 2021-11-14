@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+
+# install missing packages
+PACKAGE_LIST=/home/apt-packages.txt
+if [ -f "$PACKAGE_LIST" ]; then
+    apt-get update -qq > /dev/null
+
+    apt-get \
+        -qq --yes \
+        --allow-downgrades \
+        --allow-remove-essential \
+        --allow-change-held-packages \
+        install \
+        `cat $PACKAGE_LIST` > /dev/null
+fi
+
+# setup python environment
+mkdir -p $VIRTUAL_ENV
+python3.8 -m venv $VIRTUAL_ENV
+
+# install pyproj
+python3.8 -m pip install -q --upgrade pip
+python3.8 -m pip install -q git+https://github.com/pyproj4/pyproj.git
+
+# cleaning
+apt-get clean
+apt-get autoremove
+
+# create dest folder
+mkdir -p $DEST_DIR

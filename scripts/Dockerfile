@@ -1,0 +1,18 @@
+ARG VERSION=latest
+FROM osgeo/proj:$VERSION
+
+ENV PROJ_DIR      /usr/
+ENV PROJ_LIB      /usr/share/proj/
+
+ENV VIRTUAL_ENV   /home/venv
+ENV PATH          $VIRTUAL_ENV/bin:$PATH
+
+ENV DEST_DIR      /home/dist
+
+WORKDIR /home/
+
+COPY conf .
+RUN /home/install.sh
+
+COPY proj2json.py .
+CMD ["python3.8", "./proj2json.py"]
