@@ -1,0 +1,21 @@
+pyproj info:
+    pyproj: 3.3.0
+      PROJ: 8.1.1
+  data dir: /usr/share/proj/
+user_data_dir: /root/.local/share/proj
+PROJ DATA (recommended version): 1.7
+PROJ Database: 1.1
+EPSG Database: v10.028 [2021-07-07]
+ESRI Database: ArcMap 12.8 [2021-05-06]
+IGNF Database: 3.1.0 [2019-05-24]
+
+System:
+    python: 3.8.0 (default, Feb 25 2021, 22:10:10)  [GCC 8.4.0]
+executable: /home/venv/bin/python3.8
+   machine: Linux-5.4.0-90-generic-x86_64-with-glibc2.27
+
+Python deps:
+   certifi: 2021.10.08
+       pip: 21.3.1
+setuptools: 39.0.1
+    Cython: None

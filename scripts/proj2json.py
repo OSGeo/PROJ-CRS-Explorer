@@ -4,13 +4,18 @@ import json
 import os
 
 import pyproj
+from contextlib import redirect_stdout
 
 
 if __name__ == '__main__':
-    pyproj.show_versions()
-
     dest_dir = os.getenv('DEST_DIR', '.')
     dest_file = f'{dest_dir}/crslist.json'
+    metadata_file = f'{dest_dir}/metadata.txt'
+    
+    pyproj.show_versions()
+    with open(metadata_file, 'w') as f:
+        with redirect_stdout(f):
+            pyproj.show_versions()
 
     crs_list = pyproj.database.query_crs_info(allow_deprecated=True)
 
