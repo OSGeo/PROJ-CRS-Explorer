@@ -9,7 +9,7 @@ TAG="crs-explorer:$PROJ_VERSION"
 # prepare destination
 DIRNAME=`dirname $(readlink -f $0)`
 mkdir -p $DIRNAME/dist
-rm -r $DIRNAME/dist/*
+test "$(ls -A $DIRNAME/dist/)" && rm -r $DIRNAME/dist/*
 
 # build container
 docker build --build-arg VERSION=$PROJ_VERSION --build-arg PYPROJ_VERSION=$PYPROJ_VERSION --tag $TAG $DIRNAME
