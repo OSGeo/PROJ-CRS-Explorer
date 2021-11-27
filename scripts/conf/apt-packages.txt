@@ -1,0 +1,9 @@
+gcc
+git
+software-properties-common
+python3.8
+python3.8-dev
+python3.8-distutils
+python3.8-venv
+python3-apt
+python3-pip

@@ -28,7 +28,7 @@
 <body onload="load()">
     <h1>PROJ <span id="proj_version">8.1.1</span> codes</h1>
     <div>This page shows a list of the Coordinate Reference Systems included in <a href="https://proj.org" target="_blank">PROJ</a>.
-         <span id="version_link"></span>
+         <span id="version_link">(see generation <a href="./metadata.txt" target="_blank">metadata file</a>)</span>
          <br>You can filter by type, authority, name and location (clicking on the map).
          <br>Selecting the area of use of any CRS displays it as a rectangle in the map.
          <br>Visit the source code in <a href="https://github.com/jjimenezshaw/crs-explorer" target="_blank">GitHub</a>.
@@ -156,6 +156,7 @@
             { id:'GEOCENTRIC_CRS', str:'Geocentric' },
             { id:'VERTICAL_CRS', str:'Vertical' },
             { id:'COMPOUND_CRS', str:'Compound'},
+            { id:'CRS', str:'Other' },
         ];
 
         let form = document.querySelector("form");
@@ -175,12 +176,6 @@
 
         function toggleInfo() {
             document.querySelector("#search_info").classList.toggle('hide');
-        }
-
-        function createLinkMetadataVersion() {
-            const version = document.querySelector('#proj_version').innerText;
-            document.querySelector('#version_link').innerHTML =
-                ` (see <a href="https://github.com/OSGeo/PROJ/blob/${version}/data/sql/metadata.sql" target="_blank">metadata file</a>)`;
         }
 
         function createTables() {
@@ -410,7 +405,6 @@
 
         function load() {
             setTimeout(function() {
-                createLinkMetadataVersion()
                 createCheckboxes();
                 createTables();
                 loadDb();
