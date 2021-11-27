@@ -2,7 +2,7 @@ pyproj info:
     pyproj: 3.3.0
       PROJ: 8.1.1
   data dir: /usr/share/proj/
-user_data_dir: /root/.local/share/proj
+user_data_dir: /tmp/proj
 PROJ DATA (recommended version): 1.7
 PROJ Database: 1.1
 EPSG Database: v10.028 [2021-07-07]

@@ -27,7 +27,9 @@ To produce the `crslist.json` file you have to build pyproj with the desired ver
  * export PROJ_LIB=~/proj_install_folder/share/proj/
  * pip uninstall pyproj
  * pip install git+https://github.com/pyproj4/pyproj.git
- * python3 ./proj2json.py
+ * python3 ./scripts/proj2json.py
+
+Or have a look at the folder [scripts](scripts). You can run easily in a docker image.
 
 ## Thanks
  * [PROJ](https://proj.org)

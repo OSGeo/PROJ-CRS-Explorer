@@ -9,14 +9,13 @@ TAG="crs-explorer:$PROJ_VERSION"
 # prepare destination
 DIRNAME=`dirname $(readlink -f $0)`
 mkdir -p $DIRNAME/dist
-touch $DIRNAME/dist/crslist.json
-touch $DIRNAME/dist/metadata.txt
+rm -r $DIRNAME/dist/*
 
 # build container
 docker build --build-arg VERSION=$PROJ_VERSION --build-arg PYPROJ_VERSION=$PYPROJ_VERSION --tag $TAG $DIRNAME
 
 # execute container
-docker run --rm -v "$DIRNAME/dist:/home/dist" $TAG
+docker run --user $(id -u):$(id -g) --rm -v "$DIRNAME/dist:/home/dist" $TAG
 
 # copy to root location
 cp $DIRNAME/dist/crslist.json $DIRNAME/..
