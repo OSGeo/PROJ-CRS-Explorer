@@ -1,11 +1,11 @@
 pyproj info:
     pyproj: 3.3.0
-      PROJ: 8.1.1
+      PROJ: 8.2.0
   data dir: /usr/share/proj/
 user_data_dir: /tmp/proj
-PROJ DATA (recommended version): 1.7
-PROJ Database: 1.1
-EPSG Database: v10.028 [2021-07-07]
+PROJ DATA (recommended version): 1.8
+PROJ Database: 1.2
+EPSG Database: v10.038 [2021-10-21]
 ESRI Database: ArcMap 12.8 [2021-05-06]
 IGNF Database: 3.1.0 [2019-05-24]
 
