@@ -8,18 +8,18 @@
     <style>
         body { font-family: Lato,proxima-nova,Helvetica Neue,Arial,sans-serif; color: #202020 }
         thead { font-weight: bold; }
-        th { cursor: pointer; }
-        td:nth-child(1) { padding-left: 0.25em; padding-right: 0.25em; }
+        th { cursor: pointer; background-color: #DDD; }
         label { white-space: nowrap; }
 
         #mapid { height: 400px; width: 800px; max-width: 80%; }
         .sticky { position: sticky; top: 0; }
         .area { text-overflow: ellipsis; white-space: nowrap; overflow: hidden; width: 20em; display: block; }
-        .hide { display: none;}
+        .hide { display: none; }
         .codelink { text-decoration: none; }
         .odd { background-color: #EEEEEE; }
         .order { color: #777; font-size: small; padding-left: 0.5em; }
-        .loader-text { padding-left: 2em; color: darkred;}
+        .loader-text { padding-left: 2em; color: darkred; }
+        td, th { padding-left: 0.25em; padding-right: 0.25em; }
     </style>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
@@ -45,7 +45,7 @@
     <div id="searcher">
         <form>Filter by name: <input type="text" name="value">
             <button type="submit">Search</button>
-            <a href="javascript:toggleInfo()" title="Show/hide info" class="codelink"> &#8505; </a>
+            <a href="javascript:toggleInfo()" title="Show/hide info" class="codelink"> &lt; &#8505; &gt; </a>
             <span id="activeSearch" class="hide"> Active filter: <span id="activeSearchTxt"></span></span>
             <div class="hide" id="search_info">
                 <ul>
@@ -59,10 +59,9 @@
         </form>
     </div>
     <div id="tables"></div>
-    <div id="message"><br> >> Select CRS types to display, like Projected, Geographic 2D or Vertical << </div>
+    <div id="message"><br> &gt;&gt; Select CRS types to display, like Projected, Geographic 2D or Vertical &lt;&lt; </div>
 
     <script>
-        let db = null;
         let map = L.map('mapid').setView([0, 0], 1);
 
         let filters = {
@@ -70,7 +69,8 @@
             searchText : '',
             ignoreWorld : true,
             hideDeprecated : true,
-            authorities : {}
+            authorities : {},
+            activeTypes: {},
         };
 
         let marker = null;
@@ -179,54 +179,49 @@
         }
 
         function createTables() {
-            tabs.forEach(tab => {
-                let tables = document.querySelector('#tables');
-                let tabdiv = document.createElement('div');
-                tabdiv.id = tab.id + "_DIV";
-                tabdiv.classList.add('hide');
-                let h3 = document.createElement('h3');
-                h3.innerHTML = tab.str;
-                h3.appendChild(document.createElement('span'));
-                tabdiv.appendChild(h3);
-                let tb = document.createElement('table');
-                tb.id = tab.id;
-                tabdiv.appendChild(tb);
-                tables.appendChild(tabdiv);
+            tabs.forEach(tab => filters.activeTypes[tab.id] = false);
 
-                const ascCaret = '&#9650;';
-                const desCaret = '&#9660;';
-                let header = tb.createTHead();
-                let row = header.insertRow();
-                let order = '<span class="order"></span>';
-                ['Code', 'Name', 'Area of Use', 'Deprecated'].forEach(e => row.appendChild(document.createElement('th')).innerHTML = e + order);
-                let tblBody = document.createElement('tbody');
-                tb.appendChild(tblBody);
-                row.querySelector('th').asc = true;
-                row.querySelector('.order').innerHTML = ascCaret;
+            let tabdiv = document.querySelector(`#tables`);
+            let h3 = document.createElement('h3');
+            h3.innerHTML = "Selected & Filtered Systems";
+            h3.appendChild(document.createElement('span'));
+            tabdiv.appendChild(h3);
+            let tb = document.createElement('table');
+            tabdiv.appendChild(tb);
 
-                const getCellValue = (tr, idx) => {
-                    let str = tr.children[idx].innerText || tr.children[idx].textContent ;
-                    if (idx == 0) {
-                        let v = str.split(':');
-                        str = v[0] + v[1].padStart(7,'0');
-                    }
-                    return str;
-                };
+            const ascCaret = '&#9650;';
+            const desCaret = '&#9660;';
+            let header = tb.createTHead();
+            let row = header.insertRow();
+            let order = '<span class="order"></span>';
+            ['Code', 'Name', 'Area of Use', 'Type', 'Deprecated'].forEach(e => row.appendChild(document.createElement('th')).innerHTML = e + order);
+            let tblBody = document.createElement('tbody');
+            tb.appendChild(tblBody);
+            row.querySelector('th').asc = true;
+            row.querySelector('.order').innerHTML = ascCaret;
 
-                const comparer = (idx, asc) => (a, b) => ((v1, v2) =>
-                    v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2)
-                    )(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
+            const getCellValue = (tr, idx) => {
+                let str = tr.children[idx].innerText || tr.children[idx].textContent ;
+                if (idx == 0) {
+                    let v = str.split(':');
+                    str = v[0] + v[1].padStart(7,'0');
+                }
+                return str;
+            };
 
-                tb.querySelectorAll('th').forEach(th => th.addEventListener('click', (() => slowTask(() => {
-                    header.querySelectorAll('.order').forEach(o => o.innerHTML = '');
-                    const idx = Array.from(th.parentNode.children).indexOf(th)
-                    Array.from(tblBody.querySelectorAll('tr'))
-                        .sort(comparer(idx, th.asc = !th.asc))
-                        .forEach(tr => tblBody.appendChild(tr) );
-                    colorBackground();
-                    th.querySelector('.order').innerHTML = th.asc ? ascCaret : desCaret;
-                }))));
-            });
+            const comparer = (idx, asc) => (a, b) => ((v1, v2) =>
+                v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2)
+                )(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
+
+            Array.from(tb.querySelectorAll('th')).forEach(th => th.addEventListener('click', (() => slowTask(() => {
+                Array.from(header.querySelectorAll('.order')).forEach(o => o.innerHTML = '');
+                const idx = Array.from(th.parentNode.children).indexOf(th)
+                Array.from(tblBody.querySelectorAll('tr'))
+                    .sort(comparer(idx, th.asc = !th.asc))
+                    .forEach(tr => tblBody.appendChild(tr) );
+                colorBackground();
+                th.querySelector('.order').innerHTML = th.asc ? ascCaret : desCaret;
+            }))));
         }
 
         function createCheckboxes() {
@@ -236,30 +231,31 @@
                 el.innerHTML = `<input type="checkbox" class="crstype" id="${tab.id}_CB">${tab.str}`;
                 div.appendChild(el);
                 el.querySelector(`input`).addEventListener('click', function (ev) {
-                    slowTask( function() {
-                        document.querySelector('#' + tab.id + '_DIV').classList[ev.target.checked ? 'remove' : 'add']('hide');
-                    });
+                    filters.activeTypes[tab.id] = ev.target.checked;
+                    runFilter();
                 });
             });
 
+            div.appendChild(document.createElement('span')).innerHTML = ' | ';
+
             let el = document.createElement('label');
-            div.appendChild(el).innerHTML = `<input type="checkbox" id="ignore_world_CB" checked>Ignore World`;
+            div.appendChild(el).innerHTML = `<input type="checkbox" checked>Ignore World`;
             el.title = "Do not show CRS with area of use longitude from -180 to 180";
             el.querySelector('input').addEventListener('change', function (ev) {
                 filters.ignoreWorld = ev.target.checked;
                 runFilter();
             });
 
-            let allowdep = document.createElement('label');
-            div.appendChild(allowdep).innerHTML = `<input type="checkbox" id="allow_deprecated_CB">Allow deprecated`;
-            allowdep.title = "Display also deprecated systems";
-            allowdep.querySelector('input').addEventListener('click', function (ev) {
+            el = document.createElement('label');
+            div.appendChild(el).innerHTML = `<input type="checkbox">Allow deprecated`;
+            el.title = "Display also deprecated systems";
+            el.querySelector('input').addEventListener('click', function (ev) {
                 filters.hideDeprecated = !ev.target.checked;
                 runFilter();
             });
         }
 
-        function createAuthorities() {
+        function createAuthorities(db) {
             let auths = []
             db.forEach(crs => {
                 if (!auths.includes(crs.auth_name)) {
@@ -300,10 +296,10 @@
                 selectorsArray = strs.map(x => {
                     if (x.charAt(0) == '-') {
                         x = x.replaceAll('"', '');
-                        return `[crs_name*="${x.substring(1)}" i]`;
+                        return `[data-crs-name*="${x.substring(1)}" i]`;
                     } else {
                         x = x.replaceAll('"', '');
-                        return `:not([crs_name*="${x}" i])`;
+                        return `:not([data-crs-name*="${x}" i])`;
                     }
                 });
             }
@@ -313,6 +309,11 @@
             Object.keys(filters.authorities).forEach(auth => {
                 if (!filters.authorities[auth]) {
                     selectorsArray.push(`[data-auth="${auth}"]`);
+                }
+            });
+            Object.keys(filters.activeTypes).forEach(t => {
+                if (!filters.activeTypes[t]) {
+                    selectorsArray.push(`[data-type="${t}"]`);
                 }
             });
 
@@ -329,11 +330,11 @@
                     let off0 = 0, off2 = 0;
                     if (r.area_of_use[0] < r.area_of_use[2]) {
                     } else if (latlng.lng > 0){
-                        off2 = 360
+                        off2 = 360;
                     } else {
-                        off0 = 360
+                        off0 = 360;
                     }
-                    use = use && latlng.lng >= r.area_of_use[0] - off0 && latlng.lng <= r.area_of_use[2] + off2
+                    use = use && latlng.lng >= r.area_of_use[0] - off0 && latlng.lng <= r.area_of_use[2] + off2;
                     if (!use) r.classList.add('hide');
                 });
             }
@@ -346,24 +347,25 @@
                 let counter = 0;
                 Array.from(tbody.querySelectorAll(`tr:not(.hide)`)).forEach(r => {
                     counter += 1;
-                    r.classList[counter % 2 ? 'add' : 'remove']('odd');
+                    r.classList[counter % 2 ? 'remove' : 'add']('odd');
                 })
             });
         }
 
         function countElements() {
-            tabs.forEach(tab => {
-                const c = document.querySelectorAll(`#${tab.id} tbody tr:not(.hide)`).length;
-                document.querySelector(`#${tab.id}_DIV h3 span`).innerHTML = " (" + c + ")";
-            });
+            const c = document.querySelectorAll(`#tables tbody tr:not(.hide)`).length;
+            document.querySelector(`#tables h3 span`).innerHTML = " (" + c + ")";
         }
 
-        function fillTables() {
+        function fillTables(db) {
+            tabmap = {};
+            tabs.forEach(tab => tabmap[tab.id] = tab.str);
+            let table = document.querySelector('#tables table > tbody');
             db.forEach (crs => {
                 let code = crs.auth_name + ":" + crs.code;
-                let table = document.querySelector('#' + crs.type + ' > tbody');
                 let row = table.insertRow();
-                row.setAttribute('crs_name', crs.name);
+                row.classList.add('hide')
+                row.setAttribute('data-crs-name', crs.name);
                 row.setAttribute('data-type', crs.type);
                 row.setAttribute('data-id', code);
                 row.setAttribute('data-auth', crs.auth_name);
@@ -384,6 +386,7 @@
                 area.classList.add('area');
                 area.addEventListener('mouseenter', ev => mouseOnArea(ev, code, crs.area_of_use, true));
                 area.addEventListener('mouseleave', ev => mouseOnArea(ev, code, crs.area_of_use, false));
+                row.insertCell().innerHTML = tabmap[crs.type];
                 row.insertCell().innerHTML = crs.deprecated;
             });
         }
@@ -395,9 +398,8 @@
             })
             .then(response => response.json())
             .then(data => {
-                db = data;
-                createAuthorities();
-                fillTables();
+                createAuthorities(data);
+                fillTables(data);
                 runFilter();
                 // document.querySelector('#PROJECTED_CRS_CB').click(); // select it by default
             });
