@@ -1,0 +1,18 @@
+GEOGCRS["Qatar 1948",
+    DATUM["Qatar 1948",
+        ELLIPSOID["Helmert 1906",6378200,298.3,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Qatar - onshore."],
+        BBOX[24.55,50.69,26.2,51.68]],
+    ID["EPSG",4286]]

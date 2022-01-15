@@ -1,0 +1,7 @@
+VERT_CS["Latvia 2000 height",
+    VERT_DATUM["Latvian Height System 2000",2005,
+        AUTHORITY["EPSG","1162"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","7700"]]

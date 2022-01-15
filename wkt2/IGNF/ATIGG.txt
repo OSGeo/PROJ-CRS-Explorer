@@ -1,0 +1,18 @@
+GEOGCRS["ATIG geographiques grades Paris (gr)",
+    DATUM["Ancienne Triangulation Francaise (Paris)",
+        ELLIPSOID["Plessis 1817",6376523,308.64,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Paris RGS",2.33720833333333,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[1],
+            ANGLEUNIT["grad",0.0157079632679489]],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[2],
+            ANGLEUNIT["grad",0.0157079632679489]],
+    USAGE[
+        SCOPE["NATIONALE, HISTORIQUE"],
+        AREA["FRANCE METROPOLITAINE (CORSE COMPRISE)"],
+        BBOX[41,-5.5,52,10]],
+    ID["IGNF","ATIGG"]]

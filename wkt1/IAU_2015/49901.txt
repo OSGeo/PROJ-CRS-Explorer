@@ -1,0 +1,10 @@
+GEOGCS["Mars (2015) / Ographic",
+    DATUM["Mars (2015)",
+        SPHEROID["Mars (2015)",3396190,169.894447223612,
+            AUTHORITY["IAU","49901"]],
+        AUTHORITY["IAU","49901"]],
+    PRIMEM["Reference Meridian",0,
+        AUTHORITY["IAU","49900"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IAU","49901"]]

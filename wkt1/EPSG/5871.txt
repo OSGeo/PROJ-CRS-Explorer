@@ -1,0 +1,7 @@
+VERT_CS["HHWLT height",
+    VERT_DATUM["Higher High Water Large Tide",2005,
+        AUTHORITY["EPSG","1084"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5871"]]

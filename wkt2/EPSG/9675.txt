@@ -1,0 +1,10 @@
+VERTCRS["Pago Pago 2020 height",
+    VDATUM["Local Tidal Datum at Pago Pago 2020"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Spatial referencing."],
+        AREA["American Samoa - Tutuila island."],
+        BBOX[-14.43,-170.88,-14.2,-170.51]],
+    ID["EPSG",9675]]

@@ -1,0 +1,10 @@
+VERTCRS["Caspian height",
+    VDATUM["Caspian Sea"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Oil and gas exploration and production."],
+        AREA["Azerbaijan - offshore; Kazakhstan - offshore; Russian Federation - Caspian Sea; Turkmenistan - offshore."],
+        BBOX[37.35,46.95,46.97,53.93]],
+    ID["EPSG",5611]]

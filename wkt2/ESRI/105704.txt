@@ -1,0 +1,10 @@
+VERTCRS["LAS07_height",
+    VDATUM["LAS07"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Lithuania - onshore."],
+        BBOX[53.89,20.86,56.45,26.82]],
+    ID["ESRI",105704]]

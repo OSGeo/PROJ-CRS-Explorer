@@ -1,0 +1,7 @@
+VERT_CS["BGS2005",
+    VERT_DATUM["Bulgaria_Geodetic_System_2005",2002,
+        AUTHORITY["ESRI","from_geogdatum_EPSG_1167"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115806"]]

@@ -1,0 +1,7 @@
+VERT_CS["Ponta Delgada height",
+    VERT_DATUM["Ponta Delgada",2005,
+        AUTHORITY["EPSG","1110"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","6187"]]

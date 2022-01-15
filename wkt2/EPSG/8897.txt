@@ -1,0 +1,10 @@
+VERTCRS["EPSG example wellbore local vertical CRS (ft)",
+    VDATUM["EPSG example wellbore vertical datum"],
+    CS[vertical,1],
+        AXIS["local depth (d)",down,
+            LENGTHUNIT["foot",0.3048]],
+    USAGE[
+        SCOPE["Wellbore survey."],
+        AREA["Description of the extent of the CRS."],
+        BBOX[-90,-180,90,180]],
+    ID["EPSG",8897]]

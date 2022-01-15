@@ -1,0 +1,10 @@
+VERTCRS["REGCAN95",
+    VDATUM["D_Red_Geodesica_de_Canarias_1995"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Spain - Canary Islands onshore and offshore."],
+        BBOX[24.6,-21.93,32.76,-11.75]],
+    ID["ESRI",115775]]

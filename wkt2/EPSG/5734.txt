@@ -1,0 +1,10 @@
+VERTCRS["AIOC95 depth",
+    VDATUM["AIOC 1995"],
+    CS[vertical,1],
+        AXIS["depth (D)",down,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Oil and gas exploration and production."],
+        AREA["Azerbaijan - Caspian offshore and onshore Sangachal terminal."],
+        BBOX[37.89,48.66,42.59,51.73]],
+    ID["EPSG",5734]]

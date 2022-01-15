@@ -1,0 +1,18 @@
+GEOGCRS["MHPF 1967 GEOGRAPHIQUES (DMS)",
+    DATUM["MHPF 1967 (MANGAREVA - AGAKAUITAI - AUKENA - MEKIRO) GAMBIER",
+        ELLIPSOID["International 1924",6378388,297,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["LOCALE, HISTORIQUE"],
+        AREA["MANGAREVA, AGAKAUITAI, AUKENA, MEKIRO (ILES GAMBIER)"],
+        BBOX[-23.18,-135.04,-23.07,-134.89]],
+    ID["IGNF","MHPF67G"]]

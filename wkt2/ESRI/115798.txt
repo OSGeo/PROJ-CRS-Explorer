@@ -1,0 +1,10 @@
+VERTCRS["SWEREF99",
+    VDATUM["D_SWEREF99"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Sweden - onshore and offshore."],
+        BBOX[54.96,10.03,69.07,24.17]],
+    ID["ESRI",115798]]

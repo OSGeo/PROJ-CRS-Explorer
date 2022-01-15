@@ -1,0 +1,10 @@
+VERTCRS["CR05",
+    VDATUM["D_Costa_Rica_2005"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Costa Rica - onshore and offshore."],
+        BBOX[2.15,-90.45,11.77,-81.43]],
+    ID["ESRI",115708]]

@@ -1,0 +1,10 @@
+VERTCRS["TWD_1997",
+    VDATUM["D_TWD_1997"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Taiwan, Republic of China - onshore and offshore - Taiwan Island, Penghu (Pescadores) Islands."],
+        BBOX[17.36,114.32,26.96,123.61]],
+    ID["ESRI",115800]]

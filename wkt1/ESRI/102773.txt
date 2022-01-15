@@ -1,0 +1,3 @@
+Error: ESRI:102773 cannot be written as WKT1_GDAL
+ type: PROJECTED_CRS
+ name: MAGNA_Tunja_Boyaca_1997

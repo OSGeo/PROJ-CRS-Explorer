@@ -1,0 +1,10 @@
+GEOGCS["Lysithea (2015) - Sphere / Ocentric",
+    DATUM["Lysithea (2015) - Sphere",
+        SPHEROID["Lysithea (2015) - Sphere",12000,0,
+            AUTHORITY["IAU","51000"]],
+        AUTHORITY["IAU","51000"]],
+    PRIMEM["Reference Meridian",0,
+        AUTHORITY["IAU","51000"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IAU","51000"]]

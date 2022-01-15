@@ -1,0 +1,10 @@
+VERTCRS["EVRF2007 (EUROPEAN VERTICAL REFERENCE FRAME 2007)",
+    VDATUM["EVRF2007 (EUROPEAN VERTICAL REFERENCE FRAME 2007)"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["CONTINENTALE"],
+        AREA["EUROPE (RESEAU VERTICAL UNIFIE)"],
+        BBOX[36,-10,71.2,32]],
+    ID["IGNF","EVRF2007"]]

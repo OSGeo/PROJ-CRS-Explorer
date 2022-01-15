@@ -1,0 +1,18 @@
+GEOGCRS["GCGD59",
+    DATUM["Grand Cayman Geodetic Datum 1959",
+        ELLIPSOID["Clarke 1866",6378206.4,294.978698213898,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Cadastre, engineering survey, topographic mapping."],
+        AREA["Cayman Islands - Grand Cayman."],
+        BBOX[19.21,-81.46,19.41,-81.04]],
+    ID["EPSG",4723]]

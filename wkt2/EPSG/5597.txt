@@ -1,0 +1,10 @@
+VERTCRS["FCSVR10 height",
+    VDATUM["Fehmarnbelt Vertical Reference 2010"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Engineering survey and construction for Fehmarnbelt tunnel."],
+        AREA["Fehmarnbelt area of Denmark and Germany."],
+        BBOX[54.42,11.17,54.76,11.51]],
+    ID["EPSG",5597]]

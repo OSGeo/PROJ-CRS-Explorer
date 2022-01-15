@@ -1,0 +1,10 @@
+VERTCRS["RGAF09",
+    VDATUM["Reseau_Geodesique_des_Antilles_Francaises_2009"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["French Antilles onshore and offshore - Guadeloupe (including Grande Terre, Basse Terre, Marie Galante, Les Saintes, Iles de la Petite Terre, La Desirade, St Barthélemy, and northern St Martin) and Martinique."],
+        BBOX[14.08,-63.66,18.54,-57.52]],
+    ID["ESRI",115777]]

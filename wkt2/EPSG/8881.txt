@@ -1,0 +1,10 @@
+VERTCRS["Vienna height",
+    VDATUM["Wiener Null"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Municipal spatial referencing."],
+        AREA["Austria - Vienna city state."],
+        BBOX[48.12,16.18,48.34,16.59]],
+    ID["EPSG",8881]]

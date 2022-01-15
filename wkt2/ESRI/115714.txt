@@ -1,0 +1,10 @@
+VERTCRS["FEH2010",
+    VDATUM["D_Fehmarnbelt_Datum_2010"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Fehmarnbelt area of Denmark and Germany."],
+        BBOX[54.33,10.66,54.83,12.01]],
+    ID["ESRI",115714]]

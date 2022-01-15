@@ -1,0 +1,10 @@
+GEOGCS["Egypt Gulf of Suez S-650 TL",
+    DATUM["Egypt_Gulf_of_Suez_S-650_TL",
+        SPHEROID["Helmert 1906",6378200,298.3,
+            AUTHORITY["EPSG","7020"]],
+        AUTHORITY["EPSG","6706"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["EPSG","4706"]]

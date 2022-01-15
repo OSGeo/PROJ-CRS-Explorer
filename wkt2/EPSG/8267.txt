@@ -1,0 +1,10 @@
+VERTCRS["GVR2016 height",
+    VDATUM["Greenland Vertical Reference 2016"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Topographic mapping."],
+        AREA["Greenland - onshore and offshore between 58°N and 85°N and west of 7°W."],
+        BBOX[58,-75,85.01,-6.99]],
+    ID["EPSG",8267]]

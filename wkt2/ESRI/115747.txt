@@ -1,0 +1,10 @@
+VERTCRS["MACAO_2008",
+    VDATUM["D_MACAO_2008"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["China - Macao - onshore and offshore."],
+        BBOX[22.06,113.52,22.23,113.68]],
+    ID["ESRI",115747]]

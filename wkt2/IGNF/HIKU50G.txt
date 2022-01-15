@@ -1,0 +1,18 @@
+GEOGCRS["Hikueru (SHM 1947-1950) geographiques (dms)",
+    DATUM["SHM 1947-1950 (ATOLL HIKUERU)",
+        ELLIPSOID["International 1924",6378388,297,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["LOCALE, HISTORIQUE"],
+        AREA["HIKUERU (ARCHIPEL DES TUAMOTU)"],
+        BBOX[-17.83,-142.83,-17.42,-142.42]],
+    ID["IGNF","HIKU50G"]]

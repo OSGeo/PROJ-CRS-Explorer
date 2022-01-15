@@ -1,0 +1,10 @@
+VERTCRS["KSA-VRF14 height",
+    VDATUM["Kingdom of Saudi Arabia Vertical Reference Frame Jeddah 2014"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, cadastre, engineering survey, topographic mapping."],
+        AREA["Saudi Arabia - onshore."],
+        BBOX[16.37,34.51,32.16,55.67]],
+    ID["EPSG",9335]]

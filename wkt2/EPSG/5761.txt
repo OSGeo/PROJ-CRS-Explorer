@@ -1,0 +1,10 @@
+VERTCRS["Dunedin 1958 height",
+    VDATUM["Dunedin 1958"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["New Zealand - South Island - between approximately 44°S and 46°S - Dunedin vertical CRS area."],
+        BBOX[-46.4,167.73,-43.82,171.28]],
+    ID["EPSG",5761]]

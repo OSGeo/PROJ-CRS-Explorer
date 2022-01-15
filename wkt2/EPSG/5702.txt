@@ -1,0 +1,10 @@
+VERTCRS["NGVD29 height (ftUS)",
+    VDATUM["National Geodetic Vertical Datum 1929"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["US survey foot",0.304800609601219]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["United States (USA) - CONUS onshore - Alabama; Arizona; Arkansas; California; Colorado; Connecticut; Delaware; Florida; Georgia; Idaho; Illinois; Indiana; Iowa; Kansas; Kentucky; Louisiana; Maine; Maryland; Massachusetts; Michigan; Minnesota; Mississippi; Missouri; Montana; Nebraska; Nevada; New Hampshire; New Jersey; New Mexico; New York; North Carolina; North Dakota; Ohio; Oklahoma; Oregon; Pennsylvania; Rhode Island; South Carolina; South Dakota; Tennessee; Texas; Utah; Vermont; Virginia; Washington; West Virginia; Wisconsin; Wyoming."],
+        BBOX[24.41,-124.79,49.38,-66.91]],
+    ID["EPSG",5702]]

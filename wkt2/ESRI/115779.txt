@@ -1,0 +1,10 @@
+VERTCRS["RGFG_1995",
+    VDATUM["D_RGFG_1995"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["French Guiana - onshore and offshore."],
+        BBOX[2.11,-54.61,8.88,-49.45]],
+    ID["ESRI",115779]]

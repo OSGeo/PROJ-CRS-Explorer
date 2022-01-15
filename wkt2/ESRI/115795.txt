@@ -1,0 +1,10 @@
+VERTCRS["SREF98",
+    VDATUM["D_Serbian_Reference_Network_1998"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Serbia including Vojvodina and Kosovo."],
+        BBOX[41.85,18.81,46.19,23.01]],
+    ID["ESRI",115795]]

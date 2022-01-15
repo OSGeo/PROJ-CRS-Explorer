@@ -1,0 +1,7 @@
+VERT_CS["MLWS depth",
+    VERT_DATUM["Mean Low Water Spring Tides",2005,
+        AUTHORITY["EPSG","1087"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Depth",DOWN],
+    AUTHORITY["EPSG","5865"]]

@@ -1,0 +1,10 @@
+VERTCRS["NGF-LALLEMAND",
+    VDATUM["NGF-LALLEMAND"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["NATIONALE, HISTORIQUE"],
+        AREA["FRANCE CONTINENTALE (CORSE EXCLUE)"],
+        BBOX[42,-5.5,51.5,8.5]],
+    ID["IGNF","NGF84"]]

@@ -1,0 +1,18 @@
+GEOGCRS["Camacupa 1948",
+    DATUM["Camacupa 1948",
+        ELLIPSOID["Clarke 1880 (RGS)",6378249.145,293.465,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Oil and gas exploration and production."],
+        AREA["Angola - Angola proper - onshore and offshore."],
+        BBOX[-18.02,8.2,-5.82,24.09]],
+    ID["EPSG",4220]]

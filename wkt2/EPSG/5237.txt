@@ -1,0 +1,10 @@
+VERTCRS["SLVD height",
+    VDATUM["Sri Lanka Vertical Datum"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Sri Lanka - onshore."],
+        BBOX[5.86,79.64,9.88,81.95]],
+    ID["EPSG",5237]]

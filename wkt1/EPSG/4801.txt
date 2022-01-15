@@ -1,0 +1,10 @@
+GEOGCS["Bern 1898 (Bern)",
+    DATUM["CH1903_Bern",
+        SPHEROID["Bessel 1841",6377397.155,299.1528128,
+            AUTHORITY["EPSG","7004"]],
+        AUTHORITY["EPSG","6801"]],
+    PRIMEM["Bern",7.43958333333333,
+        AUTHORITY["EPSG","8907"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["EPSG","4801"]]

@@ -1,0 +1,10 @@
+VERTCRS["Caspian depth",
+    VDATUM["Caspian Sea"],
+    CS[vertical,1],
+        AXIS["depth (D)",down,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Hydrography and nautical charting."],
+        AREA["Azerbaijan - offshore; Kazakhstan - offshore; Russian Federation - Caspian Sea; Turkmenistan - offshore."],
+        BBOX[37.35,46.95,46.97,53.93]],
+    ID["EPSG",5706]]

@@ -1,0 +1,10 @@
+VERTCRS["NGNC08 height",
+    VDATUM["Nivellement General de Nouvelle Caledonie 2008"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Spatial referencing."],
+        AREA["New Caledonia - Belep, Grande Terre, Ile des Pins, Loyalty Islands (Lifou, Mare, Ouvea)."],
+        BBOX[-22.73,163.54,-19.5,168.19]],
+    ID["EPSG",9351]]

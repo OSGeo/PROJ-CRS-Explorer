@@ -1,0 +1,10 @@
+VERTCRS["NZVD2016 height",
+    VDATUM["New Zealand Vertical Datum 2016"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["New Zealand - onshore and offshore. Includes Antipodes Islands, Auckland Islands, Bounty Islands, Chatham Islands, Cambell Island, Kermadec Islands, Raoul Island and Snares Islands."],
+        BBOX[-55.95,160.6,-25.88,-171.2]],
+    ID["EPSG",7839]]

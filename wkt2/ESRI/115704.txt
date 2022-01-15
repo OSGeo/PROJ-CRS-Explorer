@@ -1,0 +1,10 @@
+VERTCRS["Cadastre_1997",
+    VDATUM["D_Cadastre_1997"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Mayotte - onshore."],
+        BBOX[-13.05,44.98,-12.61,45.35]],
+    ID["ESRI",115704]]

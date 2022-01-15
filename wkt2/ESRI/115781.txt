@@ -1,0 +1,10 @@
+VERTCRS["RGNC_1991",
+    VDATUM["D_RGNC_1991"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["New Caledonia - onshore and offshore. Isle de Pins, Loyalty Islands, Huon Islands, Belep archipelago, Chesterfield Islands, and Walpole."],
+        BBOX[-26.45,156.25,-14.83,174.28]],
+    ID["ESRI",115781]]

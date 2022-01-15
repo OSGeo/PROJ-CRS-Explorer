@@ -1,0 +1,10 @@
+VERTCRS["Ibiza height",
+    VDATUM["Ibiza"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Spain - Balearic Islands - Ibiza and Formentera - onshore."],
+        BBOX[38.59,1.12,39.17,1.68]],
+    ID["EPSG",9394]]

@@ -1,0 +1,10 @@
+VERTCRS["TUREF",
+    VDATUM["D_Turkish_National_Reference_Frame"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Turkey - onshore and offshore."],
+        BBOX[34.42,25.62,43.45,44.83]],
+    ID["ESRI",115804]]

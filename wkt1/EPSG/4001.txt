@@ -1,0 +1,10 @@
+GEOGCS["Unknown datum based upon the Airy 1830 ellipsoid (deprecated)",
+    DATUM["Not_specified_based_on_Airy_1830_ellipsoid",
+        SPHEROID["Airy 1830",6377563.396,299.3249646,
+            AUTHORITY["EPSG","7001"]],
+        AUTHORITY["EPSG","6001"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["EPSG","4001"]]

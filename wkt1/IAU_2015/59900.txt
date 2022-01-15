@@ -1,0 +1,10 @@
+GEOGCS["Jupiter (2015) - Sphere / Ocentric",
+    DATUM["Jupiter (2015) - Sphere",
+        SPHEROID["Jupiter (2015) - Sphere",71492000,0,
+            AUTHORITY["IAU","59900"]],
+        AUTHORITY["IAU","59900"]],
+    PRIMEM["Reference Meridian",0,
+        AUTHORITY["IAU","59900"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IAU","59900"]]

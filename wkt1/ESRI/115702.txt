@@ -1,0 +1,7 @@
+VERT_CS["NAD_1983",
+    VERT_DATUM["D_North_American_1983",2002,
+        AUTHORITY["ESRI","from_geogdatum_EPSG_6269"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115702"]]

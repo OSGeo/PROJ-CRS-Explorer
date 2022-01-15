@@ -1,0 +1,7 @@
+VERT_CS["Lyttelton 1937 height",
+    VERT_DATUM["Lyttelton 1937",2005,
+        AUTHORITY["EPSG","5161"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5763"]]

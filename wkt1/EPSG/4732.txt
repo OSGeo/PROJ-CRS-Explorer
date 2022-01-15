@@ -1,0 +1,10 @@
+GEOGCS["Marshall Islands 1960",
+    DATUM["Marshall_Islands_1960",
+        SPHEROID["Hough 1960",6378270,297,
+            AUTHORITY["EPSG","7053"]],
+        AUTHORITY["EPSG","6732"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["EPSG","4732"]]

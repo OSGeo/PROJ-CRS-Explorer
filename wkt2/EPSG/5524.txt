@@ -1,0 +1,18 @@
+GEOGCRS["Corrego Alegre 1961",
+    DATUM["Corrego Alegre 1961",
+        ELLIPSOID["International 1924",6378388,297,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Brazil - onshore - between 18°S and 27°30'S, also east of 54°W between 15°S and 18°S."],
+        BBOX[-27.5,-58.16,-14.99,-38.82]],
+    ID["EPSG",5524]]

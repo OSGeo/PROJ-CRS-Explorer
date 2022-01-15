@@ -1,0 +1,10 @@
+GEOGCS["Eros (2015) - Sphere / Ocentric",
+    DATUM["Eros (2015) - Sphere",
+        SPHEROID["Eros (2015) - Sphere",17000,0,
+            AUTHORITY["IAU","200043300"]],
+        AUTHORITY["IAU","200043300"]],
+    PRIMEM["Reference Meridian",0,
+        AUTHORITY["IAU","200043300"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IAU","200043300"]]

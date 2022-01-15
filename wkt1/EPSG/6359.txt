@@ -1,0 +1,7 @@
+VERT_CS["NGVD29 depth (ftUS)",
+    VERT_DATUM["National Geodetic Vertical Datum 1929",2005,
+        AUTHORITY["EPSG","5102"]],
+    UNIT["US survey foot",0.304800609601219,
+        AUTHORITY["EPSG","9003"]],
+    AXIS["Depth",DOWN],
+    AUTHORITY["EPSG","6359"]]

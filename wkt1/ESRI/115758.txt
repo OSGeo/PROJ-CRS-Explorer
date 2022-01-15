@@ -1,0 +1,7 @@
+VERT_CS["North_American_1983_HARN",
+    VERT_DATUM["D_North_American_1983_HARN",2002,
+        AUTHORITY["ESRI","from_geogdatum_EPSG_6152"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115758"]]

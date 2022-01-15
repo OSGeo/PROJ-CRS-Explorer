@@ -1,0 +1,10 @@
+VERTCRS["GUVD04 height",
+    VDATUM["Guam Vertical Datum of 2004"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Guam - onshore."],
+        BBOX[13.18,144.58,13.7,145.01]],
+    ID["EPSG",6644]]

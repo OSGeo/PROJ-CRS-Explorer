@@ -1,0 +1,10 @@
+VERTCRS["WGS_1984_(Transit)",
+    VDATUM["World_Geodetic_System_1984_(Transit)"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["World."],
+        BBOX[-90,-180,90,180]],
+    ID["ESRI",115816]]

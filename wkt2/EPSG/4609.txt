@@ -1,0 +1,18 @@
+GEOGCRS["NAD27(CGQ77)",
+    DATUM["North American Datum 1927 (CGQ77)",
+        ELLIPSOID["Clarke 1866",6378206.4,294.978698213898,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Canada - Quebec."],
+        BBOX[44.99,-79.85,62.62,-57.1]],
+    ID["EPSG",4609]]

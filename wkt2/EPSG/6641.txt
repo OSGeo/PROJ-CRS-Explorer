@@ -1,0 +1,10 @@
+VERTCRS["PRVD02 height",
+    VDATUM["Puerto Rico Vertical Datum of 2002"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Puerto Rico - onshore."],
+        BBOX[17.87,-67.97,18.57,-65.19]],
+    ID["EPSG",6641]]

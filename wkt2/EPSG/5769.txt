@@ -1,0 +1,10 @@
+VERTCRS["Taranaki 1970 height",
+    VDATUM["Taranaki 1970"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["New Zealand - North Island - Taranaki vertical CRS area."],
+        BBOX[-39.92,173.68,-38.41,174.95]],
+    ID["EPSG",5769]]

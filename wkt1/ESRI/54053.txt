@@ -1,0 +1,3 @@
+Error: ESRI:54053 cannot be written as WKT1_GDAL
+ type: PROJECTED_CRS
+ name: World_Goode_Homolosine_Ocean

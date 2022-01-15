@@ -1,0 +1,3 @@
+Error: IGNF:ANAA92GEO cannot be written as WKT1_GDAL
+ type: GEOGRAPHIC_3D_CRS
+ name: Anaa (MOP92) geographiques (dms)

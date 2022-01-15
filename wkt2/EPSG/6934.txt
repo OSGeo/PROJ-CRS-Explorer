@@ -1,0 +1,23 @@
+GEODCRS["IGS08",
+    DYNAMIC[
+        FRAMEEPOCH[2005]],
+    DATUM["IGS08",
+        ELLIPSOID["GRS 1980",6378137,298.257222101,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[Cartesian,3],
+        AXIS["(X)",geocentricX,
+            ORDER[1],
+            LENGTHUNIT["metre",1]],
+        AXIS["(Y)",geocentricY,
+            ORDER[2],
+            LENGTHUNIT["metre",1]],
+        AXIS["(Z)",geocentricZ,
+            ORDER[3],
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["World."],
+        BBOX[-90,-180,90,180]],
+    ID["EPSG",6934]]

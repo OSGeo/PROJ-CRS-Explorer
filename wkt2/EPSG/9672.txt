@@ -1,0 +1,10 @@
+VERTCRS["CD Norway depth",
+    VDATUM["Norwegian Chart Datum"],
+    CS[vertical,1],
+        AXIS["depth (D)",down,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Hydrography and nautical charting."],
+        AREA["Norway (offshore) and Svalbard and Jan Mayen (offshore)."],
+        BBOX[56.08,-13.63,84.73,38]],
+    ID["EPSG",9672]]

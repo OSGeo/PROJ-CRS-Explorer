@@ -1,0 +1,10 @@
+GEOGCS["Bianca (2015) - Sphere / Ocentric",
+    DATUM["Bianca (2015) - Sphere",
+        SPHEROID["Bianca (2015) - Sphere",21000,0,
+            AUTHORITY["IAU","70800"]],
+        AUTHORITY["IAU","70800"]],
+    PRIMEM["Reference Meridian",0,
+        AUTHORITY["IAU","70800"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IAU","70800"]]

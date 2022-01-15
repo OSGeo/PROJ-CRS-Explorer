@@ -1,0 +1,10 @@
+GEOGCS["Takaroa Takapoto (SHM 1969) geo. (dms)",
+    DATUM["MHPF 1969 (ATOLLS TAKAROA ET TAKAPOTO)",
+        SPHEROID["International 1924",6378388,297,
+            AUTHORITY["EPSG","7022"]],
+        AUTHORITY["IGNF","REG5910001"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IGNF","TAKA69G"]]

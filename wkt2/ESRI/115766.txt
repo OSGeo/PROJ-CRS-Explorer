@@ -1,0 +1,10 @@
+VERTCRS["Peru96",
+    VDATUM["D_Peru96"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Peru - onshore and offshore."],
+        BBOX[-21.05,-84.68,-0.03,-68.67]],
+    ID["ESRI",115766]]

@@ -1,0 +1,10 @@
+VERTCRS["NGPF height",
+    VDATUM["Nivellement General de Polynesie Francaise"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["French Polynesia - Society Islands - Bora Bora, Huahine, Maupiti, Moorea, Raiatea, Tahaa and Tahiti."],
+        BBOX[-17.93,-152.39,-16.17,-149.09]],
+    ID["EPSG",5600]]

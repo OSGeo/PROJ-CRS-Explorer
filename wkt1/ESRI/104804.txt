@@ -1,0 +1,10 @@
+GEOGCS["GCS_NAD_1983_HARN_Adj_WI_Brown (deprecated)",
+    DATUM["D_NAD_1983_HARN_Adj_WI_BR",
+        SPHEROID["GRS_1980_Adj_WI_BR",6378137,298.257222100225,
+            AUTHORITY["ESRI","107803"]],
+        AUTHORITY["ESRI","106803"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["ESRI","104804"]]

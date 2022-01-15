@@ -1,0 +1,3 @@
+Error: EPSG:7087 cannot be written as WKT1_GDAL
+ type: GEOGRAPHIC_3D_CRS
+ name: RGTAAF07 (lon-lat)

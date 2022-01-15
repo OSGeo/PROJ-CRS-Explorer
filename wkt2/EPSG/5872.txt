@@ -1,0 +1,10 @@
+VERTCRS["HAT height",
+    VDATUM["Highest Astronomical Tide"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Hydrography and nautical charting."],
+        AREA["World."],
+        BBOX[-90,-180,90,180]],
+    ID["EPSG",5872]]

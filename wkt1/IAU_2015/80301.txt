@@ -1,0 +1,10 @@
+GEOGCS["Naiad (2015) / Ographic",
+    DATUM["Naiad (2015)",
+        SPHEROID["Naiad (2015)",29000,0,
+            AUTHORITY["IAU","80301"]],
+        AUTHORITY["IAU","80301"]],
+    PRIMEM["Reference Meridian",0,
+        AUTHORITY["IAU","80300"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IAU","80301"]]

@@ -1,0 +1,18 @@
+GEOGCRS["Midway 1961",
+    DATUM["Midway 1961",
+        ELLIPSOID["International 1924",6378388,297,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Military survey."],
+        AREA["United States Minor Outlying Islands - Midway Islands - Sand Island and Eastern Island."],
+        BBOX[28.13,-177.45,28.28,-177.31]],
+    ID["EPSG",4727]]

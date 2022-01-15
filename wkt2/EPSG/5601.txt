@@ -1,0 +1,10 @@
+VERTCRS["IGN 1966 height",
+    VDATUM["IGN 1966"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["French Polynesia - Society Islands - Tahiti."],
+        BBOX[-17.93,-149.7,-17.44,-149.09]],
+    ID["EPSG",5601]]

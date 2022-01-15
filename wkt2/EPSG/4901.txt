@@ -1,0 +1,18 @@
+GEOGCRS["ATF (Paris)",
+    DATUM["Ancienne Triangulation Francaise (Paris)",
+        ELLIPSOID["Plessis 1817",6376523,308.64,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Paris RGS",2.33720833333333,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["grad",0.0157079632679489]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["grad",0.0157079632679489]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["France - mainland onshore."],
+        BBOX[42.33,-4.87,51.14,8.23]],
+    ID["EPSG",4901]]

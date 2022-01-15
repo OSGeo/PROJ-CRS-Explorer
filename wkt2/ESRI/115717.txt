@@ -1,0 +1,10 @@
+VERTCRS["GDM_2000",
+    VDATUM["D_GDM_2000"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Malaysia - onshore and offshore. Includes peninsular Malayasia, Sabah and Sarawak."],
+        BBOX[0.85,98.02,7.81,119.61]],
+    ID["ESRI",115717]]

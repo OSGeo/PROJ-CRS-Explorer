@@ -1,0 +1,10 @@
+VERTCRS["MONREF_1997",
+    VDATUM["D_ITRF_2000"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Mongolia."],
+        BBOX[41.58,87.76,52.15,119.94]],
+    ID["ESRI",115753]]

@@ -1,0 +1,3 @@
+Error: IGNF:STPL69GEO cannot be written as WKT1_GDAL
+ type: GEOGRAPHIC_3D_CRS
+ name: Ile Saint-Paul 1969 geographiques (dms)

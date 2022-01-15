@@ -1,0 +1,7 @@
+VERT_CS["AIOC95 height",
+    VERT_DATUM["AIOC 1995",2005,
+        AUTHORITY["EPSG","5133"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5797"]]

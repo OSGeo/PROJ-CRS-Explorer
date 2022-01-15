@@ -1,0 +1,3 @@
+Error: ESRI:102770 cannot be written as WKT1_GDAL
+ type: PROJECTED_CRS
+ name: MAGNA_Barranquilla_Atlantico_1997

@@ -1,0 +1,7 @@
+VERT_CS["TUREF",
+    VERT_DATUM["D_Turkish_National_Reference_Frame",2002,
+        AUTHORITY["ESRI","from_geogdatum_EPSG_1057"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115804"]]

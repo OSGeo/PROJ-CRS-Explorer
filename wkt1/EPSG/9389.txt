@@ -1,0 +1,7 @@
+VERT_CS["EVRF2019 height",
+    VERT_DATUM["European Vertical Reference Frame 2019",2005,
+        AUTHORITY["EPSG","1274"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","9389"]]

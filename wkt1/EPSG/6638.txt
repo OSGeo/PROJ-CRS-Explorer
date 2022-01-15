@@ -1,0 +1,7 @@
+VERT_CS["Tutuila 1962 height",
+    VERT_DATUM["Tutuila Vertical Datum of 1962",2005,
+        AUTHORITY["EPSG","1121"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","6638"]]

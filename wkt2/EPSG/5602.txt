@@ -1,0 +1,10 @@
+VERTCRS["Moorea SAU 1981 height",
+    VDATUM["Moorea SAU 1981"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["French Polynesia - Society Islands - Moorea."],
+        BBOX[-17.63,-150,-17.41,-149.73]],
+    ID["EPSG",5602]]

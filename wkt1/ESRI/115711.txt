@@ -1,0 +1,7 @@
+VERT_CS["DRUKREF_03",
+    VERT_DATUM["D_Bhutan_National_Geodetic_Datum",2002,
+        AUTHORITY["ESRI","from_geogdatum_EPSG_1058"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115711"]]

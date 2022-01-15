@@ -1,0 +1,18 @@
+GEOGCRS["POSGAR 94",
+    DATUM["Posiciones Geodesicas Argentinas 1994",
+        ELLIPSOID["WGS 84",6378137,298.257223563,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Horizontal component of 3D system."],
+        AREA["Argentina - onshore and offshore."],
+        BBOX[-58.41,-73.59,-21.78,-52.63]],
+    ID["EPSG",4694]]

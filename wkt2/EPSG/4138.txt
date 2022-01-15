@@ -1,0 +1,18 @@
+GEOGCRS["St. George Island",
+    DATUM["St. George Island",
+        ELLIPSOID["Clarke 1866",6378206.4,294.978698213898,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["United States (USA) - Alaska - Pribilof Islands - St George Island."],
+        BBOX[56.49,-169.88,56.67,-169.38]],
+    ID["EPSG",4138]]

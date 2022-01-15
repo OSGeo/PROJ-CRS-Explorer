@@ -1,0 +1,3 @@
+Error: EPSG:8859 cannot be written as WKT1_GDAL
+ type: PROJECTED_CRS
+ name: WGS 84 / Equal Earth Asia-Pacific

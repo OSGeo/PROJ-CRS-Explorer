@@ -1,0 +1,10 @@
+VERTCRS["Catania 1965 height",
+    VDATUM["Catania 1965"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Italy - Sicily onshore."],
+        BBOX[36.59,12.36,38.35,15.71]],
+    ID["EPSG",9721]]

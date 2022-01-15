@@ -1,0 +1,10 @@
+VERTCRS["HKPD depth",
+    VDATUM["Hong Kong Principal Datum"],
+    CS[vertical,1],
+        AXIS["depth (D)",down,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Intermediate stage in transformations - not used otherwise."],
+        AREA["China - Hong Kong - onshore."],
+        BBOX[22.19,113.82,22.56,114.39]],
+    ID["EPSG",7976]]

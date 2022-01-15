@@ -1,0 +1,18 @@
+GEOGCRS["Schwarzeck",
+    DATUM["Schwarzeck",
+        ELLIPSOID["Bessel Namibia (GLM)",6377397.155,299.1528128,
+            LENGTHUNIT["German legal metre",1.0000135965]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Namibia - onshore and offshore."],
+        BBOX[-30.64,8.24,-16.95,25.27]],
+    ID["EPSG",4293]]

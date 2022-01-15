@@ -1,0 +1,10 @@
+VERTCRS["NIVELLEMENT GENERAL DU LUXEMBOURG",
+    VDATUM["NORMAL NULL (NIVELLEMENT GENERAL DU LUXEMBOURG NG-L)"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["NATIONALE A CARACTERE LEGAL"],
+        AREA["LUXEMBOURG (pays_cid : 137)"],
+        BBOX[49.45,5.73,50.18,6.53]],
+    ID["IGNF","NNLUX"]]

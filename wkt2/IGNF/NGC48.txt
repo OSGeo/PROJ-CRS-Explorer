@@ -1,0 +1,10 @@
+VERTCRS["NIVELLEMENT GENERAL DE LA CORSE (NGC)",
+    VDATUM["NIVELLEMENT GENERAL DE LA CORSE (NGC)"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["LOCALE, HISTORIQUE"],
+        AREA["CORSE"],
+        BBOX[41.2,8,43.5,10]],
+    ID["IGNF","NGC48"]]

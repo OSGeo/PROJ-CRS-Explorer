@@ -1,0 +1,10 @@
+VERTCRS["RGR_1992",
+    VDATUM["D_RGR_1992"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Reunion - onshore and offshore - Reunion island, Ile Europa, Bassas da India, Juan de Nova, Iles Glorieuses, and Ile Tromelin."],
+        BBOX[-25.92,37.58,-10.6,58.27]],
+    ID["ESRI",115784]]

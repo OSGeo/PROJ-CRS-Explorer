@@ -1,0 +1,10 @@
+VERTCRS["St_Helena_Tritan",
+    VDATUM["St_Helena_Tritan"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["St Helena, Ascension and Tristan da Cunha - St Helena Island - onshore."],
+        BBOX[-16.08,-5.85,-15.85,-5.58]],
+    ID["ESRI",115812]]

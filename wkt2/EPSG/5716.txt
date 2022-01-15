@@ -1,0 +1,10 @@
+VERTCRS["Piraeus height",
+    VDATUM["Piraeus Harbour 1986"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["Greece - onshore."],
+        BBOX[34.88,19.57,41.75,28.3]],
+    ID["EPSG",5716]]

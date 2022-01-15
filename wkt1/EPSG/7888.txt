@@ -1,0 +1,7 @@
+VERT_CS["Jamestown 1971 height",
+    VERT_DATUM["Jamestown 1971",2005,
+        AUTHORITY["EPSG","1175"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","7888"]]

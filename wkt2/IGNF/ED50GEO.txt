@@ -1,0 +1,18 @@
+GEOGCRS["ED50 geographiques (dms)",
+    DATUM["European Datum 1950",
+        ELLIPSOID["International 1924",6378388,297,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["CONTINENTALE, HISTORIQUE"],
+        AREA["EUROPE DE L'OUEST ED50"],
+        BBOX[34,-10,72,32]],
+    ID["IGNF","ED50GEO"]]

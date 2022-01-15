@@ -1,0 +1,10 @@
+VERTCRS["HVRS71 height",
+    VDATUM["Croatian Vertical Reference Datum 1971"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Croatia - onshore."],
+        BBOX[42.34,13.43,46.54,19.43]],
+    ID["EPSG",5610]]

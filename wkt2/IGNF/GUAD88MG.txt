@@ -1,0 +1,10 @@
+VERTCRS["IGN 1988 MG (GUADELOUPE / MARIE-GALANTE)",
+    VDATUM["IGN 1988 MG (GUADELOUPE / MARIE-GALANTE)"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["LOCALE A CARACTERE LEGAL"],
+        AREA["ILE DE MARIE-GALANTE (GUADELOUPE)"],
+        BBOX[15.8,-61.4,16.13,-61.08]],
+    ID["IGNF","GUAD88MG"]]

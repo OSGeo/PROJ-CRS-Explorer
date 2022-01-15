@@ -1,0 +1,3 @@
+Error: ESRI:102779 cannot be written as WKT1_GDAL
+ type: PROJECTED_CRS
+ name: MAGNA_Quibdo_Choco_2011

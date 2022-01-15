@@ -1,0 +1,10 @@
+VERTCRS["Cais da Pontinha - Funchal height",
+    VDATUM["Cais da Pontinha - Funchal"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Portugal - Madeira and Desertas islands - onshore."],
+        BBOX[32.35,-17.31,32.93,-16.4]],
+    ID["EPSG",6178]]

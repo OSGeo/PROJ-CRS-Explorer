@@ -1,0 +1,7 @@
+VERT_CS["JAD_2001",
+    VERT_DATUM["D_Jamaica_2001",2002,
+        AUTHORITY["ESRI","from_geogdatum_ESRI_106280"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115739"]]

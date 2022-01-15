@@ -1,0 +1,7 @@
+VERT_CS["KOC WD depth",
+    VERT_DATUM["KOC Well Datum",2005,
+        AUTHORITY["EPSG","5187"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Depth",DOWN],
+    AUTHORITY["EPSG","5789"]]

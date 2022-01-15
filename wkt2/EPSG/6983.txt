@@ -1,0 +1,18 @@
+GEOGCRS["IG05 Intermediate CRS",
+    DATUM["IG05 Intermediate Datum",
+        ELLIPSOID["GRS 1980",6378137,298.257222101,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Intermediate stage in transformations - not used otherwise."],
+        AREA["Israel - onshore; Palestine Territory - onshore."],
+        BBOX[29.45,34.17,33.28,35.69]],
+    ID["EPSG",6983]]

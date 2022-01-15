@@ -1,0 +1,7 @@
+VERT_CS["RGAF09",
+    VERT_DATUM["Reseau_Geodesique_des_Antilles_Francaises_2009",2002,
+        AUTHORITY["ESRI","from_geogdatum_EPSG_1073"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115777"]]

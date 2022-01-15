@@ -1,0 +1,7 @@
+VERT_CS["MSL depth (ftUS)",
+    VERT_DATUM["Mean Sea Level",2005,
+        AUTHORITY["EPSG","5100"]],
+    UNIT["US survey foot",0.304800609601219,
+        AUTHORITY["EPSG","9003"]],
+    AXIS["Depth",DOWN],
+    AUTHORITY["EPSG","8053"]]

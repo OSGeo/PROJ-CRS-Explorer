@@ -1,0 +1,10 @@
+GEOGCS["Conakry 1905",
+    DATUM["Conakry_1905",
+        SPHEROID["Clarke 1880 (IGN)",6378249.2,293.466021293627,
+            AUTHORITY["EPSG","7011"]],
+        AUTHORITY["EPSG","6315"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["EPSG","4315"]]

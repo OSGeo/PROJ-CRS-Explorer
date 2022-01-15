@@ -1,0 +1,7 @@
+VERT_CS["DNN height",
+    VERT_DATUM["Dansk Normal Nul",2005,
+        AUTHORITY["EPSG","5132"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5733"]]

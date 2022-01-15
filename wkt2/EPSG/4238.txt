@@ -1,0 +1,18 @@
+GEOGCRS["ID74",
+    DATUM["Indonesian Datum 1974",
+        ELLIPSOID["Indonesian National Spheroid",6378160,298.247,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Indonesia - onshore."],
+        BBOX[-10.98,95.16,5.97,141.01]],
+    ID["EPSG",4238]]

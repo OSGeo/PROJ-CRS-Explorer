@@ -1,0 +1,18 @@
+GEOGCRS["St. Stephen (Ferro)",
+    DATUM["St. Stephen (Ferro)",
+        ELLIPSOID["Zach 1812",6376045,310,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Ferro",-17.6666666666667,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Cadastre."],
+        AREA["Austria - Lower Austria. Czechia - Moravia and Czech Silesia."],
+        BBOX[47.42,14.41,50.45,18.86]],
+    ID["EPSG",8043]]

@@ -1,0 +1,10 @@
+VERTCRS["Baltic 1977 height",
+    VDATUM["Baltic 1977"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["Armenia; Azerbaijan; Belarus; Estonia - onshore; Georgia - onshore; Kazakhstan; Kyrgyzstan; Latvia - onshore; Lithuania - onshore; Moldova; Russian Federation - onshore; Tajikistan; Turkmenistan; Ukraine - onshore; Uzbekistan."],
+        BBOX[35.14,19.57,81.91,-168.97]],
+    ID["EPSG",5705]]

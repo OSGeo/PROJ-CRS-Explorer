@@ -1,0 +1,10 @@
+VERTCRS["GHA height",
+    VDATUM["Gebrauchshohen ADRIA"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Cadastre, engineering survey, topographic mapping."],
+        AREA["Austria."],
+        BBOX[46.4,9.53,49.02,17.17]],
+    ID["EPSG",5778]]

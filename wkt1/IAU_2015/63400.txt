@@ -1,0 +1,10 @@
+GEOGCS["Polydeuces (2015) - Sphere / Ocentric",
+    DATUM["Polydeuces (2015) - Sphere",
+        SPHEROID["Polydeuces (2015) - Sphere",1300,0,
+            AUTHORITY["IAU","63400"]],
+        AUTHORITY["IAU","63400"]],
+    PRIMEM["Reference Meridian",0,
+        AUTHORITY["IAU","63400"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IAU","63400"]]

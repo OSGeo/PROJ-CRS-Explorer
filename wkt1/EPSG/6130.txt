@@ -1,0 +1,7 @@
+VERT_CS["GCVD54 height (ft)",
+    VERT_DATUM["Grand Cayman Vertical Datum 1954",2005,
+        AUTHORITY["EPSG","1097"]],
+    UNIT["foot",0.3048,
+        AUTHORITY["EPSG","9002"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","6130"]]

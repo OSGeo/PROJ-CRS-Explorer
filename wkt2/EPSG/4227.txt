@@ -1,0 +1,18 @@
+GEOGCRS["Deir ez Zor",
+    DATUM["Deir ez Zor",
+        ELLIPSOID["Clarke 1880 (IGN)",6378249.2,293.466021293627,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Lebanon - onshore. Syrian Arab Republic - onshore."],
+        BBOX[32.31,35.04,37.3,42.38]],
+    ID["EPSG",4227]]

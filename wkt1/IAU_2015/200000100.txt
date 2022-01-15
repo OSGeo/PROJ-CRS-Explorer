@@ -1,0 +1,10 @@
+GEOGCS["Ceres (2015) - Sphere / Ocentric",
+    DATUM["Ceres (2015) - Sphere",
+        SPHEROID["Ceres (2015) - Sphere",487300,0,
+            AUTHORITY["IAU","200000100"]],
+        AUTHORITY["IAU","200000100"]],
+    PRIMEM["Reference Meridian",0,
+        AUTHORITY["IAU","200000100"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IAU","200000100"]]

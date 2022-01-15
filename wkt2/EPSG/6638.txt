@@ -1,0 +1,10 @@
+VERTCRS["Tutuila 1962 height",
+    VDATUM["Tutuila Vertical Datum of 1962"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["American Samoa - Tutuila island."],
+        BBOX[-14.43,-170.88,-14.2,-170.51]],
+    ID["EPSG",6638]]

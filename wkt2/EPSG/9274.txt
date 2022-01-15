@@ -1,0 +1,10 @@
+VERTCRS["EVRF2000 Austria height",
+    VDATUM["European Vertical Reference Frame 2000 Austria"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Austria."],
+        BBOX[46.4,9.53,49.02,17.17]],
+    ID["EPSG",9274]]

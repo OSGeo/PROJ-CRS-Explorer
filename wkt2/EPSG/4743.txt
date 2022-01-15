@@ -1,0 +1,18 @@
+GEOGCRS["Karbala 1979",
+    DATUM["Karbala 1979",
+        ELLIPSOID["Clarke 1880 (RGS)",6378249.145,293.465,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Iraq - onshore."],
+        BBOX[29.06,38.79,37.39,48.61]],
+    ID["EPSG",4743]]

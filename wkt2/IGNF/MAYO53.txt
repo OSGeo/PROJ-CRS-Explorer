@@ -1,0 +1,10 @@
+VERTCRS["SHOM 1953 (MAYOTTE)",
+    VDATUM["SHOM 1953 (MAYOTTE)"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["NATIONALE A CARACTERE LEGAL"],
+        AREA["ILE DE MAYOTTE"],
+        BBOX[-13.05,44.95,-12.5,45.4]],
+    ID["IGNF","MAYO53"]]

@@ -1,0 +1,3 @@
+Error: IGNF:TERA50GEO cannot be written as WKT1_GDAL
+ type: GEOGRAPHIC_3D_CRS
+ name: Pointe Geologie Perroud 1950 geographiques (dms)

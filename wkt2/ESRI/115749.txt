@@ -1,0 +1,10 @@
+VERTCRS["MARCARIO_SOLIS",
+    VDATUM["D_SGNP_MARCARIO_SOLIS"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Panama - onshore and offshore."],
+        BBOX[5,-84.32,12.51,-77.04]],
+    ID["ESRI",115749]]

@@ -1,0 +1,7 @@
+VERT_CS["Catania 1965 height",
+    VERT_DATUM["Catania 1965",2005,
+        AUTHORITY["EPSG","1306"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","9721"]]

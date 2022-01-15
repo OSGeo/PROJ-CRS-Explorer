@@ -1,0 +1,10 @@
+GEOGCS["Unknown datum based upon the OSU91A ellipsoid (deprecated)",
+    DATUM["Not_specified_based_on_OSU91A_ellipsoid",
+        SPHEROID["OSU91A",6378136.3,298.257223563,
+            AUTHORITY["EPSG","7033"]],
+        AUTHORITY["EPSG","6033"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["EPSG","4033"]]

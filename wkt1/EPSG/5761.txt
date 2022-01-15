@@ -1,0 +1,7 @@
+VERT_CS["Dunedin 1958 height",
+    VERT_DATUM["Dunedin 1958",2005,
+        AUTHORITY["EPSG","5159"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5761"]]

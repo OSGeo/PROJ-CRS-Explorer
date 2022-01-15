@@ -1,0 +1,7 @@
+VERT_CS["AHD height",
+    VERT_DATUM["Australian Height Datum",2005,
+        AUTHORITY["EPSG","5111"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5711"]]

@@ -1,0 +1,18 @@
+GEOGCRS["RGR92 geographiques (dd)",
+    DATUM["Reseau Geodesique de la Reunion 1992",
+        ELLIPSOID["GRS 1980",6378137,298.257222101,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["NATIONALE A CARACTERE LEGAL"],
+        AREA["ILE DE LA REUNION"],
+        BBOX[-21.42,55.17,-20.75,55.92]],
+    ID["IGNF","RGR92GDD"]]

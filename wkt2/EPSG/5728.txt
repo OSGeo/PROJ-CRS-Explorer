@@ -1,0 +1,10 @@
+VERTCRS["LN02 height",
+    VDATUM["Landesnivellement 1902"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Engineering survey, topographic mapping."],
+        AREA["Liechtenstein; Switzerland."],
+        BBOX[45.82,5.96,47.81,10.49]],
+    ID["EPSG",5728]]

@@ -1,0 +1,10 @@
+VERTCRS["RGWF96",
+    VDATUM["Reseau_Geodesique_de_Wallis_et_Futuna_1996"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Wallis and Futuna - onshore and offshore - Uvea, Futuna, and Alofi."],
+        BBOX[-15.94,179.49,-9.84,-174.27]],
+    ID["ESRI",115850]]

@@ -1,0 +1,7 @@
+VERT_CS["PTRA08",
+    VERT_DATUM["D_PTRA08",2002,
+        AUTHORITY["ESRI","from_geogdatum_ESRI_106236"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115772"]]

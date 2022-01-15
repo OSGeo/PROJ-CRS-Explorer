@@ -1,0 +1,10 @@
+VERTCRS["Gisborne 1926 height",
+    VDATUM["Gisborne 1926"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["New Zealand - North Island - Gisborne vertical CRS area."],
+        BBOX[-39.04,176.41,-37.49,178.63]],
+    ID["EPSG",5762]]

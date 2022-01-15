@@ -1,0 +1,10 @@
+GEOGCS["GCS_Europa_2000",
+    DATUM["D_Europa_2000",
+        SPHEROID["Europa_2000_IAU_IAG",1562090,0,
+            AUTHORITY["ESRI","107915"]],
+        AUTHORITY["ESRI","106915"]],
+    PRIMEM["Reference_Meridian",0,
+        AUTHORITY["ESRI","108900"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["ESRI","104915"]]

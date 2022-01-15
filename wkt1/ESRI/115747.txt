@@ -1,0 +1,7 @@
+VERT_CS["MACAO_2008",
+    VERT_DATUM["D_MACAO_2008",2002,
+        AUTHORITY["ESRI","from_geogdatum_ESRI_106248"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115747"]]

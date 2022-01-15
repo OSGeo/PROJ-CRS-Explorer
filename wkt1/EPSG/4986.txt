@@ -1,0 +1,13 @@
+GEOCCS["WGS 72BE",
+    DATUM["WGS_72_Transit_Broadcast_Ephemeris",
+        SPHEROID["WGS 72",6378135,298.26,
+            AUTHORITY["EPSG","7043"]],
+        AUTHORITY["EPSG","6324"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Geocentric X",OTHER],
+    AXIS["Geocentric Y",OTHER],
+    AXIS["Geocentric Z",NORTH],
+    AUTHORITY["EPSG","4986"]]

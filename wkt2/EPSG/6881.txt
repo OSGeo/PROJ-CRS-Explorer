@@ -1,0 +1,18 @@
+GEOGCRS["Aden 1925",
+    DATUM["Aden 1925",
+        ELLIPSOID["Clarke 1880 (RGS)",6378249.145,293.465,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Engineering survey, harbour hydrography."],
+        AREA["Yemen - South Yemen onshore mainland."],
+        BBOX[12.54,43.37,19,53.14]],
+    ID["EPSG",6881]]

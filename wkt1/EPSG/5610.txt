@@ -1,0 +1,7 @@
+VERT_CS["HVRS71 height",
+    VERT_DATUM["Croatian Vertical Reference Datum 1971",2005,
+        AUTHORITY["EPSG","5207"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5610"]]

@@ -1,0 +1,10 @@
+GEOGCS["GCS_NAD_1983_HARN_Adj_WI_Door (deprecated)",
+    DATUM["D_NAD_1983_HARN_Adj_WI_DR",
+        SPHEROID["GRS_1980_Adj_WI_DR",6378313.92,298.26549531037,
+            AUTHORITY["ESRI","107811"]],
+        AUTHORITY["ESRI","106811"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["ESRI","104814"]]

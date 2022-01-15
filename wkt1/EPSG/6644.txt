@@ -1,0 +1,7 @@
+VERT_CS["GUVD04 height",
+    VERT_DATUM["Guam Vertical Datum of 2004",2005,
+        AUTHORITY["EPSG","1126"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","6644"]]

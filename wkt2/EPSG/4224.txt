@@ -1,0 +1,18 @@
+GEOGCRS["Chua",
+    DATUM["Chua",
+        ELLIPSOID["International 1924",6378388,297,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Brazil - south of 18°S and west of 54°W, plus Distrito Federal. Paraguay - north."],
+        BBOX[-31.91,-62.57,-15.37,-47.1]],
+    ID["EPSG",4224]]

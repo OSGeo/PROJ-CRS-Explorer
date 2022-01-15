@@ -1,0 +1,7 @@
+VERT_CS["La Gomera height",
+    VERT_DATUM["La Gomera",2005,
+        AUTHORITY["EPSG","1282"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","9399"]]

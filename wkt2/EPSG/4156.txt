@@ -1,0 +1,18 @@
+GEOGCRS["S-JTSK",
+    DATUM["System of the Unified Trigonometrical Cadastral Network",
+        ELLIPSOID["Bessel 1841",6377397.155,299.1528128,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Czechia; Slovakia."],
+        BBOX[47.73,12.09,51.06,22.56]],
+    ID["EPSG",4156]]

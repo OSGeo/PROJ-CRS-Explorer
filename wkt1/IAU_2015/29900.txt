@@ -1,0 +1,10 @@
+GEOGCS["Venus (2015) - Sphere / Ocentric",
+    DATUM["Venus (2015) - Sphere",
+        SPHEROID["Venus (2015) - Sphere",6051800,0,
+            AUTHORITY["IAU","29900"]],
+        AUTHORITY["IAU","29900"]],
+    PRIMEM["Reference Meridian",0,
+        AUTHORITY["IAU","29900"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IAU","29900"]]

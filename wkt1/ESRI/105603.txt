@@ -1,0 +1,7 @@
+VERT_CS["REDNAP_height",
+    VERT_DATUM["Red_Espanola_de_Nivelacion_de_Alta_Precision",2005,
+        AUTHORITY["ESRI","105103"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["ESRI","105603"]]

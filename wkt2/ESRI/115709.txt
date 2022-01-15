@@ -1,0 +1,10 @@
+VERTCRS["DB_REF",
+    VDATUM["D_Deutsche_Bahn_Reference_System"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Germany - onshore - states of Baden-Wurtemberg, Bayern, Berlin, Brandenburg, Bremen, Hamburg, Hessen, Mecklenburg-Vorpommern, Niedersachsen, Nordrhein-Westfalen, Rheinland-Pfalz, Saarland, Sachsen, Sachsen-Anhalt, Schleswig-Holstein, Thuringen."],
+        BBOX[47.27,5.86,55.09,15.04]],
+    ID["ESRI",115709]]

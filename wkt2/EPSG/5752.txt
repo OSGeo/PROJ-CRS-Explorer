@@ -1,0 +1,10 @@
+VERTCRS["Bandar Abbas height",
+    VDATUM["Bandar Abbas"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["Iran - onshore."],
+        BBOX[25.02,44.03,39.78,63.34]],
+    ID["EPSG",5752]]

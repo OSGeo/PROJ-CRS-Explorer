@@ -1,0 +1,10 @@
+GEOGCS["GCS_Mars_1979",
+    DATUM["D_Mars_1979",
+        SPHEROID["Mars_1979_IAU_IAG",3393400,192.043010752688,
+            AUTHORITY["ESRI","107904"]],
+        AUTHORITY["ESRI","106904"]],
+    PRIMEM["Reference_Meridian",0,
+        AUTHORITY["ESRI","108900"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["ESRI","104904"]]

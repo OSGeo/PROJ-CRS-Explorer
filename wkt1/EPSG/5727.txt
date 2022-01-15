@@ -1,0 +1,7 @@
+VERT_CS["Hon Dau 1992 height",
+    VERT_DATUM["Hon Dau 1992",2005,
+        AUTHORITY["EPSG","5126"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5727"]]

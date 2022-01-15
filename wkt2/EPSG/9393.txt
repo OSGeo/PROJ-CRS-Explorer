@@ -1,0 +1,10 @@
+VERTCRS["Menorca height",
+    VDATUM["Menorca"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Spain - Balearic Islands - Menorca onshore."],
+        BBOX[39.75,3.73,40.15,4.39]],
+    ID["EPSG",9393]]

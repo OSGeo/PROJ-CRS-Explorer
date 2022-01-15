@@ -1,0 +1,18 @@
+GEOGCRS["Kalianpur 1962",
+    DATUM["Kalianpur 1962",
+        ELLIPSOID["Everest 1830 (1962 Definition)",6377301.243,300.8017255,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Pakistan - onshore and offshore."],
+        BBOX[21.05,60.86,37.07,77.83]],
+    ID["EPSG",4145]]

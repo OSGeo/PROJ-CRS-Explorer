@@ -1,0 +1,10 @@
+VERTCRS["Cais da Vila do Porto height",
+    VDATUM["Cais da Vila do Porto"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Portugal - eastern Azores onshore - Santa Maria, Formigas."],
+        BBOX[36.87,-25.26,37.34,-24.72]],
+    ID["EPSG",6186]]

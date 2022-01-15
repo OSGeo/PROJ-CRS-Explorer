@@ -1,0 +1,7 @@
+VERT_CS["Tararu 1952 height",
+    VERT_DATUM["Tararu 1952",2005,
+        AUTHORITY["EPSG","5166"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5768"]]

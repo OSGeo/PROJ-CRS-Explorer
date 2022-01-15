@@ -1,0 +1,10 @@
+VERTCRS["Korea_2000",
+    VDATUM["D_Korea_2000"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Republic of Korea (South Korea) - onshore and offshore."],
+        BBOX[28.6,122.71,40.27,134.28]],
+    ID["ESRI",115742]]

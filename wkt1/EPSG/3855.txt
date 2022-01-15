@@ -1,0 +1,7 @@
+VERT_CS["EGM2008 height",
+    VERT_DATUM["EGM2008 geoid",2005,
+        AUTHORITY["EPSG","1027"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","3855"]]

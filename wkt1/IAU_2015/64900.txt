@@ -1,0 +1,10 @@
+GEOGCS["Anthe (2015) - Sphere / Ocentric",
+    DATUM["Anthe (2015) - Sphere",
+        SPHEROID["Anthe (2015) - Sphere",500,0,
+            AUTHORITY["IAU","64900"]],
+        AUTHORITY["IAU","64900"]],
+    PRIMEM["Reference Meridian",0,
+        AUTHORITY["IAU","64900"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IAU","64900"]]

@@ -1,0 +1,13 @@
+GEOCCS["St Pierre Miquelon 1950 cartesiennes",
+    DATUM["Saint_Pierre_et_Miquelon_1950",
+        SPHEROID["Clarke 1866",6378206.4,294.978698213898,
+            AUTHORITY["EPSG","7008"]],
+        AUTHORITY["EPSG","6638"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Geocentric X",OTHER],
+    AXIS["Geocentric Y",OTHER],
+    AXIS["Geocentric Z",NORTH],
+    AUTHORITY["IGNF","STPM50"]]

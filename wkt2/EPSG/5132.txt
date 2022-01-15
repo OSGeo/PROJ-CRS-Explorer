@@ -1,0 +1,18 @@
+GEOGCRS["Tokyo 1892",
+    DATUM["Tokyo 1892",
+        ELLIPSOID["Bessel 1841",6377397.155,299.1528128,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Japan - onshore; North Korea - onshore; South Korea - onshore."],
+        BBOX[20.37,122.83,45.54,154.05]],
+    ID["EPSG",5132]]

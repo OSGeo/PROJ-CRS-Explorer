@@ -1,0 +1,10 @@
+VERTCRS["MAUPITI_SAU 2001",
+    VDATUM["MAUPITI_SAU 2001"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["LOCALE A CARACTERE LEGAL"],
+        AREA["MAUPITI"],
+        BBOX[-16.75,-152.5,-16.25,-152]],
+    ID["IGNF","MAUPITI01"]]

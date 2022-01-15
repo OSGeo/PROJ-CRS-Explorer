@@ -1,0 +1,10 @@
+VERTCRS["DRUKREF_03",
+    VDATUM["D_Bhutan_National_Geodetic_Datum"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Bhutan."],
+        BBOX[26.7,88.74,28.33,92.13]],
+    ID["ESRI",115711]]

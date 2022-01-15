@@ -1,0 +1,10 @@
+GEOGCS["GCS_Everest_India_Nepal",
+    DATUM["D_Everest_India_Nepal",
+        SPHEROID["Everest 1830 (1962 Definition)",6377301.243,300.8017255,
+            AUTHORITY["EPSG","7044"]],
+        AUTHORITY["ESRI","106203"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["ESRI","37203"]]

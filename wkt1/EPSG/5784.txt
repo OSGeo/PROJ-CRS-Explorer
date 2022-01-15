@@ -1,0 +1,7 @@
+VERT_CS["DHHN85 height",
+    VERT_DATUM["Deutsches Haupthoehennetz 1985",2005,
+        AUTHORITY["EPSG","5182"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5784"]]

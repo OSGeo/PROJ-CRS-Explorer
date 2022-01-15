@@ -1,0 +1,7 @@
+VERT_CS["California_SRS_Epoch_2017.50_(NAD83)",
+    VERT_DATUM["California_SRS_Epoch_2017.50_(NAD83)",2002,
+        AUTHORITY["ESRI","from_geogdatum_ESRI_106012"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115844"]]

@@ -1,0 +1,10 @@
+VERTCRS["Maputo height",
+    VDATUM["Maputo"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["Mozambique - onshore."],
+        BBOX[-26.87,30.21,-10.42,40.9]],
+    ID["EPSG",5722]]

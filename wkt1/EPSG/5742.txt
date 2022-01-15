@@ -1,0 +1,7 @@
+VERT_CS["Lerwick height",
+    VERT_DATUM["Lerwick",2005,
+        AUTHORITY["EPSG","5140"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5742"]]

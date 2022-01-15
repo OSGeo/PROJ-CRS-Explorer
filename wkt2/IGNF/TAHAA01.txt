@@ -1,0 +1,10 @@
+VERTCRS["TAHAA_SAU 2001",
+    VDATUM["TAHAA_SAU 2001"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["LOCALE A CARACTERE LEGAL"],
+        AREA["TAHAA (ARCHIPEL DE LA SOCIETE)"],
+        BBOX[-16.7,-151.58,-16.53,-151.38]],
+    ID["IGNF","TAHAA01"]]

@@ -1,0 +1,18 @@
+GEOGCRS["Segara (Jakarta)",
+    DATUM["Gunung Segara (Jakarta)",
+        ELLIPSOID["Bessel 1841",6377397.155,299.1528128,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Jakarta",106.807719444444,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Indonesia - Kalimantan - onshore east coastal area including Mahakam delta coastal and offshore shelf areas."],
+        BBOX[-4.24,114.55,4.29,119.06]],
+    ID["EPSG",4820]]

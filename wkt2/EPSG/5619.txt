@@ -1,0 +1,10 @@
+VERTCRS["IGN 1988 SB height",
+    VDATUM["IGN 1988 SB"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Guadeloupe - onshore - St Barthelemy island."],
+        BBOX[17.82,-62.92,17.98,-62.73]],
+    ID["EPSG",5619]]

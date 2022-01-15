@@ -1,0 +1,7 @@
+VERT_CS["Lagos 1955 height",
+    VERT_DATUM["Lagos 1955",2005,
+        AUTHORITY["EPSG","5194"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5796"]]

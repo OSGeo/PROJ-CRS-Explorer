@@ -1,0 +1,10 @@
+GEOGCS["Hyperion (2015) - Sphere / Ocentric",
+    DATUM["Hyperion (2015) - Sphere",
+        SPHEROID["Hyperion (2015) - Sphere",135000,0,
+            AUTHORITY["IAU","60700"]],
+        AUTHORITY["IAU","60700"]],
+    PRIMEM["Reference Meridian",0,
+        AUTHORITY["IAU","60700"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IAU","60700"]]

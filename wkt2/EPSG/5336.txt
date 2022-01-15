@@ -1,0 +1,10 @@
+VERTCRS["Black Sea depth",
+    VDATUM["Black Sea"],
+    CS[vertical,1],
+        AXIS["depth (D)",down,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Hydrography and nautical charting."],
+        AREA["Georgia - onshore and offshore."],
+        BBOX[41.04,38.97,43.59,46.72]],
+    ID["EPSG",5336]]

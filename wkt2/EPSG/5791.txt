@@ -1,0 +1,10 @@
+VERTCRS["NGC 1948 height",
+    VDATUM["Nivellement General de la Corse 1948"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["France - Corsica onshore."],
+        BBOX[41.31,8.5,43.07,9.63]],
+    ID["EPSG",5791]]

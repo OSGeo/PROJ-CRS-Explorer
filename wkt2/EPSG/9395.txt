@@ -1,0 +1,10 @@
+VERTCRS["Lanzarote height",
+    VDATUM["Lanzarote"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Spain - Canary Islands - Lanzarote onshore."],
+        BBOX[28.78,-13.95,29.47,-13.37]],
+    ID["EPSG",9395]]

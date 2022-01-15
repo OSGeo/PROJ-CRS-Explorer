@@ -1,0 +1,10 @@
+VERTCRS["MARGEN",
+    VDATUM["D_Marco_Geodesico_Nacional"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Bolivia."],
+        BBOX[-22.91,-69.66,-9.67,-57.52]],
+    ID["ESRI",115750]]

@@ -1,0 +1,3 @@
+Error: ESRI:102768 cannot be written as WKT1_GDAL
+ type: PROJECTED_CRS
+ name: MAGNA_Medellin_Antioquia_2010

@@ -1,0 +1,7 @@
+VERT_CS["CR05",
+    VERT_DATUM["D_Costa_Rica_2005",2002,
+        AUTHORITY["ESRI","from_geogdatum_ESRI_106244"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115708"]]

@@ -1,0 +1,3 @@
+Error: EPSG:6254 cannot be written as WKT1_GDAL
+ type: PROJECTED_CRS
+ name: MAGNA-SIRGAS / Inirida urban grid

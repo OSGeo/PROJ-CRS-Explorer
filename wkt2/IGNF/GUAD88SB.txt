@@ -1,0 +1,10 @@
+VERTCRS["IGN 1988 SB (GUADELOUPE / SAINT-BARTHELEMY)",
+    VDATUM["IGN 1988 SB (GUADELOUPE / SAINT-BARTHELEMY)"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["LOCALE A CARACTERE LEGAL"],
+        AREA["ILE DE SAINT-BARTHELEMY"],
+        BBOX[17.8,-63,18.03,-62.73]],
+    ID["IGNF","GUAD88SB"]]

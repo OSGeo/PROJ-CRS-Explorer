@@ -1,0 +1,10 @@
+VERTCRS["Napier 1962 height",
+    VDATUM["Napier 1962"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["New Zealand - North Island - Hawkes Bay meridional circuit and Napier vertical crs area."],
+        BBOX[-40.57,175.8,-38.87,178.07]],
+    ID["EPSG",5765]]

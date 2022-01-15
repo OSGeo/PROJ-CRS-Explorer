@@ -1,0 +1,10 @@
+VERTCRS["Danger 1950 height",
+    VDATUM["Danger 1950"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["St Pierre and Miquelon - onshore."],
+        BBOX[46.69,-56.48,47.19,-56.07]],
+    ID["EPSG",5792]]

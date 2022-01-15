@@ -1,0 +1,10 @@
+GEOGCS["GCS_S42_Hungary",
+    DATUM["D_S42_Hungary",
+        SPHEROID["Krassowsky 1940",6378245,298.3,
+            AUTHORITY["EPSG","7024"]],
+        AUTHORITY["ESRI","106257"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["ESRI","37257"]]

@@ -1,0 +1,18 @@
+GEOGCRS["GCS_NAD_1983_HARN_Adj_MN_Waseca",
+    DATUM["D_NAD_1983_HARN_Adj_MN_Waseca",
+        ELLIPSOID["S_GRS_1980_Adj_MN_Waseca",6378481.425,298.257222100883,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["United States (USA) - Minnesota."],
+        BBOX[43.49,-97.22,49.38,-89.49]],
+    ID["ESRI",104781]]

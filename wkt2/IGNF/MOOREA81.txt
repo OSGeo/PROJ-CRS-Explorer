@@ -1,0 +1,10 @@
+VERTCRS["MOOREA 1981 (MOOREA_SAU 2001)",
+    VDATUM["MOOREA 1981 (MOOREA_SAU 2001)"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["LOCALE A CARACTERE LEGAL"],
+        AREA["MOOREA (ARCHIPEL DE LA SOCIETE)"],
+        BBOX[-17.75,-150,-17.25,-149.75]],
+    ID["IGNF","MOOREA81"]]

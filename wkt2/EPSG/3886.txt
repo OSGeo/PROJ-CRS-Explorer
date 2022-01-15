@@ -1,0 +1,10 @@
+VERTCRS["Fao 1979 height",
+    VDATUM["Fao 1979"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["Iraq - onshore."],
+        BBOX[29.06,38.79,37.39,48.61]],
+    ID["EPSG",3886]]

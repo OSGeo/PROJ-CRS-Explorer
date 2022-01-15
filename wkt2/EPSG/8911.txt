@@ -1,0 +1,10 @@
+VERTCRS["DACR52 height",
+    VDATUM["Datum Altimetrico de Costa Rica 1952"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Costa Rica - onshore."],
+        BBOX[7.98,-85.97,11.22,-82.53]],
+    ID["EPSG",8911]]

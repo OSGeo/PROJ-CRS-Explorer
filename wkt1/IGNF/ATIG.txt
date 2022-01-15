@@ -1,0 +1,13 @@
+GEOCCS["ATIG cartesiennes geocentriques",
+    DATUM["Ancienne_Triangulation_Francaise_Paris",
+        SPHEROID["Plessis 1817",6376523,308.64,
+            AUTHORITY["EPSG","7027"]],
+        AUTHORITY["EPSG","6901"]],
+    PRIMEM["Paris RGS",2.33720833333333,
+        AUTHORITY["EPSG","8914"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Geocentric X",OTHER],
+    AXIS["Geocentric Y",OTHER],
+    AXIS["Geocentric Z",NORTH],
+    AUTHORITY["IGNF","ATIG"]]

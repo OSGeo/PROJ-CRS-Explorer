@@ -1,0 +1,10 @@
+VERTCRS["ODN height",
+    VDATUM["Ordnance Datum Newlyn"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["United Kingdom (UK) - Great Britain onshore - England and Wales - mainland; Scotland - mainland and Inner Hebrides."],
+        BBOX[49.93,-7.06,58.71,1.8]],
+    ID["EPSG",5701]]

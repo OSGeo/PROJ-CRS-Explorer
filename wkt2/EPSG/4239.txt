@@ -1,0 +1,18 @@
+GEOGCRS["Indian 1954",
+    DATUM["Indian 1954",
+        ELLIPSOID["Everest 1830 (1937 Adjustment)",6377276.345,300.8017,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Myanmar (Burma) - onshore; Thailand - onshore."],
+        BBOX[5.63,92.2,28.55,105.64]],
+    ID["EPSG",4239]]

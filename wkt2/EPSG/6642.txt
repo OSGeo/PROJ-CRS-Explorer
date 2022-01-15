@@ -1,0 +1,10 @@
+VERTCRS["VIVD09 height",
+    VDATUM["Virgin Islands Vertical Datum of 2009"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["US Virgin Islands - onshore - St Croix, St John, and St Thomas."],
+        BBOX[17.62,-65.09,18.44,-64.51]],
+    ID["EPSG",6642]]

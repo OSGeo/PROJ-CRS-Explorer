@@ -1,0 +1,18 @@
+GEOGCRS["Unknown datum based upon the NWL 9D ellipsoid",
+    DATUM["Not specified (based on NWL 9D ellipsoid)",
+        ELLIPSOID["NWL 9D",6378145,298.25,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Not recommended."],
+        AREA["Not specified."],
+        BBOX[-90,-180,90,180]],
+    ID["EPSG",4025]]

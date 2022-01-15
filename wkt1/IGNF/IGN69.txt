@@ -1,0 +1,7 @@
+VERT_CS["NGF-IGN 1969",
+    VERT_DATUM["NGF-IGN 1969",2005,
+        AUTHORITY["IGNF","REA003"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["IGNF","IGN69"]]

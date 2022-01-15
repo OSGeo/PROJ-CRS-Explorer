@@ -1,0 +1,18 @@
+GEOGCRS["RGTAAF07 geographiques (dd)",
+    DATUM["Reseau Geodesique des Terres Australes et Antarctiques Francaises 2007",
+        ELLIPSOID["GRS 1980",6378137,298.257222101,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["NATIONALE A CARACTERE LEGAL"],
+        AREA["TERRES AUSTRALES ET ANTARCTIQUES FRANCAISES (TAAF)"],
+        BBOX[-90,39,-11,142]],
+    ID["IGNF","RGTAAF07GDD"]]

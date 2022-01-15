@@ -1,0 +1,3 @@
+Error: IGNF:RGSPM06GEO cannot be written as WKT1_GDAL
+ type: GEOGRAPHIC_3D_CRS
+ name: RGSPM06 geographiques (dms)

@@ -1,0 +1,18 @@
+GEOGCRS["GCS_Pohnpei",
+    DATUM["D_Pohnpei",
+        ELLIPSOID["Clarke 1866",6378206.4,294.978698213898,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Federated States of Micronesia - onshore and offshore. Includes Caroline Islands, Yap, Truk, Ponape, Kosrae."],
+        BBOX[-1.19,135.27,13.43,165.68]],
+    ID["ESRI",104109]]

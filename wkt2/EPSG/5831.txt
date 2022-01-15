@@ -1,0 +1,10 @@
+VERTCRS["Instantaneous Water Level depth",
+    VDATUM["Instantaneous Water Level"],
+    CS[vertical,1],
+        AXIS["depth (D)",down,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Hydrography, drilling, marine geophysics."],
+        AREA["World."],
+        BBOX[-90,-180,90,180]],
+    ID["EPSG",5831]]

@@ -1,0 +1,10 @@
+VERTCRS["Cais da Figueirinha - Angra do Heroismo height",
+    VDATUM["Cais da Figueirinha - Angra do Heroismo"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Portugal - central Azores - Terceira island onshore."],
+        BBOX[38.57,-27.44,38.86,-26.97]],
+    ID["EPSG",6184]]

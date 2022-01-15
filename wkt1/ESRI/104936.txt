@@ -1,0 +1,10 @@
+GEOGCS["GCS_Pan_2000",
+    DATUM["D_Pan_2000",
+        SPHEROID["Pan_2000_IAU_IAG",10000,0,
+            AUTHORITY["ESRI","107936"]],
+        AUTHORITY["ESRI","106936"]],
+    PRIMEM["Reference_Meridian",0,
+        AUTHORITY["ESRI","108900"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["ESRI","104936"]]

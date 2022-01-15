@@ -1,0 +1,10 @@
+GEOGCS["Callisto (2015) / Ographic",
+    DATUM["Callisto (2015)",
+        SPHEROID["Callisto (2015)",2410300,0,
+            AUTHORITY["IAU","50401"]],
+        AUTHORITY["IAU","50401"]],
+    PRIMEM["Reference Meridian",0,
+        AUTHORITY["IAU","50400"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IAU","50401"]]

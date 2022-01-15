@@ -1,0 +1,10 @@
+GEOGCS["Tananarive (Paris)",
+    DATUM["Tananarive_1925_Paris",
+        SPHEROID["International 1924",6378388,297,
+            AUTHORITY["EPSG","7022"]],
+        AUTHORITY["EPSG","6810"]],
+    PRIMEM["Paris",2.33722917,
+        AUTHORITY["EPSG","8903"]],
+    UNIT["grad",0.0157079632679489,
+        AUTHORITY["EPSG","9105"]],
+    AUTHORITY["EPSG","4810"]]

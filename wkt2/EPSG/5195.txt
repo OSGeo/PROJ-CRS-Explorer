@@ -1,0 +1,10 @@
+VERTCRS["Trieste height",
+    VDATUM["Trieste"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Bosnia and Herzegovina; Croatia - onshore; Kosovo; Montenegro - onshore; North Macedonia; Serbia; Slovenia - onshore."],
+        BBOX[40.85,13.38,46.88,23.04]],
+    ID["EPSG",5195]]

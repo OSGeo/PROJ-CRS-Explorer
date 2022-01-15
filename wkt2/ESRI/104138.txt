@@ -1,0 +1,18 @@
+GEOGCRS["GCS_Old_Hawaiian_Intl_1924",
+    DATUM["D_Old_Hawaiian_Intl_1924",
+        ELLIPSOID["International 1924",6378388,297,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["United States (USA) - Hawaii - main islands onshore."],
+        BBOX[18.87,-160.3,22.29,-154.74]],
+    ID["ESRI",104138]]

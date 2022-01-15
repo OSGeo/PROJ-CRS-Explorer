@@ -1,0 +1,18 @@
+GEOGCRS["Pointe Geologie Perroud 1950 geographiques (dms)",
+    DATUM["Pointe Geologie Perroud 1950",
+        ELLIPSOID["International 1924",6378388,297,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["LOCALE A CARACTERE LEGAL"],
+        AREA["ARCHIPEL POINTE GEOLOGIE (TERRE ADELIE)"],
+        BBOX[-66.72,139.67,-66.6,140.12]],
+    ID["IGNF","PGP50G"]]

@@ -1,0 +1,10 @@
+GEOGCS["GCS_NAD_1983_HARN_Adj_WI_Trempealeau (deprecated)",
+    DATUM["D_NAD_1983_HARN_Adj_WI_TR",
+        SPHEROID["GRS_1980_Adj_WI_TR",6378380.091,298.26858962751,
+            AUTHORITY["ESRI","107841"]],
+        AUTHORITY["ESRI","106841"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["ESRI","104861"]]

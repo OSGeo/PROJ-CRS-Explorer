@@ -1,0 +1,3 @@
+Error: IGNF:CAD97GEO cannot be written as WKT1_GDAL
+ type: GEOGRAPHIC_3D_CRS
+ name: Cadastre 1997 geographiques (dms)

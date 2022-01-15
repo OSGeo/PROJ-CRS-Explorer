@@ -1,0 +1,18 @@
+GEOGCRS["RSRGD2000",
+    DATUM["Ross Sea Region Geodetic Datum 2000",
+        ELLIPSOID["GRS 1980",6378137,298.257222101,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Horizontal component of 3D system."],
+        AREA["Antarctica - Ross Sea Region - nominally between 160°E and 150°W but includes buffer on eastern hemisphere margin to include Transantarctic Mountains"],
+        BBOX[-90,144.99,-59.99,-144.99]],
+    ID["EPSG",4764]]

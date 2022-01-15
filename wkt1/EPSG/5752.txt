@@ -1,0 +1,7 @@
+VERT_CS["Bandar Abbas height",
+    VERT_DATUM["Bandar Abbas",2005,
+        AUTHORITY["EPSG","5150"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5752"]]

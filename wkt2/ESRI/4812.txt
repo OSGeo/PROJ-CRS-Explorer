@@ -1,0 +1,18 @@
+GEOGCRS["GCS_Voirol_Unifie_1960_Paris",
+    DATUM["D_Voirol_Unifie_1960",
+        ELLIPSOID["Clarke 1880 (RGS)",6378249.145,293.465,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Paris",2.5969213,
+        ANGLEUNIT["grad",0.0157079632679489]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["grad",0.0157079632679489]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["grad",0.0157079632679489]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Algeria - onshore north of 32°N."],
+        BBOX[31.99,-2.95,37.14,9.09]],
+    ID["ESRI",4812]]

@@ -1,0 +1,10 @@
+VERTCRS["SIRGAS-ROU98",
+    VDATUM["D_SIRGAS-ROU98"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Uruguay - onshore and offshore."],
+        BBOX[-37.77,-58.49,-30.09,-50.01]],
+    ID["ESRI",115792]]

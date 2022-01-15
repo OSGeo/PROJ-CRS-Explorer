@@ -1,0 +1,10 @@
+VERTCRS["POSGAR",
+    VDATUM["D_POSGAR"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Argentina - onshore and offshore."],
+        BBOX[-58.41,-73.59,-21.78,-52.63]],
+    ID["ESRI",115768]]

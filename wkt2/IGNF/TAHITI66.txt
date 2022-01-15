@@ -1,0 +1,10 @@
+VERTCRS["IGN 1966 (TAHITI)",
+    VDATUM["IGN 1966 (TAHITI)"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["LOCALE A CARACTERE LEGAL"],
+        AREA["TAHITI (ARCHIPEL DE LA SOCIETE)"],
+        BBOX[-18,-150,-17,-149]],
+    ID["IGNF","TAHITI66"]]

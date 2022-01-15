@@ -1,0 +1,10 @@
+VERTCRS["Latvia 2000 height",
+    VDATUM["Latvian Height System 2000"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Latvia - onshore."],
+        BBOX[55.67,20.87,58.09,28.24]],
+    ID["EPSG",7700]]

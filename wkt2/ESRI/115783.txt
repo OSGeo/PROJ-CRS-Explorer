@@ -1,0 +1,10 @@
+VERTCRS["RGPF",
+    VDATUM["D_Reseau_Geodesique_de_la_Polynesie_Francaise"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["French Polynesia - onshore and offshore. Includes Society archipelago, Tuamotu archipelago, Marquesas Islands, Gambier Islands and Austral Islands."],
+        BBOX[-31.24,-158.13,-4.52,-131.97]],
+    ID["ESRI",115783]]

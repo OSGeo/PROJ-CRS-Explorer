@@ -1,0 +1,7 @@
+VERT_CS["LAT depth",
+    VERT_DATUM["Lowest Astronomical Tide",2005,
+        AUTHORITY["EPSG","1080"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Depth",DOWN],
+    AUTHORITY["EPSG","5861"]]

@@ -1,0 +1,10 @@
+VERTCRS["Estonia_1997",
+    VDATUM["D_Estonia_1997"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Estonia - onshore and offshore."],
+        BBOX[57.52,20.37,60,28.2]],
+    ID["ESRI",115712]]

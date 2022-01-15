@@ -1,0 +1,10 @@
+VERTCRS["Mayotte 1950 height",
+    VDATUM["Mayotte 1950"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["Mayotte - onshore."],
+        BBOX[-13.05,44.98,-12.61,45.35]],
+    ID["EPSG",5793]]

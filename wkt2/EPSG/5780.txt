@@ -1,0 +1,10 @@
+VERTCRS["Cascais height",
+    VDATUM["Cascais"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Portugal - mainland - onshore."],
+        BBOX[36.95,-9.56,42.16,-6.19]],
+    ID["EPSG",5780]]

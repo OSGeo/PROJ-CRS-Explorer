@@ -1,0 +1,3 @@
+Error: IGNF:WGS84GUADGEO cannot be written as WKT1_GDAL
+ type: GEOGRAPHIC_3D_CRS
+ name: RRAF geographiques (dms)

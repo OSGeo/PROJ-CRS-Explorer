@@ -1,0 +1,10 @@
+VERTCRS["SRVN16 height",
+    VDATUM["Sistema de Referencia Vertical Nacional 2016"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Argentina - onshore."],
+        BBOX[-55.11,-73.59,-21.78,-53.65]],
+    ID["EPSG",9255]]

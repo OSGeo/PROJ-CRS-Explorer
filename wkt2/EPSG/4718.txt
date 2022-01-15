@@ -1,0 +1,18 @@
+GEOGCRS["Solomon 1968",
+    DATUM["Solomon 1968",
+        ELLIPSOID["International 1924",6378388,297,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Military survey."],
+        AREA["Solomon Islands - onshore southern Solomon Islands, primarily Guadalcanal, Malaita, San Cristobel, Santa Isobel, Choiseul, Makira-Ulawa."],
+        BBOX[-10.9,155.62,-6.55,162.44]],
+    ID["EPSG",4718]]

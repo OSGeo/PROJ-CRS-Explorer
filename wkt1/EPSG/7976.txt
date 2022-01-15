@@ -1,0 +1,7 @@
+VERT_CS["HKPD depth",
+    VERT_DATUM["Hong Kong Principal Datum",2005,
+        AUTHORITY["EPSG","5135"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Depth",DOWN],
+    AUTHORITY["EPSG","7976"]]

@@ -1,0 +1,10 @@
+VERTCRS["Nelson 1955 height",
+    VDATUM["Nelson 1955"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["New Zealand - South Island - north of approximately 42°20'S - Nelson vertical CRS area."],
+        BBOX[-42.44,171.82,-40.44,174.46]],
+    ID["EPSG",5766]]

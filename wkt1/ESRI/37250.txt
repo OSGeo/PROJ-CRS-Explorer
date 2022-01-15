@@ -1,0 +1,10 @@
+GEOGCS["GCS_Selvagem_Grande_1938 (deprecated)",
+    DATUM["D_Selvagem_Grande_1938",
+        SPHEROID["International 1924",6378388,297,
+            AUTHORITY["EPSG","7022"]],
+        AUTHORITY["ESRI","106250"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["ESRI","37250"]]

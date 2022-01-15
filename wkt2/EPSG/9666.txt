@@ -1,0 +1,10 @@
+VERTCRS["LAS07 height",
+    VDATUM["Lithuanian Height System 2007"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Lithuania - onshore."],
+        BBOX[53.89,20.86,56.45,26.82]],
+    ID["EPSG",9666]]

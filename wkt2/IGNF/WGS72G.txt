@@ -1,0 +1,20 @@
+GEOGCRS["WGS72 geographiques (dms)",
+    DYNAMIC[
+        FRAMEEPOCH[1972]],
+    DATUM["World Geodetic System 1972",
+        ELLIPSOID["WGS 72",6378135,298.26,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["MONDIALE, HISTORIQUE"],
+        AREA["PLANETE TERRE ET SON ENVIRONNEMENT PROCHE"],
+        BBOX[-90,-180,90,180]],
+    ID["IGNF","WGS72G"]]

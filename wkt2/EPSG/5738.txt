@@ -1,0 +1,10 @@
+VERTCRS["HKPD height",
+    VDATUM["Hong Kong Principal Datum"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["China - Hong Kong - onshore."],
+        BBOX[22.19,113.82,22.56,114.39]],
+    ID["EPSG",5738]]

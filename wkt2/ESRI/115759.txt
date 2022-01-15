@@ -1,0 +1,10 @@
+VERTCRS["NAD_1983_MA11",
+    VDATUM["D_NAD_1983_MA11"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Guam, Northern Mariana Islands and Palau; onshore and offshore."],
+        BBOX[1.64,129.48,23.9,149.55]],
+    ID["ESRI",115759]]

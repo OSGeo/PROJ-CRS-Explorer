@@ -1,0 +1,7 @@
+VERT_CS["HKPD height",
+    VERT_DATUM["Hong Kong Principal Datum",2005,
+        AUTHORITY["EPSG","5135"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5738"]]

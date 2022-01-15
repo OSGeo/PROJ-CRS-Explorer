@@ -1,0 +1,7 @@
+VERT_CS["MLW depth",
+    VERT_DATUM["Mean Low Water",2005,
+        AUTHORITY["EPSG","1091"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Depth",DOWN],
+    AUTHORITY["EPSG","5867"]]

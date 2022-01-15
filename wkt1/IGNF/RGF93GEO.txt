@@ -1,0 +1,3 @@
+Error: IGNF:RGF93GEO cannot be written as WKT1_GDAL
+ type: GEOGRAPHIC_3D_CRS
+ name: RGF93 geographiques (dms)

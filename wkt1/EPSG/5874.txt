@@ -1,0 +1,7 @@
+VERT_CS["High Water height",
+    VERT_DATUM["High Water",2005,
+        AUTHORITY["EPSG","1094"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5874"]]

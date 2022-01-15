@@ -1,0 +1,7 @@
+VERT_CS["Malin Head height",
+    VERT_DATUM["Malin Head",2005,
+        AUTHORITY["EPSG","5130"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5731"]]

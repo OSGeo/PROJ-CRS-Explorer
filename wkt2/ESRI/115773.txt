@@ -1,0 +1,10 @@
+VERTCRS["PZ_1990",
+    VDATUM["D_Parametrop_Zemp_1990"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["World."],
+        BBOX[-90,-180,90,180]],
+    ID["ESRI",115773]]

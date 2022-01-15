@@ -1,0 +1,10 @@
+VERTCRS["Martinique 1987 height",
+    VDATUM["Martinique 1987"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Martinique - onshore."],
+        BBOX[14.35,-61.29,14.93,-60.76]],
+    ID["EPSG",5756]]

@@ -1,0 +1,10 @@
+VERTCRS["SA LLD height",
+    VDATUM["South Africa Land Levelling Datum"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["South Africa - mainland onshore."],
+        BBOX[-34.88,16.45,-22.13,32.95]],
+    ID["EPSG",9279]]

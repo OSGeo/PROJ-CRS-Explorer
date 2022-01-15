@@ -1,0 +1,10 @@
+VERTCRS["Tararu 1952 height",
+    VDATUM["Tararu 1952"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["New Zealand - North Island - Tararu vertical CRS area."],
+        BBOX[-37.21,175.44,-36.78,175.99]],
+    ID["EPSG",5768]]

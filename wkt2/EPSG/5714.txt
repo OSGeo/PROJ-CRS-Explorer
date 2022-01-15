@@ -1,0 +1,10 @@
+VERTCRS["MSL height",
+    VDATUM["Mean Sea Level"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Hydrography, drilling."],
+        AREA["World."],
+        BBOX[-90,-180,90,180]],
+    ID["EPSG",5714]]

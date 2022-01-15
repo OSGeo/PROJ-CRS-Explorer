@@ -1,0 +1,10 @@
+VERTCRS["El Hierro height",
+    VDATUM["El Hierro"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Spain - Canary Islands - El Hierro onshore."],
+        BBOX[27.58,-18.22,27.9,-17.83]],
+    ID["EPSG",9401]]

@@ -1,0 +1,10 @@
+VERTCRS["Lyttelton 1937 height",
+    VDATUM["Lyttelton 1937"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["New Zealand - South Island - between approximately 41°20'S and 45°S - Lyttleton vertical CRS area."],
+        BBOX[-44.92,168.95,-41.6,173.77]],
+    ID["EPSG",5763]]

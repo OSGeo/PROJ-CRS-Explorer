@@ -1,0 +1,18 @@
+GEOGCRS["IGC 1962 6th Parallel South",
+    DATUM["IGC 1962 Arc of the 6th Parallel South",
+        ELLIPSOID["Clarke 1880 (RGS)",6378249.145,293.465,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["The Democratic Republic of the Congo (Zaire) - adjacent to 6th parallel south traverse."],
+        BBOX[-7.36,12.17,-3.29,29.64]],
+    ID["EPSG",4697]]

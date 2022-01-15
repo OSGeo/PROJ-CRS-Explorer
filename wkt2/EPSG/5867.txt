@@ -1,0 +1,10 @@
+VERTCRS["MLW depth",
+    VDATUM["Mean Low Water"],
+    CS[vertical,1],
+        AXIS["depth (D)",down,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Hydrography and nautical charting."],
+        AREA["World."],
+        BBOX[-90,-180,90,180]],
+    ID["EPSG",5867]]

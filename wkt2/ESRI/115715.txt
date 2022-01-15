@@ -1,0 +1,10 @@
+VERTCRS["GDA_1994",
+    VDATUM["D_GDA_1994"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Australia including Lord Howe Island, Macquarie Island, Ashmore and Cartier Islands, Christmas Island, Cocos (Keeling) Islands, Norfolk Island. All onshore and offshore."],
+        BBOX[-60.55,93.41,-8.47,173.34]],
+    ID["ESRI",115715]]

@@ -1,0 +1,18 @@
+GEOGCRS["Indian 1960",
+    DATUM["Indian 1960",
+        ELLIPSOID["Everest 1830 (1937 Adjustment)",6377276.345,300.8017,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Cambodia - onshore; Vietnam - onshore and offshore Cuu Long basin."],
+        BBOX[7.99,102.14,23.4,110]],
+    ID["EPSG",4131]]

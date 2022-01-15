@@ -1,0 +1,7 @@
+VERT_CS["SIRGAS-CON_SIR10P01",
+    VERT_DATUM["SIRGAS_Continuously_Operating_Network_SIR10P01",2002,
+        AUTHORITY["ESRI","from_geogdatum_EPSG_1237"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115861"]]

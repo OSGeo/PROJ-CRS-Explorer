@@ -1,0 +1,18 @@
+GEOGCRS["GCS_TWD_1967",
+    DATUM["D_TWD_1967",
+        ELLIPSOID["GRS 1967 Modified",6378160,298.25,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Taiwan, Republic of China - onshore - Taiwan Island, Penghu (Pescadores) Islands."],
+        BBOX[21.87,119.25,25.34,122.06]],
+    ID["ESRI",104136]]

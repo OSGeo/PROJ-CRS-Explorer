@@ -1,0 +1,10 @@
+VERTCRS["DNN height",
+    VDATUM["Dansk Normal Nul"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Engineering survey, topographic mapping."],
+        AREA["Denmark - onshore."],
+        BBOX[54.51,8,57.8,15.24]],
+    ID["EPSG",5733]]

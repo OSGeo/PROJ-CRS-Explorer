@@ -1,0 +1,10 @@
+VERTCRS["Constanta height",
+    VDATUM["Constanta"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Romania - onshore."],
+        BBOX[43.62,20.26,48.27,29.74]],
+    ID["EPSG",5781]]

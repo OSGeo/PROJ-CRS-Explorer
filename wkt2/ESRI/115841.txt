@@ -1,0 +1,10 @@
+VERTCRS["NAD_1983_(HARN_Corrected)",
+    VDATUM["NAD_1983_(High_Accuracy_Reference_Network-Corrected)"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Puerto Rico and US Virgin Islands - onshore."],
+        BBOX[17.62,-67.97,18.57,-64.51]],
+    ID["ESRI",115841]]

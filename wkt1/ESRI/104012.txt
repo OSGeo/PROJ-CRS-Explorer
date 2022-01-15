@@ -1,0 +1,10 @@
+GEOGCS["WGS_1984_(G873) (deprecated)",
+    DATUM["World_Geodetic_System_1984_G873",
+        SPHEROID["WGS 84",6378137,298.257223563,
+            AUTHORITY["EPSG","7030"]],
+        AUTHORITY["EPSG","1153"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["ESRI","104012"]]

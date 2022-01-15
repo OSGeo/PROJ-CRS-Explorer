@@ -1,0 +1,18 @@
+GEOGCRS["Kertau (RSO)",
+    DATUM["Kertau (RSO)",
+        ELLIPSOID["Everest 1830 (RSO 1969)",6377295.664,300.8017,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Metrication of RSO grid."],
+        AREA["Malaysia - West Malaysia; Singapore."],
+        BBOX[1.13,99.59,6.72,104.6]],
+    ID["EPSG",4751]]

@@ -1,0 +1,18 @@
+GEOGCRS["Timbalai 1948",
+    DATUM["Timbalai 1948",
+        ELLIPSOID["Everest 1830 (1967 Definition)",6377298.556,300.8017,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Brunei - onshore and offshore; Malaysia - East Malaysia (Sabah; Sarawak) - onshore and offshore."],
+        BBOX[0.85,109.31,7.67,119.61]],
+    ID["EPSG",4298]]

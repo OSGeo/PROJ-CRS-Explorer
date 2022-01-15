@@ -1,0 +1,7 @@
+VERT_CS["Fair Isle height",
+    VERT_DATUM["Fair Isle",2005,
+        AUTHORITY["EPSG","5139"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5741"]]

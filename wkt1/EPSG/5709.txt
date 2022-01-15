@@ -1,0 +1,7 @@
+VERT_CS["NAP height",
+    VERT_DATUM["Normaal Amsterdams Peil",2005,
+        AUTHORITY["EPSG","5109"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5709"]]

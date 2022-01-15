@@ -1,0 +1,10 @@
+GEOGCS["Segara (Jakarta)",
+    DATUM["Gunung_Segara_Jakarta",
+        SPHEROID["Bessel 1841",6377397.155,299.1528128,
+            AUTHORITY["EPSG","7004"]],
+        AUTHORITY["EPSG","6820"]],
+    PRIMEM["Jakarta",106.807719444444,
+        AUTHORITY["EPSG","8908"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["EPSG","4820"]]

@@ -1,0 +1,10 @@
+VERTCRS["ITRF_2005",
+    VDATUM["D_ITRF_2005"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["World."],
+        BBOX[-90,-180,90,180]],
+    ID["ESRI",115738]]

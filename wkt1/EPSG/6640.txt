@@ -1,0 +1,7 @@
+VERT_CS["NMVD03 height",
+    VERT_DATUM["Northern Marianas Vertical Datum of 2003",2005,
+        AUTHORITY["EPSG","1119"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","6640"]]

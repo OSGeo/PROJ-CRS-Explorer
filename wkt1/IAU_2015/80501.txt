@@ -1,0 +1,10 @@
+GEOGCS["Despina (2015) / Ographic",
+    DATUM["Despina (2015)",
+        SPHEROID["Despina (2015)",74000,0,
+            AUTHORITY["IAU","80501"]],
+        AUTHORITY["IAU","80501"]],
+    PRIMEM["Reference Meridian",0,
+        AUTHORITY["IAU","80500"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IAU","80501"]]

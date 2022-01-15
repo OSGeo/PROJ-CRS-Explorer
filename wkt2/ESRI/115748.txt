@@ -1,0 +1,10 @@
+VERTCRS["MAGNA",
+    VDATUM["D_MAGNA"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Colombia - onshore and offshore. Includes San Andres y Providencia, Malpelo Islands, Roncador Bank, Serrana Bank and Serranilla Bank."],
+        BBOX[-4.23,-84.77,15.51,-66.87]],
+    ID["ESRI",115748]]

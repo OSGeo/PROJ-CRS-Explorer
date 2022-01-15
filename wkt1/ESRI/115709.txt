@@ -1,0 +1,7 @@
+VERT_CS["DB_REF",
+    VERT_DATUM["D_Deutsche_Bahn_Reference_System",2002,
+        AUTHORITY["ESRI","from_geogdatum_EPSG_1081"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115709"]]

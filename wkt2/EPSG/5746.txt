@@ -1,0 +1,10 @@
+VERTCRS["Stornoway height",
+    VDATUM["Stornoway"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["United Kingdom (UK) - Great Britain - Scotland - Outer Hebrides onshore."],
+        BBOX[56.76,-7.72,58.54,-6.1]],
+    ID["EPSG",5746]]

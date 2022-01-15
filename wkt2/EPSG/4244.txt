@@ -1,0 +1,18 @@
+GEOGCRS["Kandawala",
+    DATUM["Kandawala",
+        ELLIPSOID["Everest 1830 (1937 Adjustment)",6377276.345,300.8017,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Sri Lanka - onshore."],
+        BBOX[5.86,79.64,9.88,81.95]],
+    ID["EPSG",4244]]

@@ -1,0 +1,10 @@
+VERTCRS["Auckland 1946 height",
+    VDATUM["Auckland 1946"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["New Zealand - North Island - Auckland vertical CRS area."],
+        BBOX[-37.67,174,-36.12,176.17]],
+    ID["EPSG",5759]]

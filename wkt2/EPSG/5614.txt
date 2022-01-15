@@ -1,0 +1,10 @@
+VERTCRS["KOC WD depth (ft)",
+    VDATUM["KOC Well Datum"],
+    CS[vertical,1],
+        AXIS["depth (D)",down,
+            LENGTHUNIT["foot",0.3048]],
+    USAGE[
+        SCOPE["KOC exploration and field development subsurface work."],
+        AREA["Kuwait - onshore."],
+        BBOX[28.53,46.54,30.09,48.48]],
+    ID["EPSG",5614]]

@@ -1,0 +1,18 @@
+GEOGCRS["GCS_Johnston_Island_1961",
+    DATUM["D_Johnston_Island_1961",
+        ELLIPSOID["International 1924",6378388,297,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["United States Minor Outlying Islands - Johnston Island."],
+        BBOX[16.67,-169.59,16.79,-169.47]],
+    ID["ESRI",37222]]

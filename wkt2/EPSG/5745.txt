@@ -1,0 +1,10 @@
+VERTCRS["North Rona height",
+    VDATUM["North Rona"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["United Kingdom (UK) - Great Britain - Scotland - North Rona onshore."],
+        BBOX[59.07,-5.92,59.19,-5.73]],
+    ID["EPSG",5745]]

@@ -1,0 +1,10 @@
+VERTCRS["Dunedin_Bluff_1960_height",
+    VDATUM["Dunedin_Bluff_1960"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["New Zealand - South Island - Dunedin-Bluff vertical CRS area."],
+        BBOX[-46.73,166.37,-44.52,169.95]],
+    ID["ESRI",105794]]

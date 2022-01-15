@@ -1,0 +1,3 @@
+Error: ESRI:102786 cannot be written as WKT1_GDAL
+ type: PROJECTED_CRS
+ name: MAGNA_Villavicencio_Meta_2011

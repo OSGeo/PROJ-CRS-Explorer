@@ -1,0 +1,18 @@
+GEOGCRS["St Pierre Miquelon 1950 geographiques (dms)",
+    DATUM["Saint Pierre et Miquelon 1950",
+        ELLIPSOID["Clarke 1866",6378206.4,294.978698213898,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["LOCALE, HISTORIQUE"],
+        AREA["SAINT-PIERRE-ET-MIQUELON"],
+        BBOX[46.7,-56.49,47.2,-56.1]],
+    ID["IGNF","STPM50G"]]

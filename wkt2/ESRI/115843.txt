@@ -1,0 +1,10 @@
+VERTCRS["MTRF-2000",
+    VDATUM["MOMRA_Terrestrial_Reference_Frame_2000"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Saudi Arabia - onshore and offshore."],
+        BBOX[16.29,34.44,32.16,55.67]],
+    ID["ESRI",115843]]

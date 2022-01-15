@@ -1,0 +1,10 @@
+VERTCRS["EUREF_FIN",
+    VDATUM["D_ETRS_1989"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Finland - onshore and offshore."],
+        BBOX[58.84,19.08,70.09,31.59]],
+    ID["ESRI",115713]]

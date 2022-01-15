@@ -1,0 +1,3 @@
+Error: ESRI:102795 cannot be written as WKT1_GDAL
+ type: PROJECTED_CRS
+ name: MAGNA_Ibague_Tolima_2007

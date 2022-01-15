@@ -1,0 +1,10 @@
+VERTCRS["KOSOVAREF01",
+    VDATUM["Kosovo_Reference_System_2001"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Kosovo."],
+        BBOX[41.85,19.97,43.25,21.8]],
+    ID["ESRI",115872]]

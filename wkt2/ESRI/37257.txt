@@ -1,0 +1,18 @@
+GEOGCRS["GCS_S42_Hungary",
+    DATUM["D_S42_Hungary",
+        ELLIPSOID["Krassowsky 1940",6378245,298.3,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Hungary."],
+        BBOX[45.74,16.11,48.58,22.9]],
+    ID["ESRI",37257]]

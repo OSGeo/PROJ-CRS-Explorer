@@ -1,0 +1,10 @@
+VERTCRS["Sule Skerry height",
+    VDATUM["Sule Skerry"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["United Kingdom (UK) - Great Britain - Scotland - Sule Skerry onshore."],
+        BBOX[59.05,-4.5,59.13,-4.3]],
+    ID["EPSG",5744]]

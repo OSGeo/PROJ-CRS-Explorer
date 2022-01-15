@@ -1,0 +1,10 @@
+VERTCRS["NGG1977 height",
+    VDATUM["Nivellement General Guyanais 1977"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["French Guiana - onshore."],
+        BBOX[2.11,-54.61,5.81,-51.61]],
+    ID["EPSG",5755]]

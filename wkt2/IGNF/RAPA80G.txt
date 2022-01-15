@@ -1,0 +1,18 @@
+GEOGCRS["Rapa (SEQ 1980) geographiques (dms)",
+    DATUM["SEQ 1980 (ATOLL RAPA)",
+        ELLIPSOID["International 1924",6378388,297,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["LOCALE, HISTORIQUE"],
+        AREA["RAPA (ARCHIPEL DES AUSTRALES)"],
+        BBOX[-27.75,-144.5,-27.5,-144.25]],
+    ID["IGNF","RAPA80G"]]

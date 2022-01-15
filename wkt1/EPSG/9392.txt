@@ -1,0 +1,7 @@
+VERT_CS["Mallorca height",
+    VERT_DATUM["Mallorca",2005,
+        AUTHORITY["EPSG","1275"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","9392"]]

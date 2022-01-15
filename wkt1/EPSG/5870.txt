@@ -1,0 +1,7 @@
+VERT_CS["MHWS height",
+    VERT_DATUM["Mean High Water Spring Tides",2005,
+        AUTHORITY["EPSG","1088"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5870"]]

@@ -1,0 +1,10 @@
+VERTCRS["IGN 1987 (MARTINIQUE)",
+    VDATUM["IGN 1987 (MARTINIQUE)"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["NATIONALE A CARACTERE LEGAL"],
+        AREA["MARTINIQUE"],
+        BBOX[14.27,-61.25,15,-60.75]],
+    ID["IGNF","MART87"]]

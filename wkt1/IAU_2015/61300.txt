@@ -1,0 +1,10 @@
+GEOGCS["Telesto (2015) - Sphere / Ocentric",
+    DATUM["Telesto (2015) - Sphere",
+        SPHEROID["Telesto (2015) - Sphere",12400,0,
+            AUTHORITY["IAU","61300"]],
+        AUTHORITY["IAU","61300"]],
+    PRIMEM["Reference Meridian",0,
+        AUTHORITY["IAU","61300"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IAU","61300"]]

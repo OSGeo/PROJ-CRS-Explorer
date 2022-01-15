@@ -1,0 +1,7 @@
+VERT_CS["KSA-VRF14 height",
+    VERT_DATUM["Kingdom of Saudi Arabia Vertical Reference Frame Jeddah 2014",2005,
+        AUTHORITY["EPSG","1269"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","9335"]]

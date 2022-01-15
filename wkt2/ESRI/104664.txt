@@ -1,0 +1,18 @@
+GEOGCRS["Nepal_Nagarkot_3D",
+    DATUM["D_Nepal_Nagarkot",
+        ELLIPSOID["Everest 1830 (1937 Adjustment)",6377276.345,300.8017,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Nepal."],
+        BBOX[26.34,80.06,30.43,88.21]],
+    ID["ESRI",104664]]

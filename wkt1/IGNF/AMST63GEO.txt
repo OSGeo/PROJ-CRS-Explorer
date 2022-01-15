@@ -1,0 +1,3 @@
+Error: IGNF:AMST63GEO cannot be written as WKT1_GDAL
+ type: GEOGRAPHIC_3D_CRS
+ name: Ile Amsterdam 1963 geographiques (dms)

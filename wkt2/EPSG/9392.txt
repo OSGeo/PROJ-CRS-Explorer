@@ -1,0 +1,10 @@
+VERTCRS["Mallorca height",
+    VDATUM["Mallorca"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Spain - Balearic Islands - Mallorca onshore."],
+        BBOX[39.07,2.23,40.02,3.55]],
+    ID["EPSG",9392]]

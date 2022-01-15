@@ -1,0 +1,10 @@
+VERTCRS["Fao height",
+    VDATUM["Fao"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Oil and gas exploration and production."],
+        AREA["Iraq - onshore southeast; Iran - onshore northern Gulf coast and west bordering southeast Iraq."],
+        BBOX[29.06,44.3,33.5,51.06]],
+    ID["EPSG",5751]]

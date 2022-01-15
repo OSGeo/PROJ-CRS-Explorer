@@ -1,0 +1,18 @@
+GEOGCRS["Efate geographiques (dms)",
+    DATUM["EFATE-IGN 1957",
+        ELLIPSOID["International 1924",6378388,297,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["LOCALE, HISTORIQUE"],
+        AREA["EFATE (ARCHIPEL DU VANUATU)"],
+        BBOX[-18,168,-17.25,168.67]],
+    ID["IGNF","EFATE57G"]]
