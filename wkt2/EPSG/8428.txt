@@ -1,0 +1,18 @@
+GEOGCRS["Macao 1920",
+    DATUM["Macao 1920",
+        ELLIPSOID["International 1924",6378388,297,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy, cadastre, engineering survey, topographic mapping."],
+        AREA["China - Macao - onshore and offshore."],
+        BBOX[22.06,113.52,22.23,113.68]],
+    ID["EPSG",8428]]

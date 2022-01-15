@@ -1,0 +1,10 @@
+VERTCRS["NAVD88 height (ft)",
+    VDATUM["North American Vertical Datum 1988"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["foot",0.3048]],
+    USAGE[
+        SCOPE["Engineering survey, GIS, topographic mapping."],
+        AREA["United States (USA) - onshore - Arizona; Michigan; Montana; North Dakota; Oregon; South Carolina."],
+        BBOX[31.33,-124.6,49.01,-78.52]],
+    ID["EPSG",8228]]

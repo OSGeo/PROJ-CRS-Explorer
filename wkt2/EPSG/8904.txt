@@ -1,0 +1,10 @@
+VERTCRS["TWVD 2001 height",
+    VDATUM["Taiwan Vertical Datum 2001"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Taiwan, Republic of China - onshore - Taiwan Island."],
+        BBOX[21.87,119.99,25.34,122.06]],
+    ID["EPSG",8904]]

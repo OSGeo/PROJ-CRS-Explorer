@@ -1,0 +1,3 @@
+Error: IGNF:STPM50GEO cannot be written as WKT1_GDAL
+ type: GEOGRAPHIC_3D_CRS
+ name: St Pierre Miquelon 1950 geographiques (dms)

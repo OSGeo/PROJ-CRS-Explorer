@@ -1,0 +1,7 @@
+VERT_CS["Kuwait PWD height",
+    VERT_DATUM["Kuwait PWD",2005,
+        AUTHORITY["EPSG","5186"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5788"]]

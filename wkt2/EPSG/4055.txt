@@ -1,0 +1,18 @@
+GEOGCRS["Popular Visualisation CRS",
+    DATUM["Popular Visualisation Datum",
+        ELLIPSOID["Popular Visualisation Sphere",6378137,0,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Web mapping and visualisation."],
+        AREA["World."],
+        BBOX[-90,-180,90,180]],
+    ID["EPSG",4055]]

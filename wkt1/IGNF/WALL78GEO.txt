@@ -1,0 +1,3 @@
+Error: IGNF:WALL78GEO cannot be written as WKT1_GDAL
+ type: GEOGRAPHIC_3D_CRS
+ name: MOP 1978 geographiques (dms)

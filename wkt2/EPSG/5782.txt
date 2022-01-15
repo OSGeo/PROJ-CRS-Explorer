@@ -1,0 +1,10 @@
+VERTCRS["Alicante height",
+    VDATUM["Alicante"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Gibraltar - onshore; Spain - mainland onshore."],
+        BBOX[35.95,-9.37,43.82,3.39]],
+    ID["EPSG",5782]]

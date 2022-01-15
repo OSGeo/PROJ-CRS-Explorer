@@ -1,0 +1,10 @@
+GEOGCS["Nord Sahara 1959 (Paris) (deprecated)",
+    DATUM["Nord_Sahara_1959_Paris",
+        SPHEROID["Clarke 1880 (RGS)",6378249.145,293.465,
+            AUTHORITY["EPSG","7012"]],
+        AUTHORITY["EPSG","6819"]],
+    PRIMEM["Paris",2.33722917,
+        AUTHORITY["EPSG","8903"]],
+    UNIT["grad",0.0157079632679489,
+        AUTHORITY["EPSG","9105"]],
+    AUTHORITY["EPSG","4819"]]

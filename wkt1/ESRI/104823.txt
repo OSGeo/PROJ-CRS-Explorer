@@ -1,0 +1,10 @@
+GEOGCS["GCS_NAD_1983_HARN_Adj_WI_GreenLake (deprecated)",
+    DATUM["D_NAD_1983_HARN_Adj_WI_GL_MQ",
+        SPHEROID["GRS_1980_Adj_WI_GL_MQ",6378375.601,298.268379664173,
+            AUTHORITY["ESRI","107853"]],
+        AUTHORITY["ESRI","106853"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["ESRI","104823"]]

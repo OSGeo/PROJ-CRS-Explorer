@@ -1,0 +1,10 @@
+VERTCRS["JAD_2001",
+    VDATUM["D_Jamaica_2001"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Jamaica - onshore and offshore. Includes Morant Cays and Pedro Cays."],
+        BBOX[14.08,-80.6,19.36,-74.51]],
+    ID["ESRI",115739]]

@@ -1,0 +1,10 @@
+VERTCRS["NAD_1983_PA11",
+    VDATUM["D_NAD_1983_PA11"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["American Samoa, Marshall Islands, United States (USA) - Hawaii, United States minor outlying islands; onshore and offshore."],
+        BBOX[-17.56,157.47,31.8,-151.27]],
+    ID["ESRI",115762]]

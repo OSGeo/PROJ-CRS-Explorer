@@ -1,0 +1,13 @@
+GEOCCS["CSG 1967 cartesiennes geocentriques",
+    DATUM["Centre_Spatial_Guyanais_1967",
+        SPHEROID["International 1924",6378388,297,
+            AUTHORITY["EPSG","7022"]],
+        AUTHORITY["EPSG","6623"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Geocentric X",OTHER],
+    AXIS["Geocentric Y",OTHER],
+    AXIS["Geocentric Z",NORTH],
+    AUTHORITY["IGNF","CSG67"]]

@@ -1,0 +1,10 @@
+VERTCRS["DGN_1995",
+    VDATUM["D_Datum_Geodesi_Nasional_1995"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Indonesia - onshore and offshore."],
+        BBOX[-13.95,92.01,7.79,141.46]],
+    ID["ESRI",115710]]

@@ -1,0 +1,10 @@
+VERTCRS["Cais da Vila - Porto Santo height",
+    VDATUM["Cais da Vila - Porto Santo"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Portugal - Porto Santo island (Madeira archipelago) onshore."],
+        BBOX[32.96,-16.44,33.15,-16.23]],
+    ID["EPSG",6179]]

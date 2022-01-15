@@ -1,0 +1,18 @@
+GEOGCRS["Madrid 1870 (Madrid)",
+    DATUM["Madrid 1870 (Madrid)",
+        ELLIPSOID["Struve 1860",6378298.3,294.73,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Madrid",-3.687375,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Spain - mainland onshore."],
+        BBOX[35.95,-9.37,43.82,3.39]],
+    ID["EPSG",4903]]

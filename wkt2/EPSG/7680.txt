@@ -1,0 +1,23 @@
+GEOGCRS["PZ-90.11",
+    DYNAMIC[
+        FRAMEEPOCH[2010]],
+    DATUM["Parametry Zemli 1990.11",
+        ELLIPSOID["PZ-90",6378136,298.257839303,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,3],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["ellipsoidal height (h)",up,
+            ORDER[3],
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy. Navigation and positioning using Glonass satellite system."],
+        AREA["World."],
+        BBOX[-90,-180,90,180]],
+    ID["EPSG",7680]]

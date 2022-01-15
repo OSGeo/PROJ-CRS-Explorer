@@ -1,0 +1,10 @@
+VERTCRS["LKS_1992",
+    VDATUM["D_Latvia_1992"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Latvia - onshore and offshore."],
+        BBOX[55.67,19.06,58.09,28.24]],
+    ID["ESRI",115745]]

@@ -1,0 +1,18 @@
+GEOGCRS["Bogota 1975",
+    DATUM["Bogota 1975",
+        ELLIPSOID["International 1924",6378388,297,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Colombia - mainland and offshore Caribbean."],
+        BBOX[-4.23,-79.1,13.68,-66.87]],
+    ID["EPSG",4218]]

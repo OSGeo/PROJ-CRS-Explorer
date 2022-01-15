@@ -1,0 +1,18 @@
+GEOGCRS["GCS_Anna_1_1965",
+    DATUM["D_Anna_1_1965",
+        ELLIPSOID["Australian National Spheroid",6378160,298.25,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Cocos (Keeling) Islands - onshore."],
+        BBOX[-12.27,96.76,-11.76,96.99]],
+    ID["ESRI",37231]]

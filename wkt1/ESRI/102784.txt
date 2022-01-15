@@ -1,0 +1,3 @@
+Error: ESRI:102784 cannot be written as WKT1_GDAL
+ type: PROJECTED_CRS
+ name: MAGNA_Riohacha_La_Guajira_2006

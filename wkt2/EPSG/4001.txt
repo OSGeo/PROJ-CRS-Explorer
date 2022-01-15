@@ -1,0 +1,18 @@
+GEOGCRS["Unknown datum based upon the Airy 1830 ellipsoid",
+    DATUM["Not specified (based on Airy 1830 ellipsoid)",
+        ELLIPSOID["Airy 1830",6377563.396,299.3249646,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Not recommended."],
+        AREA["Not specified."],
+        BBOX[-90,-180,90,180]],
+    ID["EPSG",4001]]

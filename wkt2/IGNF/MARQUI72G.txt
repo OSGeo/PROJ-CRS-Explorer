@@ -1,0 +1,18 @@
+GEOGCRS["Marquises (IGN72) geographiques (dms)",
+    DATUM["IGN72 (EIAO - HIVA OA - MOHOTANI) MARQUISES",
+        ELLIPSOID["International 1924",6378388,297,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["LOCALE, HISTORIQUE"],
+        AREA["EIAO, HIVA OA, MOHOTANI (ARCHIPEL DES MARQUISES)"],
+        BBOX[-10.05,-140.74,-7.89,-138.78]],
+    ID["IGNF","MARQUI72G"]]

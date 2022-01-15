@@ -1,0 +1,10 @@
+VERTCRS["Cais das Velas height",
+    VDATUM["Cais das Velas"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Portugal - central Azores - Sao Jorge island onshore."],
+        BBOX[38.48,-28.37,38.8,-27.71]],
+    ID["EPSG",6180]]

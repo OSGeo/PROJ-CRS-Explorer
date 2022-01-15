@@ -1,0 +1,13 @@
+GEOCCS["Haraiki SHM 1949 cartesiennes geocentriques",
+    DATUM["SHM 1949 (ATOLL HARAIKI)",
+        SPHEROID["International 1924",6378388,297,
+            AUTHORITY["EPSG","7022"]],
+        AUTHORITY["IGNF","REG5810001"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Geocentric X",OTHER],
+    AXIS["Geocentric Y",OTHER],
+    AXIS["Geocentric Z",NORTH],
+    AUTHORITY["IGNF","HARA49"]]

@@ -1,0 +1,10 @@
+VERTCRS["CGVD28 height",
+    VDATUM["Canadian Geodetic Vertical Datum of 1928"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["Canada - onshore - Alberta; British Columbia; Manitoba south of 57°N; New Brunswick; Northwest Territories south west of a line between 60°N, 110°W and the coast at 132°W; Nova Scotia; Ontario south of 52°N; Prince Edward Island; Quebec - mainland west of 66°W and south of 55°N; Saskatchewan south of 55°N; Yukon."],
+        BBOX[41.67,-141.01,69.8,-59.73]],
+    ID["EPSG",5713]]

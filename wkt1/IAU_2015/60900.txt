@@ -1,0 +1,10 @@
+GEOGCS["Phoebe (2015) - Sphere / Ocentric",
+    DATUM["Phoebe (2015) - Sphere",
+        SPHEROID["Phoebe (2015) - Sphere",106500,0,
+            AUTHORITY["IAU","60900"]],
+        AUTHORITY["IAU","60900"]],
+    PRIMEM["Reference Meridian",0,
+        AUTHORITY["IAU","60900"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IAU","60900"]]

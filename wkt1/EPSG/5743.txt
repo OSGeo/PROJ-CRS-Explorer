@@ -1,0 +1,7 @@
+VERT_CS["Foula height",
+    VERT_DATUM["Foula",2005,
+        AUTHORITY["EPSG","5141"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5743"]]

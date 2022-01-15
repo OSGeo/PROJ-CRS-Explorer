@@ -1,0 +1,10 @@
+VERTCRS["Moturiki 1953 height",
+    VDATUM["Moturiki 1953"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["New Zealand - North Island - Moturiki vertical CRS area."],
+        BBOX[-40.59,174.57,-37.52,177.26]],
+    ID["EPSG",5764]]

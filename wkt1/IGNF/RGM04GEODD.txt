@@ -1,0 +1,3 @@
+Error: IGNF:RGM04GEODD cannot be written as WKT1_GDAL
+ type: GEOGRAPHIC_3D_CRS
+ name: RGM04 geographiques (dd)

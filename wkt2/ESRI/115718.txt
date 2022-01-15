@@ -1,0 +1,10 @@
+VERTCRS["Greenland_1996",
+    VDATUM["D_Greenland_1996"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Greenland - onshore and offshore."],
+        BBOX[56.38,-75,87.02,7.99]],
+    ID["ESRI",115718]]

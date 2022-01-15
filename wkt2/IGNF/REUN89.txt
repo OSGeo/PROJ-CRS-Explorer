@@ -1,0 +1,10 @@
+VERTCRS["IGN 1989 (REUNION)",
+    VDATUM["IGN 1989 (REUNION)"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["NATIONALE A CARACTERE LEGAL"],
+        AREA["ILE DE LA REUNION"],
+        BBOX[-21.42,55.17,-20.75,55.92]],
+    ID["IGNF","REUN89"]]

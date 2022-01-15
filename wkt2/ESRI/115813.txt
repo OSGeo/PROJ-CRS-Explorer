@@ -1,0 +1,10 @@
+VERTCRS["GSK-2011",
+    VDATUM["Geodezicheskaya_Sistema_Koordinat_2011"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Russian Federation - onshore and offshore."],
+        BBOX[39.87,18.92,85.19,-168.97]],
+    ID["ESRI",115813]]

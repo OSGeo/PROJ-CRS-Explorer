@@ -1,0 +1,7 @@
+VERT_CS["EPF 1952 (ILE DES PETRELS)",
+    VERT_DATUM["EPF 1952 (ILE DES PETRELS)",2005,
+        AUTHORITY["IGNF","REA034"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["IGNF","PETRELS52"]]

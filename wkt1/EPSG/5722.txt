@@ -1,0 +1,7 @@
+VERT_CS["Maputo height",
+    VERT_DATUM["Maputo",2005,
+        AUTHORITY["EPSG","5121"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5722"]]

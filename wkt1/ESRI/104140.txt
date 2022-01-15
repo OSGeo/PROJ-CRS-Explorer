@@ -1,0 +1,10 @@
+GEOGCS["GCS_Voirol_1879_Grad",
+    DATUM["Voirol_1879",
+        SPHEROID["Clarke 1880 (IGN)",6378249.2,293.466021293627,
+            AUTHORITY["EPSG","7011"]],
+        AUTHORITY["EPSG","6671"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["grad",0.0157079632679489,
+        AUTHORITY["EPSG","9105"]],
+    AUTHORITY["ESRI","104140"]]

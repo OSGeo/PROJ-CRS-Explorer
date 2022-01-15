@@ -1,0 +1,18 @@
+GEOGCRS["Fangataufa (MHPF 1965-1) geographiques (dms)",
+    DATUM["MHPF 1965-1 (ATOLL FANGATAUFA)",
+        ELLIPSOID["International 1924",6378388,297,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["LOCALE, HISTORIQUE"],
+        AREA["FANGATAUFA (ARCHIPEL DES TUAMOTU)"],
+        BBOX[-22.33,-138.83,-22.15,-138.58]],
+    ID["IGNF","FANGA651G"]]

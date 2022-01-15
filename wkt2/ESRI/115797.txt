@@ -1,0 +1,10 @@
+VERTCRS["S_JTSK/05_Ferro",
+    VDATUM["D_S_JTSK_05"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Czechia."],
+        BBOX[48.58,12.09,51.06,18.86]],
+    ID["ESRI",115797]]

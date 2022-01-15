@@ -1,0 +1,10 @@
+VERTCRS["Douglas height",
+    VDATUM["Douglas"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["Isle of Man - onshore."],
+        BBOX[54.02,-4.87,54.44,-4.27]],
+    ID["EPSG",5750]]

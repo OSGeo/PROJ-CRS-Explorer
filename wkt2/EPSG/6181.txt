@@ -1,0 +1,10 @@
+VERTCRS["Horta height",
+    VDATUM["Horta"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Portugal - central Azores - Faial island onshore."],
+        BBOX[38.46,-28.9,38.7,-28.54]],
+    ID["EPSG",6181]]

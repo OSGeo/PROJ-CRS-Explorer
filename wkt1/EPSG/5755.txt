@@ -1,0 +1,7 @@
+VERT_CS["NGG1977 height",
+    VERT_DATUM["Nivellement General Guyanais 1977",2005,
+        AUTHORITY["EPSG","5153"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5755"]]

@@ -1,0 +1,10 @@
+VERTCRS["GDBD2009",
+    VDATUM["D_GDBD2009"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Brunei Darussalam - onshore and offshore."],
+        BBOX[4.01,112.37,6.31,115.37]],
+    ID["ESRI",115716]]

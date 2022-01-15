@@ -1,0 +1,18 @@
+GEOGCRS["Carthage (Paris)",
+    DATUM["Carthage (Paris)",
+        ELLIPSOID["Clarke 1880 (IGN)",6378249.2,293.466021293627,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Paris",2.5969213,
+        ANGLEUNIT["grad",0.0157079632679489]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["grad",0.0157079632679489]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["grad",0.0157079632679489]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Tunisia - onshore."],
+        BBOX[30.23,7.49,37.4,11.59]],
+    ID["EPSG",4816]]

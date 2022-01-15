@@ -1,0 +1,10 @@
+VERTCRS["REGVEN",
+    VDATUM["D_REGVEN"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Venezuela - onshore and offshore."],
+        BBOX[0.64,-73.38,16.75,-58.95]],
+    ID["ESRI",115776]]

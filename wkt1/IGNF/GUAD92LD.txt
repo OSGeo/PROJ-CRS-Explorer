@@ -1,0 +1,7 @@
+VERT_CS["IGN 1992 LD (GUADELOUPE / LA DESIRADE)",
+    VERT_DATUM["IGN 1992 LD (GUADELOUPE / LA DESIRADE)",2005,
+        AUTHORITY["IGNF","REA037"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["IGNF","GUAD92LD"]]

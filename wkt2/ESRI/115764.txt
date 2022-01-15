@@ -1,0 +1,10 @@
+VERTCRS["Nepal_Nagarkot",
+    VDATUM["D_Nepal_Nagarkot"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Nepal."],
+        BBOX[26.34,80.06,30.43,88.21]],
+    ID["ESRI",115764]]

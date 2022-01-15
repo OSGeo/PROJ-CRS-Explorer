@@ -1,0 +1,7 @@
+VERT_CS["NGF-IGN69 height",
+    VERT_DATUM["Nivellement General de la France - IGN69",2005,
+        AUTHORITY["EPSG","5119"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5720"]]

@@ -1,0 +1,10 @@
+VERTCRS["NGWF ILES HORN (FUTUNA ET ALOFI)",
+    VDATUM["NGWF FUTUNA"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["LOCALE"],
+        AREA["ILES FUTUNA ET ALOFI (ILES HORN)"],
+        BBOX[-14.39,-179.98,-14.23,-178.2]],
+    ID["IGNF","FUTUNA1997"]]

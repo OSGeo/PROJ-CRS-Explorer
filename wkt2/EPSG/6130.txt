@@ -1,0 +1,10 @@
+VERTCRS["GCVD54 height (ft)",
+    VDATUM["Grand Cayman Vertical Datum 1954"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["foot",0.3048]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["Cayman Islands - Grand Cayman."],
+        BBOX[19.21,-81.46,19.41,-81.04]],
+    ID["EPSG",6130]]

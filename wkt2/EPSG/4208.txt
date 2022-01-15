@@ -1,0 +1,18 @@
+GEOGCRS["Aratu",
+    DATUM["Aratu",
+        ELLIPSOID["International 1924",6378388,297,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Brazil - offshore south and east of a line intersecting the coast at 2°55'S; onshore Tucano basin."],
+        BBOX[-35.71,-53.38,4.26,-26]],
+    ID["EPSG",4208]]

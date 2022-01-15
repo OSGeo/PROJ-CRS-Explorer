@@ -1,0 +1,10 @@
+GEOGCS["Uranus (2015) - Sphere / Ocentric",
+    DATUM["Uranus (2015) - Sphere",
+        SPHEROID["Uranus (2015) - Sphere",25559000,0,
+            AUTHORITY["IAU","79900"]],
+        AUTHORITY["IAU","79900"]],
+    PRIMEM["Reference Meridian",0,
+        AUTHORITY["IAU","79900"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IAU","79900"]]

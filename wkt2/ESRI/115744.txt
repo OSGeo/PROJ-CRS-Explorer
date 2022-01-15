@@ -1,0 +1,10 @@
+VERTCRS["LGD2006",
+    VDATUM["D_Libyan_Geodetic_Datum_2006"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Libya - onshore and offshore."],
+        BBOX[19.5,9.31,35.23,26.21]],
+    ID["ESRI",115744]]

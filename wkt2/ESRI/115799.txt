@@ -1,0 +1,10 @@
+VERTCRS["TGD2005",
+    VDATUM["D_Tonga_Geodetic_Datum_2005"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Tonga - onshore and offshore."],
+        BBOX[-25.68,-179.08,-14.14,-171.28]],
+    ID["ESRI",115799]]

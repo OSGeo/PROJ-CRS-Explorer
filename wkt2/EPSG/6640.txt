@@ -1,0 +1,10 @@
+VERTCRS["NMVD03 height",
+    VDATUM["Northern Marianas Vertical Datum of 2003"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Northern Mariana Islands - onshore - Rota, Saipan and Tinian."],
+        BBOX[14.06,145.06,15.35,145.89]],
+    ID["EPSG",6640]]

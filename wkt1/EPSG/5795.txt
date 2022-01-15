@@ -1,0 +1,7 @@
+VERT_CS["Guadeloupe 1951 height",
+    VERT_DATUM["Guadeloupe 1951",2005,
+        AUTHORITY["EPSG","5193"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5795"]]

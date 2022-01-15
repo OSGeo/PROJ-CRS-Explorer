@@ -1,0 +1,7 @@
+VERT_CS["TGD2005",
+    VERT_DATUM["D_Tonga_Geodetic_Datum_2005",2002,
+        AUTHORITY["ESRI","from_geogdatum_EPSG_1095"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115799"]]

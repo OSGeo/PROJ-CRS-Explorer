@@ -1,0 +1,10 @@
+VERTCRS["IG05(2012)_Intermediate_CRS",
+    VDATUM["IG05(2012)_Intermediate_Datum"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Israel - onshore; Palestine Territory - onshore."],
+        BBOX[29.45,34.17,33.28,35.69]],
+    ID["ESRI",115723]]

@@ -1,0 +1,7 @@
+VERT_CS["Caspian depth",
+    VERT_DATUM["Caspian Sea",2005,
+        AUTHORITY["EPSG","5106"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Depth",DOWN],
+    AUTHORITY["EPSG","5706"]]

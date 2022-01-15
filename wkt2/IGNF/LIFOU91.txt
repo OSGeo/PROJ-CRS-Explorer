@@ -1,0 +1,10 @@
+VERTCRS["NIVELLEMENT GENERAL DE LIFOU (IGN 1991 LF)",
+    VDATUM["NIVELLEMENT GENERAL DE LIFOU (IGN 1991 LF)"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["LOCALE A CARACTERE LEGAL"],
+        AREA["LIFOU (ILES LOYAUTE)"],
+        BBOX[-21.22,166.96,-20.65,167.51]],
+    ID["IGNF","LIFOU91"]]

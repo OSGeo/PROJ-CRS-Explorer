@@ -1,0 +1,10 @@
+VERTCRS["NZGD_2000",
+    VDATUM["D_NZGD_2000"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["New Zealand - onshore and offshore. Includes Antipodes Islands, Auckland Islands, Bounty Islands, Chatham Islands, Cambell Island, Kermadec Islands, Raoul Island and Snares Islands."],
+        BBOX[-55.95,160.6,-25.88,-171.2]],
+    ID["ESRI",115765]]

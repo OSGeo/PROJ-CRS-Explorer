@@ -1,0 +1,7 @@
+VERT_CS["Reunion 1989 height",
+    VERT_DATUM["Reunion 1989",2005,
+        AUTHORITY["EPSG","5156"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5758"]]

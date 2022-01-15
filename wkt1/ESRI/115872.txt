@@ -1,0 +1,7 @@
+VERT_CS["KOSOVAREF01",
+    VERT_DATUM["Kosovo_Reference_System_2001",2002,
+        AUTHORITY["ESRI","from_geogdatum_EPSG_1251"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115872"]]

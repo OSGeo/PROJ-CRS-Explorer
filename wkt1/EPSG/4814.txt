@@ -1,0 +1,10 @@
+GEOGCS["RT38 (Stockholm)",
+    DATUM["Stockholm_1938_Stockholm",
+        SPHEROID["Bessel 1841",6377397.155,299.1528128,
+            AUTHORITY["EPSG","7004"]],
+        AUTHORITY["EPSG","6814"]],
+    PRIMEM["Stockholm",18.0582777777778,
+        AUTHORITY["EPSG","8911"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["EPSG","4814"]]

@@ -1,0 +1,18 @@
+GEOGCRS["Antigua 1943",
+    DATUM["Antigua 1943",
+        ELLIPSOID["Clarke 1880 (RGS)",6378249.145,293.465,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Antigua island - onshore."],
+        BBOX[16.94,-61.95,17.22,-61.61]],
+    ID["EPSG",4601]]

@@ -1,0 +1,18 @@
+GEOGCRS["GCS_Reunion_1947",
+    DATUM["D_Reunion_1947",
+        ELLIPSOID["International 1924",6378388,297,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Reunion - onshore."],
+        BBOX[-21.42,55.16,-20.81,55.91]],
+    ID["ESRI",37235]]

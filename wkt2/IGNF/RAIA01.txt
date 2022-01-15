@@ -1,0 +1,10 @@
+VERTCRS["RAIATEA_SAU 2001",
+    VDATUM["RAIATEA_SAU 2001"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["LOCALE A CARACTERE LEGAL"],
+        AREA["RAIATEA, TAHAA (ARCHIPEL DE LA SOCIETE)"],
+        BBOX[-17,-151.67,-16.5,-151.33]],
+    ID["IGNF","RAIA01"]]

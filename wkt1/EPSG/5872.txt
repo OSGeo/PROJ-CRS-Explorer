@@ -1,0 +1,7 @@
+VERT_CS["HAT height",
+    VERT_DATUM["Highest Astronomical Tide",2005,
+        AUTHORITY["EPSG","1082"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5872"]]

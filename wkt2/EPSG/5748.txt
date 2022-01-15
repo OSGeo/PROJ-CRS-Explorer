@@ -1,0 +1,10 @@
+VERTCRS["Flannan Isles height",
+    VDATUM["Flannan Isles"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["United Kingdom (UK) - Great Britain - Scotland - Flannan Isles onshore."],
+        BBOX[58.21,-7.75,58.35,-7.46]],
+    ID["EPSG",5748]]

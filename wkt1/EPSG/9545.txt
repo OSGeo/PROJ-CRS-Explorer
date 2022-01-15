@@ -1,0 +1,13 @@
+GEOCCS["LTF2004(G)",
+    DATUM["Lyon_Turin_Ferroviaire_2004",
+        SPHEROID["GRS 1980",6378137,298.257222101,
+            AUTHORITY["EPSG","7019"]],
+        AUTHORITY["EPSG","1295"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Geocentric X",OTHER],
+    AXIS["Geocentric Y",OTHER],
+    AXIS["Geocentric Z",NORTH],
+    AUTHORITY["EPSG","9545"]]

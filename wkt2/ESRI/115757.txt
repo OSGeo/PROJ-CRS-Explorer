@@ -1,0 +1,10 @@
+VERTCRS["North_American_1983_CSRS",
+    VDATUM["D_North_American_1983_CSRS"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Canada - onshore and offshore - Alberta; British Columbia; Manitoba; New Brunswick; Newfoundland and Labrador; Northwest Territories; Nova Scotia; Nunavut; Ontario; Prince Edward Island; Quebec; Saskatchewan; Yukon."],
+        BBOX[38.21,-141.01,86.46,-40.73]],
+    ID["ESRI",115757]]

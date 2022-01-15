@@ -1,0 +1,10 @@
+VERTCRS["PNG94",
+    VDATUM["D_Papua_New_Guinea_Geodetic_Datum_1994"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Papua New Guinea - onshore and offshore. Includes Bismark archipelago, Louisade archipelago, Admiralty Islands, d'Entrecasteaux Islands, northern Solomon Islands, Trobriand Islands, New Britain, New Ireland, Woodlark, and associated islands."],
+        BBOX[-14.75,139.2,2.58,162.81]],
+    ID["ESRI",115767]]

@@ -1,0 +1,10 @@
+VERTCRS["China_Geodetic_Coordinate_System_2000",
+    VDATUM["D_China_2000"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["China - onshore and offshore."],
+        BBOX[16.7,73.62,53.56,134.77]],
+    ID["ESRI",115705]]

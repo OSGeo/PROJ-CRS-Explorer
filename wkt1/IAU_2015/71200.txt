@@ -1,0 +1,10 @@
+GEOGCS["Portia (2015) - Sphere / Ocentric",
+    DATUM["Portia (2015) - Sphere",
+        SPHEROID["Portia (2015) - Sphere",54000,0,
+            AUTHORITY["IAU","71200"]],
+        AUTHORITY["IAU","71200"]],
+    PRIMEM["Reference Meridian",0,
+        AUTHORITY["IAU","71200"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IAU","71200"]]

@@ -1,0 +1,10 @@
+VERTCRS["CIGD11",
+    VDATUM["D_Cayman_Islands_Geodetic_Datum_2011"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Cayman Islands - onshore and offshore. Includes Grand Cayman, Little Cayman and Cayman Brac."],
+        BBOX[17.58,-83.6,20.68,-78.72]],
+    ID["ESRI",115707]]

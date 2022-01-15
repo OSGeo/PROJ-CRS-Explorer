@@ -1,0 +1,18 @@
+GEOGCRS["RT38 (Stockholm)",
+    DATUM["Stockholm 1938 (Stockholm)",
+        ELLIPSOID["Bessel 1841",6377397.155,299.1528128,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Stockholm",18.0582777777778,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Sweden - onshore."],
+        BBOX[55.28,10.93,69.07,24.17]],
+    ID["EPSG",4814]]

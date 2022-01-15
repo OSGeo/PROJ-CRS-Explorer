@@ -1,0 +1,10 @@
+GEOGCS["Thalassa (2015) / Ographic",
+    DATUM["Thalassa (2015)",
+        SPHEROID["Thalassa (2015)",40000,0,
+            AUTHORITY["IAU","80401"]],
+        AUTHORITY["IAU","80401"]],
+    PRIMEM["Reference Meridian",0,
+        AUTHORITY["IAU","80400"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IAU","80401"]]

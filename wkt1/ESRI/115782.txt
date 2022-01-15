@@ -1,0 +1,7 @@
+VERT_CS["RGNC_1991-93",
+    VERT_DATUM["D_Reseau_Geodesique_de_Nouvelle_Caledonie_1991-93",2002,
+        AUTHORITY["ESRI","from_geogdatum_EPSG_6749"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115782"]]

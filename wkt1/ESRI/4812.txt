@@ -1,0 +1,10 @@
+GEOGCS["GCS_Voirol_Unifie_1960_Paris (deprecated)",
+    DATUM["D_Voirol_Unifie_1960",
+        SPHEROID["Clarke 1880 (RGS)",6378249.145,293.465,
+            AUTHORITY["EPSG","7012"]],
+        AUTHORITY["ESRI","106011_Paris"]],
+    PRIMEM["Paris",2.33722917,
+        AUTHORITY["EPSG","8903"]],
+    UNIT["grad",0.0157079632679489,
+        AUTHORITY["EPSG","9105"]],
+    AUTHORITY["ESRI","4812"]]

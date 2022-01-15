@@ -1,0 +1,18 @@
+GEOGCRS["Fiji 1986",
+    DATUM["Fiji Geodetic Datum 1986",
+        ELLIPSOID["WGS 72",6378135,298.26,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Fiji - onshore. Includes Viti Levu, Vanua Levu, Taveuni, the Yasawa Group, the Kadavu Group, the Lau Islands and Rotuma Islands."],
+        BBOX[-20.81,176.81,-12.42,-178.15]],
+    ID["EPSG",4720]]

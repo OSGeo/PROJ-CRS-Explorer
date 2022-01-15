@@ -1,0 +1,18 @@
+GEOGCRS["Fatu Huku (MHEFO 1955) geographiques (dms)",
+    DATUM["MHEFO 1955 (FATU HUKU)",
+        ELLIPSOID["International 1924",6378388,297,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["LOCALE, HISTORIQUE"],
+        AREA["FATU HUKU (ARCHIPEL DES MARQUISES)"],
+        BBOX[-9.44,-138.94,-9.43,-138.92]],
+    ID["IGNF","MHEFO55FG"]]

@@ -1,0 +1,10 @@
+VERTCRS["St. Marys height",
+    VDATUM["St. Marys"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["United Kingdom (UK) - Great Britain - England - Isles of Scilly onshore."],
+        BBOX[49.86,-6.41,49.99,-6.23]],
+    ID["EPSG",5749]]

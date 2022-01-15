@@ -1,0 +1,3 @@
+Error: IGNF:TIKE88GEO cannot be written as WKT1_GDAL
+ type: GEOGRAPHIC_3D_CRS
+ name: TIKEHAU (MOP88) GEOGRAPHIQUES (DMS)

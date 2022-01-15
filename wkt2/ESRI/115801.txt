@@ -1,0 +1,10 @@
+VERTCRS["Ukraine_2000",
+    VDATUM["D_Ukraine_2000"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Ukraine - onshore and offshore."],
+        BBOX[43.18,22.15,52.38,40.18]],
+    ID["ESRI",115801]]

@@ -1,0 +1,13 @@
+GEOCCS["Tureia SHM 1969 cartesiennes geocentriques",
+    DATUM["SHM 1969 (ATOLL TUREIA)",
+        SPHEROID["International 1924",6378388,297,
+            AUTHORITY["EPSG","7022"]],
+        AUTHORITY["IGNF","REG5940001"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Geocentric X",OTHER],
+    AXIS["Geocentric Y",OTHER],
+    AXIS["Geocentric Z",NORTH],
+    AUTHORITY["IGNF","TURI69"]]

@@ -1,0 +1,10 @@
+VERTCRS["Australian_Antarctic_1998",
+    VDATUM["D_Australian_Antarctic_1998"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Antarctica between 45°E and 136°E and between 142°E and 160°E - Australian sector."],
+        BBOX[-90,45,-60,160]],
+    ID["ESRI",115703]]

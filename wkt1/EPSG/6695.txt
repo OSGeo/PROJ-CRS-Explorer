@@ -1,0 +1,7 @@
+VERT_CS["JGD2011 (vertical) height",
+    VERT_DATUM["Japanese Geodetic Datum 2011 (vertical)",2005,
+        AUTHORITY["EPSG","1131"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","6695"]]

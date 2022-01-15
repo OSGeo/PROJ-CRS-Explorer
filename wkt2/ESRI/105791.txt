@@ -1,0 +1,10 @@
+VERTCRS["Fao_1979",
+    VDATUM["Fao_1979"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Iraq - onshore."],
+        BBOX[29.06,38.79,37.39,48.61]],
+    ID["ESRI",105791]]

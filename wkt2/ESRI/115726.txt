@@ -1,0 +1,10 @@
+VERTCRS["IRENET95",
+    VDATUM["D_IRENET95"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Ireland - onshore. United Kingdom (UK) - Northern Ireland (Ulster) - onshore."],
+        BBOX[51.39,-10.56,55.43,-5.34]],
+    ID["ESRI",115726]]

@@ -1,0 +1,7 @@
+VERT_CS["ISH2004 height",
+    VERT_DATUM["Landshaedarkerfi Islands 2004",2005,
+        AUTHORITY["EPSG","1190"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","8089"]]

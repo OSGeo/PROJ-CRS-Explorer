@@ -1,0 +1,18 @@
+GEOGCRS["Sierra Leone 1924",
+    DATUM["Sierra Leone Colony 1924",
+        ELLIPSOID["War Office",6378300,296,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Sierra Leone - Freetown Peninsula."],
+        BBOX[8.32,-13.34,8.55,-13.13]],
+    ID["EPSG",4174]]

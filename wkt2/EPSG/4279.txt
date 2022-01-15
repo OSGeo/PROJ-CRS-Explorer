@@ -1,0 +1,18 @@
+GEOGCRS["OS(SN)80",
+    DATUM["OS (SN) 1980",
+        ELLIPSOID["Airy 1830",6377563.396,299.3249646,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Ireland - onshore. United Kingdom (UK) - onshore - England; Scotland; Wales; Northern Ireland. Isle of Man."],
+        BBOX[49.81,-10.56,60.9,1.84]],
+    ID["EPSG",4279]]

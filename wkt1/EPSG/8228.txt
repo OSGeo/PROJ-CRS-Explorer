@@ -1,0 +1,7 @@
+VERT_CS["NAVD88 height (ft)",
+    VERT_DATUM["North American Vertical Datum 1988",2005,
+        AUTHORITY["EPSG","5103"]],
+    UNIT["foot",0.3048,
+        AUTHORITY["EPSG","9002"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","8228"]]

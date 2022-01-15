@@ -1,0 +1,10 @@
+GEOGCS["Galatea (2015) / Ographic",
+    DATUM["Galatea (2015)",
+        SPHEROID["Galatea (2015)",79000,0,
+            AUTHORITY["IAU","80601"]],
+        AUTHORITY["IAU","80601"]],
+    PRIMEM["Reference Meridian",0,
+        AUTHORITY["IAU","80600"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IAU","80601"]]

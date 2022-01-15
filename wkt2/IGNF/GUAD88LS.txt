@@ -1,0 +1,10 @@
+VERTCRS["IGN 1988 LS (GUADELOUPE / LES SAINTES)",
+    VDATUM["IGN 1988 LS (GUADELOUPE / LES SAINTES)"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["LOCALE A CARACTERE LEGAL"],
+        AREA["ILE DES SAINTES (GUADELOUPE)"],
+        BBOX[15.8,-61.7,15.93,-61.48]],
+    ID["IGNF","GUAD88LS"]]

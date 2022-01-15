@@ -1,0 +1,10 @@
+VERTCRS["HKCD depth",
+    VDATUM["Hong Kong Chart Datum"],
+    CS[vertical,1],
+        AXIS["depth (D)",down,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Hydrography and nautical charting."],
+        AREA["China - Hong Kong - offshore."],
+        BBOX[22.13,113.76,22.58,114.51]],
+    ID["EPSG",5739]]

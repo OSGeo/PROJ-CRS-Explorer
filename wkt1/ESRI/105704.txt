@@ -1,0 +1,7 @@
+VERT_CS["LAS07_height",
+    VERT_DATUM["LAS07",2005,
+        AUTHORITY["ESRI","105104"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["ESRI","105704"]]

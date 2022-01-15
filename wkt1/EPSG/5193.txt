@@ -1,0 +1,7 @@
+VERT_CS["Incheon height",
+    VERT_DATUM["Incheon",2005,
+        AUTHORITY["EPSG","1049"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5193"]]

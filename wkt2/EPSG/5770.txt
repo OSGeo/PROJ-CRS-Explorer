@@ -1,0 +1,10 @@
+VERTCRS["Wellington 1953 height",
+    VDATUM["Wellington 1953"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["New Zealand - North Island - Wellington vertical CRS area."],
+        BBOX[-41.67,174.52,-40.12,176.56]],
+    ID["EPSG",5770]]

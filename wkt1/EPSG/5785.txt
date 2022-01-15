@@ -1,0 +1,7 @@
+VERT_CS["SNN76 height",
+    VERT_DATUM["Staatlichen Nivellementnetzes 1976",2005,
+        AUTHORITY["EPSG","5183"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5785"]]

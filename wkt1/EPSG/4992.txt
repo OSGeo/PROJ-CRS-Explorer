@@ -1,0 +1,13 @@
+GEOCCS["Lao 1997",
+    DATUM["Lao_National_Datum_1997",
+        SPHEROID["Krassowsky 1940",6378245,298.3,
+            AUTHORITY["EPSG","7024"]],
+        AUTHORITY["EPSG","6678"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Geocentric X",OTHER],
+    AXIS["Geocentric Y",OTHER],
+    AXIS["Geocentric Z",NORTH],
+    AUTHORITY["EPSG","4992"]]

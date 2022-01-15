@@ -1,0 +1,7 @@
+VERT_CS["MARCARIO_SOLIS",
+    VERT_DATUM["D_SGNP_MARCARIO_SOLIS",2002,
+        AUTHORITY["ESRI","from_geogdatum_EPSG_1066"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115749"]]

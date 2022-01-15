@@ -1,0 +1,23 @@
+GEOGCRS["WGS 72",
+    DYNAMIC[
+        FRAMEEPOCH[1972]],
+    DATUM["World Geodetic System 1972",
+        ELLIPSOID["WGS 72",6378135,298.26,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,3],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["ellipsoidal height (h)",up,
+            ORDER[3],
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["World."],
+        BBOX[-90,-180,90,180]],
+    ID["EPSG",4985]]

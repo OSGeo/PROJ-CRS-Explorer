@@ -1,0 +1,7 @@
+VERT_CS["SHOM 1984 (WALLIS ET FUTUNA)",
+    VERT_DATUM["IGN 1984 (ILE UVEA OU WALLIS)",2005,
+        AUTHORITY["IGNF","REA027"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["IGNF","SHOM1984WF"]]

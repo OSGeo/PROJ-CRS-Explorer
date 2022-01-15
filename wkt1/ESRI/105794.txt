@@ -1,0 +1,7 @@
+VERT_CS["Dunedin_Bluff_1960_height",
+    VERT_DATUM["Dunedin_Bluff_1960",2005,
+        AUTHORITY["ESRI","105294"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["ESRI","105794"]]

@@ -1,0 +1,7 @@
+VERT_CS["NZVD2009 height",
+    VERT_DATUM["New Zealand Vertical Datum 2009",2005,
+        AUTHORITY["EPSG","1039"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","4440"]]

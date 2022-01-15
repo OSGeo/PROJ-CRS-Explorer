@@ -1,0 +1,10 @@
+VERTCRS["SHOM 1977 (ILES GLORIEUSES - CANAL DE MOZAMBIQUE)",
+    VDATUM["SHOM 1977 (ILES GLORIEUSES - CANAL DE MOZAMBIQUE)"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["LOCALE A CARACTERE LEGAL"],
+        AREA["ILES GLORIEUSES"],
+        BBOX[-11.62,47.25,-11.43,47.47]],
+    ID["IGNF","GLOR77"]]

@@ -1,0 +1,10 @@
+VERTCRS["SVS2010 height",
+    VDATUM["Slovenian Vertical System 2010"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Slovenia - onshore."],
+        BBOX[45.42,13.38,46.88,16.61]],
+    ID["EPSG",8690]]

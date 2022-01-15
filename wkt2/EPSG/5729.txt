@@ -1,0 +1,10 @@
+VERTCRS["LHN95 height",
+    VDATUM["Landeshohennetz 1995"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Liechtenstein; Switzerland."],
+        BBOX[45.82,5.96,47.81,10.49]],
+    ID["EPSG",5729]]

@@ -1,0 +1,10 @@
+VERTCRS["Tahaa SAU 2001 height",
+    VDATUM["Tahaa SAU 2001"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["French Polynesia - Society Islands - Tahaa."],
+        BBOX[-16.72,-151.63,-16.5,-151.36]],
+    ID["EPSG",5606]]

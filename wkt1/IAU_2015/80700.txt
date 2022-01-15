@@ -1,0 +1,10 @@
+GEOGCS["Larissa (2015) - Sphere / Ocentric",
+    DATUM["Larissa (2015) - Sphere",
+        SPHEROID["Larissa (2015) - Sphere",96000,0,
+            AUTHORITY["IAU","80700"]],
+        AUTHORITY["IAU","80700"]],
+    PRIMEM["Reference Meridian",0,
+        AUTHORITY["IAU","80700"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IAU","80700"]]

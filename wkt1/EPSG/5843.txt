@@ -1,0 +1,7 @@
+VERT_CS["Ras Ghumays height",
+    VERT_DATUM["Ras Ghumays",2005,
+        AUTHORITY["EPSG","1146"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5843"]]

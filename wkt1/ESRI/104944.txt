@@ -1,0 +1,10 @@
+GEOGCS["GCS_Uranus_2000",
+    DATUM["D_Uranus_2000",
+        SPHEROID["Uranus_2000_IAU_IAG",25559000,43.6160409556314,
+            AUTHORITY["ESRI","107944"]],
+        AUTHORITY["ESRI","106944"]],
+    PRIMEM["Reference_Meridian",0,
+        AUTHORITY["ESRI","108900"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["ESRI","104944"]]

@@ -1,0 +1,7 @@
+VERT_CS["Pago Pago 2020 height",
+    VERT_DATUM["Local Tidal Datum at Pago Pago 2020",2005,
+        AUTHORITY["EPSG","1302"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","9675"]]

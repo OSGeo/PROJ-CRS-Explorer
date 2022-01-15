@@ -1,0 +1,10 @@
+GEOGCS["Halley (2015) / Ocentric",
+    DATUM["Halley (2015)",
+        SPHEROID["Halley (2015)",8000,2,
+            AUTHORITY["IAU","100003601"]],
+        AUTHORITY["IAU","100003601"]],
+    PRIMEM["Reference Meridian",0,
+        AUTHORITY["IAU","100003600"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IAU","100003602"]]

@@ -1,0 +1,18 @@
+GEOGCRS["GCS_GUX_1",
+    DATUM["D_GUX_1",
+        ELLIPSOID["International 1924",6378388,297,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Solomon Islands - Guadalcanal Island."],
+        BBOX[-9.98,159.55,-9.2,160.88]],
+    ID["ESRI",37221]]

@@ -1,0 +1,7 @@
+VERT_CS["Unknown_height_system_(meters)",
+    VERT_DATUM["Unknown_height_system_(meters)",2005,
+        AUTHORITY["ESRI","105110"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["ESRI","115807"]]

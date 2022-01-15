@@ -1,0 +1,10 @@
+VERTCRS["One Tree Point 1964 height",
+    VDATUM["One Tree Point 1964"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["New Zealand - North Island - One Tree Point vertical CRS area."],
+        BBOX[-36.41,172.61,-34.36,174.83]],
+    ID["EPSG",5767]]

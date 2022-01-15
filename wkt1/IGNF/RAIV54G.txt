@@ -1,0 +1,10 @@
+GEOGCS["Raivavae (Cadastre) geographiques (dms)",
+    DATUM["CADASTRE 1953-1954 (ATOLL RAIVAVAE)",
+        SPHEROID["International 1924",6378388,297,
+            AUTHORITY["EPSG","7022"]],
+        AUTHORITY["IGNF","REG5530001"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IGNF","RAIV54G"]]

@@ -1,0 +1,18 @@
+GEOGCRS["Pulkovo 1942(83)",
+    DATUM["Pulkovo 1942(83)",
+        ELLIPSOID["Krassowsky 1940",6378245,298.3,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Onshore Bulgaria, Czechia, Germany (former DDR), Hungary and Slovakia."],
+        BBOX[41.24,9.92,54.74,28.68]],
+    ID["EPSG",4178]]

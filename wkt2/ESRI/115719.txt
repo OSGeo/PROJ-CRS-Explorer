@@ -1,0 +1,10 @@
+VERTCRS["Hartebeesthoek_1994",
+    VDATUM["D_Hartebeesthoek_1994"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["South Africa - onshore and offshore, including Marion Island, and Prince Edward Island."],
+        BBOX[-50.32,13.33,-22.13,42.85]],
+    ID["ESRI",115719]]

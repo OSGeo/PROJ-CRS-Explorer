@@ -1,0 +1,10 @@
+VERTCRS["Poolbeg height (ft(Br36))",
+    VDATUM["Poolbeg"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["British foot (1936)",0.3048007491]],
+    USAGE[
+        SCOPE["Topographic mapping."],
+        AREA["Ireland - onshore. United Kingdom (UK) - Northern Ireland (Ulster) - onshore."],
+        BBOX[51.39,-10.56,55.43,-5.34]],
+    ID["EPSG",5754]]

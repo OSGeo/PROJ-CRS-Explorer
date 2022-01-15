@@ -1,0 +1,10 @@
+VERTCRS["Ras Ghumays height",
+    VDATUM["Ras Ghumays"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Engineering survey, topographic mapping."],
+        AREA["United Arab Emirates (UAE) - Abu Dhabi onshore."],
+        BBOX[22.63,51.56,24.95,56.03]],
+    ID["EPSG",5843]]

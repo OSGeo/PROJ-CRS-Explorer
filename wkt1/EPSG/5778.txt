@@ -1,0 +1,7 @@
+VERT_CS["GHA height",
+    VERT_DATUM["Gebrauchshohen ADRIA",2005,
+        AUTHORITY["EPSG","5176"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5778"]]

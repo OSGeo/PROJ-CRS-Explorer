@@ -1,0 +1,10 @@
+VERTCRS["Lerwick height",
+    VDATUM["Lerwick"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["United Kingdom (UK) - Great Britain - Scotland - Shetland Islands onshore."],
+        BBOX[59.83,-1.78,60.87,-0.67]],
+    ID["EPSG",5742]]

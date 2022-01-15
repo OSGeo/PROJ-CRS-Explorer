@@ -1,0 +1,10 @@
+VERTCRS["ODN Orkney height",
+    VDATUM["Ordnance Datum Newlyn (Orkney Isles)"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["United Kingdom (UK) - Great Britain - Scotland - Orkney Islands onshore."],
+        BBOX[58.72,-3.48,59.41,-2.34]],
+    ID["EPSG",5740]]

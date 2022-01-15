@@ -1,0 +1,7 @@
+VERT_CS["HKCD depth",
+    VERT_DATUM["Hong Kong Chart Datum",2005,
+        AUTHORITY["EPSG","5136"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Depth",DOWN],
+    AUTHORITY["EPSG","5739"]]

@@ -1,0 +1,10 @@
+VERTCRS["IGM_1995",
+    VDATUM["D_IGM_1995"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Italy - onshore and offshore; San Marino, Vatican City State."],
+        BBOX[34.76,5.93,47.1,18.99]],
+    ID["ESRI",115724]]

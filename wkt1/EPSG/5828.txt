@@ -1,0 +1,13 @@
+GEOCCS["DB_REF",
+    DATUM["Deutsche_Bahn_Reference_System",
+        SPHEROID["Bessel 1841",6377397.155,299.1528128,
+            AUTHORITY["EPSG","7004"]],
+        AUTHORITY["EPSG","1081"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Geocentric X",OTHER],
+    AXIS["Geocentric Y",OTHER],
+    AXIS["Geocentric Z",NORTH],
+    AUTHORITY["EPSG","5828"]]

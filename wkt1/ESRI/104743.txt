@@ -1,0 +1,10 @@
+GEOGCS["GCS_NAD_1983_HARN_Adj_MN_Mahnomen",
+    DATUM["D_NAD_1983_HARN_Adj_MN_Mahnomen",
+        SPHEROID["S_GRS_1980_Adj_MN_Mahnomen",6378586.581,298.257222100883,
+            AUTHORITY["ESRI","107743"]],
+        AUTHORITY["ESRI","106743"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["ESRI","104743"]]

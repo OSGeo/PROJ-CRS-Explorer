@@ -1,0 +1,10 @@
+VERTCRS["Cais da Madalena height",
+    VDATUM["Cais da Madalena"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Portugal - central Azores - Pico island onshore."],
+        BBOX[38.32,-28.61,38.61,-27.98]],
+    ID["EPSG",6182]]

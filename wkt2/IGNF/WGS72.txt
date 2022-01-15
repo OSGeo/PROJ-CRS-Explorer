@@ -1,0 +1,23 @@
+GEODCRS["WGS72 cartesiennes geocentriques",
+    DYNAMIC[
+        FRAMEEPOCH[1972]],
+    DATUM["World Geodetic System 1972",
+        ELLIPSOID["WGS 72",6378135,298.26,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[Cartesian,3],
+        AXIS["(X)",geocentricX,
+            ORDER[1],
+            LENGTHUNIT["metre",1]],
+        AXIS["(Y)",geocentricY,
+            ORDER[2],
+            LENGTHUNIT["metre",1]],
+        AXIS["(Z)",geocentricZ,
+            ORDER[3],
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["MONDIALE, HISTORIQUE"],
+        AREA["PLANETE TERRE ET SON ENVIRONNEMENT PROCHE"],
+        BBOX[-90,-180,90,180]],
+    ID["IGNF","WGS72"]]

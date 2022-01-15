@@ -1,0 +1,10 @@
+VERTCRS["IGLD 1955 height",
+    VDATUM["International Great Lakes Datum 1955"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Hydrology."],
+        AREA["Canada and United States (USA) - Great Lakes basin and St Lawrence Seaway."],
+        BBOX[40.99,-93.17,52.22,-54.75]],
+    ID["EPSG",5608]]

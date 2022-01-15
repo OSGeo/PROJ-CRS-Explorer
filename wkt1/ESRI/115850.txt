@@ -1,0 +1,7 @@
+VERT_CS["RGWF96",
+    VERT_DATUM["Reseau_Geodesique_de_Wallis_et_Futuna_1996",2002,
+        AUTHORITY["ESRI","from_geogdatum_EPSG_1223"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115850"]]

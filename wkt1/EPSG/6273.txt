@@ -1,0 +1,3 @@
+Error: EPSG:6273 cannot be written as WKT1_GDAL
+ type: PROJECTED_CRS
+ name: MAGNA-SIRGAS / Valledupar urban grid

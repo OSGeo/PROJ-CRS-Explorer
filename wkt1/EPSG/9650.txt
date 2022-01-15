@@ -1,0 +1,7 @@
+VERT_CS["Baltic 1986 height",
+    VERT_DATUM["Baltic 1986",2005,
+        AUTHORITY["EPSG","1296"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","9650"]]

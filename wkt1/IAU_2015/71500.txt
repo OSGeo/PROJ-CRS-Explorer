@@ -1,0 +1,10 @@
+GEOGCS["Puck (2015) - Sphere / Ocentric",
+    DATUM["Puck (2015) - Sphere",
+        SPHEROID["Puck (2015) - Sphere",77000,0,
+            AUTHORITY["IAU","71500"]],
+        AUTHORITY["IAU","71500"]],
+    PRIMEM["Reference Meridian",0,
+        AUTHORITY["IAU","71500"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IAU","71500"]]

@@ -1,0 +1,10 @@
+GEOGCS["Unknown datum based upon the Bessel Namibia ellipsoid (deprecated)",
+    DATUM["Not_specified_based_on_Bessel_Namibia_ellipsoid",
+        SPHEROID["Bessel Namibia (GLM)",6377483.86528042,299.1528128,
+            AUTHORITY["EPSG","7046"]],
+        AUTHORITY["EPSG","6006"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["EPSG","4006"]]

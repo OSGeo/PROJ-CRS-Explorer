@@ -1,0 +1,18 @@
+GEOGCRS["Amsterdam 1963 geographiques (dms)",
+    DATUM["ILE AMSTERDAM 1963",
+        ELLIPSOID["International 1924",6378388,297,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["LOCALE, HISTORIQUE"],
+        AREA["ILE AMSTERDAM"],
+        BBOX[-37.92,77.45,-37.75,77.63]],
+    ID["IGNF","AMST63G"]]

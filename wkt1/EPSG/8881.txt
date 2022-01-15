@@ -1,0 +1,7 @@
+VERT_CS["Vienna height",
+    VERT_DATUM["Wiener Null",2005,
+        AUTHORITY["EPSG","1267"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","8881"]]

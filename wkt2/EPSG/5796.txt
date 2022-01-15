@@ -1,0 +1,10 @@
+VERTCRS["Lagos 1955 height",
+    VDATUM["Lagos 1955"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Nigeria - onshore."],
+        BBOX[4.22,2.69,13.9,14.65]],
+    ID["EPSG",5796]]

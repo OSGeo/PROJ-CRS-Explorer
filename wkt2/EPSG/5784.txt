@@ -1,0 +1,10 @@
+VERTCRS["DHHN85 height",
+    VDATUM["Deutsches Haupthoehennetz 1985"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Germany - states of former West Germany onshore - Baden-Wurtemberg, Bayern, Bremen, Hamburg, Hessen, Niedersachsen, Nordrhein-Westfalen, Rheinland-Pfalz, Saarland, Schleswig-Holstein."],
+        BBOX[47.27,5.87,55.09,13.84]],
+    ID["EPSG",5784]]

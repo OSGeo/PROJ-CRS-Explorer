@@ -1,0 +1,3 @@
+Error: EPSG:3139 cannot be written as WKT1_GDAL
+ type: PROJECTED_CRS
+ name: Vanua Levu 1915 / Vanua Levu Grid

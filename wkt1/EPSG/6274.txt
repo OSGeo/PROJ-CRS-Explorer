@@ -1,0 +1,3 @@
+Error: EPSG:6274 cannot be written as WKT1_GDAL
+ type: PROJECTED_CRS
+ name: MAGNA-SIRGAS / Villavicencio urban grid

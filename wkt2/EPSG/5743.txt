@@ -1,0 +1,10 @@
+VERTCRS["Foula height",
+    VDATUM["Foula"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["United Kingdom (UK) - Great Britain - Scotland - Foula onshore."],
+        BBOX[60.06,-2.21,60.2,-1.95]],
+    ID["EPSG",5743]]

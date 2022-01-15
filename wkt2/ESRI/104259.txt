@@ -1,0 +1,18 @@
+GEOGCRS["GCS_NAD_1983_PACP00",
+    DATUM["D_NAD_1983_PACP00",
+        ELLIPSOID["GRS 1980",6378137,298.257222101,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["American Samoa, Marshall Islands, United States (USA) - Hawaii, United States minor outlying islands; onshore and offshore."],
+        BBOX[-17.56,157.47,31.8,-151.27]],
+    ID["ESRI",104259]]

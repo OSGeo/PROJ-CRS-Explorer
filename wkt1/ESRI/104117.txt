@@ -1,0 +1,10 @@
+GEOGCS["GCS_ITRF_1990 (deprecated)",
+    DATUM["International_Terrestrial_Reference_Frame_1990",
+        SPHEROID["GRS 1980",6378137,298.257222101,
+            AUTHORITY["EPSG","7019"]],
+        AUTHORITY["EPSG","6649"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["ESRI","104117"]]

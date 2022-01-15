@@ -1,0 +1,10 @@
+VERTCRS["Instantaneous Water Level height",
+    VDATUM["Instantaneous Water Level"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Hydrography, drilling, marine geophysics."],
+        AREA["World."],
+        BBOX[-90,-180,90,180]],
+    ID["EPSG",5829]]

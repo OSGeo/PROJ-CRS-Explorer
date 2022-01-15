@@ -1,0 +1,7 @@
+VERT_CS["IGLD 1955 height",
+    VERT_DATUM["International Great Lakes Datum 1955",2005,
+        AUTHORITY["EPSG","5204"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5608"]]

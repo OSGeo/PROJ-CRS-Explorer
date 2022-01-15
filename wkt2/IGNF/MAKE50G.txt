@@ -1,0 +1,18 @@
+GEOGCRS["Makemo (SHM 1947-1950) geographiques (dms)",
+    DATUM["SHM 1947-1950 (ATOLL MAKEMO)",
+        ELLIPSOID["International 1924",6378388,297,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["LOCALE, HISTORIQUE"],
+        AREA["MAKEMO (ARCHIPEL DES TUAMOTU)"],
+        BBOX[-16.83,-144,-16.33,-143.33]],
+    ID["IGNF","MAKE50G"]]

@@ -1,0 +1,10 @@
+VERTCRS["NGWF WALLIS (MOP 1996)",
+    VDATUM["NGWF WALLIS (MOP 1996)"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["LOCALE"],
+        AREA["ILE D'UVEA (WALLIS)"],
+        BBOX[-13.42,-176.3,-13.17,-176.1]],
+    ID["IGNF","WALLIS96"]]

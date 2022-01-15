@@ -1,0 +1,13 @@
+GEOCCS["RGTAAF07 cartesiennes geocentriques",
+    DATUM["Reseau_Geodesique_des_Terres_Australes_et_Antarctiques_Francaises_2007",
+        SPHEROID["GRS 1980",6378137,298.257222101,
+            AUTHORITY["EPSG","7019"]],
+        AUTHORITY["EPSG","1113"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Geocentric X",OTHER],
+    AXIS["Geocentric Y",OTHER],
+    AXIS["Geocentric Z",NORTH],
+    AUTHORITY["IGNF","RGTAAF07"]]

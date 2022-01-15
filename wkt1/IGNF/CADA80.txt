@@ -1,0 +1,13 @@
+GEOCCS["Apataki Cadastre 1980 cartesiennes geocentriques",
+    DATUM["CADASTRE 1980 (ATOLL APATAKI)",
+        SPHEROID["International 1924",6378388,297,
+            AUTHORITY["EPSG","7022"]],
+        AUTHORITY["IGNF","REG5680001"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Geocentric X",OTHER],
+    AXIS["Geocentric Y",OTHER],
+    AXIS["Geocentric Z",NORTH],
+    AUTHORITY["IGNF","CADA80"]]

@@ -1,0 +1,10 @@
+VERTCRS["Yellow Sea",
+    VDATUM["Yellow Sea 1956"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["China - onshore and offshore."],
+        BBOX[16.7,73.62,53.56,134.77]],
+    ID["EPSG",5704]]

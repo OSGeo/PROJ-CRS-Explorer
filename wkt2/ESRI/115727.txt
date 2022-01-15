@@ -1,0 +1,10 @@
+VERTCRS["ISN_1993",
+    VDATUM["D_Islands_Network_1993"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Iceland - onshore and offshore."],
+        BBOX[59.96,-30.87,69.59,-5.55]],
+    ID["ESRI",115727]]

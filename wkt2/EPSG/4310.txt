@@ -1,0 +1,18 @@
+GEOGCRS["Yoff",
+    DATUM["Yoff",
+        ELLIPSOID["Clarke 1880 (IGN)",6378249.2,293.466021293627,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Senegal - onshore and offshore."],
+        BBOX[10.64,-20.22,16.7,-11.36]],
+    ID["EPSG",4310]]

@@ -1,0 +1,7 @@
+VERT_CS["IGD05(2012)",
+    VERT_DATUM["Israeli_Geodetic_Datum_2005(2012)",2002,
+        AUTHORITY["ESRI","from_geogdatum_EPSG_1115"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115722"]]

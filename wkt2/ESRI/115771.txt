@@ -1,0 +1,10 @@
+VERTCRS["PRS_1992",
+    VDATUM["D_Philippine_Reference_System_1992"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Philippines - onshore and offshore."],
+        BBOX[3,116.04,22.18,129.95]],
+    ID["ESRI",115771]]

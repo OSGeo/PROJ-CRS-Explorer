@@ -1,0 +1,10 @@
+VERTCRS["MSL depth (ft)",
+    VDATUM["Mean Sea Level"],
+    CS[vertical,1],
+        AXIS["depth (D)",down,
+            LENGTHUNIT["foot",0.3048]],
+    USAGE[
+        SCOPE["Hydrography, drilling."],
+        AREA["World."],
+        BBOX[-90,-180,90,180]],
+    ID["EPSG",8051]]

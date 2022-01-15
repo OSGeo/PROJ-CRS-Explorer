@@ -1,0 +1,18 @@
+GEOGCRS["Mount Dillon",
+    DATUM["Mount Dillon",
+        ELLIPSOID["Clarke 1858",20926348,294.260676369261,
+            LENGTHUNIT["Clarke's foot",0.3047972654]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Trinidad and Tobago - Tobago - onshore."],
+        BBOX[11.08,-60.9,11.41,-60.44]],
+    ID["EPSG",4157]]

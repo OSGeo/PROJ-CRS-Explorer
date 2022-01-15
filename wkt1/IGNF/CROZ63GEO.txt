@@ -1,0 +1,3 @@
+Error: IGNF:CROZ63GEO cannot be written as WKT1_GDAL
+ type: GEOGRAPHIC_3D_CRS
+ name: Crozet - Possession 1963 geographiques (dms)

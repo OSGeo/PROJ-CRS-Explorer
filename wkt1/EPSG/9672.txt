@@ -1,0 +1,7 @@
+VERT_CS["CD Norway depth",
+    VERT_DATUM["Norwegian Chart Datum",2005,
+        AUTHORITY["EPSG","1301"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Depth",DOWN],
+    AUTHORITY["EPSG","9672"]]

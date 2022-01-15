@@ -1,0 +1,10 @@
+VERTCRS["ISH2004 height",
+    VDATUM["Landshaedarkerfi Islands 2004"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Iceland - onshore."],
+        BBOX[63.34,-24.66,66.59,-13.38]],
+    ID["EPSG",8089]]

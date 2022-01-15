@@ -1,0 +1,18 @@
+GEOGCRS["Egypt 1907",
+    DATUM["Egypt 1907",
+        ELLIPSOID["Helmert 1906",6378200,298.3,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Egypt - onshore and offshore."],
+        BBOX[21.89,24.7,33.82,37.91]],
+    ID["EPSG",4229]]

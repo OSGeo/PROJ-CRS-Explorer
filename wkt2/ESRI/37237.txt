@@ -1,0 +1,18 @@
+GEOGCRS["GCS_Ascension_Island_1958",
+    DATUM["D_Ascension_Island_1958",
+        ELLIPSOID["International 1924",6378388,297,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["St Helena, Ascension and Tristan da Cunha - Ascension Island - onshore."],
+        BBOX[-8.03,-14.46,-7.83,-14.24]],
+    ID["ESRI",37237]]

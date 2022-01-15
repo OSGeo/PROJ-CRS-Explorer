@@ -1,0 +1,18 @@
+GEOGCRS["Kasai 1953",
+    DATUM["Kasai 1953",
+        ELLIPSOID["Clarke 1880 (RGS)",6378249.145,293.465,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["The Democratic Republic of the Congo (Zaire) - Kasai - south of 5°S and east of 21°30'E."],
+        BBOX[-7.31,21.5,-5.01,26.26]],
+    ID["EPSG",4696]]

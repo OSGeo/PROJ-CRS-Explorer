@@ -1,0 +1,10 @@
+VERTCRS["NGF-IGN 1978",
+    VDATUM["NGF-IGN 1978"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["LOCALE A CARACTERE LEGAL"],
+        AREA["CORSE"],
+        BBOX[41.2,8,43.5,10]],
+    ID["IGNF","IGN78C"]]

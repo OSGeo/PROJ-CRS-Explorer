@@ -1,0 +1,7 @@
+VERT_CS["CBVD61 height (ft)",
+    VERT_DATUM["Cayman Brac Vertical Datum 1961",2005,
+        AUTHORITY["EPSG","1099"]],
+    UNIT["foot",0.3048,
+        AUTHORITY["EPSG","9002"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","6132"]]

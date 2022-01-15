@@ -1,0 +1,10 @@
+VERTCRS["Jamestown 1971 height",
+    VDATUM["Jamestown 1971"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Topographic mapping."],
+        AREA["St Helena, Ascension and Tristan da Cunha - St Helena Island - onshore."],
+        BBOX[-16.08,-5.85,-15.85,-5.58]],
+    ID["EPSG",7888]]

@@ -1,0 +1,10 @@
+VERTCRS["CBVD61 height (ft)",
+    VDATUM["Cayman Brac Vertical Datum 1961"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["foot",0.3048]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["Cayman Islands - Cayman Brac."],
+        BBOX[19.66,-79.92,19.78,-79.69]],
+    ID["EPSG",6132]]

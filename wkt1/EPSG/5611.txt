@@ -1,0 +1,7 @@
+VERT_CS["Caspian height",
+    VERT_DATUM["Caspian Sea",2005,
+        AUTHORITY["EPSG","5106"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5611"]]

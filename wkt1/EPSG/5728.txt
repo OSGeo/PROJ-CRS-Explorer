@@ -1,0 +1,7 @@
+VERT_CS["LN02 height",
+    VERT_DATUM["Landesnivellement 1902",2005,
+        AUTHORITY["EPSG","5127"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5728"]]

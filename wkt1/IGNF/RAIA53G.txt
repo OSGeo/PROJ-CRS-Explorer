@@ -1,0 +1,10 @@
+GEOGCS["IGN53 Societe geographiques (dms)",
+    DATUM["IGN53 (IGN RAIATEA-TAHAA) RAIATEA-TAHAA-BORA BORA-HUAHINE",
+        SPHEROID["International 1924",6378388,297,
+            AUTHORITY["EPSG","7022"]],
+        AUTHORITY["IGNF","REG0300001"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IGNF","RAIA53G"]]

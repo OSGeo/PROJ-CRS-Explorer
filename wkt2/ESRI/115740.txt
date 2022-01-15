@@ -1,0 +1,10 @@
+VERTCRS["JGD_2000",
+    VDATUM["D_JGD_2000"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Japan - onshore and offshore."],
+        BBOX[17.09,122.38,46.05,157.65]],
+    ID["ESRI",115740]]

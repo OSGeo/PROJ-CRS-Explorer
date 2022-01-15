@@ -1,0 +1,18 @@
+GEOGCRS["Takaroa Takapoto (SHM 1969) geo. (dms)",
+    DATUM["MHPF 1969 (ATOLLS TAKAROA ET TAKAPOTO)",
+        ELLIPSOID["International 1924",6378388,297,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["LOCALE, HISTORIQUE"],
+        AREA["TAKAROA ET TAKAPOTO (ARCHIPEL DES TUAMOTU)"],
+        BBOX[-14.75,-145.33,-14.25,-144.75]],
+    ID["IGNF","TAKA69G"]]

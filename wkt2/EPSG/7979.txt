@@ -1,0 +1,10 @@
+VERTCRS["KOC WD height",
+    VDATUM["KOC Well Datum"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["KOC exploration and field development subsurface work."],
+        AREA["Kuwait - onshore."],
+        BBOX[28.53,46.54,30.09,48.48]],
+    ID["EPSG",7979]]

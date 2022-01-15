@@ -1,0 +1,18 @@
+GEOGCRS["Cape",
+    DATUM["Cape",
+        ELLIPSOID["Clarke 1880 (Arc)",6378249.145,293.4663077,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Botswana; Eswatini (Swaziland); Lesotho; South Africa - mainland."],
+        BBOX[-34.88,16.45,-17.78,32.95]],
+    ID["EPSG",4222]]

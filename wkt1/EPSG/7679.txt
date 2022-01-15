@@ -1,0 +1,13 @@
+GEOCCS["PZ-90.11",
+    DATUM["Parametry_Zemli_1990_11",
+        SPHEROID["PZ-90",6378136,298.257839303,
+            AUTHORITY["EPSG","7054"]],
+        AUTHORITY["EPSG","1158"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Geocentric X",OTHER],
+    AXIS["Geocentric Y",OTHER],
+    AXIS["Geocentric Z",NORTH],
+    AUTHORITY["EPSG","7679"]]

@@ -1,0 +1,10 @@
+VERTCRS["IGD05(2012)",
+    VDATUM["Israeli_Geodetic_Datum_2005(2012)"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Israel - onshore and offshore."],
+        BBOX[29.45,32.99,33.53,35.69]],
+    ID["ESRI",115722]]

@@ -1,0 +1,10 @@
+VERTCRS["Macao height",
+    VDATUM["Macao Height Datum"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["China - Macao - onshore and offshore."],
+        BBOX[22.06,113.52,22.23,113.68]],
+    ID["EPSG",8434]]

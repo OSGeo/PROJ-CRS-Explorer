@@ -1,0 +1,3 @@
+Error: IGNF:KERG62GEO cannot be written as WKT1_GDAL
+ type: GEOGRAPHIC_3D_CRS
+ name: Kerguelen - K0 geographiques (dms)

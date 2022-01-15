@@ -1,0 +1,7 @@
+VERT_CS["Santa Cruz das Flores height",
+    VERT_DATUM["Santa Cruz das Flores",2005,
+        AUTHORITY["EPSG","1108"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","6185"]]

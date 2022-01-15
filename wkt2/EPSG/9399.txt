@@ -1,0 +1,10 @@
+VERTCRS["La Gomera height",
+    VDATUM["La Gomera"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Spain - Canary Islands - La Gomera onshore."],
+        BBOX[27.95,-17.39,28.26,-17.03]],
+    ID["EPSG",9399]]

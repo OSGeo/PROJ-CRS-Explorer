@@ -1,0 +1,10 @@
+VERTCRS["PNG08 height",
+    VDATUM["PNG08"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Papua New Guinea - between 0°N and 12°S and 140°E and 158°E - onshore and offshore."],
+        BBOX[-12,140,0.01,158.01]],
+    ID["EPSG",7447]]

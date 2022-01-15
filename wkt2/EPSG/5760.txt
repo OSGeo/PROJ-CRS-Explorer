@@ -1,0 +1,10 @@
+VERTCRS["Bluff 1955 height",
+    VDATUM["Bluff 1955"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["New Zealand - South Island - Bluff vertical CRS area."],
+        BBOX[-46.71,168.01,-46.26,168.86]],
+    ID["EPSG",5760]]

@@ -1,0 +1,3 @@
+Error: ESRI:102791 cannot be written as WKT1_GDAL
+ type: PROJECTED_CRS
+ name: MAGNA_Pereira_Risaralda_2007

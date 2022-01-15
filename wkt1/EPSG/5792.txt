@@ -1,0 +1,7 @@
+VERT_CS["Danger 1950 height",
+    VERT_DATUM["Danger 1950",2005,
+        AUTHORITY["EPSG","5190"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5792"]]

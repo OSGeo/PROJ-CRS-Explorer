@@ -1,0 +1,7 @@
+VERT_CS["MSL height (ftUS)",
+    VERT_DATUM["Mean Sea Level",2005,
+        AUTHORITY["EPSG","5100"]],
+    UNIT["US survey foot",0.304800609601219,
+        AUTHORITY["EPSG","9003"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","8052"]]

@@ -1,0 +1,10 @@
+VERTCRS["Cagliari 1956 height",
+    VDATUM["Cagliari 1956"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Italy - Sardinia onshore."],
+        BBOX[38.82,8.08,41.31,9.89]],
+    ID["EPSG",9722]]

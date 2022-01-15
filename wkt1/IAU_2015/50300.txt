@@ -1,0 +1,10 @@
+GEOGCS["Ganymede (2015) - Sphere / Ocentric",
+    DATUM["Ganymede (2015) - Sphere",
+        SPHEROID["Ganymede (2015) - Sphere",2631200,0,
+            AUTHORITY["IAU","50300"]],
+        AUTHORITY["IAU","50300"]],
+    PRIMEM["Reference Meridian",0,
+        AUTHORITY["IAU","50300"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IAU","50300"]]

@@ -1,0 +1,10 @@
+VERTCRS["Raiatea SAU 2001 height",
+    VDATUM["Raiatea SAU 2001"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["French Polynesia - Society Islands - Raiatea."],
+        BBOX[-16.96,-151.55,-16.68,-151.3]],
+    ID["EPSG",5603]]

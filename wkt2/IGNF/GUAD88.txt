@@ -1,0 +1,10 @@
+VERTCRS["IGN 1988 (GUADELOUPE)",
+    VDATUM["IGN 1988 (GUADELOUPE)"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["NATIONALE A CARACTERE LEGAL"],
+        AREA["GRANDE-TERRE ET BASSE-TERRE (GUADELOUPE)"],
+        BBOX[15.88,-61.85,16.63,-61.08]],
+    ID["IGNF","GUAD88"]]

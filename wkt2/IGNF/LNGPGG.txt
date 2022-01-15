@@ -1,0 +1,18 @@
+GEOGCRS["Lambert Nord de Guerre grades Paris",
+    DATUM["Nord de Guerre (Paris)",
+        ELLIPSOID["Plessis 1817",6376523,308.64,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Paris",2.5969213,
+        ANGLEUNIT["grad",0.0157079632679489]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[1],
+            ANGLEUNIT["grad",0.0157079632679489]],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[2],
+            ANGLEUNIT["grad",0.0157079632679489]],
+    USAGE[
+        SCOPE["LOCALE, HISTORIQUE"],
+        AREA["World."],
+        BBOX[-90,-180,90,180]],
+    ID["IGNF","LNGPGG"]]

@@ -1,0 +1,3 @@
+Error: IGNF:TAHI79GEO cannot be written as WKT1_GDAL
+ type: GEOGRAPHIC_3D_CRS
+ name: Tahiti (IGN79) geographiques (dms)

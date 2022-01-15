@@ -1,0 +1,7 @@
+VERT_CS["St_Helena_Tritan",
+    VERT_DATUM["St_Helena_Tritan",2002,
+        AUTHORITY["ESRI","from_geogdatum_EPSG_1173"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115812"]]

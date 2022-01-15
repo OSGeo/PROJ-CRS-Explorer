@@ -1,0 +1,7 @@
+VERT_CS["ODN Orkney height",
+    VERT_DATUM["Ordnance Datum Newlyn (Orkney Isles)",2005,
+        AUTHORITY["EPSG","5138"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5740"]]

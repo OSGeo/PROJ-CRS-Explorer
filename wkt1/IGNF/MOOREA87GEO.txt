@@ -1,0 +1,3 @@
+Error: IGNF:MOOREA87GEO cannot be written as WKT1_GDAL
+ type: GEOGRAPHIC_3D_CRS
+ name: Moorea 1987 geographiques (dms)

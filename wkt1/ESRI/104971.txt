@@ -1,0 +1,10 @@
+GEOGCS["Mars_2000_(Sphere)",
+    DATUM["Mars_2000_(Sphere)",
+        SPHEROID["Mars_2000_(Sphere)",3396190,0,
+            AUTHORITY["ESRI","107971"]],
+        AUTHORITY["ESRI","106971"]],
+    PRIMEM["Reference_Meridian",0,
+        AUTHORITY["ESRI","108900"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["ESRI","104971"]]

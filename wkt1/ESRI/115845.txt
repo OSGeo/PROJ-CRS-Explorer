@@ -1,0 +1,7 @@
+VERT_CS["GGD",
+    VERT_DATUM["Georgia_Geodetic_Datum",2002,
+        AUTHORITY["ESRI","from_geogdatum_ESRI_106010"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115845"]]

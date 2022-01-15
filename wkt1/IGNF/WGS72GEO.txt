@@ -1,0 +1,3 @@
+Error: IGNF:WGS72GEO cannot be written as WKT1_GDAL
+ type: GEOGRAPHIC_3D_CRS
+ name: WGS72 geographiques (dms)

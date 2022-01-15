@@ -1,0 +1,10 @@
+VERTCRS["Poolbeg height (m)",
+    VDATUM["Poolbeg"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Intermediate stage in transformations - not used otherwise."],
+        AREA["Ireland - onshore. United Kingdom (UK) - Northern Ireland (Ulster) - onshore."],
+        BBOX[51.39,-10.56,55.43,-5.34]],
+    ID["EPSG",7962]]

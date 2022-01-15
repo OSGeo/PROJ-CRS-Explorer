@@ -1,0 +1,10 @@
+VERTCRS["Fair Isle height",
+    VDATUM["Fair Isle"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["United Kingdom (UK) - Great Britain - Scotland - Fair Isle onshore."],
+        BBOX[59.45,-1.76,59.6,-1.5]],
+    ID["EPSG",5741]]

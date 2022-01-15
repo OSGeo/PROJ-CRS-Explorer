@@ -1,0 +1,10 @@
+GEOGCS["Lisbon (Lisbon)",
+    DATUM["Lisbon_1937_Lisbon",
+        SPHEROID["International 1924",6378388,297,
+            AUTHORITY["EPSG","7022"]],
+        AUTHORITY["EPSG","6803"]],
+    PRIMEM["Lisbon",-9.13190611111111,
+        AUTHORITY["EPSG","8902"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["EPSG","4803"]]

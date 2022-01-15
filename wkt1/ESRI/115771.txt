@@ -1,0 +1,7 @@
+VERT_CS["PRS_1992",
+    VERT_DATUM["D_Philippine_Reference_System_1992",2002,
+        AUTHORITY["ESRI","from_geogdatum_EPSG_6683"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115771"]]

@@ -1,0 +1,7 @@
+VERT_CS["ODN height",
+    VERT_DATUM["Ordnance Datum Newlyn",2005,
+        AUTHORITY["EPSG","5101"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5701"]]

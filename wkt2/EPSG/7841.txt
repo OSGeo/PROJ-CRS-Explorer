@@ -1,0 +1,10 @@
+VERTCRS["POM08 height",
+    VDATUM["Port Moresby 2008"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Engineering survey."],
+        AREA["Papua New Guinea - onshore - Gulf province east of 144°24'E, Central province and National Capital District."],
+        BBOX[-10.42,144.4,-6.67,149.67]],
+    ID["EPSG",7841]]

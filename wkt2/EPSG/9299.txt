@@ -1,0 +1,18 @@
+GEOGCRS["HS2-IRF",
+    DATUM["HS2 Intermediate Reference Frame",
+        ELLIPSOID["GRS 1980",6378137,298.257222101,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Engineering survey for HS2 project phases 1 and 2a."],
+        AREA["United Kingdom (UK) - HS2 phases 1 and 2a railway corridor from London to Birmingham, Lichfield and Crewe."],
+        BBOX[51.45,-2.75,53.3,0]],
+    ID["EPSG",9299]]

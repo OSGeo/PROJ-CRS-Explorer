@@ -1,0 +1,10 @@
+VERTCRS["La Palma height",
+    VDATUM["La Palma"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Spain - Canary Islands - La Palma onshore."],
+        BBOX[28.4,-18.06,28.9,-17.66]],
+    ID["EPSG",9400]]

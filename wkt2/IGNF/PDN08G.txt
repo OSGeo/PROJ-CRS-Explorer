@@ -1,0 +1,18 @@
+GEOGCRS["PITON DES NEIGES (2008) GEOGRAPHIQUES (DMS)",
+    DATUM["REUNION - PITON DES NEIGES (IGN 2008)",
+        ELLIPSOID["International 1924",6378388,297,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["LOCALE, HISTORIQUE"],
+        AREA["ILE DE LA REUNION"],
+        BBOX[-21.42,55.17,-20.75,55.92]],
+    ID["IGNF","PDN08G"]]

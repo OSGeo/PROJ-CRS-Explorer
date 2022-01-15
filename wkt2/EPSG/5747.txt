@@ -1,0 +1,10 @@
+VERTCRS["St. Kilda height",
+    VDATUM["St. Kilda"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["United Kingdom (UK) - Great Britain - Scotland - St Kilda onshore."],
+        BBOX[57.74,-8.74,57.93,-8.41]],
+    ID["EPSG",5747]]

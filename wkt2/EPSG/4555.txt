@@ -1,0 +1,18 @@
+GEOGCRS["New Beijing",
+    DATUM["New Beijing",
+        ELLIPSOID["Krassowsky 1940",6378245,298.3,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Topographic mapping."],
+        AREA["China - onshore."],
+        BBOX[18.11,73.62,53.56,134.77]],
+    ID["EPSG",4555]]

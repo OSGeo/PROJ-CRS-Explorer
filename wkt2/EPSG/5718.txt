@@ -1,0 +1,10 @@
+VERTCRS["RH70 height",
+    VDATUM["Rikets hojdsystem 1970"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["Sweden - onshore."],
+        BBOX[55.28,10.93,69.07,24.17]],
+    ID["EPSG",5718]]

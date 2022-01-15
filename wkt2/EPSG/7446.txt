@@ -1,0 +1,10 @@
+VERTCRS["Famagusta 1960 height",
+    VDATUM["Famagusta 1960"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Engineering survey, topographic mapping."],
+        AREA["Cyprus - onshore."],
+        BBOX[34.59,32.2,35.74,34.65]],
+    ID["EPSG",7446]]

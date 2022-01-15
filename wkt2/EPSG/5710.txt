@@ -1,0 +1,10 @@
+VERTCRS["Ostend height",
+    VDATUM["Ostend"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["Belgium - onshore."],
+        BBOX[49.5,2.5,51.51,6.4]],
+    ID["EPSG",5710]]

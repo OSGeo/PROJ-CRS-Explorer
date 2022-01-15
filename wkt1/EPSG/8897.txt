@@ -1,0 +1,7 @@
+VERT_CS["EPSG example wellbore local vertical CRS (ft)",
+    VERT_DATUM["EPSG example wellbore vertical datum",2005,
+        AUTHORITY["EPSG","1205"]],
+    UNIT["foot",0.3048,
+        AUTHORITY["EPSG","9002"]],
+    AXIS["Local depth",DOWN],
+    AUTHORITY["EPSG","8897"]]

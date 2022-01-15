@@ -1,0 +1,10 @@
+VERTCRS["SIRGAS-CON_DGF04P01",
+    VDATUM["SIRGAS_Continuously_Operating_Network_DGF04P01"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Latin America - Central America and South America, onshore and offshore."],
+        BBOX[-59.87,-122.19,32.72,-25.28]],
+    ID["ESRI",115855]]

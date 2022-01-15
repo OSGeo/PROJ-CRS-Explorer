@@ -1,0 +1,10 @@
+VERTCRS["AHD height",
+    VDATUM["Australian Height Datum"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Cadastre, engineering surveying applications over distances up to 10km."],
+        AREA["Australia - Australian Capital Territory, New South Wales, Northern Territory, Queensland, South Australia, Tasmania, Western Australia and Victoria - onshore. Christmas Island - onshore. Cocos and Keeling Islands - onshore."],
+        BBOX[-43.7,96.76,-9.86,153.69]],
+    ID["EPSG",5711]]

@@ -1,0 +1,10 @@
+VERTCRS["Black Sea height",
+    VDATUM["Black Sea"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Topographic mapping."],
+        AREA["Georgia - onshore."],
+        BBOX[41.04,39.99,43.59,46.72]],
+    ID["EPSG",5735]]

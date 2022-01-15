@@ -1,0 +1,3 @@
+Error: ESRI:102782 cannot be written as WKT1_GDAL
+ type: PROJECTED_CRS
+ name: MAGNA_San_Jose_del_Guaviare_2011

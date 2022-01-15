@@ -1,0 +1,7 @@
+VERT_CS["Fao 1979 height",
+    VERT_DATUM["Fao 1979",2005,
+        AUTHORITY["EPSG","1028"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","3886"]]

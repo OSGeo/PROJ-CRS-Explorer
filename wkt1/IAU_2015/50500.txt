@@ -1,0 +1,10 @@
+GEOGCS["Amalthea (2015) - Sphere / Ocentric",
+    DATUM["Amalthea (2015) - Sphere",
+        SPHEROID["Amalthea (2015) - Sphere",83500,0,
+            AUTHORITY["IAU","50500"]],
+        AUTHORITY["IAU","50500"]],
+    PRIMEM["Reference Meridian",0,
+        AUTHORITY["IAU","50500"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IAU","50500"]]

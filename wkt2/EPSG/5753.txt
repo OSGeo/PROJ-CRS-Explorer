@@ -1,0 +1,10 @@
+VERTCRS["NGNC69 height",
+    VDATUM["Nivellement General de Nouvelle Caledonie"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["New Caledonia - Grande Terre."],
+        BBOX[-22.45,163.92,-20.03,167.09]],
+    ID["EPSG",5753]]

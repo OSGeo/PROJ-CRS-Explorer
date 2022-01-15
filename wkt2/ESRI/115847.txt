@@ -1,0 +1,10 @@
+VERTCRS["ONGD17",
+    VDATUM["Oman_National_Geodetic_Datum_2017"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Oman - onshore and offshore."],
+        BBOX[14.33,51.99,26.74,63.38]],
+    ID["ESRI",115847]]

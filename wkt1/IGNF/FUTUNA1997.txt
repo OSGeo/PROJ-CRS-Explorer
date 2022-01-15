@@ -1,0 +1,7 @@
+VERT_CS["NGWF ILES HORN (FUTUNA ET ALOFI)",
+    VERT_DATUM["NGWF FUTUNA",2005,
+        AUTHORITY["IGNF","REA054"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["IGNF","FUTUNA1997"]]

@@ -1,0 +1,18 @@
+GEOGCRS["ECML14_NB-IRF",
+    DATUM["ECML14_NB Intermediate Reference Frame",
+        ELLIPSOID["GRS 1980",6378137,298.257222101,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Engineering survey and topographic mapping for railway applications."],
+        AREA["United Kingdom (UK) - on or related to rail routes from Newcastle Central to Ashington via Benton North Junction, and the section from Bedlington to Morpeth."],
+        BBOX[54.85,-1.9,55.3,-1.3]],
+    ID["EPSG",9758]]

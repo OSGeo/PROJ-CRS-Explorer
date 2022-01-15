@@ -1,0 +1,3 @@
+Error: EPSG:6244 cannot be written as WKT1_GDAL
+ type: PROJECTED_CRS
+ name: MAGNA-SIRGAS / Arauca urban grid

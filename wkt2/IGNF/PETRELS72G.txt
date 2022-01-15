@@ -1,0 +1,18 @@
+GEOGCRS["Petrels geographiques (dms)",
+    DATUM["Petrels 1972",
+        ELLIPSOID["International 1924",6378388,297,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["LOCALE, HISTORIQUE"],
+        AREA["ILE DES PETRELS (TERRE ADELIE)"],
+        BBOX[-68,139.67,-66.17,140.17]],
+    ID["IGNF","PETRELS72G"]]

@@ -1,0 +1,10 @@
+GEOGCS["Madrid 1870 (Madrid)",
+    DATUM["Madrid_1870_Madrid",
+        SPHEROID["Struve 1860",6378298.3,294.73,
+            AUTHORITY["EPSG","7028"]],
+        AUTHORITY["EPSG","6903"]],
+    PRIMEM["Madrid",-3.687375,
+        AUTHORITY["EPSG","8905"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["EPSG","4903"]]

@@ -1,0 +1,18 @@
+GEOGCRS["California_SRS_Epoch_2017.50_(NAD83)",
+    DATUM["California_SRS_Epoch_2017.50_(NAD83)",
+        ELLIPSOID["GRS 1980",6378137,298.257222101,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["USA - California and borders of NV, AZ, OR and MX"],
+        BBOX[32.25,-124.44,42.53,-113.6]],
+    ID["ESRI",104024]]

@@ -1,0 +1,7 @@
+VERT_CS["Ceuta 2 height",
+    VERT_DATUM["Ceuta 2",2005,
+        AUTHORITY["EPSG","1285"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","9402"]]

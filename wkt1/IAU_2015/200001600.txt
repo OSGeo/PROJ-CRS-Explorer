@@ -1,0 +1,10 @@
+GEOGCS["Psyche (2015) - Sphere / Ocentric",
+    DATUM["Psyche (2015) - Sphere",
+        SPHEROID["Psyche (2015) - Sphere",113000,0,
+            AUTHORITY["IAU","200001600"]],
+        AUTHORITY["IAU","200001600"]],
+    PRIMEM["Reference Meridian",0,
+        AUTHORITY["IAU","200001600"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IAU","200001600"]]

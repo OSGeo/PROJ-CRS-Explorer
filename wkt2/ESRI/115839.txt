@@ -1,0 +1,10 @@
+VERTCRS["Hong_Kong_Geodetic_CS",
+    VDATUM["Hong_Kong_Geodetic"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["China - Hong Kong - onshore and offshore."],
+        BBOX[22.13,113.76,22.58,114.51]],
+    ID["ESRI",115839]]

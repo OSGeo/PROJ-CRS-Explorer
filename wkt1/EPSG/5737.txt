@@ -1,0 +1,7 @@
+VERT_CS["Yellow Sea 1985 height",
+    VERT_DATUM["Yellow Sea 1985",2005,
+        AUTHORITY["EPSG","5137"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5737"]]

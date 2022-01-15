@@ -1,0 +1,10 @@
+VERTCRS["EPF 1952 (ILE DES PETRELS)",
+    VDATUM["EPF 1952 (ILE DES PETRELS)"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["LOCALE A CARACTERE LEGAL"],
+        AREA["ILE DES PETRELS (TERRE ADELIE)"],
+        BBOX[-68,139.67,-66.17,140.17]],
+    ID["IGNF","PETRELS52"]]

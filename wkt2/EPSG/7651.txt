@@ -1,0 +1,10 @@
+VERTCRS["Kumul 34 height",
+    VDATUM["Kumul 34"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Engineering survey."],
+        AREA["Papua New Guinea - Papuan fold and thrust belt."],
+        BBOX[-8.28,142.24,-5.59,144.75]],
+    ID["EPSG",7651]]

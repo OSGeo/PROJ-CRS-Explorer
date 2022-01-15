@@ -1,0 +1,10 @@
+VERTCRS["Kiunga height",
+    VDATUM["Kiunga"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Engineering survey."],
+        AREA["Papua New Guinea - onshore south of 5°S and west of 144°E."],
+        BBOX[-9.35,140.85,-5,144.01]],
+    ID["EPSG",7652]]

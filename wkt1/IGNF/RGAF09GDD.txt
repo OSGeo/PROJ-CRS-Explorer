@@ -1,0 +1,10 @@
+GEOGCS["RGAF09 geographiques (dd)",
+    DATUM["Reseau_Geodesique_des_Antilles_Francaises_2009",
+        SPHEROID["GRS 1980",6378137,298.257222101,
+            AUTHORITY["EPSG","7019"]],
+        AUTHORITY["EPSG","1073"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IGNF","RGAF09GDD"]]

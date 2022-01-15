@@ -1,0 +1,18 @@
+GEOGCRS["Batavia (Jakarta)",
+    DATUM["Batavia (Jakarta)",
+        ELLIPSOID["Bessel 1841",6377397.155,299.1528128,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Jakarta",106.807719444444,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Indonesia - onshore - Bali, Java and western Sumatra."],
+        BBOX[-8.91,95.16,5.97,115.77]],
+    ID["EPSG",4813]]

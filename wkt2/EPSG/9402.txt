@@ -1,0 +1,10 @@
+VERTCRS["Ceuta 2 height",
+    VDATUM["Ceuta 2"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Spain - Ceuta onshore."],
+        BBOX[35.82,-5.4,35.97,-5.24]],
+    ID["EPSG",9402]]

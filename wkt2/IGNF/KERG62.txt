@@ -1,0 +1,10 @@
+VERTCRS["IGN 1962 (KERGUELEN)",
+    VDATUM["IGN 1962 (KERGUELEN)"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["NATIONALE A CARACTERE LEGAL"],
+        AREA["KERGUELEN"],
+        BBOX[-50.5,67,-48,71]],
+    ID["IGNF","KERG62"]]

@@ -1,0 +1,7 @@
+VERT_CS["Horta height",
+    VERT_DATUM["Horta",2005,
+        AUTHORITY["EPSG","1104"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","6181"]]

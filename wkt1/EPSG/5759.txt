@@ -1,0 +1,7 @@
+VERT_CS["Auckland 1946 height",
+    VERT_DATUM["Auckland 1946",2005,
+        AUTHORITY["EPSG","5157"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5759"]]

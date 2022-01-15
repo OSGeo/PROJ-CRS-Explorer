@@ -1,0 +1,10 @@
+VERTCRS["NIVELLEMENT GENERAL DE GUYANE (NGG) 1977",
+    VDATUM["NIVELLEMENT GENERAL DE GUYANE (NGG) 1977"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["LOCALE A CARACTERE LEGAL"],
+        AREA["GUYANE FRANCAISE"],
+        BBOX[2.05,-54.95,5.95,-51.05]],
+    ID["IGNF","GUYA77"]]

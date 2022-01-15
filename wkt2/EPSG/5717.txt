@@ -1,0 +1,10 @@
+VERTCRS["N60 height",
+    VDATUM["Helsinki 1960"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["Finland - onshore."],
+        BBOX[59.75,19.24,70.09,31.59]],
+    ID["EPSG",5717]]

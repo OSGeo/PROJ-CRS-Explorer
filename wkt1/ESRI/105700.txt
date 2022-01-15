@@ -1,0 +1,7 @@
+VERT_CS["WGS_1984_Geoid",
+    VERT_DATUM["WGS_1984_Geoid",2005,
+        AUTHORITY["ESRI","105100"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["ESRI","105700"]]

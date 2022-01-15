@@ -1,0 +1,7 @@
+VERT_CS["AVWS height",
+    VERT_DATUM["Australian Vertical Working Surface",2005,
+        AUTHORITY["EPSG","1292"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","9458"]]

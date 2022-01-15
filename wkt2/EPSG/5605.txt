@@ -1,0 +1,10 @@
+VERTCRS["Huahine SAU 2001 height",
+    VDATUM["Huahine SAU 2001"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["French Polynesia - Society Islands - Huahine."],
+        BBOX[-16.87,-151.11,-16.63,-150.89]],
+    ID["EPSG",5605]]

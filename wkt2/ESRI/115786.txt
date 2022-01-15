@@ -1,0 +1,10 @@
+VERTCRS["RGSPM_2006",
+    VDATUM["D_Reseau_Geodesique_de_St_Pierre_et_Miquelon_2006"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["St Pierre and Miquelon - onshore and offshore."],
+        BBOX[43.41,-57.1,47.37,-55.9]],
+    ID["ESRI",115786]]

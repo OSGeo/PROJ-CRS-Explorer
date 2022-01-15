@@ -1,0 +1,10 @@
+VERTCRS["MOLDREF99",
+    VDATUM["D_MOLDREF99"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Moldova."],
+        BBOX[45.44,26.63,48.47,30.13]],
+    ID["ESRI",115752]]

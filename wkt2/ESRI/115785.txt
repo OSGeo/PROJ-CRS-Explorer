@@ -1,0 +1,10 @@
+VERTCRS["RGRDC_2005",
+    VDATUM["D_Reseau_Geodesique_de_la_RDC_2005"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["The Democratic Republic of the Congo (Zaire) - south of a line through Bandundu, Seke and Pweto - onshore and offshore."],
+        BBOX[-13.46,11.79,-3.41,29.81]],
+    ID["ESRI",115785]]

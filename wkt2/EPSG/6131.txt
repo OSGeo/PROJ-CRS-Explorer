@@ -1,0 +1,10 @@
+VERTCRS["LCVD61 height (ft)",
+    VDATUM["Little Cayman Vertical Datum 1961"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["foot",0.3048]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["Cayman Islands - Little Cayman."],
+        BBOX[19.63,-80.14,19.74,-79.93]],
+    ID["EPSG",6131]]

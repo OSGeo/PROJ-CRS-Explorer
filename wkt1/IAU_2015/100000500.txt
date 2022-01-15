@@ -1,0 +1,10 @@
+GEOGCS["Borrelly (2015) - Sphere / Ocentric",
+    DATUM["Borrelly (2015) - Sphere",
+        SPHEROID["Borrelly (2015) - Sphere",4220,0,
+            AUTHORITY["IAU","100000500"]],
+        AUTHORITY["IAU","100000500"]],
+    PRIMEM["Reference Meridian",0,
+        AUTHORITY["IAU","100000500"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IAU","100000500"]]

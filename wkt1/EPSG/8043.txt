@@ -1,0 +1,10 @@
+GEOGCS["St. Stephen (Ferro)",
+    DATUM["St_Stephen_Ferro",
+        SPHEROID["Zach 1812",6376045,310,
+            AUTHORITY["EPSG","1026"]],
+        AUTHORITY["EPSG","1189"]],
+    PRIMEM["Ferro",-17.6666666666667,
+        AUTHORITY["EPSG","8909"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["EPSG","8043"]]

@@ -1,0 +1,10 @@
+VERTCRS["Moznet",
+    VDATUM["D_Moznet"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Mozambique - onshore and offshore."],
+        BBOX[-27.71,30.21,-10.09,43.03]],
+    ID["ESRI",115754]]

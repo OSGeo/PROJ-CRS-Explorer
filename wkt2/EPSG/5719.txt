@@ -1,0 +1,10 @@
+VERTCRS["NGF Lallemand height",
+    VDATUM["Nivellement General de la France - Lallemand"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["France - mainland onshore."],
+        BBOX[42.33,-4.87,51.14,8.23]],
+    ID["EPSG",5719]]

@@ -1,0 +1,10 @@
+VERTCRS["Lao_1997",
+    VDATUM["D_Lao_National_Datum_1997"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Laos."],
+        BBOX[13.92,100.09,22.5,107.64]],
+    ID["ESRI",115743]]

@@ -1,0 +1,10 @@
+VERTCRS["Guadeloupe 1951 height",
+    VDATUM["Guadeloupe 1951"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Guadeloupe - onshore - Basse-Terre and Grande-Terre."],
+        BBOX[15.88,-61.85,16.55,-61.15]],
+    ID["EPSG",5795]]

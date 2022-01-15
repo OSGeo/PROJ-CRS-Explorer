@@ -1,0 +1,10 @@
+VERTCRS["Stewart Island 1977 height",
+    VDATUM["Stewart Island 1977"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["New Zealand - Stewart Island."],
+        BBOX[-47.33,167.29,-46.63,168.34]],
+    ID["EPSG",5772]]

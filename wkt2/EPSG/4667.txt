@@ -1,0 +1,18 @@
+GEOGCRS["IKBD-92",
+    DATUM["Iraq-Kuwait Boundary Datum 1992",
+        ELLIPSOID["WGS 84",6378137,298.257223563,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Boundary demarcation."],
+        AREA["Iraq - Kuwait boundary."],
+        BBOX[29.06,46.36,30.32,48.61]],
+    ID["EPSG",4667]]

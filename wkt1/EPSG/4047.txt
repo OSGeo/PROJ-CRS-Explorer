@@ -1,0 +1,10 @@
+GEOGCS["Unspecified datum based upon the GRS 1980 Authalic Sphere (deprecated)",
+    DATUM["Not_specified_based_on_GRS_1980_Authalic_Sphere",
+        SPHEROID["GRS 1980 Authalic Sphere",6371007,0,
+            AUTHORITY["EPSG","7048"]],
+        AUTHORITY["EPSG","6047"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["EPSG","4047"]]

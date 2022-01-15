@@ -1,0 +1,7 @@
+VERT_CS["BORA_SAU 2001",
+    VERT_DATUM["BORA_SAU 2001",2005,
+        AUTHORITY["IGNF","REA052"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["IGNF","BORA01"]]

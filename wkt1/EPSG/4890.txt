@@ -1,0 +1,13 @@
+GEOCCS["WGS 66",
+    DATUM["World_Geodetic_System_1966",
+        SPHEROID["NWL 9D",6378145,298.25,
+            AUTHORITY["EPSG","7025"]],
+        AUTHORITY["EPSG","6760"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Geocentric X",OTHER],
+    AXIS["Geocentric Y",OTHER],
+    AXIS["Geocentric Z",NORTH],
+    AUTHORITY["EPSG","4890"]]

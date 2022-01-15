@@ -1,0 +1,7 @@
+VERT_CS["ONGD14",
+    VERT_DATUM["Oman_National_Geodetic_Datum_2014",2002,
+        AUTHORITY["ESRI","from_geogdatum_EPSG_1147"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115846"]]

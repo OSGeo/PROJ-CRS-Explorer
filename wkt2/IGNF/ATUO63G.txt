@@ -1,0 +1,18 @@
+GEOGCRS["IGN 1963 geographiques (dms)",
+    DATUM["IGN 1963 (HIVA OA - TAHUATA - MOHOTANI)",
+        ELLIPSOID["International 1924",6378388,297,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["LOCALE, HISTORIQUE"],
+        AREA["HIVA OA, TAHUATA, MOHOTANI (ARCHIPEL DES MARQUISES)"],
+        BBOX[-9.88,-139.2,-9.65,-138.75]],
+    ID["IGNF","ATUO63G"]]

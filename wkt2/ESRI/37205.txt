@@ -1,0 +1,18 @@
+GEOGCRS["GCS_Hong_Kong_1963_67",
+    DATUM["D_Hong_Kong_1963_67",
+        ELLIPSOID["International 1924",6378388,297,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["China - Hong Kong - onshore and offshore."],
+        BBOX[22.13,113.76,22.58,114.51]],
+    ID["ESRI",37205]]

@@ -1,0 +1,10 @@
+VERTCRS["Yemen_NGN_1996",
+    VDATUM["D_Yemen_NGN_1996"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Yemen - onshore and offshore."],
+        BBOX[8.95,41.08,19,57.96]],
+    ID["ESRI",115802]]

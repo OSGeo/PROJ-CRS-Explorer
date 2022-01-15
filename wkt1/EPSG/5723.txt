@@ -1,0 +1,7 @@
+VERT_CS["JSLD69 height",
+    VERT_DATUM["Japanese Standard Levelling Datum 1969",2005,
+        AUTHORITY["EPSG","5122"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5723"]]

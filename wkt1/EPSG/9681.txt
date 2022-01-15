@@ -1,0 +1,7 @@
+VERT_CS["NVD 1992 height",
+    VERT_DATUM["National Vertical Datum 1992",2005,
+        AUTHORITY["EPSG","1303"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","9681"]]

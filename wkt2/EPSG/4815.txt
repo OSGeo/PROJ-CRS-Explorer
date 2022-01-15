@@ -1,0 +1,18 @@
+GEOGCRS["Greek (Athens)",
+    DATUM["Greek (Athens)",
+        ELLIPSOID["Bessel 1841",6377397.155,299.1528128,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Athens",23.7163375,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Greece - onshore."],
+        BBOX[34.88,19.57,41.75,28.3]],
+    ID["EPSG",4815]]

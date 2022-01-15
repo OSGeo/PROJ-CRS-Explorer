@@ -1,0 +1,10 @@
+GEOGCS["Belinda (2015) - Sphere / Ocentric",
+    DATUM["Belinda (2015) - Sphere",
+        SPHEROID["Belinda (2015) - Sphere",33000,0,
+            AUTHORITY["IAU","71400"]],
+        AUTHORITY["IAU","71400"]],
+    PRIMEM["Reference Meridian",0,
+        AUTHORITY["IAU","71400"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IAU","71400"]]

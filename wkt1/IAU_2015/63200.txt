@@ -1,0 +1,10 @@
+GEOGCS["Methone (2015) - Sphere / Ocentric",
+    DATUM["Methone (2015) - Sphere",
+        SPHEROID["Methone (2015) - Sphere",1450,0,
+            AUTHORITY["IAU","63200"]],
+        AUTHORITY["IAU","63200"]],
+    PRIMEM["Reference Meridian",0,
+        AUTHORITY["IAU","63200"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IAU","63200"]]

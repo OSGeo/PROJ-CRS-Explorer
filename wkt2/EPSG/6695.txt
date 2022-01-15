@@ -1,0 +1,10 @@
+VERTCRS["JGD2011 (vertical) height",
+    VDATUM["Japanese Geodetic Datum 2011 (vertical)"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["Japan - onshore mainland - Hokkaido, Honshu, Shikoku, Kyushu."],
+        BBOX[30.94,129.3,45.54,145.87]],
+    ID["EPSG",6695]]

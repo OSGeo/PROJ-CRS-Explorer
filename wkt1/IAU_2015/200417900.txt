@@ -1,0 +1,10 @@
+GEOGCS["Toutatis (2015) - Sphere / Ocentric",
+    DATUM["Toutatis (2015) - Sphere",
+        SPHEROID["Toutatis (2015) - Sphere",1331.666667,0,
+            AUTHORITY["IAU","200417900"]],
+        AUTHORITY["IAU","200417900"]],
+    PRIMEM["Reference Meridian",0,
+        AUTHORITY["IAU","200417900"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IAU","200417900"]]

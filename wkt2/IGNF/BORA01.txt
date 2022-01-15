@@ -1,0 +1,10 @@
+VERTCRS["BORA_SAU 2001",
+    VDATUM["BORA_SAU 2001"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["LOCALE A CARACTERE LEGAL"],
+        AREA["BORA BORA (ARCHIPEL DE LA SOCIETE)"],
+        BBOX[-16.58,-151.83,-16.42,-151.67]],
+    ID["IGNF","BORA01"]]

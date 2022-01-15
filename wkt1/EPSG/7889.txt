@@ -1,0 +1,7 @@
+VERT_CS["St. Helena Tritan 2011 height",
+    VERT_DATUM["St. Helena Tritan Vertical Datum 2011",2005,
+        AUTHORITY["EPSG","1176"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","7889"]]

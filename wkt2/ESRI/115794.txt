@@ -1,0 +1,10 @@
+VERTCRS["Slovenia_1996",
+    VDATUM["D_Slovenia_Geodetic_Datum_1996"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Slovenia - onshore and offshore."],
+        BBOX[45.42,13.38,46.88,16.61]],
+    ID["ESRI",115794]]

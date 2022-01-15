@@ -1,0 +1,7 @@
+VERT_CS["MTRF-2000",
+    VERT_DATUM["MOMRA_Terrestrial_Reference_Frame_2000",2002,
+        AUTHORITY["ESRI","from_geogdatum_EPSG_1218"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115843"]]

@@ -1,0 +1,10 @@
+VERTCRS["Belfast height",
+    VDATUM["Belfast Lough"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Topographic mapping (large scale)."],
+        AREA["United Kingdom (UK) - Northern Ireland (Ulster) - onshore."],
+        BBOX[53.96,-8.18,55.36,-5.34]],
+    ID["EPSG",5732]]

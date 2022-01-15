@@ -1,0 +1,7 @@
+VERT_CS["DACR52 height",
+    VERT_DATUM["Datum Altimetrico de Costa Rica 1952",2005,
+        AUTHORITY["EPSG","1226"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","8911"]]

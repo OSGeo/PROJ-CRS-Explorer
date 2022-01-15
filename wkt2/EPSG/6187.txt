@@ -1,0 +1,10 @@
+VERTCRS["Ponta Delgada height",
+    VDATUM["Ponta Delgada"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Portugal - eastern Azores - Sao Miguel island onshore."],
+        BBOX[37.65,-25.92,37.96,-25.08]],
+    ID["EPSG",6187]]

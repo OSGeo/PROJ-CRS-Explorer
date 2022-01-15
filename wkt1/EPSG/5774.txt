@@ -1,0 +1,7 @@
+VERT_CS["NG-L height",
+    VERT_DATUM["Nivellement General du Luxembourg",2005,
+        AUTHORITY["EPSG","5172"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","5774"]]

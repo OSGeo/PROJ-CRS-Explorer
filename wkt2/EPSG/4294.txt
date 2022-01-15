@@ -1,0 +1,18 @@
+GEOGCRS["Segora",
+    DATUM["Segora",
+        ELLIPSOID["Bessel 1841",6377397.155,299.1528128,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree minute second hemisphere",0.0174532925199433]],
+        AXIS["geodetic longitude (Long)",east,
+            ORDER[2],
+            ANGLEUNIT["degree minute second hemisphere",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Indonesia - Kalimantan - onshore southeast coastal area including Mahakam delta coastal and offshore shelf areas."],
+        BBOX[-4.24,114.55,0,117.99]],
+    ID["EPSG",4294]]

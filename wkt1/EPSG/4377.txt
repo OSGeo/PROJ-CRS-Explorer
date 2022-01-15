@@ -1,0 +1,3 @@
+Error: EPSG:4377 cannot be written as WKT1_GDAL
+ type: GEOGRAPHIC_3D_CRS
+ name: SWEREF99 (3D)

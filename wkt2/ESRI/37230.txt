@@ -1,0 +1,18 @@
+GEOGCRS["GCS_Wake_Island_1952",
+    DATUM["D_Wake_Island_1952",
+        ELLIPSOID["International 1924",6378388,297,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Wake atoll - onshore."],
+        BBOX[19.22,166.55,19.38,166.72]],
+    ID["ESRI",37230]]

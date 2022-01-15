@@ -1,0 +1,10 @@
+VERTCRS["Fahud HD height",
+    VDATUM["Fahud Height Datum"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["Oman - mainland onshore."],
+        BBOX[16.59,51.99,26.42,59.91]],
+    ID["EPSG",5725]]

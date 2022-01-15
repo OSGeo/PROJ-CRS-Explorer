@@ -1,0 +1,10 @@
+VERTCRS["JSLD69 height",
+    VDATUM["Japanese Standard Levelling Datum 1969"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["Japan - onshore mainland - Honshu, Shikoku, Kyushu."],
+        BBOX[30.94,129.3,41.58,142.14]],
+    ID["EPSG",5723]]

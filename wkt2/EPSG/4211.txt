@@ -1,0 +1,18 @@
+GEOGCRS["Batavia",
+    DATUM["Batavia",
+        ELLIPSOID["Bessel 1841",6377397.155,299.1528128,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["Indonesia - Bali, Java and western Sumatra onshore, offshore southern Java Sea, Madura Strait and western Bali Sea."],
+        BBOX[-8.91,95.16,5.97,117.01]],
+    ID["EPSG",4211]]

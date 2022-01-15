@@ -1,0 +1,18 @@
+GEOGCRS["South Georgia 1968",
+    DATUM["South Georgia 1968",
+        ELLIPSOID["International 1924",6378388,297,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Military survey."],
+        AREA["South Georgia and the South Sandwich Islands - South Georgia onshore."],
+        BBOX[-54.95,-38.08,-53.93,-35.74]],
+    ID["EPSG",4722]]

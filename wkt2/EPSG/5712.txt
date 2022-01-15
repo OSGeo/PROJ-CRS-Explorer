@@ -1,0 +1,10 @@
+VERTCRS["AHD (Tasmania) height",
+    VDATUM["Australian Height Datum (Tasmania)"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["Australia - Tasmania mainland - onshore."],
+        BBOX[-43.7,144.55,-40.24,148.44]],
+    ID["EPSG",5712]]

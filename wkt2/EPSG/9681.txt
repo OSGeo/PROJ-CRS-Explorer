@@ -1,0 +1,10 @@
+VERTCRS["NVD 1992 height",
+    VDATUM["National Vertical Datum 1992"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, cadastre, engineering survey, topographic mapping."],
+        AREA["Bangladesh - onshore."],
+        BBOX[20.52,88.01,26.64,92.67]],
+    ID["EPSG",9681]]

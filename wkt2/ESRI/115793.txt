@@ -1,0 +1,10 @@
+VERTCRS["SLD99",
+    VDATUM["D_Sri_Lanka_Datum_1999"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Sri Lanka - onshore."],
+        BBOX[5.86,79.64,9.88,81.95]],
+    ID["ESRI",115793]]

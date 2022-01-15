@@ -1,0 +1,7 @@
+VERT_CS["RGR_1992",
+    VERT_DATUM["D_RGR_1992",2002,
+        AUTHORITY["ESRI","from_geogdatum_EPSG_6627"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115784"]]

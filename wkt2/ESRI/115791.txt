@@ -1,0 +1,10 @@
+VERTCRS["SIRGAS_ES2007.8",
+    VDATUM["D_SIRGAS_ES2007.8"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["El Salvador - onshore and offshore."],
+        BBOX[9.97,-91.43,14.44,-87.65]],
+    ID["ESRI",115791]]

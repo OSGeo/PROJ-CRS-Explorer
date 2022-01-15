@@ -1,0 +1,10 @@
+GEOGCS["Deimos (2015) - Sphere / Ocentric",
+    DATUM["Deimos (2015) - Sphere",
+        SPHEROID["Deimos (2015) - Sphere",6200,0,
+            AUTHORITY["IAU","40200"]],
+        AUTHORITY["IAU","40200"]],
+    PRIMEM["Reference Meridian",0,
+        AUTHORITY["IAU","40200"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["IAU","40200"]]

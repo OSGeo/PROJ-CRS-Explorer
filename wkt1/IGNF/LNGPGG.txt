@@ -1,0 +1,10 @@
+GEOGCS["Lambert Nord de Guerre grades Paris",
+    DATUM["Nord_de_Guerre_Paris",
+        SPHEROID["Plessis 1817",6376523,308.64,
+            AUTHORITY["EPSG","7027"]],
+        AUTHORITY["EPSG","6902"]],
+    PRIMEM["Paris",2.33722917,
+        AUTHORITY["EPSG","8903"]],
+    UNIT["grad",0.0157079632679489,
+        AUTHORITY["EPSG","9105"]],
+    AUTHORITY["IGNF","LNGPGG"]]

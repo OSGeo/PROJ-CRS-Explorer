@@ -1,0 +1,10 @@
+VERTCRS["Baltic 1957 depth",
+    VDATUM["Baltic 1957"],
+    CS[vertical,1],
+        AXIS["depth (D)",down,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Czechia; Slovakia."],
+        BBOX[47.73,12.09,51.06,22.56]],
+    ID["EPSG",8358]]

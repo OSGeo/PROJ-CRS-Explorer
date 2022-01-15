@@ -1,0 +1,10 @@
+VERTCRS["N2000_height",
+    VDATUM["N2000"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Finland - onshore."],
+        BBOX[59.75,19.24,70.09,31.59]],
+    ID["ESRI",105793]]
