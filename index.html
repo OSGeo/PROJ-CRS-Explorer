@@ -10,12 +10,13 @@
         thead { font-weight: bold; }
         th { cursor: pointer; background-color: #DDD; }
         label { white-space: nowrap; }
+        a { text-decoration: none; }
+        a:hover { text-decoration: underline; }
 
         #mapid { height: 400px; width: 800px; max-width: 80%; }
         .sticky { position: sticky; top: 0; }
         .area { text-overflow: ellipsis; white-space: nowrap; overflow: hidden; width: 20em; display: block; }
         .hide { display: none; }
-        .codelink { text-decoration: none; }
         .odd { background-color: #EEEEEE; }
         .order { color: #777; font-size: small; padding-left: 0.5em; }
         .loader-text { padding-left: 2em; color: darkred; }
@@ -24,15 +25,16 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <link rel="icon" type="image/x-icon" href="./favicon.ico"/>
+    <base target="_blank">
 </head>
 
 <body onload="load()">
     <h1>PROJ <span id="proj_version">8.2.0</span> codes</h1>
-    <div>This page shows a list of the Coordinate Reference Systems included in <a href="https://proj.org" target="_blank">PROJ</a>.
-         <span id="version_link">(see generation <a href="./metadata.txt" target="_blank">metadata file</a>)</span>
+    <div>This page shows a list of the Coordinate Reference Systems included in <a href="https://proj.org">PROJ</a>.
+         <span id="version_link">(see generation <a href="./metadata.txt">metadata file</a>)</span>
          <br>You can filter by type, authority, name and location (clicking on the map).
          <br>Selecting the area of use of any CRS displays it as a rectangle in the map.
-         <br>Visit the source code in <a href="https://github.com/jjimenezshaw/crs-explorer" target="_blank">GitHub</a>.
+         <br>Visit the source code in <a href="https://github.com/jjimenezshaw/crs-explorer">GitHub</a>.
     </div>
     <br>
     <div id="mapcont"><div id="mapid"></div></div>
@@ -46,7 +48,7 @@
     <div id="searcher">
         <form>Filter by name: <input type="text" name="value">
             <button type="submit">Search</button>
-            <a href="javascript:toggleInfo()" title="Show/hide info" class="codelink"> &lt; &#8505; &gt; </a>
+            <a href="javascript:toggleInfo()" title="Show/hide info" target="_self"> &lt; &#8505; &gt; </a>
             <span id="activeSearch" class="hide"> Active filter: <span id="activeSearchTxt"></span></span>
             <div class="hide" id="search_info">
                 <ul>
@@ -195,7 +197,7 @@
             let header = tb.createTHead();
             let row = header.insertRow();
             let order = '<span class="order"></span>';
-            ['Code', 'Name', 'Area of Use', 'Type', 'Deprecated'].forEach(e => row.appendChild(document.createElement('th')).innerHTML = e + order);
+            ['Code', 'Name', 'Area of Use', 'Type', 'WKT', 'Deprecated'].forEach(e => row.appendChild(document.createElement('th')).innerHTML = e + order);
             let tblBody = document.createElement('tbody');
             tb.appendChild(tblBody);
             row.querySelector('th').asc = true;
@@ -376,7 +378,7 @@
                 let linkedCode = code;
                 if (crs.auth_name == "EPSG") {
                     const scapedName = crs.name.replace(/[^0-9a-zA-Z]+/g, '-');
-                    linkedCode = `<a href="https://epsg.org/crs_${crs.code}/${scapedName}.html" target=_blank class="codelink">${code}</a>`;
+                    linkedCode = `<a href="https://epsg.org/crs_${crs.code}/${scapedName}.html">${code}</a>`;
                 }
                 row.insertCell().innerHTML = linkedCode;
                 row.insertCell().innerHTML = crs.name;
@@ -388,6 +390,9 @@
                 area.addEventListener('mouseenter', ev => mouseOnArea(ev, code, crs.area_of_use, true));
                 area.addEventListener('mouseleave', ev => mouseOnArea(ev, code, crs.area_of_use, false));
                 row.insertCell().innerHTML = tabmap[crs.type];
+                let wkt1 = `<a href="./wkt1/${crs.auth_name}/${crs.code}.txt">[1]</a>`;
+                let wkt2 = `<a href="./wkt2/${crs.auth_name}/${crs.code}.txt">[2]</a>`;
+                row.insertCell().innerHTML = wkt1 + ' ' + wkt2;
                 row.insertCell().innerHTML = crs.deprecated;
             });
         }
