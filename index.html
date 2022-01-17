@@ -5,6 +5,7 @@
     <meta http-equiv="content-type" content="text/html;charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Javier Jimenez Shaw">
+    <title>CRS Explorer - PROJ</title>
     <style>
         body { font-family: Lato,proxima-nova,Helvetica Neue,Arial,sans-serif; color: #202020 }
         thead { font-weight: bold; }
@@ -29,7 +30,7 @@
 </head>
 
 <body onload="load()">
-    <h1>PROJ <span id="proj_version">8.2.0</span> codes</h1>
+    <h1>CRS Explorer - PROJ <span id="proj_version">8.2.0</span> codes</h1>
     <div>This page shows a list of the Coordinate Reference Systems included in <a href="https://proj.org">PROJ</a>.
          <span id="version_link">(see generation <a href="./metadata.txt">metadata file</a>)</span>
          <br>You can filter by type, authority, name and location (clicking on the map).
@@ -71,7 +72,7 @@
             latlng : null,
             searchText : '',
             ignoreWorld : true,
-            hideDeprecated : true,
+            allowDeprecated : false,
             authorities : {},
             activeTypes: {},
         };
@@ -85,7 +86,67 @@
             maxZoom: 18,
         }).addTo(map);
 
-        map.on('click', function(e) {
+        function querystringFromFilters() {
+            let dic = {}
+            if (filters.latlng) {
+                dic.latlng = filters.latlng.lat.toFixed(6) + ',' + filters.latlng.lng.toFixed(6);
+            }
+            if (filters.searchText) dic.searchText = encodeURIComponent(filters.searchText);
+            dic.ignoreWorld = filters.ignoreWorld ? 'true' : 'false';
+            dic.allowDeprecated = filters.allowDeprecated ? 'true' : 'false';
+            dic.authorities = Object.keys(filters.authorities).filter(key => filters.authorities[key]).join(',');
+            dic.activeTypes = Object.keys(filters.activeTypes).filter(key => filters.activeTypes[key]).join(',');
+
+            let res = Object.keys(dic).map(key => key +'='+ dic[key]).join('&');
+            return res;
+        }
+
+        function updateFiltersFromParams(input) {
+
+            let dic = {
+                latlng : '',
+                searchText : '',
+                ignoreWorld : 'true',
+                allowDeprecated : 'false',
+                authorities : 'EPSG',
+                activeTypes: '',
+            }; // defaults
+            Object.assign(dic, input);
+
+            function setCheck(id, checked) {
+                let obj = document.getElementById(id);
+                if (!obj) return false;
+                if (checked) {
+                    obj.setAttribute('checked', '');
+                } else {
+                    obj.removeAttribute('checked');
+                }
+                return true;
+            }
+
+            try {
+                const latlng = dic.latlng.split(',');
+                if (latlng.length == 2) setLatlng(L.latLng(latlng));
+            } catch (ignore) {}
+
+            setSearchText(decodeURIComponent(dic.searchText))
+
+            dic.authorities.split(',').forEach(auth => {
+                if (setCheck(auth, true)) filters.authorities[auth] = true;
+            });
+
+            dic.activeTypes.split(',').forEach(type => {
+                if (setCheck(type, true)) filters.activeTypes[type] = true;
+            });
+
+            filters.ignoreWorld = dic.ignoreWorld == 'true';
+            setCheck('ignoreWorld', filters.ignoreWorld);
+
+            filters.allowDeprecated = dic.allowDeprecated == 'true';
+            setCheck('allowDeprecated', filters.allowDeprecated);
+        }
+
+        function setLatlng(latlng) {
             function normalizeLong(lng) {
                 while(lng < -180){
                     lng +=360;
@@ -95,13 +156,17 @@
                 }
                 return lng;
             }
-            filters.latlng = e.latlng;
+            filters.latlng = latlng;
             if (!marker) {
                 marker = L.circleMarker([0,0], {radius:5}).addTo(map);
             }
             marker.setLatLng(filters.latlng);
             filters.latlng.lng = normalizeLong(filters.latlng.lng);
-            document.querySelector('#location').innerHTML = 'Clicked location: ' + e.latlng;
+            document.querySelector('#location').innerHTML = 'Clicked location: ' + latlng;
+        }
+
+        map.on('click', function(e) {
+            setLatlng(e.latlng)
             runFilter();
         });
 
@@ -165,7 +230,14 @@
         let form = document.querySelector("form");
         form.addEventListener("submit", function(event) {
             event.preventDefault();
-            let str = form.elements.value.value.trim();
+            let str = form.elements.value.value;
+            setSearchText(str)
+            runFilter();
+        });
+
+        function setSearchText(str) {
+            form.elements.value.value = str;
+            str = str.trim();
             filters.searchText = str;
 
             if (str) {
@@ -174,8 +246,7 @@
             } else {
                 document.querySelector('#activeSearch').classList.add('hide');
             }
-            runFilter();
-        });
+        }
 
         function toggleInfo() {
             document.querySelector("#search_info").classList.toggle('hide');
@@ -231,7 +302,7 @@
             let div = document.querySelector('#filters');
             tabs.forEach(tab => {
                 let el = document.createElement('label');
-                el.innerHTML = `<input type="checkbox" class="crstype" id="${tab.id}_CB">${tab.str}`;
+                el.innerHTML = `<input type="checkbox" class="crstype" id="${tab.id}">${tab.str}`;
                 div.appendChild(el);
                 el.querySelector(`input`).addEventListener('click', function (ev) {
                     filters.activeTypes[tab.id] = ev.target.checked;
@@ -242,7 +313,7 @@
             div.appendChild(document.createElement('span')).innerHTML = ' | ';
 
             let el = document.createElement('label');
-            div.appendChild(el).innerHTML = `<input type="checkbox" checked>Ignore World`;
+            div.appendChild(el).innerHTML = `<input type="checkbox" id="ignoreWorld" checked>Ignore World`;
             el.title = "Do not show CRS with area of use longitude from -180 to 180";
             el.querySelector('input').addEventListener('change', function (ev) {
                 filters.ignoreWorld = ev.target.checked;
@@ -250,10 +321,10 @@
             });
 
             el = document.createElement('label');
-            div.appendChild(el).innerHTML = `<input type="checkbox">Allow deprecated`;
+            div.appendChild(el).innerHTML = `<input type="checkbox" id="allowDeprecated">Allow deprecated`;
             el.title = "Display also deprecated systems";
             el.querySelector('input').addEventListener('click', function (ev) {
-                filters.hideDeprecated = !ev.target.checked;
+                filters.allowDeprecated = ev.target.checked;
                 runFilter();
             });
         }
@@ -268,9 +339,9 @@
             let div = document.querySelector('#authorities');
             auths.forEach(auth => {
                 let el = document.createElement('label');
-                el.innerHTML = `<input type="checkbox" id="${auth}" ${auth=="EPSG"?"checked":""}>${auth}`;
+                el.innerHTML = `<input type="checkbox" id="${auth}"}>${auth}`;
                 div.appendChild(el);
-                filters.authorities[auth] = auth=="EPSG";
+                filters.authorities[auth] = false;
                 document.querySelector(`#${auth}`).addEventListener('change', function (ev) {
                     filters.authorities[auth] = ev.target.checked;
                     runFilter();
@@ -286,7 +357,21 @@
                 }, 0);
         }
 
+        let runCounter = 0;
+        function updateURL() {
+            let url = new URL(location);
+            url.search = querystringFromFilters();
+            if (runCounter == 0) {
+            } else if (runCounter == 1) {
+                window.history.pushState(null, '', url.toString());
+            } else {
+                window.history.replaceState(null, '', url.toString());
+            }
+            runCounter++;
+        }
+
         function runFilter() {
+            updateURL();
             slowTask(runFilterCb);
         }
 
@@ -308,7 +393,7 @@
             }
 
             if (filters.ignoreWorld) selectorsArray.push('[data-world="true"]');
-            if (filters.hideDeprecated) selectorsArray.push('[data-deprecated="true"]');
+            if (!filters.allowDeprecated) selectorsArray.push('[data-deprecated="true"]');
             Object.keys(filters.authorities).forEach(auth => {
                 if (!filters.authorities[auth]) {
                     selectorsArray.push(`[data-auth="${auth}"]`);
@@ -397,6 +482,15 @@
             });
         }
 
+        function updateFromParams(location) {
+            const url = new URL(location);
+            let dic = {};
+            for (let k of url.searchParams.keys()) {
+                dic[k] = url.searchParams.get(k);
+            }
+            updateFiltersFromParams(dic);
+        }
+
         function loadDb() {
             let url = 'crslist.json';
             fetch(url, {
@@ -405,9 +499,9 @@
             .then(response => response.json())
             .then(data => {
                 createAuthorities(data);
+                updateFromParams(window.location);
                 fillTables(data);
                 runFilter();
-                // document.querySelector('#PROJECTED_CRS_CB').click(); // select it by default
             });
         }
 
