@@ -113,7 +113,8 @@
             }; // defaults
             Object.assign(dic, input);
 
-            function setCheck(id, checked) {
+            function setCheck(id, group, checked) {
+                if (group && !(id in group)) return false;
                 let obj = document.getElementById(id);
                 if (!obj) return false;
                 if (checked) {
@@ -132,18 +133,18 @@
             setSearchText(decodeURIComponent(dic.searchText))
 
             dic.authorities.split(',').forEach(auth => {
-                if (setCheck(auth, true)) filters.authorities[auth] = true;
+                if (setCheck(auth, filters.authorities, true)) filters.authorities[auth] = true;
             });
 
             dic.activeTypes.split(',').forEach(type => {
-                if (setCheck(type, true)) filters.activeTypes[type] = true;
+                if (setCheck(type, filters.activeTypes, true)) filters.activeTypes[type] = true;
             });
 
             filters.ignoreWorld = dic.ignoreWorld == 'true';
-            setCheck('ignoreWorld', filters.ignoreWorld);
+            setCheck('ignoreWorld', null, filters.ignoreWorld);
 
             filters.allowDeprecated = dic.allowDeprecated == 'true';
-            setCheck('allowDeprecated', filters.allowDeprecated);
+            setCheck('allowDeprecated', null, filters.allowDeprecated);
         }
 
         function setLatlng(latlng) {
