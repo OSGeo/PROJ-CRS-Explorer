@@ -111,6 +111,14 @@
                 authorities : 'EPSG',
                 activeTypes: '',
             }; // defaults
+
+            if (input.all == 'true') {
+                dic.ignoreWorld = 'false';
+                dic.allowDeprecated = 'true';
+                dic.authorities = Object.keys(filters.authorities).join(',');
+                dic.activeTypes = Object.keys(filters.activeTypes).join(',');
+            }
+
             Object.assign(dic, input);
 
             function setCheck(id, group, checked) {
@@ -314,7 +322,7 @@
             div.appendChild(document.createElement('span')).innerHTML = ' | ';
 
             let el = document.createElement('label');
-            div.appendChild(el).innerHTML = `<input type="checkbox" id="ignoreWorld" checked>Ignore World`;
+            div.appendChild(el).innerHTML = `<input type="checkbox" id="ignoreWorld">Ignore World`;
             el.title = "Do not show CRS with area of use longitude from -180 to 180";
             el.querySelector('input').addEventListener('change', function (ev) {
                 filters.ignoreWorld = ev.target.checked;
