@@ -21,6 +21,7 @@
         .odd { background-color: #EEEEEE; }
         .order { color: #777; font-size: small; padding-left: 0.5em; }
         .loader-text { padding-left: 2em; color: darkred; }
+        .wkt1 { margin-right: 0.3em; }
         td, th { padding-left: 0.25em; padding-right: 0.25em; }
     </style>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
@@ -454,6 +455,34 @@
             document.querySelector(`#tables h3 span`).innerHTML = " (" + c + ")";
         }
 
+        function fillWktsField(wkts, crs) {
+            ['1', '2'].forEach(n => {
+                const filename = `./wkt${n}/${crs.auth_name}/${crs.code}.txt`;
+                let a = document.createElement('a');
+                a.setAttribute('href', filename);
+                a.innerText = `[${n}]`;
+                a.classList.add(`wkt${n}`);
+                let timeoutId = null
+                a.addEventListener('mouseenter', e => {
+                    if (a.getAttribute('title')) return; 
+                    timeoutId = setTimeout(() => {
+                        timeoutId = null;
+                        fetch(filename, { method: "GET" })
+                            .then(response => response.text())
+                            .then(text => {
+                                text = text.replaceAll("'", "\'");
+                                a.setAttribute('title', text);
+                            });
+                    }, 300);
+                });
+                a.addEventListener('mouseleave', e => {
+                    clearTimeout(timeoutId);
+                    timeoutId = null;
+                });
+                wkts.appendChild(a);
+            });
+        }
+
         function fillTables(db) {
             tabmap = {};
             tabs.forEach(tab => tabmap[tab.id] = tab.str);
@@ -484,9 +513,8 @@
                 area.addEventListener('mouseenter', ev => mouseOnArea(ev, code, crs.area_of_use, true));
                 area.addEventListener('mouseleave', ev => mouseOnArea(ev, code, crs.area_of_use, false));
                 row.insertCell().innerHTML = tabmap[crs.type];
-                let wkt1 = `<a href="./wkt1/${crs.auth_name}/${crs.code}.txt">[1]</a>`;
-                let wkt2 = `<a href="./wkt2/${crs.auth_name}/${crs.code}.txt">[2]</a>`;
-                row.insertCell().innerHTML = wkt1 + ' ' + wkt2;
+                let wkts = row.insertCell();
+                fillWktsField(wkts, crs);
                 row.insertCell().innerHTML = crs.deprecated;
             });
         }
