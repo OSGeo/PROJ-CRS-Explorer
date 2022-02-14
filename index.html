@@ -20,7 +20,7 @@
         .hide { display: none; }
         .odd { background-color: #EEEEEE; }
         .order { color: #777; font-size: small; padding-left: 0.5em; }
-        .loader-text { padding-left: 2em; color: darkred; }
+        .loader-text { color: darkred; }
         .wkt1 { margin-right: 0.3em; }
         td, th { padding-left: 0.25em; padding-right: 0.25em; }
     </style>
@@ -44,8 +44,8 @@
     <div><label title="Keeps the map always visible"><input type="checkbox" id="stickyCb">Sticky map</label> |
         Click the map to select a location. <button type="button" id="delete">Delete location</button> <span id="location"></span></div>
 
-    <div id="filters"></div>
-    <div><span id="authorities"></span><span class='loader-text'>Loading...</span></div>
+    <div id="filters"> &nbsp; </div>
+    <div id="authorities"> &nbsp; </div>
     <br>
     <div id="searcher">
         <form>Filter by name: <input type="text" name="value">
@@ -63,6 +63,7 @@
             </div>
         </form>
     </div>
+    <h3>Selected &amp; Filtered Systems (<span class='loader-text'>Loading&hellip;</span><span class='counter-text'></span>)</h3>
     <div id="tables"></div>
     <div id="message"><br> &gt;&gt; Select CRS types to display, like Projected, Geographic 2D or Vertical &lt;&lt; </div>
 
@@ -266,10 +267,6 @@
             tabs.forEach(tab => filters.activeTypes[tab.id] = false);
 
             let tabdiv = document.querySelector(`#tables`);
-            let h3 = document.createElement('h3');
-            h3.innerHTML = "Selected & Filtered Systems";
-            h3.appendChild(document.createElement('span'));
-            tabdiv.appendChild(h3);
             let tb = document.createElement('table');
             tabdiv.appendChild(tb);
 
@@ -310,6 +307,7 @@
 
         function createCheckboxes() {
             let div = document.querySelector('#filters');
+            div.innerHTML = '';
             tabs.forEach(tab => {
                 let el = document.createElement('label');
                 el.innerHTML = `<input type="checkbox" class="crstype" id="${tab.id}">${tab.str}`;
@@ -347,6 +345,7 @@
                 }
             });
             let div = document.querySelector('#authorities');
+            div.innerHTML = '';
             auths.forEach(auth => {
                 let el = document.createElement('label');
                 el.innerHTML = `<input type="checkbox" id="${auth}"}>${auth}`;
@@ -361,9 +360,11 @@
 
         function slowTask(cb) {
             document.querySelector('.loader-text').classList.remove('hide');
+            document.querySelector('.counter-text').classList.add('hide');
             setTimeout(function() {
                 cb();
                 document.querySelector('.loader-text').classList.add('hide');
+                document.querySelector('.counter-text').classList.remove('hide');
                 }, 0);
         }
 
@@ -452,7 +453,7 @@
 
         function countElements() {
             const c = document.querySelectorAll(`#tables tbody tr:not(.hide)`).length;
-            document.querySelector(`#tables h3 span`).innerHTML = " (" + c + ")";
+            document.querySelector('.counter-text').innerHTML = c;
         }
 
         function fillWktsField(wkts, crs) {
@@ -464,7 +465,7 @@
                 a.classList.add(`wkt${n}`);
                 let timeoutId = null
                 a.addEventListener('mouseenter', e => {
-                    if (a.getAttribute('title')) return; 
+                    if (a.getAttribute('title')) return;
                     timeoutId = setTimeout(() => {
                         timeoutId = null;
                         fetch(filename, { method: "GET" })
