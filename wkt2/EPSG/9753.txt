@@ -1,6 +1,6 @@
 GEODCRS["WGS 84 (G2139)",
     DYNAMIC[
-        FRAMEEPOCH[2010]],
+        FRAMEEPOCH[2016]],
     DATUM["World Geodetic System 1984 (G2139)",
         ELLIPSOID["WGS 84",6378137,298.257223563,
             LENGTHUNIT["metre",1]]],
