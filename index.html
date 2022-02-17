@@ -14,6 +14,15 @@
         a { text-decoration: none; }
         a:hover { text-decoration: underline; }
 
+        .screen-msg { display: none; }
+        @media only screen and (max-width: 480px) {
+            th:nth-child(3), th:nth-child(4), th:nth-child(6),
+            td:nth-child(3), td:nth-child(4), td:nth-child(6) {
+                display: none
+            }
+            .screen-msg { display: unset; }
+        }
+
         #mapid { height: 400px; width: 800px; max-width: 80%; }
         .sticky { position: sticky; top: 0; }
         .area { text-overflow: ellipsis; white-space: nowrap; overflow: hidden; width: 20em; display: block; }
@@ -64,6 +73,7 @@
             </div>
         </form>
     </div>
+    <div class="screen-msg"><br>Your window width is too small. Some columns were removed. Rotate you mobile or enlarge the window to see them all.</div>
     <h3>Selected &amp; Filtered Systems (<span class='loader-text'>Loading&hellip;</span><span class='counter-text'></span>)</h3>
     <div id="tables"></div>
     <div id="message"><br> &gt;&gt; Select CRS types to display, like Projected, Geographic 2D or Vertical &lt;&lt; </div>
@@ -317,9 +327,10 @@
                     filters.activeTypes[tab.id] = ev.target.checked;
                     runFilter();
                 });
+                div.appendChild(document.createTextNode(' ')); // otherwise Firefox does not break between labels
             });
 
-            div.appendChild(document.createElement('span')).innerHTML = ' | ';
+            div.appendChild(document.createTextNode(' | '));
 
             let el = document.createElement('label');
             div.appendChild(el).innerHTML = `<input type="checkbox" id="ignoreWorld">Ignore World`;
@@ -328,6 +339,8 @@
                 filters.ignoreWorld = ev.target.checked;
                 runFilter();
             });
+
+            div.appendChild(document.createTextNode(' '));
 
             el = document.createElement('label');
             div.appendChild(el).innerHTML = `<input type="checkbox" id="allowDeprecated">Allow deprecated`;
@@ -356,6 +369,7 @@
                     filters.authorities[auth] = ev.target.checked;
                     runFilter();
                 });
+                div.appendChild(document.createTextNode(' '));
             });
         }
 
