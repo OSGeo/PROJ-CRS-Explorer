@@ -1,5 +1,5 @@
-VERT_CS["NG-L height",
-    VERT_DATUM["Nivellement General du Luxembourg",2005,
+VERT_CS["NG95 height",
+    VERT_DATUM["Nivellement General du Luxembourg 1995",2005,
         AUTHORITY["EPSG","5172"]],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],

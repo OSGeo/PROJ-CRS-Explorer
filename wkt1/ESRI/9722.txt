@@ -1,0 +1,7 @@
+VERT_CS["Cagliari_1956_height",
+    VERT_DATUM["Cagliari_1956",2005,
+        AUTHORITY["ESRI","1307"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["ESRI","9722"]]

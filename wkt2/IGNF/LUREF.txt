@@ -1,5 +1,5 @@
 GEODCRS["Nouvelle Triangulation Luxembourg cartesiennes",
-    DATUM["Luxembourg 1930",
+    DATUM["Luxembourg Reference Frame",
         ELLIPSOID["International 1924",6378388,297,
             LENGTHUNIT["metre",1]]],
     PRIMEM["Greenwich",0,

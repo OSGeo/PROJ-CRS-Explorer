@@ -1,5 +1,5 @@
 COMPOUNDCRS["MRH21 Grid + ODN height",
-    PROJCRS["MHR21 Grid",
+    PROJCRS["MRH21 Grid",
         BASEGEOGCRS["MRH21-IRF",
             DATUM["MRH21 Intermediate Reference Frame",
                 ELLIPSOID["GRS 1980",6378137,298.257222101,

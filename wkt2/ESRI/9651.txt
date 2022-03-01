@@ -1,0 +1,10 @@
+VERTCRS["EVRF_2007_PL_height",
+    VDATUM["European_Vertical_Reference_Frame_2007_Poland"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Poland - onshore."],
+        BBOX[49,14.14,54.89,24.15]],
+    ID["ESRI",9651]]
