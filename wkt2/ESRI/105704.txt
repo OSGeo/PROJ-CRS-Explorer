@@ -1,5 +1,5 @@
 VERTCRS["LAS07_height",
-    VDATUM["LAS07"],
+    VDATUM["Lithuanian_Height_System_2007"],
     CS[vertical,1],
         AXIS["gravity-related height (H)",up,
             LENGTHUNIT["metre",1]],

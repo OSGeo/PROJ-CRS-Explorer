@@ -1,5 +1,5 @@
-GEOGCS["Luxembourg 1930",
-    DATUM["Luxembourg_1930",
+GEOGCS["LUREF",
+    DATUM["Luxembourg_Reference_Frame",
         SPHEROID["International 1924",6378388,297,
             AUTHORITY["EPSG","7022"]],
         AUTHORITY["EPSG","6181"]],

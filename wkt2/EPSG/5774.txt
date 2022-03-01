@@ -1,5 +1,5 @@
-VERTCRS["NG-L height",
-    VDATUM["Nivellement General du Luxembourg"],
+VERTCRS["NG95 height",
+    VDATUM["Nivellement General du Luxembourg 1995"],
     CS[vertical,1],
         AXIS["gravity-related height (H)",up,
             LENGTHUNIT["metre",1]],

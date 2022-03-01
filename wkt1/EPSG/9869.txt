@@ -1,4 +1,4 @@
-PROJCS["MHR21 Grid",
+PROJCS["MRH21 Grid",
     GEOGCS["MRH21-IRF",
         DATUM["MRH21_Intermediate_Reference_Frame",
             SPHEROID["GRS 1980",6378137,298.257222101,
