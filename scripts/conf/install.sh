@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
+TZ=Europe/Berlin
+ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
 # install missing packages
 PACKAGE_LIST=/home/apt-packages.txt
 if [ -f "$PACKAGE_LIST" ]; then
