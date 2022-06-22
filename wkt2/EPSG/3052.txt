@@ -33,6 +33,6 @@ PROJCRS["Reykjavik 1900 / Lambert 1900",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Topographic mapping (medium scale)."],
-        AREA["Iceland - onshore."],
+        AREA["Iceland - mainland."],
         BBOX[63.34,-24.66,66.59,-13.38]],
     ID["EPSG",3052]]

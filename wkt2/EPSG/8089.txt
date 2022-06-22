@@ -6,5 +6,5 @@ VERTCRS["ISH2004 height",
     USAGE[
         SCOPE["Geodesy, engineering survey, topographic mapping."],
         AREA["Iceland - onshore."],
-        BBOX[63.34,-24.66,66.59,-13.38]],
+        BBOX[63.24,-24.66,66.62,-13.38]],
     ID["EPSG",8089]]
