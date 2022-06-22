@@ -33,6 +33,6 @@ PROJCRS["Hjorsey 1955 / Lambert 1955",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
-        AREA["Iceland - onshore."],
+        AREA["Iceland - mainland."],
         BBOX[63.34,-24.66,66.59,-13.38]],
     ID["EPSG",3053]]

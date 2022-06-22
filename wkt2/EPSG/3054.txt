@@ -33,6 +33,6 @@ PROJCRS["Hjorsey 1955 / UTM zone 26N",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Topographic mapping (1:50,000) published between 1955 and 2000."],
-        AREA["Iceland - onshore west of 24°W."],
-        BBOX[64.71,-24.66,65.86,-24]],
+        AREA["Iceland - mainland west of 24°W."],
+        BBOX[64.71,-24.66,65.85,-24]],
     ID["EPSG",3054]]

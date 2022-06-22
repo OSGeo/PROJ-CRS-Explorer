@@ -1,4 +1,4 @@
-PROJCS["NAD83(CSRS)v6 / MTM Nova Scotia zone 4",
+PROJCS["NAD83(CSRS)v6 / MTM NS 2010 zone 4",
     GEOGCS["NAD83(CSRS)v6",
         DATUM["North_American_Datum_of_1983_CSRS_version_6",
             SPHEROID["GRS 1980",6378137,298.257222101,

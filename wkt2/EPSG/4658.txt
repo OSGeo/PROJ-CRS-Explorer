@@ -13,6 +13,6 @@ GEOGCRS["Hjorsey 1955",
             ANGLEUNIT["degree",0.0174532925199433]],
     USAGE[
         SCOPE["Geodesy."],
-        AREA["Iceland - onshore."],
+        AREA["Iceland - mainland."],
         BBOX[63.34,-24.66,66.59,-13.38]],
     ID["EPSG",4658]]

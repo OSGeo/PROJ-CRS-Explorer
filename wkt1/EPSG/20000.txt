@@ -1,0 +1,7 @@
+VERT_CS["SVD2006 height",
+    VERT_DATUM["Svalbard vertical datum 2006",2005,
+        AUTHORITY["EPSG","1323"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","20000"]]
