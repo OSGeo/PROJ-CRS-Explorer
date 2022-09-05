@@ -34,5 +34,5 @@ PROJCRS["UCS-2000 / LCS-51 Odessa",
     USAGE[
         SCOPE["Cadastre, topographic mapping (large scale)."],
         AREA["Ukraine - Odessa region (oblast)."],
-        BBOX[45.2,28.21,48.23,31.29]],
+        BBOX[45.2,28.21,48.24,31.3]],
     ID["EPSG",9853]]

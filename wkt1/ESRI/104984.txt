@@ -1,0 +1,10 @@
+GEOGCS["Iapetus_2015",
+    DATUM["Iapetus_2015",
+        SPHEROID["Iapetus_2015",745700,0,
+            AUTHORITY["ESRI","107984"]],
+        AUTHORITY["ESRI","106884"]],
+    PRIMEM["Reference_Meridian",0,
+        AUTHORITY["ESRI","108900"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["ESRI","104984"]]

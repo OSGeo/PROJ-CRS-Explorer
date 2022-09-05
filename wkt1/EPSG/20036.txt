@@ -1,0 +1,7 @@
+VERT_CS["INAGeoid2020 v2 height",
+    VERT_DATUM["Indonesian Geoid 2020 version 2",2005,
+        AUTHORITY["EPSG","1328"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","20036"]]

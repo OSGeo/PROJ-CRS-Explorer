@@ -34,5 +34,5 @@ PROJCRS["MGI / Balkans zone 7",
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
         AREA["Bosnia and Herzegovina - east of 19°30'E; Kosovo; Montenegro - east of 19°30'E; Serbia - between 19°30'E and 22°30'E."],
-        BBOX[41.85,19.5,46.18,22.5]],
+        BBOX[41.85,19.5,46.19,22.51]],
     ID["EPSG",31277]]

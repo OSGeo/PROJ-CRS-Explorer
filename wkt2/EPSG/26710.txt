@@ -34,5 +34,5 @@ PROJCRS["NAD27 / UTM zone 10N",
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
         AREA["North America - between 126°W and 120°W - onshore. Canada - British Columbia; Northwest Territories; Nunavut; Yukon. United States (USA) - California; Oregon; Washington."],
-        BBOX[34.4,-126,77.13,-120]],
+        BBOX[34.4,-126,77.13,-119.99]],
     ID["EPSG",26710]]

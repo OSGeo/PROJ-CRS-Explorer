@@ -6,5 +6,5 @@ VERTCRS["Wellington 1953 height",
     USAGE[
         SCOPE["Geodesy, engineering survey, topographic mapping."],
         AREA["New Zealand - North Island - Wellington vertical CRS area."],
-        BBOX[-41.67,174.52,-40.12,176.56]],
+        BBOX[-41.67,174.52,-40.12,176.55]],
     ID["EPSG",5770]]

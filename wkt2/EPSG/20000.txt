@@ -6,5 +6,5 @@ VERTCRS["SVD2006 height",
     USAGE[
         SCOPE["Geodesy, topographic mapping."],
         AREA["Arctic (Norway (Svalbard) onshore and offshore) - between 81°10'N and 76°10'N."],
-        BBOX[76.16,-3.35,81.17,38]],
+        BBOX[76.16,-3.35,81.17,38.01]],
     ID["EPSG",20000]]

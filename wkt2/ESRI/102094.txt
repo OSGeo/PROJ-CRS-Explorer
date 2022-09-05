@@ -34,5 +34,5 @@ PROJCRS["Roma_1940_Gauss_Boaga_Ovest",
     USAGE[
         SCOPE["Not known."],
         AREA["Italy - onshore and offshore - west of 12°E."],
-        BBOX[36.53,5.94,47.04,12]],
+        BBOX[36.53,5.93,47.04,12]],
     ID["ESRI",102094]]

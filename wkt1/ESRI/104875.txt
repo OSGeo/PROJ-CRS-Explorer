@@ -1,0 +1,10 @@
+GEOGCS["Ganymede_2015",
+    DATUM["Ganymede_2015",
+        SPHEROID["Ganymede_2015",2631200,0,
+            AUTHORITY["ESRI","107864"]],
+        AUTHORITY["ESRI","106864"]],
+    PRIMEM["Reference_Meridian",0,
+        AUTHORITY["ESRI","108900"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["ESRI","104875"]]

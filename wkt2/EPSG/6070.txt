@@ -49,5 +49,5 @@ PROJCRS["ETRS89 / EPSG Arctic zone 3-11",
     USAGE[
         SCOPE["Exploration and development, mapping."],
         AREA["Arctic (Norway (Svalbard) onshore and offshore) - between 81°10'N and 76°10'N."],
-        BBOX[76.16,-3.35,81.17,38]],
+        BBOX[76.16,-3.35,81.17,38.01]],
     ID["EPSG",6070]]

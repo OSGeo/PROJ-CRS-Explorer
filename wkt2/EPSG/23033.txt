@@ -34,5 +34,5 @@ PROJCRS["ED50 / UTM zone 33N",
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
         AREA["Europe - between 12°E and 18°E onshore and offshore - Denmark (including Bornholm); Italy including San Marino and Vatican City State; Malta; Norway including Svalbard."],
-        BBOX[34.49,12,84.42,18]],
+        BBOX[34.49,12,84.42,18.01]],
     ID["EPSG",23033]]

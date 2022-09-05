@@ -1,5 +1,5 @@
-VERT_CS["INAGeoid2020 height",
-    VERT_DATUM["Indonesian Geoid 2020",2005,
+VERT_CS["INAGeoid2020 v1 height",
+    VERT_DATUM["Indonesian Geoid 2020 version 1",2005,
         AUTHORITY["EPSG","1294"]],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],

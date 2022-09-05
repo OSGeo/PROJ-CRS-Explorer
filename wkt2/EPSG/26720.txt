@@ -34,5 +34,5 @@ PROJCRS["NAD27 / UTM zone 20N",
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
         AREA["North America - between 66°W and 60°W - onshore and offshore. Canada - New Brunswick; Labrador; Nova Scotia; Nunavut; Prince Edward Island; Quebec. United States (USA) offshore Atlantic."],
-        BBOX[38.21,-66,82.97,-60]],
+        BBOX[38.21,-66,82.97,-59.99]],
     ID["EPSG",26720]]

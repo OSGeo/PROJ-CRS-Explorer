@@ -46,5 +46,5 @@ PROJCRS["ETRS89 / UTM zone 33N",
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
         AREA["Europe between 12°E and 18°E: Austria; Denmark - offshore and offshore; Germany - onshore and offshore; Norway including Svalbard - onshore and offshore."],
-        BBOX[46.4,12,84.42,18]],
+        BBOX[46.4,12,84.42,18.01]],
     ID["EPSG",25833]]

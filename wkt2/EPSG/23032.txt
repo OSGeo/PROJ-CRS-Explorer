@@ -34,5 +34,5 @@ PROJCRS["ED50 / UTM zone 32N",
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
         AREA["Europe - between 6°E and 12°E - Denmark - onshore and offshore; France - offshore; Germany offshore; Italy - onshore and offshore; Netherlands offshore; Norway including Svalbard - onshore and offshore."],
-        BBOX[36.53,5.99,84.33,12]],
+        BBOX[36.53,5.99,84.33,12.01]],
     ID["EPSG",23032]]

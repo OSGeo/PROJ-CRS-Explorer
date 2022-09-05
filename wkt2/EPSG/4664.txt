@@ -14,5 +14,5 @@ GEOGCRS["Azores Oriental 1995",
     USAGE[
         SCOPE["Geodesy."],
         AREA["Portugal - eastern Azores onshore - Sao Miguel, Santa Maria, Formigas."],
-        BBOX[36.87,-25.92,37.96,-24.62]],
+        BBOX[36.87,-25.92,37.96,-24.72]],
     ID["EPSG",4664]]

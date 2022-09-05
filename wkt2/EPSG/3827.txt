@@ -34,5 +34,5 @@ PROJCRS["TWD67 / TM2 zone 119",
     USAGE[
         SCOPE["Cadastre, engineering survey, topographic mapping."],
         AREA["Taiwan, Republic of China - onshore - Penghu (Pescadores) Islands."],
-        BBOX[23.12,119.25,23.82,119.78]],
+        BBOX[23.13,119.25,23.82,119.78]],
     ID["EPSG",3827]]

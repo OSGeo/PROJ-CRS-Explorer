@@ -52,5 +52,5 @@ COMPOUNDCRS["ETRS89 / UTM zone 32N + DVR90 height",
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
         AREA["Denmark - onshore west of 12°E - Zealand, Jutland, Fuen and Lolland."],
-        BBOX[54.51,8,57.8,12]],
+        BBOX[54.51,8,57.8,12.01]],
     ID["EPSG",7416]]

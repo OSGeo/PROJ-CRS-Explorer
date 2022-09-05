@@ -1,0 +1,10 @@
+GEOGCS["Pluto_2015",
+    DATUM["Pluto_2015",
+        SPHEROID["Pluto_2015",1188300,0,
+            AUTHORITY["ESRI","107998"]],
+        AUTHORITY["ESRI","106898"]],
+    PRIMEM["Reference_Meridian",0,
+        AUTHORITY["ESRI","108900"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["ESRI","104998"]]

@@ -37,5 +37,5 @@ PROJCRS["NAD27 / Texas South",
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
         AREA["United States (USA) - Texas - counties of Brooks; Cameron; Duval; Hidalgo; Jim Hogg; Jim Wells; Kenedy; Kleberg; Nueces; San Patricio; Starr; Webb; Willacy; Zapata. Gulf of Mexico outer continental shelf (GoM OCS) protraction areas: South Padre Island; North Padre Island; Mustang Island."],
-        BBOX[25.83,-100.2,28.21,-95.37]],
+        BBOX[25.83,-100.2,28.21,-95.36]],
     ID["EPSG",32041]]

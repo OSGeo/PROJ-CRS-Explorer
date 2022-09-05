@@ -46,5 +46,5 @@ PROJCRS["ETRS89 / UTM zone 37N (N-E)",
     USAGE[
         SCOPE["Pan-European medium scale conformal mapping."],
         AREA["Europe between 36°E and 42°E: Norway including Svalbard - offshore."],
-        BBOX[72.99,36,79.07,38]],
+        BBOX[72.99,36,79.07,38.01]],
     ID["EPSG",3049]]

@@ -14,5 +14,5 @@ GEOGCRS["TPEN11-IRF",
     USAGE[
         SCOPE["Engineering survey and topographic mapping for railway applications."],
         AREA["United Kingdom (UK) - on or related to the Trans-Pennine rail route from Liverpool via Manchester to Bradford and Leeds."],
-        BBOX[53.32,-3.14,53.9,-1.35]],
+        BBOX[53.32,-3.14,53.9,-1.34]],
     ID["EPSG",9364]]

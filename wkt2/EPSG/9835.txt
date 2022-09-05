@@ -34,5 +34,5 @@ PROJCRS["UCS-2000 / LCS-14 Donetsk",
     USAGE[
         SCOPE["Cadastre, topographic mapping (large scale)."],
         AREA["Ukraine - Donetsk region (oblast)."],
-        BBOX[46.86,36.54,49.23,39.09]],
+        BBOX[46.86,36.54,49.24,39.1]],
     ID["EPSG",9835]]

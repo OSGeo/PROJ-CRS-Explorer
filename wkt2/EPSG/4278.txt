@@ -14,5 +14,5 @@ GEOGCRS["OSGB70",
     USAGE[
         SCOPE["Geodesy."],
         AREA["United Kingdom (UK) - Great Britain - England and Wales onshore, Scotland onshore and Western Isles nearshore including Sea of the Hebrides and The Minch; Isle of Man onshore."],
-        BBOX[49.797,-8.818,60.935,1.92]],
+        BBOX[49.79,-8.82,60.94,1.92]],
     ID["EPSG",4278]]

@@ -34,5 +34,5 @@ PROJCRS["Sao_Braz_UTM_Zone_26N",
     USAGE[
         SCOPE["Not known."],
         AREA["Portugal - eastern Azores onshore - Sao Miguel, Santa Maria, Formigas."],
-        BBOX[36.87,-25.92,37.96,-24.62]],
+        BBOX[36.87,-25.92,37.96,-24.72]],
     ID["ESRI",102168]]

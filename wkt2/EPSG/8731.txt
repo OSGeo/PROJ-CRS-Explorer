@@ -40,5 +40,5 @@ COMPOUNDCRS["NAD83 / Idaho Central (ftUS) + NAVD88 height (ftUS)",
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
         AREA["United States (USA) - Idaho - counties of Blaine; Butte; Camas; Cassia; Custer; Gooding; Jerome; Lemhi; Lincoln; Minidoka; Twin Falls."],
-        BBOX[41.99,-115.3,45.7,-112.68]],
+        BBOX[41.99,-115.3,45.7,-112.67]],
     ID["EPSG",8731]]

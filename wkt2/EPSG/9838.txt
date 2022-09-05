@@ -34,5 +34,5 @@ PROJCRS["UCS-2000 / LCS-23 Zaporizhzhia",
     USAGE[
         SCOPE["Cadastre, topographic mapping (large scale)."],
         AREA["Ukraine - Zaporizhzhia region (oblast)."],
-        BBOX[46.07,34.17,48.14,37.24]],
+        BBOX[46.07,34.17,48.15,37.25]],
     ID["EPSG",9838]]

@@ -14,5 +14,5 @@ GEOGCRS["ED79",
     USAGE[
         SCOPE["Geodesy."],
         AREA["Europe - west."],
-        BBOX[34.88,-10.56,84.73,38]],
+        BBOX[34.88,-10.56,84.73,38.01]],
     ID["EPSG",4668]]

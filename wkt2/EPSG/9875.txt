@@ -34,5 +34,5 @@ PROJCRS["PNG94 / PNGMG94 zone 58",
     USAGE[
         SCOPE["Cadastre, engineering survey, topographic mapping (large and medium scale)."],
         AREA["Papua New Guinea - east of 162°E to EEZ limit."],
-        BBOX[-4.35,162,-2.34,162.8]],
+        BBOX[-4.36,162,-2.34,162.81]],
     ID["EPSG",9875]]

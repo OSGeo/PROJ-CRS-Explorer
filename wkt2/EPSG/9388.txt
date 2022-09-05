@@ -40,5 +40,5 @@ COMPOUNDCRS["AbInvA96_2020 Grid + ODN height",
     USAGE[
         SCOPE["Highway engineering."],
         AREA["United Kingdom (UK) - on or related to the A96 highway from Aberdeen to Inverness."],
-        BBOX[57.1,-4.3,57.7,-2.1]],
+        BBOX[57.1,-4.31,57.71,-2.1]],
     ID["EPSG",9388]]

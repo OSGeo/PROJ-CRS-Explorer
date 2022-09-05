@@ -1,0 +1,10 @@
+GEOGCS["Calypso_2015",
+    DATUM["Calypso_2015",
+        SPHEROID["Calypso_2015",9600,0,
+            AUTHORITY["ESRI","107977"]],
+        AUTHORITY["ESRI","106977"]],
+    PRIMEM["Reference_Meridian",0,
+        AUTHORITY["ESRI","108900"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["ESRI","104977"]]

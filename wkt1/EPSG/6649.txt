@@ -1,4 +1,4 @@
-COMPD_CS["NAD83(CSRS) + CGVD2013 height",
+COMPD_CS["NAD83(CSRS) + CGVD2013(CGG2013) height",
     GEOGCS["NAD83(CSRS)",
         DATUM["NAD83_Canadian_Spatial_Reference_System",
             SPHEROID["GRS 1980",6378137,298.257222101,

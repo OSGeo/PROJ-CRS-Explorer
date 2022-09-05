@@ -1,0 +1,10 @@
+VERTCRS["Australian_1984",
+    VDATUM["D_Australian_1984"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Australia - Queensland, South Australia, Western Australia, federal areas offshore west of 129°E."],
+        BBOX[-38.53,109.23,-9.37,153.61]],
+    ID["ESRI",115877]]
