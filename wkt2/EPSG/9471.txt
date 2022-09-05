@@ -1,5 +1,5 @@
-VERTCRS["INAGeoid2020 height",
-    VDATUM["Indonesian Geoid 2020"],
+VERTCRS["INAGeoid2020 v1 height",
+    VDATUM["Indonesian Geoid 2020 version 1"],
     CS[vertical,1],
         AXIS["gravity-related height (H)",up,
             LENGTHUNIT["metre",1]],

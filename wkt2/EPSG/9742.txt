@@ -40,5 +40,5 @@ COMPOUNDCRS["EOS21 Grid + ODN height",
     USAGE[
         SCOPE["Engineering survey and topographic mapping for railway applications."],
         AREA["United Kingdom (UK) - on or related to the complex of rail routes in the East of Scotland, incorporating the route from Tweedbank through the Borders to Edinburgh; the line from Edinburgh to Aberdeen; routes via Kirkaldy and Cowdenbeath; and routes via Leuchars and Perth to Dundee. "],
-        BBOX[55.55,-3.55,57.2,-1.95]],
+        BBOX[55.55,-3.56,57.21,-1.94]],
     ID["EPSG",9742]]

@@ -5,7 +5,7 @@ ARG PYPROJ_VERSION 3.3.0
 ENV PYPROJ_VERSION $PYPROJ_VERSION
 
 ENV PROJ_DIR      /usr/
-ENV PROJ_LIB      /usr/share/proj/
+ENV PROJ_DATA     /usr/share/proj/
 
 ENV VIRTUAL_ENV   /home/venv
 ENV PATH          $VIRTUAL_ENV/bin:$PATH

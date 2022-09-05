@@ -34,7 +34,7 @@ PROJCRS["KKJ / Finland Uniform Coordinate System",
     USAGE[
         SCOPE["Engineering survey, topographic mapping (large scale)."],
         AREA["Finland - onshore between 25°30'E and 28°30'E."],
-        BBOX[59.75,25.5,70.09,28.5]],
+        BBOX[60.18,25.5,70.09,28.51]],
     USAGE[
         SCOPE["Topographic mapping (small scale)."],
         AREA["Finland - onshore."],

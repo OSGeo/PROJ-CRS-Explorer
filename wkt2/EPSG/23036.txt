@@ -34,5 +34,5 @@ PROJCRS["ED50 / UTM zone 36N",
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
         AREA["Europe - between 30°E and 36°E - Israel - offshore; Jordan; Norway including Svalbard - onshore and offshore; Turkey - onshore and offshore."],
-        BBOX[29.19,30,84.7,36]],
+        BBOX[29.19,30,84.7,36.01]],
     ID["EPSG",23036]]

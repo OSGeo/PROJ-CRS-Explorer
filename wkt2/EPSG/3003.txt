@@ -34,5 +34,5 @@ PROJCRS["Monte Mario / Italy zone 1",
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
         AREA["Italy - onshore and offshore - west of 12°E."],
-        BBOX[36.53,5.94,47.04,12]],
+        BBOX[36.53,5.93,47.04,12]],
     ID["EPSG",3003]]

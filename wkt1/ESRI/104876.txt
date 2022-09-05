@@ -1,0 +1,10 @@
+GEOGCS["Io_2015",
+    DATUM["Io_2015",
+        SPHEROID["Io_2015",1821490,0,
+            AUTHORITY["ESRI","107865"]],
+        AUTHORITY["ESRI","106865"]],
+    PRIMEM["Reference_Meridian",0,
+        AUTHORITY["ESRI","108900"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["ESRI","104876"]]

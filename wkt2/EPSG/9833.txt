@@ -34,5 +34,5 @@ PROJCRS["UCS-2000 / LCS-07 Volyn",
     USAGE[
         SCOPE["Cadastre, topographic mapping (large scale)."],
         AREA["Ukraine - Volyn region (oblast)."],
-        BBOX[50.28,23.6,51.97,26.1]],
+        BBOX[50.28,23.6,51.97,26.11]],
     ID["EPSG",9833]]

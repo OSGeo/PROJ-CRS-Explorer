@@ -39,5 +39,5 @@ PROJCRS["WGS 84 / Mercator 41",
     USAGE[
         SCOPE["Topographic mapping (medium and small scale)."],
         AREA["Southwestern Pacific Ocean and Southern Ocean areas surrounding New Zealand."],
-        BBOX[-60,155,-25,-170]],
+        BBOX[-60,155,-25,-169.99]],
     ID["EPSG",3994]]

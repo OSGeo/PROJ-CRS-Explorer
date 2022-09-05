@@ -13,6 +13,6 @@ GEOGCRS["GCS_RGF_1993",
             ANGLEUNIT["degree",0.0174532925199433]],
     USAGE[
         SCOPE["Not known."],
-        AREA["France - onshore and offshore, mainland and Corsica."],
+        AREA["France - onshore and offshore, mainland and Corsica (France métropolitaine including Corsica)."],
         BBOX[41.15,-9.86,51.56,10.38]],
     ID["ESRI",104107]]

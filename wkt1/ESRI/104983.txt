@@ -1,0 +1,10 @@
+GEOGCS["Hyperion_2015",
+    DATUM["Hyperion_2015",
+        SPHEROID["Hyperion_2015",135000,0,
+            AUTHORITY["ESRI","107983"]],
+        AUTHORITY["ESRI","106883"]],
+    PRIMEM["Reference_Meridian",0,
+        AUTHORITY["ESRI","108900"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["ESRI","104983"]]

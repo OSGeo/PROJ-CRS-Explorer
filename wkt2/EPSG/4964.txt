@@ -16,6 +16,6 @@ GEODCRS["RGF93 v1",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Geodesy."],
-        AREA["France - onshore and offshore, mainland and Corsica."],
+        AREA["France - onshore and offshore, mainland and Corsica (France métropolitaine including Corsica)."],
         BBOX[41.15,-9.86,51.56,10.38]],
     ID["EPSG",4964]]

@@ -40,5 +40,5 @@ COMPOUNDCRS["HULLEE13 Grid + ODN height",
     USAGE[
         SCOPE["Engineering survey and topographic mapping for railway applications."],
         AREA["United Kingdom (UK) - on or related to the rail route from the Morley tunnel through Leeds to Hull."],
-        BBOX[53.6,-1.7,53.9,0.27]],
+        BBOX[53.6,-1.7,53.9,-0.27]],
     ID["EPSG",9968]]

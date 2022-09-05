@@ -34,5 +34,5 @@ PROJCRS["NAD_1983_PACP00_UTM_Zone_4N",
     USAGE[
         SCOPE["Not known."],
         AREA["United States (USA) - between 162°W and 156°W onshore - Hawaii."],
-        BBOX[19.51,-160.3,22.29,-156]],
+        BBOX[19.51,-160.3,22.29,-155.99]],
     ID["ESRI",102701]]

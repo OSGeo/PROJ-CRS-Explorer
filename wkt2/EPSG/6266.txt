@@ -34,5 +34,5 @@ PROJCRS["MAGNA-SIRGAS / Quibdo urban grid",
     USAGE[
         SCOPE["Cadastre, engineering survey, topographic mapping (large scale)."],
         AREA["Colombia - Quibdo city."],
-        BBOX[5.66,-76.67,5.72,-76.63]],
+        BBOX[5.66,-76.68,5.72,-76.63]],
     ID["EPSG",6266]]

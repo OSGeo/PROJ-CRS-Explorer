@@ -1,0 +1,10 @@
+VERTCRS["CGVD2013a(2002) height",
+    VDATUM["Canadian Geodetic Vertical Datum of 2013 (CGG2013a) epoch 2002"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, topographic mapping."],
+        AREA["Canada - onshore and offshore - Alberta; British Columbia; Manitoba; New Brunswick; Newfoundland and Labrador; Northwest Territories; Nova Scotia; Nunavut; Ontario; Prince Edward Island; Quebec; Saskatchewan; Yukon."],
+        BBOX[38.21,-141.01,86.46,-40.73]],
+    ID["EPSG",20034]]

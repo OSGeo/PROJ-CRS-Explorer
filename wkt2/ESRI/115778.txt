@@ -5,6 +5,6 @@ VERTCRS["RGF_1993",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Not known."],
-        AREA["France - onshore and offshore, mainland and Corsica."],
+        AREA["France - onshore and offshore, mainland and Corsica (France métropolitaine including Corsica)."],
         BBOX[41.15,-9.86,51.56,10.38]],
     ID["ESRI",115778]]

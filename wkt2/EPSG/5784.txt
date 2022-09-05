@@ -6,5 +6,5 @@ VERTCRS["DHHN85 height",
     USAGE[
         SCOPE["Geodesy, engineering survey, topographic mapping."],
         AREA["Germany - states of former West Germany onshore - Baden-Wurtemberg, Bayern, Bremen, Hamburg, Hessen, Niedersachsen, Nordrhein-Westfalen, Rheinland-Pfalz, Saarland, Schleswig-Holstein."],
-        BBOX[47.27,5.87,55.09,13.84]],
+        BBOX[47.27,5.86,55.09,13.84]],
     ID["EPSG",5784]]

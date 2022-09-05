@@ -34,5 +34,5 @@ PROJCRS["NAD_1983_HARN_StatePlane_Idaho_Central_FIPS_1102",
     USAGE[
         SCOPE["Not known."],
         AREA["United States (USA) - Idaho - counties of Blaine; Butte; Camas; Cassia; Custer; Gooding; Jerome; Lemhi; Lincoln; Minidoka; Twin Falls."],
-        BBOX[41.99,-115.3,45.7,-112.68]],
+        BBOX[41.99,-115.3,45.7,-112.67]],
     ID["ESRI",102269]]

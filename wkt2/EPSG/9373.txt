@@ -34,5 +34,5 @@ PROJCRS["MML07 Grid",
     USAGE[
         SCOPE["Engineering survey and topographic mapping for railway applications."],
         AREA["United Kingdom (UK) - on or related to the Midland Mainline rail route from Sheffield to London."],
-        BBOX[51.46,-1.89,53.41,0.15]],
+        BBOX[51.46,-1.89,53.42,0.16]],
     ID["EPSG",9373]]

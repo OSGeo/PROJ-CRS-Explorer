@@ -34,5 +34,5 @@ PROJCRS["St. Helena Tritan / SHLG(Tritan)",
     USAGE[
         SCOPE["Engineering survey including Airport and Ruperts Wharf construction."],
         AREA["St Helena, Ascension and Tristan da Cunha - St Helena Island - onshore."],
-        BBOX[-16.08,-5.85,-15.85,-5.58]],
+        BBOX[-16.08,-5.85,-15.85,-5.59]],
     ID["EPSG",7882]]

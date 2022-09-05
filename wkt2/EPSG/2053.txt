@@ -34,5 +34,5 @@ PROJCRS["Hartebeesthoek94 / Lo29",
     USAGE[
         SCOPE["Cadastre, engineering survey, topographic mapping (large and medium scale)."],
         AREA["Lesotho - east of 28°E. South Africa - onshore between 28°E and 30°E."],
-        BBOX[-33.03,27.99,-22.13,30]],
+        BBOX[-33.03,27.99,-22.13,30.01]],
     ID["EPSG",2053]]

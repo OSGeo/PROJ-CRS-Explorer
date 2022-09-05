@@ -34,5 +34,5 @@ PROJCRS["UCS-2000 / LCS-61 Ternopil",
     USAGE[
         SCOPE["Cadastre, topographic mapping (large scale)."],
         AREA["Ukraine - Ternopil region (oblast)."],
-        BBOX[48.5,24.71,50.27,26.44]],
+        BBOX[48.5,24.71,50.27,26.45]],
     ID["EPSG",9857]]

@@ -36,6 +36,6 @@ PROJCRS["RGF93 v2 / Lambert-93",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
-        AREA["France - onshore and offshore, mainland and Corsica."],
+        AREA["France - onshore and offshore, mainland and Corsica (France métropolitaine including Corsica)."],
         BBOX[41.15,-9.86,51.56,10.38]],
     ID["EPSG",9793]]

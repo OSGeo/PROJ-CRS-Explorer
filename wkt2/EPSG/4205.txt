@@ -14,5 +14,5 @@ GEOGCRS["Afgooye",
     USAGE[
         SCOPE["Geodesy."],
         AREA["Somalia - onshore."],
-        BBOX[-1.71,40.99,12.03,51.47]],
+        BBOX[-1.71,40.98,12.03,51.47]],
     ID["EPSG",4205]]

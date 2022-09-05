@@ -34,5 +34,5 @@ PROJCRS["UCS-2000 / LCS-46 Lviv",
     USAGE[
         SCOPE["Cadastre, topographic mapping (large scale)."],
         AREA["Ukraine - Lviv region (oblast)."],
-        BBOX[48.71,22.64,50.65,25.42]],
+        BBOX[48.71,22.64,50.65,25.43]],
     ID["EPSG",9851]]

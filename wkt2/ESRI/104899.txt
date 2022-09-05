@@ -1,0 +1,18 @@
+GEOGCRS["Polydeuces_2015",
+    DATUM["Polydeuces_2015",
+        ELLIPSOID["Polydeuces_2015",1300,0,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Reference_Meridian",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["World."],
+        BBOX[-90,-180,90,180]],
+    ID["ESRI",104899]]

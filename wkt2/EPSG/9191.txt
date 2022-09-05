@@ -45,5 +45,5 @@ PROJCRS["WGS 84 / NIWA Albers",
     USAGE[
         SCOPE["Oceanography."],
         AREA["Southwestern Pacific Ocean and Southern Ocean areas surrounding New Zealand."],
-        BBOX[-60,155,-25,-170]],
+        BBOX[-60,155,-25,-169.99]],
     ID["EPSG",9191]]

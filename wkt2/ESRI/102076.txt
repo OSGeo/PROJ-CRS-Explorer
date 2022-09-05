@@ -33,6 +33,6 @@ PROJCRS["AGD_1966_ISG_55_3",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Australia - onshore and offshore between 144°E and 150°E."],
-        BBOX[-50.89,144,-9.23,150.01]],
+        AREA["Australia - New South Wales - 148~E to 150~E (ISG 55/3)"],
+        BBOX[-47.2,148,-28.15,150]],
     ID["ESRI",102076]]

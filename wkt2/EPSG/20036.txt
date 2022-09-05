@@ -1,0 +1,10 @@
+VERTCRS["INAGeoid2020 v2 height",
+    VDATUM["Indonesian Geoid 2020 version 2"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Indonesia - onshore and offshore."],
+        BBOX[-13.95,92.01,7.79,141.46]],
+    ID["EPSG",20036]]

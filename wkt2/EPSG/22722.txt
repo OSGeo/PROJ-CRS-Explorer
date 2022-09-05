@@ -34,5 +34,5 @@ PROJCRS["NAD83(CSRS)v7 / UTM zone 22N",
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
         AREA["Canada between 54°W and 48°W onshore and offshore - Newfoundland and Labrador."],
-        BBOX[39.5,-54,57.65,-48]],
+        BBOX[39.5,-54,57.65,-47.99]],
     ID["EPSG",22722]]

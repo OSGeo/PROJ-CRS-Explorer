@@ -34,5 +34,5 @@ PROJCRS["ETRF_1989_UTM_Zone_32N",
     USAGE[
         SCOPE["Not known."],
         AREA["Europe between 6°E and 12°E: Austria; Belgium; Denmark - onshore and offshore; Germany - onshore and offshore; Norway including - onshore and offshore; Spain - offshore."],
-        BBOX[38.76,6,84.33,12]],
+        BBOX[38.76,6,84.33,12.01]],
     ID["ESRI",103532]]

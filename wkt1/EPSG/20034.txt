@@ -1,0 +1,7 @@
+VERT_CS["CGVD2013a(2002) height",
+    VERT_DATUM["Canadian Geodetic Vertical Datum of 2013 (CGG2013a) epoch 2002",2005,
+        AUTHORITY["EPSG","1325"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","20034"]]
