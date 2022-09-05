@@ -32,7 +32,7 @@ The behavior was inspired in https://cdn.proj.org (that shows the grid files fro
 The static html page loads a json file generated from [PROJ](https://proj.org) with [pyproj](https://pyproj4.github.io/pyproj/stable/). 
 To produce the `crslist.json` file you have to build pyproj with the desired version of PROJ. In my case, I did this:
  * export PROJ_DIR=~/proj_install_folder/
- * export PROJ_LIB=~/proj_install_folder/share/proj/
+ * export PROJ_DATA=~/proj_install_folder/share/proj/
  * pip uninstall pyproj
  * pip install git+https://github.com/pyproj4/pyproj.git
  * python3 ./scripts/proj2json.py
