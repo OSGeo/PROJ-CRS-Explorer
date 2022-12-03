@@ -33,6 +33,6 @@ PROJCRS["ED_1950_Turkey_9",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Turkey west of 28°30'E, onshore."],
+        AREA["Türkiye (Turkey) - west of 28°30'E, onshore."],
         BBOX[36.5,25.62,42.11,28.5]],
     ID["ESRI",2181]]

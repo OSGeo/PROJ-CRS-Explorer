@@ -30,6 +30,6 @@ PROJCRS["TUREF / LAEA Europe",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Statistical analysis."],
-        AREA["Turkey - onshore and offshore."],
+        AREA["Türkiye (Turkey) - onshore and offshore."],
         BBOX[34.42,25.62,43.45,44.83]],
     ID["EPSG",5636]]

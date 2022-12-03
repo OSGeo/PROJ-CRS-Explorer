@@ -33,6 +33,6 @@ PROJCRS["ED50 / UTM zone 38N",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
-        AREA["Europe - between 42°E and 48°E - Turkey."],
+        AREA["Europe - between 42°E and 48°E - Türkiye (Turkey)."],
         BBOX[36.97,42,41.6,44.83]],
     ID["EPSG",23038]]
