@@ -33,6 +33,6 @@ PROJCRS["TUREF / TM33",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Cadastre, engineering survey, topographic mapping (large scale)."],
-        AREA["Turkey between 31°30'E and 34°30'E, onshore."],
+        AREA["Türkiye (Turkey) - between 31°30'E and 34°30'E, onshore."],
         BBOX[35.97,31.5,42.07,34.5]],
     ID["EPSG",5255]]

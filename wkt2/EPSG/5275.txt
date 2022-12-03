@@ -33,6 +33,6 @@ PROJCRS["TUREF / 3-degree Gauss-Kruger zone 15",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Cadastre, topographic mapping (large scale)."],
-        AREA["Turkey east of 43°30'E."],
+        AREA["Türkiye (Turkey) - east of 43°30'E."],
         BBOX[36.97,43.5,41.02,44.83]],
     ID["EPSG",5275]]

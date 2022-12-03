@@ -33,6 +33,6 @@ PROJCRS["GDA94 / BCSG02",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Engineering survey."],
-        AREA["Australia - Brisbane area. Local authorities in south-east Queensland: Gold Coast, Logan, Beaudesert, Redcliffe, Redlands, Pine Rivers, Caboolture, Caloundra, Maroochy, Noosa, Maryborough; local authorities in north-east New South Wales: Tweed, Byron, Lismore, Ballina and Richmond Valley."],
-        BBOX[-29.88,151.19,-24.64,153.69]],
+        AREA["Australia - Brisbane and surrounding area. Also applicable in other local authorities in south-east Queensland (Gold Coast, Logan, Ipswich, Scenic Rim, Redland, Moreton Bay, Sunshine Coast, Noosa, eastern part of Gympie, eastern part of Fraser Coast) and north-east New South Wales (Tweed, Byron, Lismore, Kyogle, Ballina and Richmond Valley)."],
+        BBOX[-29.36,152.37,-24.64,153.69]],
     ID["EPSG",3113]]

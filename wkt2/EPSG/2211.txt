@@ -33,6 +33,6 @@ PROJCRS["ED50 / 3-degree Gauss-Kruger zone 14",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Cadastre, topographic mapping (large scale)."],
-        AREA["Turkey between 40°30'E and 43°30'E, onshore."],
+        AREA["Türkiye (Turkey) - between 40°30'E and 43°30'E, onshore."],
         BBOX[37.02,40.5,41.6,43.5]],
     ID["EPSG",2211]]
