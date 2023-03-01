@@ -40,7 +40,7 @@ PROJCRS["WGS 84 / UTM zone 17N",
             ORDER[2],
             LENGTHUNIT["metre",1]],
     USAGE[
-        SCOPE["Engineering survey, topographic mapping."],
+        SCOPE["Navigation and medium accuracy spatial referencing."],
         AREA["Between 84°W and 78°W, northern hemisphere between equator and 84°N, onshore and offshore. Bahamas. Ecuador - north of equator. Canada - Nunavut; Ontario; Quebec. Cayman Islands. Colombia. Costa Rica. Cuba. Jamaica. Nicaragua. Panama. United States (USA)."],
         BBOX[0,-84,84,-78]],
     ID["EPSG",32617]]

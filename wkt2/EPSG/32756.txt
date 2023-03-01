@@ -40,7 +40,7 @@ PROJCRS["WGS 84 / UTM zone 56S",
             ORDER[2],
             LENGTHUNIT["metre",1]],
     USAGE[
-        SCOPE["Engineering survey, topographic mapping."],
+        SCOPE["Navigation and medium accuracy spatial referencing."],
         AREA["Between 150°E and 156°E, southern hemisphere between 80°S and equator, onshore and offshore. Australia. Papua New Guinea."],
         BBOX[-80,150,0,156]],
     ID["EPSG",32756]]

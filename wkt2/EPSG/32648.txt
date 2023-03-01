@@ -40,7 +40,7 @@ PROJCRS["WGS 84 / UTM zone 48N",
             ORDER[2],
             LENGTHUNIT["metre",1]],
     USAGE[
-        SCOPE["Engineering survey, topographic mapping."],
+        SCOPE["Navigation and medium accuracy spatial referencing."],
         AREA["Between 102°E and 108°E, northern hemisphere between equator and 84°N, onshore and offshore. Cambodia. China. Indonesia. Laos. Malaysia - West Malaysia. Mongolia. Russian Federation. Singapore. Thailand. Vietnam."],
         BBOX[0,102,84,108]],
     ID["EPSG",32648]]

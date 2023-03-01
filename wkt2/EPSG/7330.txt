@@ -34,5 +34,5 @@ PROJCRS["NAD83(2011) / InGCS Knox (ftUS)",
     USAGE[
         SCOPE["Engineering survey."],
         AREA["United States (USA) - Indiana - Knox county."],
-        BBOX[38.41,-87.75,38.91,-87.09]],
+        BBOX[38.41,-87.76,38.91,-87.09]],
     ID["EPSG",7330]]

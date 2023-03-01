@@ -46,5 +46,5 @@ PROJCRS["ETRS89 / Guernsey Grid",
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
         AREA["Channel Islands - Guernsey, Alderney, Sark, Herm, Brecqhou, Jethou, Lihou - onshore and offshore."],
-        BBOX[49.11,-3.73,50.16,-2.02]],
+        BBOX[49.21,-3.06,49.94,-2.03]],
     ID["EPSG",3108]]

@@ -1,0 +1,10 @@
+VERTCRS["SIRGAS_Chile_2021_height",
+    VDATUM["SIRGAS-Chile_realization_5_epoch_2021"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Chile - onshore and offshore. Includes Easter Island, Juan Fernandez Islands, San Felix, and Sala y Gomez."],
+        BBOX[-59.87,-113.21,-17.5,-65.72]],
+    ID["ESRI",115884]]

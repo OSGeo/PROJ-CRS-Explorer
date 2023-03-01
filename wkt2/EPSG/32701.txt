@@ -40,7 +40,7 @@ PROJCRS["WGS 84 / UTM zone 1S",
             ORDER[2],
             LENGTHUNIT["metre",1]],
     USAGE[
-        SCOPE["Engineering survey, topographic mapping."],
+        SCOPE["Navigation and medium accuracy spatial referencing."],
         AREA["Between 180°W and 174°W, southern hemisphere between 80°S and equator, onshore and offshore."],
         BBOX[-80,-180,0,-174]],
     ID["EPSG",32701]]

@@ -52,5 +52,5 @@ COMPOUNDCRS["ETRS89 / NTM zone 21 + NN54 height",
     USAGE[
         SCOPE["Engineering survey."],
         AREA["Norway - onshore - between 21°E and 22°E."],
-        BBOX[69.03,21,70.71,22]],
+        BBOX[69.03,21,70.73,22.01]],
     ID["EPSG",6161]]

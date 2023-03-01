@@ -6,5 +6,5 @@ VERTCRS["EVRF2000 height",
     USAGE[
         SCOPE["Pan-European spatial positioning."],
         AREA["Europe - onshore - Andorra; Austria; Belgium; Bosnia and Herzegovina; Croatia; Czechia; Denmark; Estonia; Finland; France - mainland; Germany; Gibraltar; Hungary; Italy - mainland and Sicily; Latvia; Liechtenstein; Lithuania; Luxembourg; Netherlands; Norway; Poland; Portugal - mainland; Romania; San Marino; Slovakia; Slovenia; Spain - mainland; Sweden; Switzerland; United Kingdom (UK) - Great Britain mainland; Vatican City State."],
-        BBOX[35.95,-9.56,71.21,31.59]],
+        BBOX[35.95,-9.56,71.24,31.59]],
     ID["EPSG",5730]]

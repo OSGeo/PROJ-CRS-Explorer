@@ -32,5 +32,5 @@ COMPOUNDCRS["ETRS89 + CD Norway depth",
     USAGE[
         SCOPE["Hydrography and nautical charting."],
         AREA["Norway - inshore and nearshore."],
-        BBOX[57.75,4.08,71.38,31.77]],
+        BBOX[57.75,4.08,71.39,31.77]],
     ID["EPSG",9883]]

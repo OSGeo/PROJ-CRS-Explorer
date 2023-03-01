@@ -1,4 +1,4 @@
-COMPD_CS["ISN93 + ISH2004 height ",
+COMPD_CS["ISN93 + ISH2004 height",
     GEOGCS["ISN93",
         DATUM["Islands_Net_1993",
             SPHEROID["GRS 1980",6378137,298.257222101,

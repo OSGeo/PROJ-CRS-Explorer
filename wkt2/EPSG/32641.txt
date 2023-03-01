@@ -40,7 +40,7 @@ PROJCRS["WGS 84 / UTM zone 41N",
             ORDER[2],
             LENGTHUNIT["metre",1]],
     USAGE[
-        SCOPE["Engineering survey, topographic mapping."],
+        SCOPE["Navigation and medium accuracy spatial referencing."],
         AREA["Between 60°E and 66°E, northern hemisphere between equator and 84°N, onshore and offshore. Afghanistan. Islamic Republic of Iran. kazakhstan. Pakistan. Russian Federation. Turkmenistan. Uzbekistan."],
         BBOX[0,60,84,66]],
     ID["EPSG",32641]]

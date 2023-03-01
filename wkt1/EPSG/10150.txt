@@ -1,0 +1,7 @@
+VERT_CS["MSL UK & Ireland VORF08 depth",
+    VERT_DATUM["Mean Sea Level UK & Ireland VORF08",2005,
+        AUTHORITY["EPSG","1330"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Depth",DOWN],
+    AUTHORITY["EPSG","10150"]]

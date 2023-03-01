@@ -1,4 +1,4 @@
-PROJCS["NAD_1983_(CSRS)_v6_UTM_Zone_19N",
+PROJCS["NAD_1983_(CSRS)_v6_UTM_Zone_19N (deprecated)",
     GEOGCS["NAD83(CSRS)v6",
         DATUM["North_American_Datum_of_1983_CSRS_version_6",
             SPHEROID["GRS 1980",6378137,298.257222101,

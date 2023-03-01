@@ -40,7 +40,7 @@ PROJCRS["WGS 84 / UTM zone 38N",
             ORDER[2],
             LENGTHUNIT["metre",1]],
     USAGE[
-        SCOPE["Engineering survey, topographic mapping."],
+        SCOPE["Navigation and medium accuracy spatial referencing."],
         AREA["Between 42°E and 48°E, northern hemisphere between equator and 84°N, onshore and offshore. Armenia. Azerbaijan. Djibouti. Eritrea. Ethiopia. Georgia. Islamic Republic of Iran. Iraq. kazakhstan. Kuwait. Russian Federation. Saudi Arabia. Somalia. Türkiye (Turkey). Yemen."],
         BBOX[0,42,84,48]],
     ID["EPSG",32638]]

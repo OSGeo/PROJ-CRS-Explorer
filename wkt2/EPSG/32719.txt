@@ -40,7 +40,7 @@ PROJCRS["WGS 84 / UTM zone 19S",
             ORDER[2],
             LENGTHUNIT["metre",1]],
     USAGE[
-        SCOPE["Engineering survey, topographic mapping."],
+        SCOPE["Navigation and medium accuracy spatial referencing."],
         AREA["Between 72°W and 66°W, southern hemisphere between 80°S and equator, onshore and offshore. Argentina. Bolivia. Brazil. Chile. Colombia. Peru."],
         BBOX[-80,-72,0,-66]],
     ID["EPSG",32719]]

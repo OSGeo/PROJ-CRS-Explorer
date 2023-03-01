@@ -40,7 +40,7 @@ PROJCRS["WGS 84 / UTM zone 25N",
             ORDER[2],
             LENGTHUNIT["metre",1]],
     USAGE[
-        SCOPE["Engineering survey, topographic mapping."],
+        SCOPE["Navigation and medium accuracy spatial referencing."],
         AREA["Between 36°W and 30°W, northern hemisphere between equator and 84°N, onshore and offshore. Greenland."],
         BBOX[0,-36,84,-30]],
     ID["EPSG",32625]]

@@ -34,5 +34,5 @@ PROJCRS["OSGB36 / British National Grid",
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
         AREA["United Kingdom (UK) - offshore to boundary of UKCS within 49°45'N to 61°N and 9°W to 2°E; onshore Great Britain (England, Wales and Scotland). Isle of Man onshore."],
-        BBOX[49.75,-9,61.01,2.01]],
+        BBOX[49.75,-9.01,61.01,2.01]],
     ID["EPSG",27700]]

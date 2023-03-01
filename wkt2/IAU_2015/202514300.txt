@@ -13,4 +13,4 @@ GEOGCRS["Itokawa (2015) - Sphere / Ocentric",
             ORDER[2],
             ANGLEUNIT["degree",0.0174532925199433]],
     ID["IAU",202514300,2015],
-    REMARK["Use R_m = (a+b+c)/3 as mean radius. Use mean radius as sphere radius for interoperability. Source of IAU Coordinate systems: doi://10.1007/s10569-017-9805-5"]]
+    REMARK["Use R_m = (a+b+c)/3 as mean radius. Use mean radius as sphere radius for interoperability. Source of IAU Coordinate systems: https://doi.org/10.1007/s10569-017-9805-5"]]

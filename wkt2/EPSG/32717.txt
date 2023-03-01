@@ -40,7 +40,7 @@ PROJCRS["WGS 84 / UTM zone 17S",
             ORDER[2],
             LENGTHUNIT["metre",1]],
     USAGE[
-        SCOPE["Engineering survey, topographic mapping."],
+        SCOPE["Navigation and medium accuracy spatial referencing."],
         AREA["Between 84°W and 78°W, southern hemisphere between 80°S and equator, onshore and offshore. Ecuador. Peru."],
         BBOX[-80,-84,0,-78]],
     ID["EPSG",32717]]

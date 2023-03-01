@@ -46,5 +46,5 @@ PROJCRS["ETRS89 / Jersey Transverse Mercator",
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
         AREA["Channel Islands - Jersey, Les Ecrehos and Les Minquiers - onshore and offshore."],
-        BBOX[48.77,-2.72,49.44,-1.81]],
+        BBOX[48.87,-2.56,49.44,-1.81]],
     ID["EPSG",3109]]

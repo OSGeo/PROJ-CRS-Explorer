@@ -40,7 +40,7 @@ PROJCRS["WGS 84 / UTM zone 60N",
             ORDER[2],
             LENGTHUNIT["metre",1]],
     USAGE[
-        SCOPE["Engineering survey, topographic mapping."],
+        SCOPE["Navigation and medium accuracy spatial referencing."],
         AREA["Between 174°E and 180°E, northern hemisphere between equator and 84°N, onshore and offshore. Russian Federation; United States (USA) - Alaska (AK)."],
         BBOX[0,174,84,180]],
     ID["EPSG",32660]]
