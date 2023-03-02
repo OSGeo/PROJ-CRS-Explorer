@@ -40,7 +40,7 @@ PROJCRS["WGS 84 / UTM zone 52S",
             ORDER[2],
             LENGTHUNIT["metre",1]],
     USAGE[
-        SCOPE["Engineering survey, topographic mapping."],
+        SCOPE["Navigation and medium accuracy spatial referencing."],
         AREA["Between 126°E and 132°E, southern hemisphere between 80°S and equator, onshore and offshore. Australia. East Timor. Indonesia."],
         BBOX[-80,126,0,132]],
     ID["EPSG",32752]]

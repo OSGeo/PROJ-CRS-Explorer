@@ -1,7 +1,0 @@
-VERT_CS["Baltic_1986_height",
-    VERT_DATUM["Baltic_1986",2005,
-        AUTHORITY["ESRI","1296"]],
-    UNIT["metre",1,
-        AUTHORITY["EPSG","9001"]],
-    AXIS["Gravity-related height",UP],
-    AUTHORITY["ESRI","9650"]]

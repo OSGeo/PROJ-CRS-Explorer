@@ -33,6 +33,6 @@ PROJCRS["Bogota 1975 / Colombia West zone",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
-        AREA["Colombia - mainland onshore west of 1°30'W of Bogota (75°34'51.30""W of Greenwich)."],
+        AREA["Colombia - mainland onshore west of 1°30'W of Bogota (approximately 75°35'W of Greenwich)."],
         BBOX[0.03,-79.1,10.21,-75.58]],
     ID["EPSG",21891]]

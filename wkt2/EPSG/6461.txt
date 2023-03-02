@@ -34,5 +34,5 @@ PROJCRS["NAD83(2011) / Indiana West (ftUS)",
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
         AREA["United States (USA) - Indiana - counties of Benton; Boone; Carroll; Clay; Clinton; Crawford; Daviess; Dubois; Fountain; Gibson; Greene; Hendricks; Jasper; Knox; La Porte; Lake; Lawrence; Martin; Monroe; Montgomery; Morgan; Newton; Orange; Owen; Parke; Perry; Pike; Porter; Posey; Pulaski; Putnam; Spencer; Starke; Sullivan; Tippecanoe; Vanderburgh; Vermillion; Vigo; Warren; Warrick; White."],
-        BBOX[37.77,-88.06,41.77,-86.24]],
+        BBOX[37.77,-88.1,41.77,-86.24]],
     ID["EPSG",6461]]

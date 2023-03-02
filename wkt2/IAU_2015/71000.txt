@@ -12,4 +12,4 @@ GEOGCRS["Desdemona (2015) - Sphere / Ocentric",
             ORDER[2],
             ANGLEUNIT["degree",0.0174532925199433]],
     ID["IAU",71000,2015],
-    REMARK["Source of IAU Coordinate systems: doi://10.1007/s10569-017-9805-5"]]
+    REMARK["Source of IAU Coordinate systems: https://doi.org/10.1007/s10569-017-9805-5"]]

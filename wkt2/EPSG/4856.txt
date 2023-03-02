@@ -46,5 +46,5 @@ PROJCRS["ETRS89 / NTM zone 6",
     USAGE[
         SCOPE["Engineering survey."],
         AREA["Norway - onshore - between 6°E and 7°E."],
-        BBOX[57.93,6,63.02,7]],
+        BBOX[57.93,6,63.03,7.01]],
     ID["EPSG",4856]]

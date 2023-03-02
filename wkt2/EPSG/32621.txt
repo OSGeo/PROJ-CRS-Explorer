@@ -40,7 +40,7 @@ PROJCRS["WGS 84 / UTM zone 21N",
             ORDER[2],
             LENGTHUNIT["metre",1]],
     USAGE[
-        SCOPE["Engineering survey, topographic mapping."],
+        SCOPE["Navigation and medium accuracy spatial referencing."],
         AREA["Between 60°W and 54°W, northern hemisphere between equator and 84°N, onshore and offshore. Barbados. Brazil. Canada - Newfoundland and Labrador, Quebec. French Guiana. Greenland. Guyana. St Pierre and Miquelon. Suriname."],
         BBOX[0,-60,84,-54]],
     ID["EPSG",32621]]

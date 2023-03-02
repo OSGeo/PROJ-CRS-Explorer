@@ -33,6 +33,6 @@ PROJCRS["Bogota 1975 / Colombia East zone",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
-        AREA["Colombia - east of 4°30'E of Bogota (69°34'51.3""W of Greenwich)."],
+        AREA["Colombia - east of 4°30'E of Bogota (approximately 69°35'W of Greenwich)."],
         BBOX[-2.25,-69.59,6.31,-66.87]],
     ID["EPSG",21899]]

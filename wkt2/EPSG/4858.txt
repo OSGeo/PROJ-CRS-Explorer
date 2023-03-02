@@ -46,5 +46,5 @@ PROJCRS["ETRS89 / NTM zone 8",
     USAGE[
         SCOPE["Engineering survey."],
         AREA["Norway - onshore - between 8°E and 9°E."],
-        BBOX[58.03,8,63.87,9]],
+        BBOX[58,8,64.1,9.01]],
     ID["EPSG",4858]]

@@ -1,0 +1,10 @@
+VERTCRS["RGF93_v2",
+    VDATUM["Reseau_Geodesique_Francais_1993_v2"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["France - onshore and offshore, mainland and Corsica (France métropolitaine including Corsica)."],
+        BBOX[41.15,-9.86,51.56,10.38]],
+    ID["ESRI",115881]]

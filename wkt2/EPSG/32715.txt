@@ -40,7 +40,7 @@ PROJCRS["WGS 84 / UTM zone 15S",
             ORDER[2],
             LENGTHUNIT["metre",1]],
     USAGE[
-        SCOPE["Engineering survey, topographic mapping."],
+        SCOPE["Navigation and medium accuracy spatial referencing."],
         AREA["Between 96°W and 90°W, southern hemisphere between 80°S and equator, onshore and offshore. Ecuador - Galapagos."],
         BBOX[-80,-96,0,-90]],
     ID["EPSG",32715]]

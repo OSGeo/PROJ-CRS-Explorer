@@ -33,6 +33,6 @@ PROJCRS["MAGNA-SIRGAS / Colombia West zone",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
-        AREA["Colombia - onshore between 78°35'W and 75°35'W of Greenwich (4°30' W and 1°30' W of Bogota)."],
+        AREA["Colombia - onshore between 4°30'W and 1°30'W of Bogota (approximately 78°35'W and 75°35'W of Greenwich)."],
         BBOX[0.03,-78.59,10.21,-75.58]],
     ID["EPSG",3115]]

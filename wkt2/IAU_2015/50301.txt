@@ -13,4 +13,4 @@ GEOGCRS["Ganymede (2015) / Ographic",
             ORDER[2],
             ANGLEUNIT["degree",0.0174532925199433]],
     ID["IAU",50301,2015],
-    REMARK["Source of IAU Coordinate systems: doi://10.1007/s10569-017-9805-5"]]
+    REMARK["Source of IAU Coordinate systems: https://doi.org/10.1007/s10569-017-9805-5"]]

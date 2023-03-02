@@ -52,5 +52,5 @@ COMPOUNDCRS["ETRS89 / UTM zone 35N + NN54 height",
     USAGE[
         SCOPE["Topographic mapping."],
         AREA["Norway - onshore - between 24°E and 30°E."],
-        BBOX[68.58,24,71.21,30]],
+        BBOX[68.58,24,71.24,30.01]],
     ID["EPSG",6175]]

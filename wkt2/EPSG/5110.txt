@@ -46,5 +46,5 @@ PROJCRS["ETRS89 / NTM zone 10",
     USAGE[
         SCOPE["Engineering survey."],
         AREA["Norway - onshore - between 10°E and 11°E."],
-        BBOX[58.9,10,65.04,11]],
+        BBOX[58.9,10,65.27,11.01]],
     ID["EPSG",5110]]

@@ -1,0 +1,7 @@
+VERT_CS["RGF93_v2b",
+    VERT_DATUM["Reseau_Geodesique_Francais_1993_v2b",2002,
+        AUTHORITY["ESRI","from_geogdatum_ESRI_1313"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115882"]]

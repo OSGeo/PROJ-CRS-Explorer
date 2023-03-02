@@ -1,0 +1,18 @@
+GEOGCRS["CWS13-IRF",
+    DATUM["CWS13 Intermediate Reference Frame",
+        ELLIPSOID["GRS 1980",6378137,298.257222101,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Engineering survey and topographic mapping for railway applications."],
+        AREA["United Kingdom (UK) - on or related to the rail route from from Chester via Wrexham to Shrewsbury."],
+        BBOX[52.5,-3.16,53.26,-2.65]],
+    ID["EPSG",10196]]

@@ -1,4 +1,4 @@
-PROJCS["OSGB36_Highways_England_B16H2",
+PROJCS["OSGB36_Highways_England_B16H2 (deprecated)",
     GEOGCS["OSGB36",
         DATUM["Ordnance_Survey_of_Great_Britain_1936",
             SPHEROID["Airy 1830",6377563.396,299.3249646,

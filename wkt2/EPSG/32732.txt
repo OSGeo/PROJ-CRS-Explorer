@@ -40,7 +40,7 @@ PROJCRS["WGS 84 / UTM zone 32S",
             ORDER[2],
             LENGTHUNIT["metre",1]],
     USAGE[
-        SCOPE["Engineering survey, topographic mapping."],
+        SCOPE["Navigation and medium accuracy spatial referencing."],
         AREA["Between 6°E and 12°E, southern hemisphere between 80°S and equator, onshore and offshore. Angola. Congo. Gabon. Namibia."],
         BBOX[-80,6,0,12]],
     ID["EPSG",32732]]

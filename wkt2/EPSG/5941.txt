@@ -8,5 +8,5 @@ VERTCRS["NN2000 height",
     USAGE[
         SCOPE["Geodesy, engineering survey."],
         AREA["Norway - onshore."],
-        BBOX[57.93,4.68,71.21,31.22]],
+        BBOX[57.9,4.39,71.24,31.32]],
     ID["EPSG",5941]]

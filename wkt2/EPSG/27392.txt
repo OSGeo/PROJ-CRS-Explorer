@@ -34,5 +34,5 @@ PROJCRS["NGO 1948 (Oslo) / NGO zone II",
     USAGE[
         SCOPE["Cadastre, topographic mapping."],
         AREA["Norway - between 3°30'W and 1°10' W of Oslo (7°13'22.5""E and 9°33'22.5""E of Greenwich)."],
-        BBOX[57.95,7.22,63.87,9.56]],
+        BBOX[57.9,7.22,64.23,9.56]],
     ID["EPSG",27392]]

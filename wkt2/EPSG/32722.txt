@@ -40,7 +40,7 @@ PROJCRS["WGS 84 / UTM zone 22S",
             ORDER[2],
             LENGTHUNIT["metre",1]],
     USAGE[
-        SCOPE["Engineering survey, topographic mapping."],
+        SCOPE["Navigation and medium accuracy spatial referencing."],
         AREA["Between 54°W and 48°W, southern hemisphere between 80°S and equator, onshore and offshore. Brazil. Uruguay."],
         BBOX[-80,-54,0,-48]],
     ID["EPSG",32722]]

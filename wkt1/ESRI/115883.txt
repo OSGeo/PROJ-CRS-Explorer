@@ -1,0 +1,7 @@
+VERT_CS["ITRF2020",
+    VERT_DATUM["International_Terrestrial_Reference_Frame_2020",2002,
+        AUTHORITY["ESRI","from_geogdatum_ESRI_1322"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115883"]]

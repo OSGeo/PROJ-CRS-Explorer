@@ -1,0 +1,10 @@
+VERTCRS["MSL UK & Ireland VORF08 depth",
+    VDATUM["Mean Sea Level UK & Ireland VORF08"],
+    CS[vertical,1],
+        AXIS["depth (D)",down,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Hydrography and nautical charting."],
+        AREA["Ireland and United Kingdom (UK) (including Isle of Man and Channel Islands) - inshore, nearshore and offshore."],
+        BBOX[47.42,-16.1,63.89,3.4]],
+    ID["EPSG",10150]]

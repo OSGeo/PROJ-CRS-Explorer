@@ -14,5 +14,5 @@ GEOGCRS["California_SRS_Epoch_2017.50_(NAD83)_3D",
     USAGE[
         SCOPE["Not known."],
         AREA["USA - California and borders of NV, AZ, OR and MX"],
-        BBOX[32.25,-124.44,42.53,-113.6]],
+        BBOX[32.25,-124.45,42.53,-113.6]],
     ID["ESRI",104644]]

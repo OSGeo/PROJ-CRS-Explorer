@@ -34,5 +34,5 @@ PROJCRS["NAD83(2011) / InGCS Posey (ftUS)",
     USAGE[
         SCOPE["Engineering survey."],
         AREA["United States (USA) - Indiana - Posey county."],
-        BBOX[37.77,-88.06,38.24,-87.68]],
+        BBOX[37.77,-88.1,38.24,-87.68]],
     ID["EPSG",7350]]

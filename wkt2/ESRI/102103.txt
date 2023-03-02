@@ -34,5 +34,5 @@ PROJCRS["NGO_1948_Norway_Zone_3",
     USAGE[
         SCOPE["Not known."],
         AREA["Norway - between 1°10'W and 1°15'E of Oslo (9°33'22.5""E and 11°58'22.5""E of Greenwich)."],
-        BBOX[58.84,9.55,65.76,11.98]],
+        BBOX[58.78,9.55,67.58,11.98]],
     ID["ESRI",102103]]
