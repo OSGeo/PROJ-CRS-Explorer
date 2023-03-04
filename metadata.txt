@@ -1,7 +1,7 @@
 pyproj info:
-    pyproj: 3.3.0
+    pyproj: 3.4.1
       PROJ: 9.2.0
-  data dir: /usr/share/proj
+  data dir: /usr/share/proj/
 user_data_dir: /tmp/proj
 PROJ DATA (recommended version): 1.13
 PROJ Database: 1.2
@@ -15,7 +15,7 @@ executable: /home/venv/bin/python3.8
    machine: Linux-5.15.0-1033-azure-x86_64-with-glibc2.29
 
 Python deps:
-   certifi: 2022.12.07
-       pip: 23.0.1
-setuptools: 44.0.0
+   certifi: 2022.12.7
     Cython: None
+setuptools: 44.0.0
+       pip: 23.0.1

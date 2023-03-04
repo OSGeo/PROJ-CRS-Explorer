@@ -3,7 +3,7 @@ set -Eeuo pipefail
 
 # indicate DOCKER PROJ version
 PROJ_VERSION=9.2.0
-PYPROJ_VERSION=3.3.0
+PYPROJ_VERSION=3.4.1
 TAG="crs-explorer:$PROJ_VERSION"
 
 # prepare destination
@@ -21,6 +21,7 @@ DEST=$DIRNAME/..
 # copy to root location
 cp $DIRNAME/dist/crslist.json $DEST
 cp $DIRNAME/dist/metadata.txt $DEST
+cp $DIRNAME/dist/sitemap.xml $DEST
 
 for wkt in wkt1 wkt2 ; do
     echo remove $wkt
