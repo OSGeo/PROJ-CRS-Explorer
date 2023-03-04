@@ -33,15 +33,19 @@ if __name__ == '__main__':
     for c in crss:
         crs = pyproj.CRS.from_authority(auth_name=c["auth_name"], code=c["code"])
         for t in types:
-            wkt = crs.to_wkt(version=t["version"], pretty=True)
             wtk_file = f'{dest_dir}/{t["path"]}/{c["auth_name"]}/{c["code"]}.txt'
             if not os.path.exists(os.path.dirname(wtk_file)):
                 os.makedirs(os.path.dirname(wtk_file))
+
+            try:
+                wkt = crs.to_wkt(version=t["version"], pretty=True)
+            except:
+                wkt = None
+            if not wkt:
+                type = str(c["type"]).replace('PJType.', '')
+                wkt = (f'Error: {c["auth_name"]}:{c["code"]} cannot be written as {t["version"]}\n'
+                        f' type: {type}\n'
+                        f' name: {c["name"]}')
             with open(wtk_file, 'w') as fp:
-                if not wkt:
-                    type = str(c["type"]).replace('PJType.', '')
-                    wkt = (f'Error: {c["auth_name"]}:{c["code"]} cannot be written as {t["version"]}\n'
-                           f' type: {type}\n'
-                           f' name: {c["name"]}')
                 fp.write(wkt)
                 fp.write('\n')
