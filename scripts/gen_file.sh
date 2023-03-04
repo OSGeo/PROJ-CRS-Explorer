@@ -21,6 +21,7 @@ DEST=$DIRNAME/..
 # copy to root location
 cp $DIRNAME/dist/crslist.json $DEST
 cp $DIRNAME/dist/metadata.txt $DEST
+cp $DIRNAME/dist/sitemap.xml $DEST
 
 for wkt in wkt1 wkt2 ; do
     echo remove $wkt
