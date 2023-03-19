@@ -92,6 +92,9 @@
             activeTypes: {},
         };
 
+        let alreadyLoadedSet = new Set();
+
+        let fullDB = null;
         let marker = null;
         let rectangles = {};
         let hooverRect = null;
@@ -295,6 +298,15 @@
             row.querySelector('th').asc = true;
             row.querySelector('.order').innerHTML = ascCaret;
 
+            Array.from(tb.querySelectorAll('th')).forEach(th => th.addEventListener('click', (() => slowTask(() => {
+                Array.from(header.querySelectorAll('.order')).forEach(o => o.innerHTML = '');
+                th.asc = !th.asc;
+                sortOnTh(th);
+                th.querySelector('.order').innerHTML = th.asc ? ascCaret : desCaret;
+            }))));
+        }
+
+        function sortOnTh(th) {
             const getCellValue = (tr, idx) => {
                 let str = tr.children[idx].innerText || tr.children[idx].textContent ;
                 if (idx == 0) {
@@ -303,20 +315,22 @@
                 }
                 return str;
             };
-
             const comparer = (idx, asc) => (a, b) => ((v1, v2) =>
                 v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2)
                 )(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
 
-            Array.from(tb.querySelectorAll('th')).forEach(th => th.addEventListener('click', (() => slowTask(() => {
-                Array.from(header.querySelectorAll('.order')).forEach(o => o.innerHTML = '');
-                const idx = Array.from(th.parentNode.children).indexOf(th)
-                Array.from(tblBody.querySelectorAll('tr'))
-                    .sort(comparer(idx, th.asc = !th.asc))
-                    .forEach(tr => tblBody.appendChild(tr) );
-                colorBackground();
-                th.querySelector('.order').innerHTML = th.asc ? ascCaret : desCaret;
-            }))));
+            const tb = document.querySelector(`#tables > table`)
+            const tblBody = tb.querySelector('tbody');
+
+            if (!th) {
+                th = Array.from(tb.querySelectorAll('thead .order')).find(el => el.innerHTML != "").parentNode;
+            }
+
+            const idx = Array.from(th.parentNode.children).indexOf(th)
+            Array.from(tblBody.querySelectorAll('tr'))
+                .sort(comparer(idx, th.asc))
+                .forEach(tr => tblBody.appendChild(tr) );
+            colorBackground();
         }
 
         function createCheckboxes() {
@@ -405,6 +419,8 @@
         }
 
         function runFilterCb() {
+            fillTables();
+
             Array.from(document.querySelectorAll(`tbody > tr`)).forEach(r => r.classList.remove('hide'));
 
             let selectorsArray = [];
@@ -503,10 +519,37 @@
         }
 
         function fillTables(db) {
+            function hashAlreadyLoaded(auth, type) {
+                return auth + ":" + type;
+            }
+
+            if (!db) {
+                db = fullDB;
+            }
+
+            const activeAuthorities = Object.keys(filters.authorities).filter(key => filters.authorities[key]);
+            const activeTypes       = Object.keys(filters.activeTypes).filter(key => filters.activeTypes[key]);
+
+            let allDone = true;
+            const selectedSet = new Set();
+            activeAuthorities.forEach(auth => {
+                activeTypes.forEach(type => {
+                    const hash = hashAlreadyLoaded(auth, type);
+                    selectedSet.add(hash)
+                    if (!alreadyLoadedSet.has(hash)) {
+                        allDone = false;
+                    }
+                })
+            })
+            if (allDone) return;
+
             tabmap = {};
             tabs.forEach(tab => tabmap[tab.id] = tab.str);
             let table = document.querySelector('#tables table > tbody');
-            db.forEach (crs => {
+            db.filter (crs => {
+                const hash = hashAlreadyLoaded(crs.auth_name, crs.type);
+                return !alreadyLoadedSet.has(hash) && selectedSet.has(hash);
+            }).forEach (crs => {
                 let code = crs.auth_name + ":" + crs.code;
                 let row = table.insertRow();
                 row.classList.add('hide')
@@ -536,6 +579,9 @@
                 fillWktsField(wkts, crs);
                 row.insertCell().innerHTML = crs.deprecated;
             });
+
+            selectedSet.forEach(elem => alreadyLoadedSet.add(elem));
+            sortOnTh();
         }
 
         function updateFromParams(location) {
@@ -554,6 +600,7 @@
             })
             .then(response => response.json())
             .then(data => {
+                fullDB = data;
                 createAuthorities(data);
                 updateFromParams(window.location);
                 fillTables(data);
