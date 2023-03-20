@@ -12,7 +12,7 @@ mkdir -p $DIRNAME/dist
 test "$(ls -A $DIRNAME/dist/)" && rm -r $DIRNAME/dist/*
 
 # build container
-docker build --build-arg VERSION=$PROJ_VERSION --build-arg PYPROJ_VERSION=$PYPROJ_VERSION --tag $TAG $DIRNAME
+docker build --pull --build-arg VERSION=$PROJ_VERSION --build-arg PYPROJ_VERSION=$PYPROJ_VERSION --tag $TAG $DIRNAME
 
 # execute container
 docker run --user $(id -u):$(id -g) --rm -v "$DIRNAME/dist:/home/dist" $TAG
