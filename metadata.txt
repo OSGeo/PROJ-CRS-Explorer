@@ -10,7 +10,7 @@ ESRI Database: ArcGIS Pro 3.1 [2023-19-01]
 IGNF Database: 3.1.0 [2019-05-24]
 
 System:
-    python: 3.8.10 (default, Nov 14 2022, 12:59:47)  [GCC 9.4.0]
+    python: 3.8.10 (default, Mar 13 2023, 10:26:41)  [GCC 9.4.0]
 executable: /home/venv/bin/python3.8
    machine: Linux-5.15.0-1034-azure-x86_64-with-glibc2.29
 
