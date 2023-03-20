@@ -421,21 +421,34 @@
         function runFilterCb() {
             fillTables();
 
-            Array.from(document.querySelectorAll(`tbody > tr`)).forEach(r => r.classList.remove('hide'));
+            if (filters.searchText) {
+                Array.from(document.querySelectorAll(`tbody > tr`)).forEach(r => r.classList.add('hide'));
+                // first split in blocks divided by or |
+                const ors = filters.searchText.match(/([^\|]+)/g);
+                ors.forEach(or => {
+                    let selector = '';
+                    const number = or.match(/^\s*([1-9]\d*)\s*$/);
+                    if (number && number.length == 2) {
+                        selector = `tbody > tr[data-id$=":${number[1]}"] , `;
+                    }
+                    const strs = or.match(/(-?".*?"|[^"\s]+)(?=\s*|\s*$)/g);
+                    const selectorsArray = strs.map(x => {
+                        if (x.charAt(0) == '-') {
+                            x = x.replaceAll('"', '');
+                            return `:not([data-crs-name*="${x.substring(1)}" i])`;
+                        } else {
+                            x = x.replaceAll('"', '');
+                            return `[data-crs-name*="${x}" i]`;
+                        }
+                    });
+                    selector += `tbody > tr${selectorsArray.join('')}`;
+                    Array.from(document.querySelectorAll(selector)).forEach(r => r.classList.remove('hide'));
+                })
+            } else {
+                Array.from(document.querySelectorAll(`tbody > tr`)).forEach(r => r.classList.remove('hide'));
+            }
 
             let selectorsArray = [];
-            if (filters.searchText) {
-                let strs = filters.searchText.match(/(-?".*?"|[^"\s]+)(?=\s*|\s*$)/g); //str.split(' ');
-                selectorsArray = strs.map(x => {
-                    if (x.charAt(0) == '-') {
-                        x = x.replaceAll('"', '');
-                        return `[data-crs-name*="${x.substring(1)}" i]`;
-                    } else {
-                        x = x.replaceAll('"', '');
-                        return `:not([data-crs-name*="${x}" i])`;
-                    }
-                });
-            }
 
             if (filters.ignoreWorld) selectorsArray.push('[data-world="true"]');
             if (!filters.allowDeprecated) selectorsArray.push('[data-deprecated="true"]');
