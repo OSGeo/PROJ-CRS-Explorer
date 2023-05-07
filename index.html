@@ -65,10 +65,12 @@
             <div class="hide" id="search_info">
                 <ul>
                     <li>Write many words to do an "and" search on the "Name" column</li>
+                    <li>Use | (pipe) separator to do an "or" search</li>
                     <li>Enclose the terms in quotes (") to search them together</li>
                     <li>Add a dash (-) to exclude an expression</li>
                     <li>Search is case insensitive</li>
-                    <li>example: <code>"sachusetts mainland" -(ftUS)</code></li>
+                    <li>Numbers only are considered also as ids, and searched as codes</li>
+                    <li>examples: <br> <code>"sachusetts mainland" -(ftUS)</code> <br> <code>4326 | 32632 | CH1903 LV95</code></li>
                 </ul>
             </div>
         </form>
