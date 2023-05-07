@@ -421,6 +421,7 @@
         function runFilterCb() {
             fillTables();
 
+            let byCode = [];
             if (filters.searchText) {
                 Array.from(document.querySelectorAll(`tbody > tr`)).forEach(r => r.classList.add('hide'));
                 // first split in blocks divided by or |
@@ -430,6 +431,7 @@
                     const number = or.match(/^\s*([1-9]\d*)\s*$/);
                     if (number && number.length == 2) {
                         selector = `tbody > tr[data-id$=":${number[1]}"] , `;
+                        byCode = byCode.concat(fullDB.filter(crs => crs.code === number[1]));
                     }
                     const strs = or.match(/(-?".*?"|[^"\s]+)(?=\s*|\s*$)/g);
                     const selectorsArray = strs.map(x => {
@@ -484,8 +486,38 @@
                     if (!use) r.classList.add('hide');
                 });
             }
+            document.querySelector('#activeSearchTxt').innerText = filters.searchText;
             colorBackground();
             countElements();
+            byCode.forEach(crs =>{
+                let code = crs.auth_name + ":" + crs.code;
+                selector = `tbody > tr[data-id="${code}"]:not(.hide)`;
+                if (!document.querySelector(selector)) {
+                    let reasons = [];
+                    if (!filters.authorities[crs.auth_name]) {
+                        reasons.push(crs.auth_name);
+                    }
+                    if (!filters.activeTypes[crs.type]) {
+                        reasons.push(`${tabs.find(tab => tab.id == crs.type).str}`);
+                    }
+                    if (!filters.allowDeprecated && crs.deprecated) {
+                        reasons.push('deprecated');
+                    }
+                    if (filters.ignoreWorld && crs.area_of_use[0] == -180 && crs.area_of_use[2] == 180) {
+                        reasons.push('world-area-of-use');
+                    }
+                    if (reasons.length == 0) {
+                        // filter by coordinates?
+                        let areaName = crs.area_of_use[4];
+                        if (areaName.length > 32) {
+                            areaName = areaName.slice(0,32) + " &hellip;";
+                        }
+                        reasons.push(areaName);
+                    }
+                    let activeSearch = document.querySelector('#activeSearchTxt');
+                    activeSearch.innerHTML += `<br> > <b>${code}</b> (${reasons.join(', ')}) is not displayed. Set filters properly.`;
+                }
+            })
         }
 
         function colorBackground() {
