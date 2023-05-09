@@ -65,10 +65,12 @@
             <div class="hide" id="search_info">
                 <ul>
                     <li>Write many words to do an "and" search on the "Name" column</li>
+                    <li>Use | (pipe) separator to do an "or" search</li>
                     <li>Enclose the terms in quotes (") to search them together</li>
                     <li>Add a dash (-) to exclude an expression</li>
                     <li>Search is case insensitive</li>
-                    <li>example: <code>"sachusetts mainland" -(ftUS)</code></li>
+                    <li>Numbers only are considered also as ids, and searched as codes</li>
+                    <li>examples: <br> <code>"sachusetts mainland" -(ftUS)</code> <br> <code>4326 | 32632 | CH1903 LV95</code></li>
                 </ul>
             </div>
         </form>
@@ -421,21 +423,36 @@
         function runFilterCb() {
             fillTables();
 
-            Array.from(document.querySelectorAll(`tbody > tr`)).forEach(r => r.classList.remove('hide'));
+            let byCode = [];
+            if (filters.searchText) {
+                Array.from(document.querySelectorAll(`tbody > tr`)).forEach(r => r.classList.add('hide'));
+                // first split in blocks divided by or |
+                const ors = filters.searchText.match(/([^\|]+)/g);
+                ors.forEach(or => {
+                    let selector = '';
+                    const number = or.match(/^\s*([1-9]\d*)\s*$/);
+                    if (number && number.length == 2) {
+                        selector = `tbody > tr[data-id$=":${number[1]}"] , `;
+                        byCode = byCode.concat(fullDB.filter(crs => crs.code === number[1]));
+                    }
+                    const strs = or.match(/(-?".*?"|[^"\s]+)(?=\s*|\s*$)/g);
+                    const selectorsArray = strs.map(x => {
+                        if (x.charAt(0) == '-') {
+                            x = x.replaceAll('"', '');
+                            return `:not([data-crs-name*="${x.substring(1)}" i])`;
+                        } else {
+                            x = x.replaceAll('"', '');
+                            return `[data-crs-name*="${x}" i]`;
+                        }
+                    });
+                    selector += `tbody > tr${selectorsArray.join('')}`;
+                    Array.from(document.querySelectorAll(selector)).forEach(r => r.classList.remove('hide'));
+                })
+            } else {
+                Array.from(document.querySelectorAll(`tbody > tr`)).forEach(r => r.classList.remove('hide'));
+            }
 
             let selectorsArray = [];
-            if (filters.searchText) {
-                let strs = filters.searchText.match(/(-?".*?"|[^"\s]+)(?=\s*|\s*$)/g); //str.split(' ');
-                selectorsArray = strs.map(x => {
-                    if (x.charAt(0) == '-') {
-                        x = x.replaceAll('"', '');
-                        return `[data-crs-name*="${x.substring(1)}" i]`;
-                    } else {
-                        x = x.replaceAll('"', '');
-                        return `:not([data-crs-name*="${x}" i])`;
-                    }
-                });
-            }
 
             if (filters.ignoreWorld) selectorsArray.push('[data-world="true"]');
             if (!filters.allowDeprecated) selectorsArray.push('[data-deprecated="true"]');
@@ -471,8 +488,38 @@
                     if (!use) r.classList.add('hide');
                 });
             }
+            document.querySelector('#activeSearchTxt').innerText = filters.searchText;
             colorBackground();
             countElements();
+            byCode.forEach(crs =>{
+                let code = crs.auth_name + ":" + crs.code;
+                selector = `tbody > tr[data-id="${code}"]:not(.hide)`;
+                if (!document.querySelector(selector)) {
+                    let reasons = [];
+                    if (!filters.authorities[crs.auth_name]) {
+                        reasons.push(crs.auth_name);
+                    }
+                    if (!filters.activeTypes[crs.type]) {
+                        reasons.push(`${tabs.find(tab => tab.id == crs.type).str}`);
+                    }
+                    if (!filters.allowDeprecated && crs.deprecated) {
+                        reasons.push('deprecated');
+                    }
+                    if (filters.ignoreWorld && crs.area_of_use[0] == -180 && crs.area_of_use[2] == 180) {
+                        reasons.push('world-area-of-use');
+                    }
+                    if (reasons.length == 0) {
+                        // filter by coordinates?
+                        let areaName = crs.area_of_use[4];
+                        if (areaName.length > 32) {
+                            areaName = areaName.slice(0,32) + " &hellip;";
+                        }
+                        reasons.push(areaName);
+                    }
+                    let activeSearch = document.querySelector('#activeSearchTxt');
+                    activeSearch.innerHTML += `<br> > <b>${code}</b> (${reasons.join(', ')}) is not displayed. Set filters properly.`;
+                }
+            })
         }
 
         function colorBackground() {
