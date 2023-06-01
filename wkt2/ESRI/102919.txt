@@ -32,6 +32,6 @@ PROJCRS["NAD_1983_(2011)_ICS_Lincoln_(US_Feet)",
             LENGTHUNIT["US survey foot",0.304800609601219]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Illinois - Lincoln"],
+        AREA["United States (USA) - Illinois - counties of Cass, Logan, Mason and Menard."],
         BBOX[39.87,-90.59,40.44,-89.14]],
     ID["ESRI",102919]]

@@ -32,6 +32,6 @@ PROJCRS["NAD_1983_(2011)_ICS_Freeport_(US_Feet)",
             LENGTHUNIT["US survey foot",0.304800609601219]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Illinois - Freeport"],
+        AREA["United States (USA) - Illinois - counties of Carroll, Jo Daviess and Stephenson."],
         BBOX[41.92,-90.66,42.51,-89.39]],
     ID["ESRI",102902]]

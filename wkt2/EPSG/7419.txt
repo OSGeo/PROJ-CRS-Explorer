@@ -52,5 +52,5 @@ COMPOUNDCRS["ETRS89 / Kp2000 Zealand + DVR90 height",
     USAGE[
         SCOPE["Topographic mapping (large scale)."],
         AREA["Denmark - Zealand and Lolland (onshore)."],
-        BBOX[54.51,10.79,56.79,12.69]],
+        BBOX[54.51,10.79,56.79,12.87]],
     ID["EPSG",7419]]

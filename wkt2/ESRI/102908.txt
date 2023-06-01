@@ -33,6 +33,6 @@ PROJCRS["NAD_1983_(2011)_ICS_Joliet_(US_Feet)",
             LENGTHUNIT["US survey foot",0.304800609601219]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Illinois - Joliet"],
+        AREA["United States (USA) - Illinois - counties of Kankakee and Will."],
         BBOX[40.99,-88.27,41.73,-87.52]],
     ID["ESRI",102908]]

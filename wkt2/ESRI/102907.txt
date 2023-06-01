@@ -32,6 +32,6 @@ PROJCRS["NAD_1983_(2011)_ICS_Sterling_(US_Feet)",
             LENGTHUNIT["US survey foot",0.304800609601219]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Illinois - Sterling"],
+        AREA["United States (USA) - Illinois - counties of Henry and Whiteside."],
         BBOX[41.14,-90.44,41.94,-89.62]],
     ID["ESRI",102907]]

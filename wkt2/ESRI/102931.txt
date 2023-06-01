@@ -32,6 +32,6 @@ PROJCRS["NAD_1983_(2011)_ICS_Mount_Vernon_(US_Feet)",
             LENGTHUNIT["US survey foot",0.304800609601219]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Illinois - Mount Vernon"],
+        AREA["United States (USA) - Illinois - counties of Clinton, Jefferson, Marion and Washington."],
         BBOX[38.12,-89.71,38.83,-88.69]],
     ID["ESRI",102931]]

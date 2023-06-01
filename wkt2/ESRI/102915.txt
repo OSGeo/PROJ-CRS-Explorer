@@ -33,6 +33,6 @@ PROJCRS["NAD_1983_(2011)_ICS_Galesburg_(US_Feet)",
             LENGTHUNIT["US survey foot",0.304800609601219]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Illinois - Galesburg"],
+        AREA["United States (USA) - Illinois - counties of Fulton, Knox and Stark."],
         BBOX[40.18,-90.46,41.24,-89.63]],
     ID["ESRI",102915]]

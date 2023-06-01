@@ -33,6 +33,6 @@ PROJCRS["NAD_1983_(2011)_ICS_Taylorville_(US_Feet)",
             LENGTHUNIT["US survey foot",0.304800609601219]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Illinois - Taylorville"],
+        AREA["United States (USA) - Illinois - counties of Christian and Montgomery."],
         BBOX[38.99,-89.71,39.83,-89.02]],
     ID["ESRI",102923]]

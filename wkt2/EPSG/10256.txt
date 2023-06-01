@@ -1,0 +1,18 @@
+GEOGCRS["GS-IRF",
+    DATUM["Generalstabens System Intermediate Datum",
+        ELLIPSOID["Danish 1876",6377019.27,300,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Intermediate stage in transformations - not used otherwise."],
+        AREA["Denmark - onshore Jutland, Funen, Zealand and Lolland."],
+        BBOX[54.51,8,57.8,12.87]],
+    ID["EPSG",10256]]

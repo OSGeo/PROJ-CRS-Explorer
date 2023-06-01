@@ -33,6 +33,6 @@ PROJCRS["NAD_1983_(2011)_ICS_Decatur_(US_Feet)",
             LENGTHUNIT["US survey foot",0.304800609601219]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Illinois - Decatur"],
+        AREA["United States (USA) - Illinois - counties of Dewitt, Macon, Moultrie, Piatt and Shelby."],
         BBOX[39.21,-89.22,40.29,-88.46]],
     ID["ESRI",102917]]

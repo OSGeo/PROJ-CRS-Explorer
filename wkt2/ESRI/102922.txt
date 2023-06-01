@@ -32,6 +32,6 @@ PROJCRS["NAD_1983_(2011)_ICS_Jacksonville_(US_Feet)",
             LENGTHUNIT["US survey foot",0.304800609601219]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Illinois - Jacksonville"],
+        AREA["United States (USA) - Illinois - counties of Morgan, Pike and Scott."],
         BBOX[39.39,-91.38,39.88,-89.92]],
     ID["ESRI",102922]]

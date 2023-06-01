@@ -32,6 +32,6 @@ PROJCRS["NAD_1983_(2011)_ICS_Effingham_(US_Feet)",
             LENGTHUNIT["US survey foot",0.304800609601219]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Illinois - Effingham"],
+        AREA["United States (USA) - Illinois - counties of Bond, Effingham and Fayette."],
         BBOX[38.73,-89.64,39.22,-88.36]],
     ID["ESRI",102928]]
