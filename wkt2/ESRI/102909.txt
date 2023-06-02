@@ -33,6 +33,6 @@ PROJCRS["NAD_1983_(2011)_ICS_Eureka_(US_Feet)",
             LENGTHUNIT["US survey foot",0.304800609601219]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Illinois - Eureka"],
+        AREA["United States (USA) - Illinois - counties of Marshall and Woodford."],
         BBOX[40.59,-89.64,41.15,-88.92]],
     ID["ESRI",102909]]

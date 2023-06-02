@@ -1,0 +1,10 @@
+VERTCRS["NGA 2022 height",
+    VDATUM["Nivellement General de l'Algerie 2022"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Spatial referencing."],
+        AREA["Algeria - onshore."],
+        BBOX[18.97,-8.67,37.14,11.99]],
+    ID["EPSG",10190]]

@@ -32,6 +32,6 @@ PROJCRS["NAD_1983_(2011)_ICS_Bloomington_(US_Feet)",
             LENGTHUNIT["US survey foot",0.304800609601219]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Illinois - Bloomington"],
+        AREA["United States (USA) - Illinois - McLean county."],
         BBOX[40.28,-89.27,40.76,-88.45]],
     ID["ESRI",102914]]

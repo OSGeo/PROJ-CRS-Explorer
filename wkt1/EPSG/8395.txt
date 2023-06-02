@@ -1,4 +1,4 @@
-PROJCS["ETRS89 / Gauss-Kruger CM 9E",
+PROJCS["ETRS89 / Gauss-Kruger CM 9E (deprecated)",
     GEOGCS["ETRS89",
         DATUM["European_Terrestrial_Reference_System_1989",
             SPHEROID["GRS 1980",6378137,298.257222101,

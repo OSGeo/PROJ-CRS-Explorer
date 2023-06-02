@@ -33,6 +33,6 @@ PROJCRS["NAD_1983_(2011)_ICS_Monmouth_(US_Feet)",
             LENGTHUNIT["US survey foot",0.304800609601219]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Illinois - Monmouth"],
+        AREA["United States (USA) - Illinois - counties of Henderson, Mercer and Warren."],
         BBOX[40.62,-91.19,41.34,-90.43]],
     ID["ESRI",102911]]

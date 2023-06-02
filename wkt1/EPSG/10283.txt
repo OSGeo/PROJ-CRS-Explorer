@@ -1,0 +1,3 @@
+Error: EPSG:10283 cannot be written as WKT1_GDAL
+ type: GEOGRAPHIC_3D_CRS
+ name: ETRS89/DREF91/2016

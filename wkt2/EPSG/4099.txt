@@ -52,5 +52,5 @@ COMPOUNDCRS["ETRS89 / DKTM3 + DVR90 height",
     USAGE[
         SCOPE["Engineering survey."],
         AREA["Denmark - Zealand and Lolland (onshore)."],
-        BBOX[54.51,10.79,56.79,12.69]],
+        BBOX[54.51,10.79,56.79,12.87]],
     ID["EPSG",4099]]

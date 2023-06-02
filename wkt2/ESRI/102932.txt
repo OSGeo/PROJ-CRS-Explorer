@@ -32,6 +32,6 @@ PROJCRS["NAD_1983_(2011)_ICS_Carbondale_(US_Feet)",
             LENGTHUNIT["US survey foot",0.304800609601219]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Illinois - Carbondale"],
+        AREA["United States (USA) - Illinois - counties of Franklin, Gallatin, Hamilton, Jackson, Perry,  Randolph, Saline, White and Williamson."],
         BBOX[37.56,-90.21,38.26,-87.91]],
     ID["ESRI",102932]]

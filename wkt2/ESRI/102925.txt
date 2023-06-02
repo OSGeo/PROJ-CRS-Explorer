@@ -32,6 +32,6 @@ PROJCRS["NAD_1983_(2011)_ICS_Carlinville_(US_Feet)",
             LENGTHUNIT["US survey foot",0.304800609601219]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Illinois - Carlinville"],
+        AREA["United States (USA) - Illinois - counties of Greene and Macoupin."],
         BBOX[38.99,-90.63,39.53,-89.69]],
     ID["ESRI",102925]]

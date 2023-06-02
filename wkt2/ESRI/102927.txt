@@ -33,6 +33,6 @@ PROJCRS["NAD_1983_(2011)_ICS_Jerseyville_(US_Feet)",
             LENGTHUNIT["US survey foot",0.304800609601219]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Illinois - Jerseyville"],
+        AREA["United States (USA) - Illinois - counties of Calhoun and Jersey."],
         BBOX[38.86,-90.94,39.41,-90.14]],
     ID["ESRI",102927]]

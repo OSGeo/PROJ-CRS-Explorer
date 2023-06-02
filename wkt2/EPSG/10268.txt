@@ -1,0 +1,18 @@
+GEOGCRS["Ostenfeld-IRF",
+    DATUM["Ostenfeld  Intermediate Datum",
+        ELLIPSOID["Bessel 1841",6377397.155,299.1528128,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Intermediate stage in transformations - not used otherwise."],
+        AREA["Denmark - onshore northern Schleswig and surrounding islands (i.e. Jutland south of the pre-1920 border near the Kongea river)."],
+        BBOX[54.8,8.37,55.47,10.16]],
+    ID["EPSG",10268]]

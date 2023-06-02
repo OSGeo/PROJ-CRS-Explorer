@@ -1,0 +1,7 @@
+VERT_CS["NGA 2022 height",
+    VERT_DATUM["Nivellement General de l'Algerie 2022",2005,
+        AUTHORITY["EPSG","1354"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","10190"]]

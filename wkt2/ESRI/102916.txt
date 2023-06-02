@@ -32,6 +32,6 @@ PROJCRS["NAD_1983_(2011)_ICS_Champaign_(US_Feet)",
             LENGTHUNIT["US survey foot",0.304800609601219]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Illinois - Champaign"],
+        AREA["United States (USA) - Illinois - counties of Champaign and Vermilion."],
         BBOX[39.86,-88.47,40.5,-87.52]],
     ID["ESRI",102916]]

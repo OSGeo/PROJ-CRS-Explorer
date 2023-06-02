@@ -15,7 +15,7 @@ GEOGCRS["RGNC91-93",
             ORDER[3],
             LENGTHUNIT["metre",1]],
     USAGE[
-        SCOPE["Geodesy."],
+        SCOPE["Geodesy; air, land and sea navigation and safety of life purposes."],
         AREA["New Caledonia - onshore and offshore. Isle de Pins, Loyalty Islands, Huon Islands, Belep archipelago, Chesterfield Islands, and Walpole."],
         BBOX[-26.45,156.25,-14.83,174.28]],
     ID["EPSG",4907]]

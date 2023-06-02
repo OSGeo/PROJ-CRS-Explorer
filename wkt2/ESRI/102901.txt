@@ -33,6 +33,6 @@ PROJCRS["NAD_1983_(2011)_ICS_Aurora_(US_Feet)",
             LENGTHUNIT["US survey foot",0.304800609601219]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Illinois - Aurora"],
+        AREA["United States (USA) - Illinois - counties of Boone, Dekalb, Kane, Kendall and McHenry."],
         BBOX[41.45,-88.95,42.5,-88.19]],
     ID["ESRI",102901]]

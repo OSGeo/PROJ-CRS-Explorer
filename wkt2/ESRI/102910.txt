@@ -32,6 +32,6 @@ PROJCRS["NAD_1983_(2011)_ICS_Pontiac_(US_Feet)",
             LENGTHUNIT["US survey foot",0.304800609601219]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Illinois - Pontiac"],
+        AREA["United States (USA) - Illinois - Livingston county."],
         BBOX[40.61,-88.94,41.12,-88.23]],
     ID["ESRI",102910]]

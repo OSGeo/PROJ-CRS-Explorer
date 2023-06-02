@@ -33,6 +33,6 @@ PROJCRS["NAD_1983_(2011)_ICS_Quincy_(US_Feet)",
             LENGTHUNIT["US survey foot",0.304800609601219]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Illinois - Quincy"],
+        AREA["United States (USA) - Illinois - counties of Adams and Hancock."],
         BBOX[39.75,-91.52,40.64,-90.9]],
     ID["ESRI",102918]]
