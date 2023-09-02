@@ -1,0 +1,10 @@
+VERTCRS["ZH Portugal depth",
+    VDATUM["Chart Datum Portugal "],
+    CS[vertical,1],
+        AXIS["depth (D)",down,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Hydrography and nautical charting."],
+        AREA["Portugal - offshore."],
+        BBOX[29.24,-35.58,43.07,-7.25]],
+    ID["EPSG",10349]]

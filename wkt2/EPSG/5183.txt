@@ -1,6 +1,6 @@
-PROJCRS["Korea 2000 / East Belt",
-    BASEGEOGCRS["Korea 2000",
-        DATUM["Geocentric datum of Korea",
+PROJCRS["KGD2002 / East Belt",
+    BASEGEOGCRS["KGD2002",
+        DATUM["Korean Geodetic Datum 2002",
             ELLIPSOID["GRS 1980",6378137,298.257222101,
                 LENGTHUNIT["metre",1]]],
         PRIMEM["Greenwich",0,
@@ -33,6 +33,6 @@ PROJCRS["Korea 2000 / East Belt",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
-        AREA["Republic of Korea (South Korea) - onshore east of 128°E."],
+        AREA["Republic of Korea (South Korea) - onshore between 128°E and 130°E."],
         BBOX[34.49,128,38.64,129.65]],
     ID["EPSG",5183]]

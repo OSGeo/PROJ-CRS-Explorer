@@ -1,20 +1,3 @@
-PROJCS["Callisto (2015) / Ographic / Popular Visualisation Pseudo-Mercator",
-    GEOGCS["Callisto (2015) / Ographic",
-        DATUM["Callisto (2015)",
-            SPHEROID["Callisto (2015)",2410300,0,
-                AUTHORITY["IAU","50401"]],
-            AUTHORITY["IAU","50401"]],
-        PRIMEM["Reference Meridian",0,
-            AUTHORITY["IAU","50400"]],
-        UNIT["degree",0.0174532925199433,
-            AUTHORITY["EPSG","9122"]],
-        AUTHORITY["IAU","50401"]],
-    PROJECTION["Mercator_1SP"],
-    PARAMETER["central_meridian",0],
-    PARAMETER["scale_factor",1],
-    PARAMETER["false_easting",0],
-    PARAMETER["false_northing",0],
-    UNIT["metre",1,
-        AUTHORITY["EPSG","9001"]],
-    EXTENSION["PROJ4","+proj=merc +a=2410300 +b=2410300 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs"],
-    AUTHORITY["IAU","50491"]]
+Error: IAU_2015:50491 cannot be written as WKT1_GDAL
+ type: PROJECTED_CRS
+ name: Callisto (2015) / Ographic / Mercator

@@ -1,0 +1,10 @@
+VERTCRS["Santa Cruz das Flores depth",
+    VDATUM["Santa Cruz das Flores"],
+    CS[vertical,1],
+        AXIS["depth (D)",down,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Intermediate stage in transformations - not used otherwise."],
+        AREA["Portugal - western Azores - Flores island onshore."],
+        BBOX[39.3,-31.34,39.58,-31.07]],
+    ID["EPSG",10372]]

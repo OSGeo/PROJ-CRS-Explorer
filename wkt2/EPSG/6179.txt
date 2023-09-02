@@ -1,5 +1,5 @@
-VERTCRS["Cais da Vila - Porto Santo height",
-    VDATUM["Cais da Vila - Porto Santo"],
+VERTCRS["Cais da Vila height",
+    VDATUM["Cais da Vila"],
     CS[vertical,1],
         AXIS["gravity-related height (H)",up,
             LENGTHUNIT["metre",1]],

@@ -1,5 +1,5 @@
-VERT_CS["Cais da Figueirinha - Angra do Heroismo height",
-    VERT_DATUM["Cais da Figueirinha - Angra do Heroismo",2005,
+VERT_CS["Cais da Figueirinha height",
+    VERT_DATUM["Cais da Figueirinha",2005,
         AUTHORITY["EPSG","1107"]],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],

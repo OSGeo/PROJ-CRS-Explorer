@@ -1,22 +1,3 @@
-PROJCS["Churyumov-Gerasimenko (2015) - Sphere / Ocentric / Popular Visualisation Pseudo-Mercator",
-    GEOGCS["Churyumov-Gerasimenko (2015) - Sphere / Ocentric",
-        DATUM["Churyumov-Gerasimenko (2015) - Sphere",
-            SPHEROID["Churyumov-Gerasimenko (2015) - Sphere",1650,0,
-                AUTHORITY["IAU","100001200"]],
-            AUTHORITY["IAU","100001200"]],
-        PRIMEM["Reference Meridian",0,
-            AUTHORITY["IAU","100001200"]],
-        UNIT["degree",0.0174532925199433,
-            AUTHORITY["EPSG","9122"]],
-        AUTHORITY["IAU","100001200"]],
-    PROJECTION["Mercator_1SP"],
-    PARAMETER["central_meridian",0],
-    PARAMETER["scale_factor",1],
-    PARAMETER["false_easting",0],
-    PARAMETER["false_northing",0],
-    UNIT["metre",1,
-        AUTHORITY["EPSG","9001"]],
-    AXIS["Easting",EAST],
-    AXIS["Northing",NORTH],
-    EXTENSION["PROJ4","+proj=merc +a=1650 +b=1650 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs"],
-    AUTHORITY["IAU","100001290"]]
+Error: IAU_2015:100001290 cannot be written as WKT1_GDAL
+ type: PROJECTED_CRS
+ name: Churyumov-Gerasimenko (2015) - Sphere / Ocentric / Mercator

@@ -1,0 +1,10 @@
+GEOGCS["NSIDC Authalic Sphere",
+    DATUM["NSIDC_International_1924_Authalic_Sphere",
+        SPHEROID["International 1924 Authalic Sphere",6371228,0,
+            AUTHORITY["EPSG","7057"]],
+        AUTHORITY["EPSG","1360"]],
+    PRIMEM["Greenwich",0,
+        AUTHORITY["EPSG","8901"]],
+    UNIT["degree",0.0174532925199433,
+        AUTHORITY["EPSG","9122"]],
+    AUTHORITY["EPSG","10346"]]

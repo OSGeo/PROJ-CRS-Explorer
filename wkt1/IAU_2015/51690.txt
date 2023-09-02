@@ -1,22 +1,3 @@
-PROJCS["Metis (2015) - Sphere / Ocentric / Popular Visualisation Pseudo-Mercator",
-    GEOGCS["Metis (2015) - Sphere / Ocentric",
-        DATUM["Metis (2015) - Sphere",
-            SPHEROID["Metis (2015) - Sphere",21500,0,
-                AUTHORITY["IAU","51600"]],
-            AUTHORITY["IAU","51600"]],
-        PRIMEM["Reference Meridian",0,
-            AUTHORITY["IAU","51600"]],
-        UNIT["degree",0.0174532925199433,
-            AUTHORITY["EPSG","9122"]],
-        AUTHORITY["IAU","51600"]],
-    PROJECTION["Mercator_1SP"],
-    PARAMETER["central_meridian",0],
-    PARAMETER["scale_factor",1],
-    PARAMETER["false_easting",0],
-    PARAMETER["false_northing",0],
-    UNIT["metre",1,
-        AUTHORITY["EPSG","9001"]],
-    AXIS["Easting",EAST],
-    AXIS["Northing",NORTH],
-    EXTENSION["PROJ4","+proj=merc +a=21500 +b=21500 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs"],
-    AUTHORITY["IAU","51690"]]
+Error: IAU_2015:51690 cannot be written as WKT1_GDAL
+ type: PROJECTED_CRS
+ name: Metis (2015) - Sphere / Ocentric / Mercator

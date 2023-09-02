@@ -1,0 +1,7 @@
+VERT_CS["Horta depth",
+    VERT_DATUM["Horta",2005,
+        AUTHORITY["EPSG","1104"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Depth",DOWN],
+    AUTHORITY["EPSG","10373"]]

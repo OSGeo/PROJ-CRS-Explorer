@@ -1,0 +1,7 @@
+VERT_CS["Cais das Velas depth",
+    VERT_DATUM["Cais das Velas",2005,
+        AUTHORITY["EPSG","1103"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Depth",DOWN],
+    AUTHORITY["EPSG","10375"]]

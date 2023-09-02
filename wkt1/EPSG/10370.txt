@@ -1,0 +1,7 @@
+VERT_CS["Cais da Pontinha depth",
+    VERT_DATUM["Cais da Pontinha",2005,
+        AUTHORITY["EPSG","1101"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Depth",DOWN],
+    AUTHORITY["EPSG","10370"]]

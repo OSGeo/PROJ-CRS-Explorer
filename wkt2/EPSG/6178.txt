@@ -1,5 +1,5 @@
-VERTCRS["Cais da Pontinha - Funchal height",
-    VDATUM["Cais da Pontinha - Funchal"],
+VERTCRS["Cais da Pontinha height",
+    VDATUM["Cais da Pontinha"],
     CS[vertical,1],
         AXIS["gravity-related height (H)",up,
             LENGTHUNIT["metre",1]],

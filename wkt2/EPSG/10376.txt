@@ -1,0 +1,10 @@
+VERTCRS["Santa Cruz da Graciosa depth",
+    VDATUM["Santa Cruz da Graciosa"],
+    CS[vertical,1],
+        AXIS["depth (D)",down,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Intermediate stage in transformations - not used otherwise."],
+        AREA["Portugal - central Azores - Graciosa island onshore."],
+        BBOX[38.97,-28.13,39.14,-27.88]],
+    ID["EPSG",10376]]

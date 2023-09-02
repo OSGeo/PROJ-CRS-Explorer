@@ -33,6 +33,6 @@ PROJCRS["Korean_1985_Modified_Korea_East_Belt",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Republic of Korea (South Korea) - onshore east of 128°E."],
+        AREA["Republic of Korea (South Korea) - onshore between 128°E and 130°E."],
         BBOX[34.49,128,38.64,129.65]],
     ID["ESRI",102088]]

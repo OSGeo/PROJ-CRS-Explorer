@@ -1,0 +1,10 @@
+VERTCRS["Horta depth",
+    VDATUM["Horta"],
+    CS[vertical,1],
+        AXIS["depth (D)",down,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Intermediate stage in transformations - not used otherwise."],
+        AREA["Portugal - central Azores - Faial island onshore."],
+        BBOX[38.46,-28.9,38.7,-28.54]],
+    ID["EPSG",10373]]
