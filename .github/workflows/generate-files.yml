@@ -17,7 +17,7 @@ jobs:
       - run: echo "The ${{ github.repository }} repository has been cloned to the runner."
       - run: echo "The workflow is now ready to test your code on the runner."
       - name: Generate the files in docker
-        run: scripts/gen_file.sh
+        run: scripts/gen_file.sh addgit
       - run: ls scripts/dist/ -lh
       - run: git diff
       - uses: stefanzweifel/git-auto-commit-action@v4
