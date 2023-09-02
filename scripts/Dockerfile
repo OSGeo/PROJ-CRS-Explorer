@@ -18,4 +18,4 @@ COPY conf .
 RUN /home/install.sh
 
 COPY proj2json.py .
-CMD ["python3.8", "./proj2json.py"]
+CMD ["python3", "./proj2json.py"]
