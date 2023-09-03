@@ -1,0 +1,10 @@
+VERTCRS["Formentera height",
+    VDATUM["Formentera"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Spain - Balearic Islands - Formentera - onshore."],
+        BBOX[38.59,1.31,38.86,1.65]],
+    ID["EPSG",10352]]

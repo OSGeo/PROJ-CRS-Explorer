@@ -1,0 +1,10 @@
+VERTCRS["Cais da Madalena depth",
+    VDATUM["Cais da Madalena"],
+    CS[vertical,1],
+        AXIS["depth (D)",down,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Intermediate stage in transformations - not used otherwise."],
+        AREA["Portugal - central Azores - Pico island onshore."],
+        BBOX[38.32,-28.61,38.61,-27.98]],
+    ID["EPSG",10374]]

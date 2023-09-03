@@ -1,5 +1,5 @@
-VERT_CS["Cais da Vila - Porto Santo height",
-    VERT_DATUM["Cais da Vila - Porto Santo",2005,
+VERT_CS["Cais da Vila height",
+    VERT_DATUM["Cais da Vila",2005,
         AUTHORITY["EPSG","1102"]],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],

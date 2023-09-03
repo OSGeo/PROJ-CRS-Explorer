@@ -1,0 +1,10 @@
+VERTCRS["Cais da Vila depth",
+    VDATUM["Cais da Vila"],
+    CS[vertical,1],
+        AXIS["depth (D)",down,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Intermediate stage in transformations - not used otherwise."],
+        AREA["Portugal - Porto Santo island (Madeira archipelago) onshore."],
+        BBOX[32.96,-16.44,33.15,-16.23]],
+    ID["EPSG",10371]]

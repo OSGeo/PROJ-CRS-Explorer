@@ -1,10 +1,10 @@
-VERTCRS["Incheon height",
-    VDATUM["Incheon"],
+VERTCRS["KVD1964 height",
+    VDATUM["Korean Vertical Datum 1964"],
     CS[vertical,1],
         AXIS["gravity-related height (H)",up,
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Geodesy, engineering survey."],
-        AREA["Republic of Korea (South Korea) - mainland onshore."],
-        BBOX[33.96,125.75,38.64,129.65]],
+        AREA["Republic of Korea (South Korea) - onshore."],
+        BBOX[33.14,124.53,38.64,131.01]],
     ID["EPSG",5193]]

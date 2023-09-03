@@ -1,5 +1,5 @@
-VERTCRS["Cais da Figueirinha - Angra do Heroismo height",
-    VDATUM["Cais da Figueirinha - Angra do Heroismo"],
+VERTCRS["Cais da Figueirinha height",
+    VDATUM["Cais da Figueirinha"],
     CS[vertical,1],
         AXIS["gravity-related height (H)",up,
             LENGTHUNIT["metre",1]],

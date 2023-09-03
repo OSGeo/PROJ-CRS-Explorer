@@ -1,0 +1,7 @@
+VERT_CS["Cais da Figueirinha depth",
+    VERT_DATUM["Cais da Figueirinha",2005,
+        AUTHORITY["EPSG","1107"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Depth",DOWN],
+    AUTHORITY["EPSG","10377"]]

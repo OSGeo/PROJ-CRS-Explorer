@@ -1,5 +1,5 @@
-GEODCRS["Korea 2000",
-    DATUM["Geocentric datum of Korea",
+GEODCRS["KGD2002",
+    DATUM["Korean Geodetic Datum 2002",
         ELLIPSOID["GRS 1980",6378137,298.257222101,
             LENGTHUNIT["metre",1]]],
     PRIMEM["Greenwich",0,

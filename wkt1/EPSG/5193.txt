@@ -1,5 +1,5 @@
-VERT_CS["Incheon height",
-    VERT_DATUM["Incheon",2005,
+VERT_CS["KVD1964 height",
+    VERT_DATUM["Korean Vertical Datum 1964",2005,
         AUTHORITY["EPSG","1049"]],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],

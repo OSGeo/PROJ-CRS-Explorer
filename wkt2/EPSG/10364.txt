@@ -1,0 +1,10 @@
+VERTCRS["Cascais depth",
+    VDATUM["Cascais"],
+    CS[vertical,1],
+        AXIS["depth (D)",down,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Intermediate stage in transformations - not used otherwise."],
+        AREA["Portugal - mainland - onshore."],
+        BBOX[36.95,-9.56,42.16,-6.19]],
+    ID["EPSG",10364]]

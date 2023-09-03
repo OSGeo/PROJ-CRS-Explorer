@@ -1,0 +1,10 @@
+VERTCRS["Cais da Vila do Porto depth",
+    VDATUM["Cais da Vila do Porto"],
+    CS[vertical,1],
+        AXIS["depth (D)",down,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Intermediate stage in transformations - not used otherwise."],
+        AREA["Portugal - eastern Azores onshore - Santa Maria, Formigas."],
+        BBOX[36.87,-25.26,37.34,-24.72]],
+    ID["EPSG",10379]]

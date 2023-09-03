@@ -5,6 +5,6 @@ VERTCRS["MSL NL depth",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Hydrography, drilling, offshore engineering."],
-        AREA["Netherlands - offshore North Sea."],
-        BBOX[51.45,2.53,55.77,6.41]],
+        AREA["Netherlands - offshore North Sea and nearshore."],
+        BBOX[51.32,2.53,55.77,7.21]],
     ID["EPSG",9288]]

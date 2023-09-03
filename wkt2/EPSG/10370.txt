@@ -1,0 +1,10 @@
+VERTCRS["Cais da Pontinha depth",
+    VDATUM["Cais da Pontinha"],
+    CS[vertical,1],
+        AXIS["depth (D)",down,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Intermediate stage in transformations - not used otherwise."],
+        AREA["Portugal - Madeira and Desertas islands - onshore."],
+        BBOX[32.35,-17.31,32.93,-16.4]],
+    ID["EPSG",10370]]

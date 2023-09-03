@@ -1,0 +1,10 @@
+VERTCRS["Cais da Figueirinha depth",
+    VDATUM["Cais da Figueirinha"],
+    CS[vertical,1],
+        AXIS["depth (D)",down,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Intermediate stage in transformations - not used otherwise."],
+        AREA["Portugal - central Azores - Terceira island onshore."],
+        BBOX[38.57,-27.44,38.86,-26.97]],
+    ID["EPSG",10377]]

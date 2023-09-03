@@ -5,6 +5,6 @@ VERTCRS["Ibiza height",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Geodesy, engineering survey, topographic mapping."],
-        AREA["Spain - Balearic Islands - Ibiza and Formentera - onshore."],
-        BBOX[38.59,1.12,39.17,1.68]],
+        AREA["Spain - Balearic Islands - Ibiza - onshore."],
+        BBOX[38.77,1.12,39.17,1.68]],
     ID["EPSG",9394]]

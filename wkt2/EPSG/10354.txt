@@ -1,0 +1,10 @@
+VERTCRS["Melilla height",
+    VDATUM["Melilla"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Spain - Melilla onshore."],
+        BBOX[35.26,-2.98,35.38,-2.88]],
+    ID["EPSG",10354]]

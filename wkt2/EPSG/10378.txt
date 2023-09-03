@@ -1,0 +1,10 @@
+VERTCRS["Ponta Delgada depth",
+    VDATUM["Ponta Delgada"],
+    CS[vertical,1],
+        AXIS["depth (D)",down,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Intermediate stage in transformations - not used otherwise."],
+        AREA["Portugal - eastern Azores - Sao Miguel island onshore."],
+        BBOX[37.65,-25.92,37.96,-25.08]],
+    ID["EPSG",10378]]
