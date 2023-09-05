@@ -58,7 +58,7 @@
     <div id="authorities"> &nbsp; </div>
     <br>
     <div id="searcher">
-        <form>Filter by name: <input type="text" name="value">
+        <form>Filter by name: <input type="text" name="value" tabindex="1">
             <button type="submit">Search</button>
             <a href="javascript:toggleInfo()" title="Show/hide info" target="_self"> &lt; &#8505; &gt; </a>
             <span id="activeSearch" class="hide"> Active filter: <span id="activeSearchTxt"></span></span>
@@ -101,10 +101,24 @@
         let rectangles = {};
         let hooverRect = null;
 
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        let osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
             maxZoom: 18,
         }).addTo(map);
+        let osmde = L.tileLayer('https://tile.openstreetmap.de/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            maxZoom: 18,
+        });
+        let carto = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/rastertiles/voyager/{z}/{x}/{y}.png', {
+            attribution: '&copy; Carto, under CC BY 3.0. Data by OpenStreetMap, under ODbL.',
+            maxZoom: 18,
+        });
+        var baseMaps = {
+            "OSM": osm,
+            "OSM (de)": osmde,
+            "Carto (en)": carto
+        };
+        var layerControl = L.control.layers(baseMaps).addTo(map);
 
         function querystringFromFilters() {
             let dic = {}
@@ -116,9 +130,32 @@
             dic.allowDeprecated = filters.allowDeprecated ? 'true' : 'false';
             dic.authorities = Object.keys(filters.authorities).filter(key => filters.authorities[key]).join(',');
             dic.activeTypes = Object.keys(filters.activeTypes).filter(key => filters.activeTypes[key]).join(',');
+            dic.map = currentMapName();
 
             let res = Object.keys(dic).map(key => key +'='+ dic[key]).join('&');
             return res;
+        }
+
+        function currentMapName() {
+            if (map.hasLayer(osm))
+                return 'osm';
+            else if (map.hasLayer(osmde))
+                return 'osmde';
+            else if (map.hasLayer(carto))
+                return 'carto';
+            return '';
+        }
+        function updateMapFromParams(input) {
+            if (input.map == 'osm')
+                map.addLayer(osm);
+            else if (input.map == 'osmde')
+                map.addLayer(osmde);
+            else if (input.map == 'carto')
+                map.addLayer(carto);
+            else
+                map.addLayer(osm); // default map tiles
+
+            map.on('baselayerchange', updateURL);
         }
 
         function updateFiltersFromParams(input) {
@@ -637,6 +674,7 @@
             for (let k of url.searchParams.keys()) {
                 dic[k] = url.searchParams.get(k);
             }
+            updateMapFromParams(dic);
             updateFiltersFromParams(dic);
         }
 
