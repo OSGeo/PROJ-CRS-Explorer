@@ -17,4 +17,6 @@ PROJCS["KGD2002 / East Sea Belt",
     PARAMETER["false_northing",500000],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],
+    AXIS["Northing",NORTH],
+    AXIS["Easting",EAST],
     AUTHORITY["EPSG","5184"]]

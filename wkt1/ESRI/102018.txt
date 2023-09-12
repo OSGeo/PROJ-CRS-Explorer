@@ -14,4 +14,6 @@ PROJCS["North_Pole_Stereographic",
     PARAMETER["false_northing",0],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],
+    AXIS["Easting",SOUTH],
+    AXIS["Northing",SOUTH],
     AUTHORITY["ESRI","102018"]]

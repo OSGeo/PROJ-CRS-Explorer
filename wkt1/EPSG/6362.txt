@@ -18,4 +18,6 @@ PROJCS["Mexico ITRF92 / LCC",
     PARAMETER["false_northing",0],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],
+    AXIS["Northing",NORTH],
+    AXIS["Easting",EAST],
     AUTHORITY["EPSG","6362"]]

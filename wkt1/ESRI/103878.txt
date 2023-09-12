@@ -12,4 +12,6 @@ PROJCS["Moon_2000_South_Pole_Stereographic",
     PARAMETER["false_northing",0],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],
+    AXIS["Easting",NORTH],
+    AXIS["Northing",NORTH],
     AUTHORITY["ESRI","103878"]]

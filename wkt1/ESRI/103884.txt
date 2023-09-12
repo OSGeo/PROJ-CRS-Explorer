@@ -12,4 +12,6 @@ PROJCS["Mars_2000_South_Pole_Stereographic_sphere",
     PARAMETER["false_easting",0],
     PARAMETER["false_northing",0],
     UNIT["Meter",1],
+    AXIS["Easting",NORTH],
+    AXIS["Northing",NORTH],
     AUTHORITY["ESRI","103884"]]

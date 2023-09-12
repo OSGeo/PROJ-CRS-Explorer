@@ -17,4 +17,6 @@ PROJCS["Qornoq 1927 / Greenland zone 3 east (deprecated)",
     PARAMETER["False northing",0],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],
+    AXIS["Northing",NORTH],
+    AXIS["Westing",WEST],
     AUTHORITY["EPSG","2300"]]

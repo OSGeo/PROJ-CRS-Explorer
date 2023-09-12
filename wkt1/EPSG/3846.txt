@@ -17,4 +17,6 @@ PROJCS["SWEREF99 / RT90 5 gon V emulation",
     PARAMETER["false_northing",-667.13],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],
+    AXIS["Northing",NORTH],
+    AXIS["Easting",EAST],
     AUTHORITY["EPSG","3846"]]

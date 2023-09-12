@@ -17,4 +17,6 @@ PROJCS["Reykjavik 1900 / Lambert 1900",
     PARAMETER["False northing",0],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],
+    AXIS["Westing",WEST],
+    AXIS["Northing",NORTH],
     AUTHORITY["EPSG","3052"]]

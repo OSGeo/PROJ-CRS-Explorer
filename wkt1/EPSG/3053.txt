@@ -17,4 +17,6 @@ PROJCS["Hjorsey 1955 / Lambert 1955",
     PARAMETER["False northing",500000],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],
+    AXIS["Westing",WEST],
+    AXIS["Northing",NORTH],
     AUTHORITY["EPSG","3053"]]

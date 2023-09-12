@@ -17,4 +17,6 @@ PROJCS["NZGD49 / Bluff Circuit",
     PARAMETER["false_northing",699999.58],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],
+    AXIS["Northing",NORTH],
+    AXIS["Easting",EAST],
     AUTHORITY["EPSG","27232"]]

@@ -17,4 +17,6 @@ PROJCS["NAD83(CSRS98) / New Brunswick Stereo (deprecated)",
     PARAMETER["false_northing",7500000],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],
+    AXIS["Northing",NORTH],
+    AXIS["Easting",EAST],
     AUTHORITY["EPSG","2036"]]

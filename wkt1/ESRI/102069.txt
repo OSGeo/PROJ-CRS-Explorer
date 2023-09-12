@@ -10,4 +10,6 @@ PROJCS["EMEP_150_Kilometer_Grid",
     PARAMETER["false_easting",3],
     PARAMETER["false_northing",37],
     UNIT["150_Kilometers",150000],
+    AXIS["Easting",SOUTH],
+    AXIS["Northing",SOUTH],
     AUTHORITY["ESRI","102069"]]
