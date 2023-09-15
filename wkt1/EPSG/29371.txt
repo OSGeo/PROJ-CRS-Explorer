@@ -17,4 +17,6 @@ PROJCS["Schwarzeck / Lo22/11",
     PARAMETER["false_northing",0],
     UNIT["German legal metre",1.0000135965,
         AUTHORITY["EPSG","9031"]],
+    AXIS["Westing",WEST],
+    AXIS["Southing",SOUTH],
     AUTHORITY["EPSG","29371"]]

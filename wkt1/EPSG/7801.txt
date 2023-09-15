@@ -18,4 +18,6 @@ PROJCS["BGS2005 / CCS2005",
     PARAMETER["false_northing",4725824.3591],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],
+    AXIS["Northing",NORTH],
+    AXIS["Easting",EAST],
     AUTHORITY["EPSG","7801"]]

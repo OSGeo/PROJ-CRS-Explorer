@@ -17,4 +17,6 @@ PROJCS["NAD83(2011) / ICS83-Lincoln (ftUS)",
     PARAMETER["false_northing",1739000],
     UNIT["US survey foot",0.304800609601219,
         AUTHORITY["EPSG","9003"]],
+    AXIS["Northing",NORTH],
+    AXIS["Easting",EAST],
     AUTHORITY["EPSG","23318"]]

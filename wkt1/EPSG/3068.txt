@@ -16,4 +16,6 @@ PROJCS["DHDN / Soldner Berlin",
     PARAMETER["false_northing",10000],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],
+    AXIS["Northing",NORTH],
+    AXIS["Easting",EAST],
     AUTHORITY["EPSG","3068"]]

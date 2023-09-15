@@ -17,4 +17,6 @@ PROJCS["NZGD49 / Mount Pleasant Circuit",
     PARAMETER["false_northing",700000],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],
+    AXIS["Northing",NORTH],
+    AXIS["Easting",EAST],
     AUTHORITY["EPSG","27224"]]

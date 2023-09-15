@@ -16,4 +16,6 @@ PROJCS["Perroud 1950 / Terre Adelie Polar Stereographic",
     PARAMETER["Northing at false origin",200000],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],
+    AXIS["Easting",NORTH],
+    AXIS["Northing",NORTH],
     AUTHORITY["EPSG","2986"]]

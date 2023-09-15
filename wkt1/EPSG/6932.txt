@@ -16,4 +16,6 @@ PROJCS["WGS 84 / NSIDC EASE-Grid 2.0 South",
     PARAMETER["false_northing",0],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],
+    AXIS["Easting",NORTH],
+    AXIS["Northing",NORTH],
     AUTHORITY["EPSG","6932"]]

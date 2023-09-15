@@ -17,4 +17,6 @@ PROJCS["CI1971 / Chatham Islands Map Grid",
     PARAMETER["false_northing",650000],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],
+    AXIS["Northing",NORTH],
+    AXIS["Easting",EAST],
     AUTHORITY["EPSG","5518"]]

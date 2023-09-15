@@ -15,4 +15,6 @@ PROJCS["Mercury (2015) / Ographic / Mollweide, clon = 180",
     PARAMETER["false_northing",0],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],
+    AXIS["Westing",WEST],
+    AXIS["Northing",NORTH],
     AUTHORITY["IAU","19946"]]

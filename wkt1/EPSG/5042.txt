@@ -17,4 +17,6 @@ PROJCS["WGS 84 / UPS South (E,N)",
     PARAMETER["false_northing",2000000],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],
+    AXIS["Easting",NORTH],
+    AXIS["Northing",NORTH],
     AUTHORITY["EPSG","5042"]]

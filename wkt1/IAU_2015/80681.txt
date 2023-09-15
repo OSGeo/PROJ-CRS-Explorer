@@ -16,4 +16,6 @@ PROJCS["Galatea (2015) / Ographic / Lambert Azimuthal Equal Area",
     PARAMETER["false_northing",0],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],
+    AXIS["Westing",WEST],
+    AXIS["Northing",NORTH],
     AUTHORITY["IAU","80681"]]

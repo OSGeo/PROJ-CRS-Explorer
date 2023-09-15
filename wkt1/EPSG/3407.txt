@@ -16,4 +16,6 @@ PROJCS["Hong Kong 1963 Grid System",
     PARAMETER["false_northing",62565.96],
     UNIT["Clarke's foot",0.3047972654,
         AUTHORITY["EPSG","9005"]],
+    AXIS["Northing",NORTH],
+    AXIS["Easting",EAST],
     AUTHORITY["EPSG","3407"]]

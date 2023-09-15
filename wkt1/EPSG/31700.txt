@@ -17,4 +17,6 @@ PROJCS["Dealul Piscului 1970/ Stereo 70 (deprecated)",
     PARAMETER["false_northing",500000],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],
+    AXIS["Northing",NORTH],
+    AXIS["Easting",EAST],
     AUTHORITY["EPSG","31700"]]

@@ -18,4 +18,6 @@ PROJCS["NAD27 / Cuba Norte",
     PARAMETER["false_northing",280296.016],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],
+    AXIS["Northing",NORTH],
+    AXIS["Easting",EAST],
     AUTHORITY["EPSG","3795"]]

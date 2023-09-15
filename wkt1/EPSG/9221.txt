@@ -18,4 +18,6 @@ PROJCS["Hartebeesthoek94 / ZAF BSU Albers 25E",
     PARAMETER["false_northing",1300000],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],
+    AXIS["Northing",NORTH],
+    AXIS["Easting",EAST],
     AUTHORITY["EPSG","9221"]]

@@ -16,4 +16,6 @@ PROJCS["Viti Levu 1912 / Viti Levu Grid",
     PARAMETER["false_northing",704000],
     UNIT["link",0.201168,
         AUTHORITY["EPSG","9098"]],
+    AXIS["Northing",NORTH],
+    AXIS["Easting",EAST],
     AUTHORITY["EPSG","3140"]]

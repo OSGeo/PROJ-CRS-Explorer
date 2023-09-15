@@ -16,4 +16,6 @@ PROJCS["S-JTSK_Krovak (deprecated)",
     PARAMETER["false_northing",0],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],
+    AXIS["Southing",SOUTH],
+    AXIS["Westing",WEST],
     AUTHORITY["ESRI","102065"]]

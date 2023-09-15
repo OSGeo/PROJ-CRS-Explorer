@@ -16,4 +16,6 @@ PROJCS["Hong Kong 1963 Grid System (deprecated)",
     PARAMETER["false_northing",19069.9335151258],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],
+    AXIS["Northing",NORTH],
+    AXIS["Easting",EAST],
     AUTHORITY["EPSG","3366"]]

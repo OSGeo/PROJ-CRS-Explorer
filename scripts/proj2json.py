@@ -60,7 +60,8 @@ if __name__ == '__main__':
                 os.makedirs(os.path.dirname(wtk_file))
 
             try:
-                wkt = crs.to_wkt(version=t["version"], pretty=True)
+                output_axis_rule = True if crs.is_projected else None
+                wkt = crs.to_wkt(version=t["version"], pretty=True, output_axis_rule=output_axis_rule)
             except:
                 wkt = None
             if not wkt:

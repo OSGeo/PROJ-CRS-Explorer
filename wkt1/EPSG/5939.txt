@@ -17,4 +17,6 @@ PROJCS["WGS 84 / EPSG Norway Polar Stereographic",
     PARAMETER["false_northing",2000000],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],
+    AXIS["Easting",SOUTH],
+    AXIS["Northing",SOUTH],
     AUTHORITY["EPSG","5939"]]

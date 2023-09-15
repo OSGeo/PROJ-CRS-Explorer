@@ -17,4 +17,6 @@ PROJCS["Bogota 1975 / Colombia Bogota zone",
     PARAMETER["false_northing",1000000],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],
+    AXIS["Northing",NORTH],
+    AXIS["Easting",EAST],
     AUTHORITY["EPSG","21897"]]

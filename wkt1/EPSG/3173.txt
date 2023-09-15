@@ -17,4 +17,6 @@ PROJCS["fk89 / Faroe Lambert FK89",
     PARAMETER["False northing",700000],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],
+    AXIS["Northing",NORTH],
+    AXIS["Westing",WEST],
     AUTHORITY["EPSG","3173"]]

@@ -19,4 +19,6 @@ PROJCS["Tananarive (Paris) / Laborde Grid approximation",
     PARAMETER["false_northing",800000],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],
+    AXIS["Northing",NORTH],
+    AXIS["Easting",EAST],
     AUTHORITY["EPSG","29702"]]
