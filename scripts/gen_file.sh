@@ -39,3 +39,7 @@ for wkt in wkt1 wkt2 ; do
 done
 
 sed -i -E "s/(<span id=\"proj_version\">).*?(<\/span>)/\1${PROJ_VERSION}\2/" $DIRNAME/../index.html
+
+if ! `grep value=\"${PROJ_VERSION}\" -q $DIRNAME/../index.html` ; then
+    sed -i "N;/.*value=\"latest\".*/a \            <option value=\"${PROJ_VERSION}\">${PROJ_VERSION}</option>" $DIRNAME/../index.html
+fi
