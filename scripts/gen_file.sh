@@ -38,4 +38,9 @@ for wkt in wkt1 wkt2 ; do
     fi
 done
 
-sed -i -E "s/(<span id=\"proj_version\">).*?(<\/span>)/\1${PROJ_VERSION}\2/" $DIRNAME/../index.html
+INDEX=$DIRNAME/../index.html
+sed -i -E "s/(<span id=\"proj_version\">).*?(<\/span>)/\1${PROJ_VERSION}\2/" $INDEX
+
+if ! `grep value=\"${PROJ_VERSION}\" -q $INDEX` ; then
+    awk -v var="$PROJ_VERSION" '/<option value="latest">/{print; gsub(/latest/, var)}1' $INDEX > tmp.tmp && mv tmp.tmp $INDEX
+fi

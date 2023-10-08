@@ -12,7 +12,7 @@ IGNF Database: 3.1.0 [2019-05-24]
 System:
     python: 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]
 executable: /home/venv/bin/python3
-   machine: Linux-5.15.0-1041-azure-x86_64-with-glibc2.35
+   machine: Linux-6.2.0-1012-azure-x86_64-with-glibc2.35
 
 Python deps:
    certifi: 2023.7.22

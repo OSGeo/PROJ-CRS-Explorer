@@ -42,8 +42,23 @@
 
 <body onload="load()">
     <h1>CRS Explorer - PROJ <span id="proj_version">9.3.0</span> codes</h1>
+    <div>
+        <label for="version">PROJ version: </label>
+        <select name="version" id="version" onchange="versionChanged(this)">
+            <option value="latest">latest</option>
+            <option value="9.3.0">9.3.0</option>
+            <option value="9.2.1">9.2.1</option>
+            <option value="9.2.0">9.2.0</option>
+            <option value="9.1.1">9.1.1</option>
+            <option value="9.1.0">9.1.0</option>
+            <option value="9.0.1">9.0.1</option>
+            <option value="9.0.0">9.0.0</option>
+            <option value="8.2.1">8.2.1</option>
+        </select>
+    </div>
+    <br>
     <div>This page shows a list of the Coordinate Reference Systems included in <a href="https://proj.org">PROJ</a>.
-         <span id="version_link">(see generation <a href="./metadata.txt">metadata file</a>)</span>
+         <span id="version_link">(see generation <a id="metadata" href="./metadata.txt">metadata file</a>)</span>
          <br>You can filter by type, authority, name and location (clicking on the map).
          <br>Selecting the area of use of any CRS displays it as a rectangle in the map.
          <br>Visit the source code in <a href="https://github.com/jjimenezshaw/crs-explorer">GitHub</a>.
@@ -101,6 +116,10 @@
         let rectangles = {};
         let hooverRect = null;
 
+        // to load older versions of PROJ
+        let versioned_url = '';
+        let versioned_tag = '';
+
         let osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
             maxZoom: 18,
@@ -131,6 +150,9 @@
             dic.authorities = Object.keys(filters.authorities).filter(key => filters.authorities[key]).join(',');
             dic.activeTypes = Object.keys(filters.activeTypes).filter(key => filters.activeTypes[key]).join(',');
             dic.map = currentMapName();
+            if (versioned_tag) {
+                dic.v = versioned_tag;
+            }
 
             let res = Object.keys(dic).map(key => key +'='+ dic[key]).join('&');
             return res;
@@ -576,7 +598,7 @@
 
         function fillWktsField(wkts, crs) {
             ['1', '2'].forEach(n => {
-                const filename = `./wkt${n}/${crs.auth_name}/${crs.code}.txt`;
+                const filename = `${versioned_url}./wkt${n}/${crs.auth_name}/${crs.code}.txt`;
                 let a = document.createElement('a');
                 a.setAttribute('href', filename);
                 a.innerText = `[${n}]`;
@@ -668,19 +690,54 @@
             sortOnTh();
         }
 
-        function updateFromParams(location) {
+        function paramsToDic(location) {
             const url = new URL(location);
             let dic = {};
             for (let k of url.searchParams.keys()) {
                 dic[k] = url.searchParams.get(k);
             }
+            return dic;
+        }
+
+        function updateFromParams(location) {
+            const dic = paramsToDic(location);
             updateMapFromParams(dic);
             updateFiltersFromParams(dic);
         }
 
+        function versionChanged(that) {
+            const v = that.value;
+            if (v && v != 'latest') {
+                versioned_tag = v;
+            } else {
+                versioned_tag = '';
+            }
+
+            updateURL();
+            window.location.reload();
+        }
+
+        function processVersionFromParams(location) {
+            const dic = paramsToDic(location);
+            const v = dic['v'];
+            if (v && v != 'latest') {
+                var sel = document.getElementById("version");
+                if (!Array.from(sel.options).find(o => o.value == v)) {
+                    window.alert(`Invalid version tag [${v}]. Latest will be used.`);
+                    return;
+                }
+
+                versioned_tag = v;
+                versioned_url = `https://raw.githubusercontent.com/OSGeo/PROJ-CRS-Explorer/${v}/`;
+                document.getElementById("proj_version").innerText = versioned_tag + '*';
+                document.getElementById("metadata").href = versioned_url + 'metadata.txt';
+                sel.value = versioned_tag;
+            }
+        }
+
         function loadDb() {
-            let url = 'crslist.json';
-            fetch(url, {
+            processVersionFromParams(window.location)
+            fetch(versioned_url + 'crslist.json', {
                 method: "GET",
             })
             .then(response => response.json())
