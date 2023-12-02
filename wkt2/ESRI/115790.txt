@@ -1,5 +1,5 @@
-VERTCRS["SIRGAS-Chile",
-    VDATUM["D_SIRGAS-Chile"],
+VERTCRS["SIRGAS-Chile_2002",
+    VDATUM["SIRGAS-Chile_realization_1_epoch_2002"],
     CS[vertical,1],
         AXIS["ellipsoidal height (h)",up,
             LENGTHUNIT["metre",1]],

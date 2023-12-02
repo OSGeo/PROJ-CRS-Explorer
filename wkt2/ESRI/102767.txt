@@ -33,6 +33,6 @@ PROJCRS["MAGNA_Leticia_Amazonas_1994",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Colombia - Leticia - Amazonas"],
-        BBOX[-4.7,-70.45,-3.68333333333333,-69.4333333333333]],
+        AREA["Colombia - Leticia city."],
+        BBOX[-4.23,-69.98,-4.17,-69.92]],
     ID["ESRI",102767]]

@@ -33,6 +33,6 @@ PROJCRS["NGO_1948_UTM_Zone_33N",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Between 12°E and 18°E, northern hemisphere between equator and 84°N, onshore and offshore. Austria. Bosnia and Herzegovina. Cameroon. Central African Republic. Chad. Congo. Croatia. Czechia. Democratic Republic of the Congo (Zaire). Gabon. Germany. Hungary. Italy. Libya. Malta. Niger. Nigeria. Norway. Poland. San Marino. Slovakia. Slovenia. Svalbard. Sweden. Vatican City State."],
-        BBOX[0,12,84,18]],
+        AREA["Norway - onshore - between 12°E and 18°E."],
+        BBOX[59.88,12,69.96,18.01]],
     ID["ESRI",102133]]

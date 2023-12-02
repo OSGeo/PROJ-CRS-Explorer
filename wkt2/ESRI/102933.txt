@@ -32,6 +32,6 @@ PROJCRS["NAD_1983_(2011)_ICS_Metropolis_(US_Feet)",
             LENGTHUNIT["US survey foot",0.304800609601219]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Illinois - Metropolis"],
-        BBOX[36.97,-89.53,37.61,-88.05]],
+        AREA["United States (USA) - Illinois - counties of Alexander, Hardin, Johnson, Massac, Pope, Pulaski and Union."],
+        BBOX[36.97,-89.53,37.61,-88.06]],
     ID["ESRI",102933]]

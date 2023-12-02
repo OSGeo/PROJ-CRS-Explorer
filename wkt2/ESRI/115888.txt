@@ -1,0 +1,10 @@
+VERTCRS["CGRS_1993",
+    VDATUM["D_Cyprus_Geodetic_Reference_System_1993"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Cyprus - onshore."],
+        BBOX[34.59,32.2,35.74,34.65]],
+    ID["ESRI",115888]]

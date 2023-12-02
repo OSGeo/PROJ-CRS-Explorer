@@ -1,0 +1,10 @@
+VERTCRS["ETRS89_DREF91_2016",
+    VDATUM["ETRS89_DREF91_Realization_2016"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Germany - onshore and offshore."],
+        BBOX[47.27,3.34,55.92,15.04]],
+    ID["ESRI",115923]]

@@ -36,6 +36,6 @@ PROJCRS["Ocotepeque_1935_Costa_Rica_Lambert_Sur",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Costa Rica - onshore and offshore."],
-        BBOX[2.15,-90.45,11.77,-81.43]],
+        AREA["Costa Rica - onshore south of 9°56'N"],
+        BBOX[7.98,-85.74,9.94,-82.53]],
     ID["ESRI",102222]]

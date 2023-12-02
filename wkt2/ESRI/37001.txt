@@ -1,6 +1,6 @@
 GEOGCRS["GCS_WGS_1966",
     DATUM["D_WGS_1966",
-        ELLIPSOID["WGS_1966",6378145,298.25,
+        ELLIPSOID["NWL 9D",6378145,298.25,
             LENGTHUNIT["metre",1]]],
     PRIMEM["Greenwich",0,
         ANGLEUNIT["degree",0.0174532925199433]],

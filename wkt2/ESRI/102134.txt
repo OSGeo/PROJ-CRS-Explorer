@@ -33,6 +33,6 @@ PROJCRS["NGO_1948_UTM_Zone_34N",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Between 18°E and 24°E, northern hemisphere between equator and 84°N, onshore and offshore. Albania. Belarus. Bosnia and Herzegovina. Bulgaria. Central African Republic. Chad. Croatia. Democratic Republic of the Congo (Zaire). Estonia. Finland. Greece. Hungary. Italy. Kosovo. Latvia. Libya. Lithuania. Montenegro. North Macedonia. Norway, including Svalbard and Bjornoys. Poland. Romania. Russian Federation. Serbia. Slovakia. Sudan. Sweden. Ukraine."],
-        BBOX[0,18,84,24]],
+        AREA["Norway - onshore - between 18°E and 24°E."],
+        BBOX[68.04,18,71.15,24.01]],
     ID["ESRI",102134]]

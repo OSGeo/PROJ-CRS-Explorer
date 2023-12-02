@@ -34,5 +34,5 @@ PROJCRS["Luzon_1911_UTM_Zone_52N",
     USAGE[
         SCOPE["Not known."],
         AREA["Philippines - East of 126~E, N hemisphere"],
-        BBOX[4,126,20,132]],
+        BBOX[3,126,22.18,132]],
     ID["ESRI",102455]]

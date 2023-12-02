@@ -1,0 +1,7 @@
+VERT_CS["KSA-GRF17",
+    VERT_DATUM["Kingdom_of_Saudi_Arabia_Geodetic_Reference_Frame_2017",2002,
+        AUTHORITY["ESRI","from_geogdatum_EPSG_1268"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115894"]]

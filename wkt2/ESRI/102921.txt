@@ -32,6 +32,6 @@ PROJCRS["NAD_1983_(2011)_ICS_Springfield_(US_Feet)",
             LENGTHUNIT["US survey foot",0.304800609601219]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Illinois - Springfield"],
-        BBOX[39.52,-90.01,39.98,-89.21]],
+        AREA["United States (USA) - Illinois - Sangamon county."],
+        BBOX[39.52,-90,39.98,-89.21]],
     ID["ESRI",102921]]

@@ -1,0 +1,10 @@
+VERTCRS["LKS-2020",
+    VDATUM["Latvian_coordinate_system_2020"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Latvia - onshore and offshore."],
+        BBOX[55.67,19.06,58.09,28.24]],
+    ID["ESRI",115925]]

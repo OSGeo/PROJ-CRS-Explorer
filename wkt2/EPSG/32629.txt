@@ -41,6 +41,6 @@ PROJCRS["WGS 84 / UTM zone 29N",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Navigation and medium accuracy spatial referencing."],
-        AREA["Between 12°W and 6°W, northern hemisphere between equator and 84°N, onshore and offshore. Algeria. Côte D'Ivoire (Ivory Coast). Faroe Islands. Guinea. Ireland. Jan Mayen. Mali. Mauritania. Morocco. Portugal. Sierra Leone. Spain. United Kingdom (UK). Western Sahara."],
-        BBOX[0,-12,84,-6]],
+        AREA["Between 12°W and 6°W, northern hemisphere between equator and 84°N, onshore and offshore. Algeria. Côte D'Ivoire (Ivory Coast). Faroe Islands. Guinea. Ireland. Jan Mayen. Liberia, Mali. Mauritania. Morocco. Portugal. Sierra Leone. Spain. United Kingdom (UK). Western Sahara."],
+        BBOX[0,-12.01,84.01,-6]],
     ID["EPSG",32629]]

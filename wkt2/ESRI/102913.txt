@@ -33,6 +33,6 @@ PROJCRS["NAD_1983_(2011)_ICS_Peoria_(US_Feet)",
             LENGTHUNIT["US survey foot",0.304800609601219]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Illinois - Peoria"],
-        BBOX[40.31,-90.01,40.98,-89.26]],
+        AREA["United States (USA) - Illinois - counties of Peoria and Tazewell."],
+        BBOX[40.31,-89.99,40.98,-89.26]],
     ID["ESRI",102913]]

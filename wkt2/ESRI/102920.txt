@@ -33,6 +33,6 @@ PROJCRS["NAD_1983_(2011)_ICS_Macomb_(US_Feet)",
             LENGTHUNIT["US survey foot",0.304800609601219]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Illinois - Macomb"],
-        BBOX[39.83,-90.92,40.64,-90.18]],
+        AREA["United States (USA) - Illinois - counties of Brown, McDonough and Schuyler."],
+        BBOX[39.83,-90.92,40.64,-90.19]],
     ID["ESRI",102920]]

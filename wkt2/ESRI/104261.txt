@@ -1,4 +1,4 @@
-GEOGCRS["GCS_Merchich_Degree",
+GEOGCRS["GCS_Merchich",
     DATUM["Merchich",
         ELLIPSOID["Clarke 1880 (IGN)",6378249.2,293.466021293627,
             LENGTHUNIT["metre",1]]],
@@ -13,6 +13,6 @@ GEOGCRS["GCS_Merchich_Degree",
             ANGLEUNIT["degree",0.0174532925199433]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Morocco - onshore."],
-        BBOX[27.66,-13.24,35.97,-1.01]],
+        AREA["Africa - Morocco and Western Sahara - onshore."],
+        BBOX[20.71,-17.16,35.97,-1.01]],
     ID["ESRI",104261]]

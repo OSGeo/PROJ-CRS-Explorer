@@ -1,0 +1,10 @@
+VERTCRS["ETRF2000-PL",
+    VDATUM["ETRF2000_Poland"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Poland - onshore and offshore."],
+        BBOX[49,14.14,55.93,24.15]],
+    ID["ESRI",115890]]

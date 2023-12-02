@@ -5,6 +5,6 @@ VERTCRS["SRB_ETRS89",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Serbia including Vojvodina and Kosovo."],
-        BBOX[41.85,18.81,46.19,23.01]],
+        AREA["Serbia including Vojvodina."],
+        BBOX[42.23,18.81,46.19,23.01]],
     ID["ESRI",115842]]

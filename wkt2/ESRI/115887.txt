@@ -1,0 +1,10 @@
+VERTCRS["Bermuda_2000",
+    VDATUM["D_Bermuda_2000"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Bermuda - onshore and offshore."],
+        BBOX[28.91,-68.83,35.73,-60.7]],
+    ID["ESRI",115887]]

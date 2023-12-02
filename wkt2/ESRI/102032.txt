@@ -35,6 +35,6 @@ PROJCRS["South_America_Equidistant_Conic",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Not known."],
-        AREA["South America"],
-        BBOX[-60,-90,15,-30]],
+        AREA["Brazil - onshore and offshore. In rest of South America - onshore north of approximately 45°S and Tierra del Fuego."],
+        BBOX[-55.96,-91.72,12.52,-25.28]],
     ID["ESRI",102032]]

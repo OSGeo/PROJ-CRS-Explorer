@@ -1,0 +1,10 @@
+VERTCRS["MGI",
+    VDATUM["D_MGI"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Austria. Bosnia and Herzegovina. Croatia - onshore. Kosovo. Montenegro - onshore. North Macedonia. Serbia. Slovenia - onshore."],
+        BBOX[40.85,9.53,49.02,23.04]],
+    ID["ESRI",115921]]

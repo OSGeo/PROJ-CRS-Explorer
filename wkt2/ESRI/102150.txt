@@ -33,6 +33,6 @@ PROJCRS["JGD_2000_UTM_Zone_56N",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Between 150°E and 156°E, northern hemisphere between equator and 84°N, onshore and offshore."],
-        BBOX[0,150,84,156]],
+        AREA["Japan - 150~E to 156~E"],
+        BBOX[17.09,150,46.05,156]],
     ID["ESRI",102150]]

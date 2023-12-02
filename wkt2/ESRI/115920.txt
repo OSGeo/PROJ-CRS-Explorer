@@ -1,0 +1,10 @@
+VERTCRS["SIRGAS",
+    VDATUM["D_SIRGAS"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["South America - onshore and offshore. Ecuador (mainland and Galapagos) - onshore and offshore."],
+        BBOX[-59.87,-113.21,16.75,-26]],
+    ID["ESRI",115920]]

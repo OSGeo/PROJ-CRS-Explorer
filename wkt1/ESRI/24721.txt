@@ -1,4 +1,4 @@
-PROJCS["La_Canoa_UTM_Zone_21N",
+PROJCS["La_Canoa_UTM_Zone_21N (deprecated)",
     GEOGCS["La Canoa",
         DATUM["La_Canoa",
             SPHEROID["International 1924",6378388,297,
