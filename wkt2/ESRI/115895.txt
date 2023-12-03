@@ -1,0 +1,10 @@
+VERTCRS["Kyrg-06",
+    VDATUM["D_Kyrgyz_Republic_2006"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Kyrgyzstan."],
+        BBOX[39.19,69.24,43.22,80.29]],
+    ID["ESRI",115895]]

@@ -1,0 +1,10 @@
+VERTCRS["RSAO13",
+    VDATUM["Reference_System_de_Angola_2013"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Angola - onshore and offshore."],
+        BBOX[-18.02,8.2,-4.38,24.09]],
+    ID["ESRI",115902]]

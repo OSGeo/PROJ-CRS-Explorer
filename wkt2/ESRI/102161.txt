@@ -33,6 +33,6 @@ PROJCRS["Datum_73_Hayford_Gauss_IPCC",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Portugal - mainland, Azores and Madeira, onshore and offshore."],
-        BBOX[29.24,-35.58,43.07,-6.19]],
+        AREA["Portugal - mainland - onshore."],
+        BBOX[36.95,-9.56,42.16,-6.19]],
     ID["ESRI",102161]]

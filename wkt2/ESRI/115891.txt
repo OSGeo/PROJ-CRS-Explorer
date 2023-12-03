@@ -1,0 +1,10 @@
+VERTCRS["HTRS96",
+    VDATUM["D_Croatian_Terrestrial_Reference_System"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Croatia - onshore and offshore."],
+        BBOX[41.62,13,46.54,19.43]],
+    ID["ESRI",115891]]

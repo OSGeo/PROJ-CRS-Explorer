@@ -1,0 +1,10 @@
+VERTCRS["Mauritania_1999",
+    VDATUM["D_Mauritania_1999"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Mauritania - onshore and offshore."],
+        BBOX[14.72,-20.04,27.3,-4.8]],
+    ID["ESRI",115898]]

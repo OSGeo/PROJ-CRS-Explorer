@@ -1,0 +1,10 @@
+VERTCRS["LUREF",
+    VDATUM["D_Luxembourg_Reference_Frame"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Luxembourg."],
+        BBOX[49.44,5.73,50.19,6.53]],
+    ID["ESRI",115886]]

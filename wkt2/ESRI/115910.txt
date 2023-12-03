@@ -1,0 +1,10 @@
+VERTCRS["Mexican_Datum_of_1993",
+    VDATUM["D_Mexican_Datum_of_1993"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Mexico - onshore and offshore."],
+        BBOX[12.1,-122.19,32.72,-84.64]],
+    ID["ESRI",115910]]

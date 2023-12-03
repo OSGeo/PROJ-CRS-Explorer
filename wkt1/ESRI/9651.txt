@@ -1,7 +1,0 @@
-VERT_CS["EVRF_2007_PL_height",
-    VERT_DATUM["European_Vertical_Reference_Frame_2007_Poland",2005,
-        AUTHORITY["ESRI","1297"]],
-    UNIT["metre",1,
-        AUTHORITY["EPSG","9001"]],
-    AXIS["Gravity-related height",UP],
-    AUTHORITY["ESRI","9651"]]

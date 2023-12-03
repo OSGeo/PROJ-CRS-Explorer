@@ -1,4 +1,4 @@
-PROJCRS["Korea_2000_Korea_West_Belt_2010",
+PROJCRS["KGD2002_West_Belt_2010",
     BASEGEOGCRS["KGD2002",
         DATUM["Korean Geodetic Datum 2002",
             ELLIPSOID["GRS 1980",6378137,298.257222101,

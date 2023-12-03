@@ -42,11 +42,12 @@
 </head>
 
 <body onload="load()">
-    <h1>CRS Explorer - PROJ <span id="proj_version">9.3.0</span> codes</h1>
+    <h1>CRS Explorer - PROJ <span id="proj_version">9.3.1</span> codes</h1>
     <div>
         <label for="version">PROJ version: </label>
         <select name="version" id="version" onchange="versionChanged(this)">
             <option value="latest">latest</option>
+            <option value="9.3.1">9.3.1</option>
             <option value="9.3.0">9.3.0</option>
             <option value="9.2.1">9.2.1</option>
             <option value="9.2.0">9.2.0</option>
@@ -746,16 +747,28 @@
 
         function loadDb() {
             processVersionFromParams(window.location)
-            fetch(versioned_url + 'crslist.json', {
+            const url = versioned_url + 'crslist.json';
+            fetch(url, {
                 method: "GET",
             })
-            .then(response => response.json())
+            .then(response => {
+                if (!response.ok) {
+                    const message = "Something went wrong downloading " + url
+                    alert(message);
+                    updateURL();
+                    throw new Error(message);
+                }
+                return response.json();
+            })
             .then(data => {
                 fullDB = data;
                 createAuthorities(data);
                 updateFromParams(window.location);
                 fillTables(data);
                 runFilter();
+            })
+            .catch((error) => {
+                console.log(error)
             });
         }
 

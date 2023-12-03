@@ -33,6 +33,6 @@ PROJCRS["NAD_1983_(2011)_ICS_Belleville_(US_Feet)",
             LENGTHUNIT["US survey foot",0.304800609601219]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Illinois - Belleville"],
-        BBOX[38.08,-90.38,39.01,-89.59]],
+        AREA["United States (USA) - Illinois - counties of Madison, Monroe and St Clair."],
+        BBOX[38.08,-90.38,39,-89.59]],
     ID["ESRI",102929]]

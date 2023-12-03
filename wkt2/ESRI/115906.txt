@@ -1,0 +1,10 @@
+VERTCRS["SRGI2013",
+    VDATUM["Sistem_Referensi_Geospasial_Indonesia_2013"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Indonesia - onshore and offshore."],
+        BBOX[-13.95,92.01,7.79,141.46]],
+    ID["ESRI",115906]]

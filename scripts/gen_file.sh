@@ -4,8 +4,8 @@ set -Eeuo pipefail
 echo 'Set first argument to "addgit" if you want to add wkt files automatically'
 
 # indicate DOCKER PROJ version
-PROJ_VERSION=9.3.0
-PYPROJ_VERSION=c77e346d4e0ecc07cdc495fcaefafea09a8dde5c # fixed 3.6.0
+PROJ_VERSION=9.3.1
+PYPROJ_VERSION=3.6.1
 TAG="crs-explorer:$PROJ_VERSION"
 
 # prepare destination

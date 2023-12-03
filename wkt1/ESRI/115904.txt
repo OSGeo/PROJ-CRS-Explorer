@@ -1,0 +1,7 @@
+VERT_CS["SIRGAS-Chile_2013",
+    VERT_DATUM["SIRGAS-Chile_realization_3_epoch_2013",2002,
+        AUTHORITY["ESRI","from_geogdatum_EPSG_1252"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115904"]]

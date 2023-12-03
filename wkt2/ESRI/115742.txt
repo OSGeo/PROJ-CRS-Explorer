@@ -1,5 +1,5 @@
-VERTCRS["Korea_2000",
-    VDATUM["D_Korea_2000"],
+VERTCRS["KGD2002",
+    VDATUM["D_Korea_Geodetic_Datum_2002"],
     CS[vertical,1],
         AXIS["ellipsoidal height (h)",up,
             LENGTHUNIT["metre",1]],

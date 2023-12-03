@@ -1,0 +1,10 @@
+VERTCRS["BH_ETRS89",
+    VDATUM["BH_ETRS89"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Bosnia and Herzegovina."],
+        BBOX[42.56,15.74,45.27,19.62]],
+    ID["ESRI",115929]]

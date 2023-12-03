@@ -1,0 +1,10 @@
+VERTCRS["RGSH2020",
+    VDATUM["Sonatrach_Reference_Frame_2020"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Algeria - onshore and offshore."],
+        BBOX[18.97,-8.67,38.8,11.99]],
+    ID["ESRI",115924]]

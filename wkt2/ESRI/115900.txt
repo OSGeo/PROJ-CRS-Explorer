@@ -1,0 +1,10 @@
+VERTCRS["RGTAAF07",
+    VDATUM["D_Reseau_Geodesique_des_Terres_Australes_et_Antarctiques_Francaises_2007"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["French Southern Territories - onshore and offshore: Amsterdam and St Paul, Crozet, Europa and Kerguelen. Antarctica - Adelie Land coastal area."],
+        BBOX[-67.13,37.98,-20.91,142]],
+    ID["ESRI",115900]]
