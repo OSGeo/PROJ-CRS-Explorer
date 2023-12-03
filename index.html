@@ -747,16 +747,28 @@
 
         function loadDb() {
             processVersionFromParams(window.location)
-            fetch(versioned_url + 'crslist.json', {
+            const url = versioned_url + 'crslist.json';
+            fetch(url, {
                 method: "GET",
             })
-            .then(response => response.json())
+            .then(response => {
+                if (!response.ok) {
+                    const message = "Something went wrong downloading " + url
+                    alert(message);
+                    updateURL();
+                    throw new Error(message);
+                }
+                return response.json();
+            })
             .then(data => {
                 fullDB = data;
                 createAuthorities(data);
                 updateFromParams(window.location);
                 fillTables(data);
                 runFilter();
+            })
+            .catch((error) => {
+                console.log(error)
             });
         }
 
