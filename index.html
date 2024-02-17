@@ -31,7 +31,9 @@
         .order { color: #777; font-size: small; padding-left: 0.5em; }
         .loader-text { color: darkred; }
         .message-text { color: darkred; }
+        .wkts_cell { white-space: nowrap; }
         .wkt1 { margin-right: 0.3em; }
+        .sr-icon { vertical-align: text-bottom; }
         td, th { padding-left: 0.25em; padding-right: 0.25em; }
     </style>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
@@ -632,6 +634,14 @@
                 });
                 wkts.appendChild(a);
             });
+            wkts.classList.add('wkts_cell');
+            let a = document.createElement('span')
+            const sr = 'https://spatialreference.org';
+            const auth_lower = crs.auth_name.toLowerCase();
+            a.innerHTML = ` <a href="${sr}/ref/${auth_lower}/${crs.code}/" ` +
+                ` title="Open ${crs.auth_name}:${crs.code} in spatialreference.org">` +
+                `<img class="sr-icon" src="${sr}/favicon.ico" width="16"></a>`;
+            wkts.appendChild(a);
         }
 
         function fillTables(db) {
