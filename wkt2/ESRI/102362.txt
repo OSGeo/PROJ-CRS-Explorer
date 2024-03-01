@@ -45,6 +45,6 @@ PROJCRS["ETRS_1989_UTM_Zone_N32",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Germany - onshore and offshore between 6°E and 12°E, including Mecklenburg-Vorpommern west of 12°E and Schleswig-Holstein."],
-        BBOX[47.27,6,55.47,12]],
+        AREA["Germany - onshore and offshore between 6°E and 12°E - Baden-Wurtemberg, Bayern, Bremen, Hamburg, Hessen, Mecklenburg-Vorpommern, Niedersachsen, Nordrhein-Westfalen, Rheinland-Pfalz, Saarland, Sachsen, Sachsen-Anhalt, Schleswig-Holstein, Thuringen."],
+        BBOX[47.27,6,55.47,12.01]],
     ID["ESRI",102362]]
