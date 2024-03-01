@@ -44,7 +44,7 @@ PROJCRS["ETRS89 / UTM zone 32N (zE-N)",
             ORDER[2],
             LENGTHUNIT["metre",1]],
     USAGE[
-        SCOPE["Engineering survey, topographic mapping."],
-        AREA["Germany - onshore and offshore between 6°E and 12°E, including Mecklenburg-Vorpommern west of 12°E and Schleswig-Holstein."],
-        BBOX[47.27,6,55.47,12]],
+        SCOPE["Topographic mapping."],
+        AREA["Germany - onshore and offshore between 6°E and 12°E - Baden-Wurtemberg, Bayern, Bremen, Hamburg, Hessen, Mecklenburg-Vorpommern, Niedersachsen, Nordrhein-Westfalen, Rheinland-Pfalz, Saarland, Sachsen, Sachsen-Anhalt, Schleswig-Holstein, Thuringen."],
+        BBOX[47.27,6,55.47,12.01]],
     ID["EPSG",4647]]

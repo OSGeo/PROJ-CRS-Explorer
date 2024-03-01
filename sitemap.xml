@@ -33667,6 +33667,48 @@
         <loc>https://crs-explorer.proj.org/wkt2/EPSG/10481.txt</loc>
     </url>
     <url>
+        <loc>https://crs-explorer.proj.org/wkt1/EPSG/10482.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/EPSG/10482.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/EPSG/10483.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/EPSG/10483.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/EPSG/10484.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/EPSG/10484.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/EPSG/10485.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/EPSG/10485.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/EPSG/10486.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/EPSG/10486.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/EPSG/10487.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/EPSG/10487.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/EPSG/10488.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/EPSG/10488.txt</loc>
+    </url>
+    <url>
         <loc>https://crs-explorer.proj.org/wkt1/EPSG/10497.txt</loc>
     </url>
     <url>
@@ -33689,6 +33731,42 @@
     </url>
     <url>
         <loc>https://crs-explorer.proj.org/wkt2/EPSG/10500.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/EPSG/10507.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/EPSG/10507.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/EPSG/10516.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/EPSG/10516.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/EPSG/10545.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/EPSG/10545.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/EPSG/10731.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/EPSG/10731.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/EPSG/10732.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/EPSG/10732.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/EPSG/10733.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/EPSG/10733.txt</loc>
     </url>
     <url>
         <loc>https://crs-explorer.proj.org/wkt1/EPSG/11114.txt</loc>
@@ -40055,6 +40133,48 @@
     </url>
     <url>
         <loc>https://crs-explorer.proj.org/wkt2/EPSG/27700.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/EPSG/27701.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/EPSG/27701.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/EPSG/27702.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/EPSG/27702.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/EPSG/27703.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/EPSG/27703.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/EPSG/27704.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/EPSG/27704.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/EPSG/27705.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/EPSG/27705.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/EPSG/27706.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/EPSG/27706.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/EPSG/27707.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/EPSG/27707.txt</loc>
     </url>
     <url>
         <loc>https://crs-explorer.proj.org/wkt1/EPSG/28191.txt</loc>

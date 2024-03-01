@@ -51,6 +51,6 @@ COMPOUNDCRS["ETRS89 / UTM zone 31N + DHHN92 height",
                 LENGTHUNIT["metre",1]]],
     USAGE[
         SCOPE["Geological analysis."],
-        AREA["Germany - onshore west of 6°E."],
-        BBOX[50.97,5.86,51.83,6]],
+        AREA["Germany - onshore west of 6°E - Nordrhein-Westfalen."],
+        BBOX[50.97,5.86,51.83,6.01]],
     ID["EPSG",5554]]

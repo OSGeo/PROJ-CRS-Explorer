@@ -1,0 +1,7 @@
+VERT_CS["DVR90(2013) height",
+    VERT_DATUM["Dansk Vertikal Reference 1990 (2013)",2005,
+        AUTHORITY["EPSG","1369"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","10484"]]
