@@ -13,6 +13,6 @@ GEOGCRS["GCS_NAD_1983_PA11",
             ANGLEUNIT["degree",0.0174532925199433]],
     USAGE[
         SCOPE["Not known."],
-        AREA["American Samoa, Marshall Islands, United States (USA) - Hawaii, United States minor outlying islands; onshore and offshore."],
-        BBOX[-17.56,157.47,31.8,-151.27]],
+        AREA["NAD83 PA11 - US interests Pacific plate"],
+        BBOX[-17.56,151.3,31.8,-151.27]],
     ID["ESRI",104287]]

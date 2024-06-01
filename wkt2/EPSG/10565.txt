@@ -1,0 +1,10 @@
+VERTCRS["GLLMSL(2022) height",
+    VDATUM["Greenland Local Mean Sea Level (2022)"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Engineering survey, topographic mapping."],
+        AREA["Greenland - onshore."],
+        BBOX[59.74,-73.29,83.67,-11.81]],
+    ID["EPSG",10565]]

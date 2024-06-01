@@ -1,0 +1,7 @@
+VERT_CS["DKLAT depth",
+    VERT_DATUM["Denmark Lowest Astronomical Tide ",2005,
+        AUTHORITY["EPSG","1377"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Depth",DOWN],
+    AUTHORITY["EPSG","10552"]]

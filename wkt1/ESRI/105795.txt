@@ -1,0 +1,7 @@
+VERT_CS["MSL_Hawaii_height_(m)",
+    VERT_DATUM["Mean_Sea_Level_Hawaii",2005,
+        AUTHORITY["ESRI","105105"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["ESRI","105795"]]

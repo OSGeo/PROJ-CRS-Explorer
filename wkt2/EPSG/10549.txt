@@ -1,0 +1,10 @@
+VERTCRS["DKMSL(2023) depth",
+    VDATUM["Denmark Mean Sea Level (2023)"],
+    CS[vertical,1],
+        AXIS["depth (D)",down,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Hydrography and nautical charting."],
+        AREA["4756 - Denmark - offshore"],
+        BBOX[54.36,3.25,58.27,16.51]],
+    ID["EPSG",10549]]

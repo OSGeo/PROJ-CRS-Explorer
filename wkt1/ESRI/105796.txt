@@ -1,0 +1,7 @@
+VERT_CS["MSL_Hawaii_height_(ftUS)",
+    VERT_DATUM["Mean_Sea_Level_Hawaii",2005,
+        AUTHORITY["ESRI","105105"]],
+    UNIT["US survey foot",0.304800609601219,
+        AUTHORITY["EPSG","9003"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["ESRI","105796"]]

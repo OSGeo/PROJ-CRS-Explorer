@@ -1,0 +1,13 @@
+VERTCRS["DKLAT depth",
+    ENSEMBLE["Denmark Lowest Astronomical Tide ",
+        MEMBER["Denmark Lowest Astronomical Tide (2022)"],
+        MEMBER["Denmark Lowest Astronomic Tide (2023)"],
+        ENSEMBLEACCURACY[0.5]],
+    CS[vertical,1],
+        AXIS["depth (D)",down,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Hydrography and nautical charting."],
+        AREA["4756 - Denmark - offshore"],
+        BBOX[54.36,3.25,58.27,16.51]],
+    ID["EPSG",10552]]
