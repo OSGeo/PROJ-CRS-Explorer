@@ -1,0 +1,10 @@
+VERTCRS["MSL_Hawaii_height_(m)",
+    VDATUM["Mean_Sea_Level_Hawaii"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["United States (USA) - Hawaii - main islands onshore."],
+        BBOX[18.87,-160.3,22.29,-154.74]],
+    ID["ESRI",105795]]

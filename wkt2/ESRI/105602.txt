@@ -1,0 +1,10 @@
+VERTCRS["BBT2000",
+    VDATUM["Brenner_Base_Tunnel_2000"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Austria and Italy - on or related to the Brenner Base Tunnel rail route from Innsbruck to Fortezza (Franzensfeste)."],
+        BBOX[46.45,11.04,47.33,11.91]],
+    ID["ESRI",105602]]

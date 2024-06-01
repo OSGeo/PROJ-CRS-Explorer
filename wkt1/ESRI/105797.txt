@@ -1,0 +1,7 @@
+VERT_CS["EGM96_Geoid_(ftIntl)",
+    VERT_DATUM["EGM96 geoid",2005,
+        AUTHORITY["EPSG","5171"]],
+    UNIT["foot",0.3048,
+        AUTHORITY["EPSG","9002"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["ESRI","105797"]]

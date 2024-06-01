@@ -1,0 +1,7 @@
+VERT_CS["GLLMSL(2022) height",
+    VERT_DATUM["Greenland Local Mean Sea Level (2022)",2005,
+        AUTHORITY["EPSG","1378"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","10565"]]

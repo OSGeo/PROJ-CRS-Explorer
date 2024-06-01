@@ -1,18 +1,18 @@
 pyproj info:
     pyproj: 3.6.1
-      PROJ: 9.4.0
+      PROJ: 9.4.1
   data dir: /usr/share/proj/
 user_data_dir: /tmp/proj
-PROJ DATA (recommended version): 1.17
+PROJ DATA (recommended version): 1.18
 PROJ Database: 1.3
-EPSG Database: v11.004 [2024-02-24]
-ESRI Database: ArcGIS Pro 3.2 [2023-11-02]
+EPSG Database: v11.006 [2024-03-13]
+ESRI Database: ArcGIS Pro 3.3 [2024-05-07]
 IGNF Database: 3.1.0 [2019-05-24]
 
 System:
     python: 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]
 executable: /home/venv/bin/python3
-   machine: Linux-6.5.0-1015-azure-x86_64-with-glibc2.35
+   machine: Linux-6.5.0-1021-azure-x86_64-with-glibc2.35
 
 Python deps:
    certifi: 2024.2.2
