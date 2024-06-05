@@ -35,6 +35,14 @@
         .wkt1 { margin-right: 0.3em; }
         .sr-icon { vertical-align: text-bottom; }
         td, th { padding-left: 0.25em; padding-right: 0.25em; }
+        .circle {
+            background: #ccdaed;
+            border-color: #3388ff;
+            border-style: solid;
+            border-width: 3px;
+            border-radius: 50%; /* make the div a circular shape */
+            cursor: ne-resize !important;
+        }
     </style>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
@@ -108,6 +116,7 @@
 
         let filters = {
             latlng : null,
+            latlng2 : null,
             searchText : '',
             ignoreWorld : false,
             allowDeprecated : false,
@@ -118,7 +127,10 @@
         let alreadyLoadedSet = new Set();
 
         let fullDB = null;
-        let marker = null;
+        var div_circle = L.divIcon({ className: 'circle', iconSize: [7, 7], iconAnchor: [6.5, 6.5]})
+        let marker = L.marker([0,0], {icon: div_circle, draggable: true});
+        let marker2 = L.marker([0,0], {icon: div_circle, draggable: true}); // L.circleMarker([0,0], {radius:5, draggable: true});
+        let boundingBox = null;
         let rectangles = {};
         let hooverRect = null;
 
@@ -149,6 +161,9 @@
             let dic = {}
             if (filters.latlng) {
                 dic.latlng = filters.latlng.lat.toFixed(6) + ',' + filters.latlng.lng.toFixed(6);
+            }
+            if (filters.latlng2) {
+                dic.latlng += ',' + filters.latlng2.lat.toFixed(6) + ',' + filters.latlng2.lng.toFixed(6);
             }
             if (filters.searchText) dic.searchText = encodeURIComponent(filters.searchText);
             dic.ignoreWorld = filters.ignoreWorld ? 'true' : 'false';
@@ -220,7 +235,8 @@
 
             try {
                 const latlng = dic.latlng.split(',');
-                if (latlng.length == 2) setLatlng(L.latLng(latlng));
+                if (latlng.length >= 2) setLatlng(L.latLng(latlng.slice(0,2)));
+                if (latlng.length == 4) setLatlng(L.latLng(latlng.slice(2,4)));
             } catch (ignore) {}
 
             setSearchText(decodeURIComponent(dic.searchText))
@@ -250,13 +266,45 @@
                 }
                 return lng;
             }
-            filters.latlng = latlng;
-            if (!marker) {
-                marker = L.circleMarker([0,0], {radius:5}).addTo(map);
+
+            function updateText() {
+                let location = 'Clicked location: ' + filters.latlng;
+                if (map.hasLayer(marker2)) location += ',' + filters.latlng2;
+                document.querySelector('#location').innerHTML = location;
             }
-            marker.setLatLng(filters.latlng);
-            filters.latlng.lng = normalizeLong(filters.latlng.lng);
-            document.querySelector('#location').innerHTML = 'Clicked location: ' + latlng;
+            console.log("setLatlng")
+            if (!boundingBox) boundingBox = L.rectangle(L.latLngBounds(latlng, latlng));
+            boundingBox.removeFrom(map);
+            marker2.removeFrom(map);
+            filters.latlng = latlng;
+            filters.latlng2 = null;
+            marker.on('dragstart', function(ev) {
+                if (!map.hasLayer(marker2)) {
+                    filters.latlng2 = filters.latlng;
+                    marker2.setLatLng(filters.latlng2).addTo(map);
+                    boundingBox.setBounds(L.latLngBounds(filters.latlng, filters.latlng2)).addTo(map);
+                }
+            });
+            marker.on('drag', function(ev) {
+                filters.latlng = ev.latlng
+                boundingBox.setBounds(L.latLngBounds(filters.latlng, filters.latlng2))
+            });
+            marker2.on('drag', function(ev) {
+                filters.latlng2 = ev.latlng
+                boundingBox.setBounds(L.latLngBounds(filters.latlng, filters.latlng2))
+            });
+            marker.on('dragend', function(ev) {
+                updateText();
+                runFilter();
+            })
+            marker2.on('dragend', function(ev) {
+                updateText();
+                runFilter();
+            })
+
+            marker.setLatLng(filters.latlng).addTo(map);
+            //filters.latlng.lng = normalizeLong(filters.latlng.lng);
+            updateText();
         }
 
         map.on('click', function(e) {
@@ -267,8 +315,10 @@
         document.querySelector('#delete').addEventListener('click', function () {
             if (filters.latlng) {
                 filters.latlng = null;
-                marker.removeFrom(map);
-                marker = null;
+                filters.latlng2 = null;
+                marker && marker.removeFrom(map);
+                marker2 && marker2.removeFrom(map);
+                boundingBox && boundingBox.removeFrom(map);
                 document.querySelector('#location').innerHTML = '';
                 runFilter();
             }
@@ -547,6 +597,9 @@
 
             const latlng = filters.latlng;
             if (latlng){
+                if (filters.latlng2) {
+                    // TODO
+                }
                 Array.from(document.querySelectorAll(`tbody > tr:not(.hide)`)).forEach(r => {
                     let use = true;
                     use = latlng.lat >= r.area_of_use[1] && latlng.lat <= r.area_of_use[3];
