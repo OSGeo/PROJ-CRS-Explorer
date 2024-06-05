@@ -44,8 +44,8 @@
             cursor: ne-resize !important;
         }
     </style>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <link rel="icon" type="image/x-icon" href="./favicon.ico"/>
     <base target="_blank">
     <meta name="google-site-verification" content="MhCjgTBKAzLd1y46INE_vmHIiJ_TLHrDc98XC_jYB14" />
@@ -235,8 +235,8 @@
 
             try {
                 const latlng = dic.latlng.split(',');
-                if (latlng.length >= 2) setLatlng(L.latLng(latlng.slice(0,2)));
-                if (latlng.length == 4) setLatlng(L.latLng(latlng.slice(2,4)));
+                if (latlng.length == 4) setLatlng(L.latLng(latlng.slice(0,2)), L.latLng(latlng.slice(2,4)));
+                else if (latlng.length >= 2) setLatlng(L.latLng(latlng.slice(0,2)));
             } catch (ignore) {}
 
             setSearchText(decodeURIComponent(dic.searchText))
@@ -256,7 +256,7 @@
             setCheck('allowDeprecated', null, filters.allowDeprecated);
         }
 
-        function setLatlng(latlng) {
+        function setLatlng(latlng, latlng2 = null) {
             function normalizeLong(lng) {
                 while(lng < -180){
                     lng +=360;
@@ -266,23 +266,27 @@
                 }
                 return lng;
             }
-
+            console.log("setlatlng")
             function updateText() {
                 let location = 'Clicked location: ' + filters.latlng;
                 if (map.hasLayer(marker2)) location += ',' + filters.latlng2;
                 document.querySelector('#location').innerHTML = location;
             }
-            console.log("setLatlng")
+            function fillLatLng2(latlng2) {
+                filters.latlng2 = latlng2;
+                if (latlng2) {
+                    marker2.setLatLng(filters.latlng2).addTo(map);
+                    boundingBox.setBounds(L.latLngBounds(filters.latlng, filters.latlng2)).addTo(map);
+                }
+            }
             if (!boundingBox) boundingBox = L.rectangle(L.latLngBounds(latlng, latlng));
             boundingBox.removeFrom(map);
             marker2.removeFrom(map);
             filters.latlng = latlng;
-            filters.latlng2 = null;
+            fillLatLng2(latlng2)
             marker.on('dragstart', function(ev) {
                 if (!map.hasLayer(marker2)) {
-                    filters.latlng2 = filters.latlng;
-                    marker2.setLatLng(filters.latlng2).addTo(map);
-                    boundingBox.setBounds(L.latLngBounds(filters.latlng, filters.latlng2)).addTo(map);
+                    fillLatLng2(filters.latlng)
                 }
             });
             marker.on('drag', function(ev) {
@@ -596,10 +600,19 @@
             }
 
             const latlng = filters.latlng;
+            const latlng2 = filters.latlng2;
             if (latlng){
-                if (filters.latlng2) {
-                    // TODO
+                let w = latlng.lng;
+                let e = w;
+                let n = latlng.lon;
+                let s = n;
+                if (latlng2) {
+                    w = Math.min(w, latlng2.lon);
+                    e = Math.max(e, latlng2.lon);
+                    n = Math.max(n, latlng2.lat);
+                    s = Math.min(s, latlng2.lat);
                 }
+                // todo
                 Array.from(document.querySelectorAll(`tbody > tr:not(.hide)`)).forEach(r => {
                     let use = true;
                     use = latlng.lat >= r.area_of_use[1] && latlng.lat <= r.area_of_use[3];
