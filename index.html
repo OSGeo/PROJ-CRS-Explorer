@@ -36,10 +36,8 @@
         .sr-icon { vertical-align: text-bottom; }
         td, th { padding-left: 0.25em; padding-right: 0.25em; }
         .circle {
-            background: #ccdaed;
-            border-color: #3388ff;
-            border-style: solid;
-            border-width: 3px;
+            background-color: #3388ff; /* For browsers that do not support gradients */
+            background-image: radial-gradient(#ccdaed, #3388ff, #3388ff);
             border-radius: 50%; /* make the div a circular shape */
             cursor: ne-resize !important;
         }
@@ -81,7 +79,7 @@
     <div id="mapcont"><div id="mapid"></div></div>
 
     <div><label title="Keeps the map always visible"><input type="checkbox" id="stickyCb">Sticky map</label> |
-        Click the map to select a location. <button type="button" id="delete">Delete location</button> <span id="location"></span></div>
+        Click the map to select a location. Drag the point for an area. <button type="button" id="delete">Delete location</button> <span id="location"></span></div>
 
     <div id="filters"> &nbsp; </div>
     <div id="authorities"> &nbsp; </div>
@@ -127,7 +125,7 @@
         let alreadyLoadedSet = new Set();
 
         let fullDB = null;
-        var div_circle = L.divIcon({ className: 'circle', iconSize: [7, 7], iconAnchor: [6.5, 6.5]})
+        var div_circle = L.divIcon({ className: 'circle'})
         let marker = L.marker([0,0], {icon: div_circle, draggable: true});
         let marker2 = L.marker([0,0], {icon: div_circle, draggable: true}); // L.circleMarker([0,0], {radius:5, draggable: true});
         let boundingBox = null;
@@ -266,10 +264,9 @@
                 }
                 return lng;
             }
-            console.log("setlatlng")
             function updateText() {
                 let location = 'Clicked location: ' + filters.latlng;
-                if (map.hasLayer(marker2)) location += ',' + filters.latlng2;
+                if (map.hasLayer(marker2)) location = 'Selected box: ' + filters.latlng + ', ' + filters.latlng2;
                 document.querySelector('#location').innerHTML = location;
             }
             function fillLatLng2(latlng2) {
@@ -604,17 +601,31 @@
             if (latlng){
                 let w = latlng.lng;
                 let e = w;
-                let n = latlng.lon;
+                let n = latlng.lat;
                 let s = n;
                 if (latlng2) {
-                    w = Math.min(w, latlng2.lon);
-                    e = Math.max(e, latlng2.lon);
+                    w = Math.min(w, latlng2.lng);
+                    e = Math.max(e, latlng2.lng);
                     n = Math.max(n, latlng2.lat);
                     s = Math.min(s, latlng2.lat);
+                }
+                while(w < -180) {
+                    w += 360;
+                    e += 360;
+                }
+                while (w > 180) {
+                    w -= 360;
+                    e -= 360;
+                }
+                if (e-w > 359) { // world wide
+                    w = -1000;
+                    e = 1000;
                 }
                 // todo
                 Array.from(document.querySelectorAll(`tbody > tr:not(.hide)`)).forEach(r => {
                     let use = true;
+                    use = r.area_of_use[0] < e && w < r.area_of_use[2] && r.area_of_use[1] < n && s < r.area_of_use[3];
+                    /*
                     use = latlng.lat >= r.area_of_use[1] && latlng.lat <= r.area_of_use[3];
                     let off0 = 0, off2 = 0;
                     if (r.area_of_use[0] < r.area_of_use[2]) {
@@ -624,6 +635,7 @@
                         off0 = 360;
                     }
                     use = use && latlng.lng >= r.area_of_use[0] - off0 && latlng.lng <= r.area_of_use[2] + off2;
+                    */
                     if (!use) r.classList.add('hide');
                 });
             }
