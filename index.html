@@ -255,15 +255,6 @@
         }
 
         function setLatlng(latlng, latlng2 = null) {
-            function normalizeLong(lng) {
-                while(lng < -180){
-                    lng +=360;
-                }
-                while (lng > 180){
-                    lng -= 360;
-                }
-                return lng;
-            }
             function updateText() {
                 let location = 'Clicked location: ' + filters.latlng;
                 if (map.hasLayer(marker2)) location = 'Selected box: ' + filters.latlng + ', ' + filters.latlng2;
@@ -304,7 +295,6 @@
             })
 
             marker.setLatLng(filters.latlng).addTo(map);
-            //filters.latlng.lng = normalizeLong(filters.latlng.lng);
             updateText();
         }
 
@@ -536,6 +526,58 @@
             slowTask(runFilterCb);
         }
 
+        function intersects(box1, box2) {
+            // copied from bool GeographicBoundingBox::Private::intersects(const Private &other) const {
+            // at PROJ metadata.cpp
+            if (box1.n < box2.s || box1.s > box2.n) {
+                return false;
+            }
+
+            if (box1.w == -180.0 && box1.e == 180.0) {
+                return true;
+            }
+
+            if (box2.w == -180.0 && box2.e == 180.0) {
+                return true;
+            }
+
+            // Normal bounding box ?
+            if (box1.w <= box1.e) {
+                if (box2.w <= box2.e) {
+                    if (Math.max(box1.w, box2.w) <= Math.min(box1.e, box2.e)) {
+                        return true; // '<=' because maybe w == e
+                    }
+                    return false;
+                }
+
+                // Bail out on longitudes not in [-180,180].
+                if (box2.w > 180 || box2.e < -180) {
+                    return false;
+                }
+
+                return intersects(box1, {w:box2.w, s:box2.s, e:180.0, n:box2.n}) ||
+                    intersects(box1, {w:-180.0, s:box2.s, e:box2.e, n:box2.n});
+
+                // No: crossing antimerian
+            } else {
+                if (box2.w <= box2.e) {
+                    return intersects(box2, box1);
+                }
+
+                return true;
+            }
+        }
+
+        function normalizeLong(lng) {
+            while(lng < -180) {
+                lng += 360;
+            }
+            while (lng > 180) {
+                lng -= 360;
+            }
+            return lng;
+        }
+
         function runFilterCb() {
             fillTables();
 
@@ -609,22 +651,13 @@
                     n = Math.max(n, latlng2.lat);
                     s = Math.min(s, latlng2.lat);
                 }
-                while(w < -180) {
-                    w += 360;
-                    e += 360;
-                }
-                while (w > 180) {
-                    w -= 360;
-                    e -= 360;
-                }
-                if (e-w > 359) { // world wide
-                    w = -1000;
-                    e = 1000;
-                }
+                w = normalizeLong(w);
+                e = normalizeLong(e);
+                const box1 = {w:w, s:s, e:e, n:n};
                 // todo
                 Array.from(document.querySelectorAll(`tbody > tr:not(.hide)`)).forEach(r => {
-                    let use = true;
-                    use = r.area_of_use[0] < e && w < r.area_of_use[2] && r.area_of_use[1] < n && s < r.area_of_use[3];
+                    const box2 = {w:r.area_of_use[0], s:r.area_of_use[1], e:r.area_of_use[2], n:r.area_of_use[3]};
+                    let use = intersects(box1, box2);
                     /*
                     use = latlng.lat >= r.area_of_use[1] && latlng.lat <= r.area_of_use[3];
                     let off0 = 0, off2 = 0;
