@@ -15,7 +15,7 @@ executable: /home/venv/bin/python3
    machine: Linux-6.5.0-1021-azure-x86_64-with-glibc2.35
 
 Python deps:
-   certifi: 2024.2.2
+   certifi: 2024.6.2
     Cython: None
 setuptools: 59.6.0
        pip: 24.0
