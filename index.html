@@ -651,24 +651,17 @@
                     n = Math.max(n, latlng2.lat);
                     s = Math.min(s, latlng2.lat);
                 }
-                w = normalizeLong(w);
-                e = normalizeLong(e);
+                if (e-w >= 360) {
+                    w = -180;
+                    e = 180;
+                } else {
+                    w = normalizeLong(w);
+                    e = normalizeLong(e);
+                }
                 const box1 = {w:w, s:s, e:e, n:n};
-                // todo
                 Array.from(document.querySelectorAll(`tbody > tr:not(.hide)`)).forEach(r => {
                     const box2 = {w:r.area_of_use[0], s:r.area_of_use[1], e:r.area_of_use[2], n:r.area_of_use[3]};
-                    let use = intersects(box1, box2);
-                    /*
-                    use = latlng.lat >= r.area_of_use[1] && latlng.lat <= r.area_of_use[3];
-                    let off0 = 0, off2 = 0;
-                    if (r.area_of_use[0] < r.area_of_use[2]) {
-                    } else if (latlng.lng > 0){
-                        off2 = 360;
-                    } else {
-                        off0 = 360;
-                    }
-                    use = use && latlng.lng >= r.area_of_use[0] - off0 && latlng.lng <= r.area_of_use[2] + off2;
-                    */
+                    const use = intersects(box1, box2);
                     if (!use) r.classList.add('hide');
                 });
             }
