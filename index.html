@@ -527,44 +527,19 @@
         }
 
         function intersects(box1, box2) {
-            // copied from bool GeographicBoundingBox::Private::intersects(const Private &other) const {
-            // at PROJ metadata.cpp
-            if (box1.n < box2.s || box1.s > box2.n) {
+            if (box1.n < box2.s || box2.n < box1.s) {
                 return false;
             }
 
-            if (box1.w == -180.0 && box1.e == 180.0) {
+            if (box1.w <= box1.e && box2.w <= box2.e) {
+                // none crosses the antimeridian
+                return Math.max(box1.w, box2.w) <= Math.min(box1.e, box2.e);
+            } else if (box1.w > box1.e && box2.w > box2.e) {
+                // both cross the antimeridian
                 return true;
-            }
-
-            if (box2.w == -180.0 && box2.e == 180.0) {
-                return true;
-            }
-
-            // Normal bounding box ?
-            if (box1.w <= box1.e) {
-                if (box2.w <= box2.e) {
-                    if (Math.max(box1.w, box2.w) <= Math.min(box1.e, box2.e)) {
-                        return true; // '<=' because maybe w == e
-                    }
-                    return false;
-                }
-
-                // Bail out on longitudes not in [-180,180].
-                if (box2.w > 180 || box2.e < -180) {
-                    return false;
-                }
-
-                return intersects(box1, {w:box2.w, s:box2.s, e:180.0, n:box2.n}) ||
-                    intersects(box1, {w:-180.0, s:box2.s, e:box2.e, n:box2.n});
-
-                // No: crossing antimerian
             } else {
-                if (box2.w <= box2.e) {
-                    return intersects(box2, box1);
-                }
-
-                return true;
+                // one crosses the antimeridian
+                return box2.w <= box1.e || box1.w <= box2.e;
             }
         }
 
