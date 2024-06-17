@@ -35,9 +35,15 @@
         .wkt1 { margin-right: 0.3em; }
         .sr-icon { vertical-align: text-bottom; }
         td, th { padding-left: 0.25em; padding-right: 0.25em; }
+        .circle {
+            background-color: #3388ff; /* For browsers that do not support gradients */
+            background-image: radial-gradient(#ccdaed, #3388ff, #3388ff);
+            border-radius: 50%; /* make the div a circular shape */
+            cursor: ne-resize !important;
+        }
     </style>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <link rel="icon" type="image/x-icon" href="./favicon.ico"/>
     <base target="_blank">
     <meta name="google-site-verification" content="MhCjgTBKAzLd1y46INE_vmHIiJ_TLHrDc98XC_jYB14" />
@@ -73,7 +79,7 @@
     <div id="mapcont"><div id="mapid"></div></div>
 
     <div><label title="Keeps the map always visible"><input type="checkbox" id="stickyCb">Sticky map</label> |
-        Click the map to select a location. <button type="button" id="delete">Delete location</button> <span id="location"></span></div>
+        Click the map to select a location. Drag the point for an area. <button type="button" id="delete">Delete location</button> <span id="location"></span></div>
 
     <div id="filters"> &nbsp; </div>
     <div id="authorities"> &nbsp; </div>
@@ -108,6 +114,7 @@
 
         let filters = {
             latlng : null,
+            latlng2 : null,
             searchText : '',
             ignoreWorld : false,
             allowDeprecated : false,
@@ -118,7 +125,10 @@
         let alreadyLoadedSet = new Set();
 
         let fullDB = null;
-        let marker = null;
+        let divCircle = L.divIcon({ className: 'circle'})
+        let marker = L.marker([0,0], {icon: divCircle, draggable: true});
+        let marker2 = L.marker([0,0], {icon: divCircle, draggable: true}); // L.circleMarker([0,0], {radius:5, draggable: true});
+        let boundingBox = null;
         let rectangles = {};
         let hooverRect = null;
 
@@ -149,6 +159,9 @@
             let dic = {}
             if (filters.latlng) {
                 dic.latlng = filters.latlng.lat.toFixed(6) + ',' + filters.latlng.lng.toFixed(6);
+            }
+            if (filters.latlng2) {
+                dic.latlng += ',' + filters.latlng2.lat.toFixed(6) + ',' + filters.latlng2.lng.toFixed(6);
             }
             if (filters.searchText) dic.searchText = encodeURIComponent(filters.searchText);
             dic.ignoreWorld = filters.ignoreWorld ? 'true' : 'false';
@@ -220,7 +233,8 @@
 
             try {
                 const latlng = dic.latlng.split(',');
-                if (latlng.length == 2) setLatlng(L.latLng(latlng));
+                if (latlng.length == 4) setLatlng(L.latLng(latlng.slice(0,2)), L.latLng(latlng.slice(2,4)));
+                else if (latlng.length >= 2) setLatlng(L.latLng(latlng.slice(0,2)));
             } catch (ignore) {}
 
             setSearchText(decodeURIComponent(dic.searchText))
@@ -240,23 +254,48 @@
             setCheck('allowDeprecated', null, filters.allowDeprecated);
         }
 
-        function setLatlng(latlng) {
-            function normalizeLong(lng) {
-                while(lng < -180){
-                    lng +=360;
-                }
-                while (lng > 180){
-                    lng -= 360;
-                }
-                return lng;
+        function setLatlng(latlng, latlng2 = null) {
+            function updateText() {
+                let location = 'Clicked location: ' + filters.latlng;
+                if (map.hasLayer(marker2)) location = 'Selected box: ' + filters.latlng + ', ' + filters.latlng2;
+                document.querySelector('#location').innerHTML = location;
             }
+            function fillLatLng2(latlng2) {
+                filters.latlng2 = latlng2;
+                if (latlng2) {
+                    marker2.setLatLng(filters.latlng2).addTo(map);
+                    boundingBox.setBounds(L.latLngBounds(filters.latlng, filters.latlng2)).addTo(map);
+                }
+            }
+            if (!boundingBox) boundingBox = L.rectangle(L.latLngBounds(latlng, latlng));
+            boundingBox.removeFrom(map);
+            marker2.removeFrom(map);
             filters.latlng = latlng;
-            if (!marker) {
-                marker = L.circleMarker([0,0], {radius:5}).addTo(map);
-            }
-            marker.setLatLng(filters.latlng);
-            filters.latlng.lng = normalizeLong(filters.latlng.lng);
-            document.querySelector('#location').innerHTML = 'Clicked location: ' + latlng;
+            fillLatLng2(latlng2)
+            marker.on('dragstart', function(ev) {
+                if (!map.hasLayer(marker2)) {
+                    fillLatLng2(filters.latlng)
+                }
+            });
+            marker.on('drag', function(ev) {
+                filters.latlng = ev.latlng
+                boundingBox.setBounds(L.latLngBounds(filters.latlng, filters.latlng2))
+            });
+            marker2.on('drag', function(ev) {
+                filters.latlng2 = ev.latlng
+                boundingBox.setBounds(L.latLngBounds(filters.latlng, filters.latlng2))
+            });
+            marker.on('dragend', function(ev) {
+                updateText();
+                runFilter();
+            })
+            marker2.on('dragend', function(ev) {
+                updateText();
+                runFilter();
+            })
+
+            marker.setLatLng(filters.latlng).addTo(map);
+            updateText();
         }
 
         map.on('click', function(e) {
@@ -267,8 +306,10 @@
         document.querySelector('#delete').addEventListener('click', function () {
             if (filters.latlng) {
                 filters.latlng = null;
-                marker.removeFrom(map);
-                marker = null;
+                filters.latlng2 = null;
+                marker && marker.removeFrom(map);
+                marker2 && marker2.removeFrom(map);
+                boundingBox && boundingBox.removeFrom(map);
                 document.querySelector('#location').innerHTML = '';
                 runFilter();
             }
@@ -485,6 +526,33 @@
             slowTask(runFilterCb);
         }
 
+        function intersects(box1, box2) {
+            if (box1.n < box2.s || box2.n < box1.s) {
+                return false;
+            }
+
+            if (box1.w <= box1.e && box2.w <= box2.e) {
+                // none crosses the antimeridian
+                return Math.max(box1.w, box2.w) <= Math.min(box1.e, box2.e);
+            } else if (box1.w > box1.e && box2.w > box2.e) {
+                // both cross the antimeridian
+                return true;
+            } else {
+                // one crosses the antimeridian
+                return box2.w <= box1.e || box1.w <= box2.e;
+            }
+        }
+
+        function normalizeLong(lng) {
+            while(lng < -180) {
+                lng += 360;
+            }
+            while (lng > 180) {
+                lng -= 360;
+            }
+            return lng;
+        }
+
         function runFilterCb() {
             fillTables();
 
@@ -546,18 +614,29 @@
             }
 
             const latlng = filters.latlng;
+            const latlng2 = filters.latlng2;
             if (latlng){
+                let w = latlng.lng;
+                let e = w;
+                let n = latlng.lat;
+                let s = n;
+                if (latlng2) {
+                    w = Math.min(w, latlng2.lng);
+                    e = Math.max(e, latlng2.lng);
+                    n = Math.max(n, latlng2.lat);
+                    s = Math.min(s, latlng2.lat);
+                }
+                if (e-w >= 360) {
+                    w = -180;
+                    e = 180;
+                } else {
+                    w = normalizeLong(w);
+                    e = normalizeLong(e);
+                }
+                const box1 = {w:w, s:s, e:e, n:n};
                 Array.from(document.querySelectorAll(`tbody > tr:not(.hide)`)).forEach(r => {
-                    let use = true;
-                    use = latlng.lat >= r.area_of_use[1] && latlng.lat <= r.area_of_use[3];
-                    let off0 = 0, off2 = 0;
-                    if (r.area_of_use[0] < r.area_of_use[2]) {
-                    } else if (latlng.lng > 0){
-                        off2 = 360;
-                    } else {
-                        off0 = 360;
-                    }
-                    use = use && latlng.lng >= r.area_of_use[0] - off0 && latlng.lng <= r.area_of_use[2] + off2;
+                    const box2 = {w:r.area_of_use[0], s:r.area_of_use[1], e:r.area_of_use[2], n:r.area_of_use[3]};
+                    const use = intersects(box1, box2);
                     if (!use) r.classList.add('hide');
                 });
             }
