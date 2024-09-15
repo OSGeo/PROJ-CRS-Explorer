@@ -1,5 +1,5 @@
-PROJCS["Bern 1898 (Bern) / LV03C",
-    GEOGCS["Bern 1898 (Bern)",
+PROJCS["CH1903 (Bern) / LV03C",
+    GEOGCS["CH1903 (Bern)",
         DATUM["CH1903_Bern",
             SPHEROID["Bessel 1841",6377397.155,299.1528128,
                 AUTHORITY["EPSG","7004"]],

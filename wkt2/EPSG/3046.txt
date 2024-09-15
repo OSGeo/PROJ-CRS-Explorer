@@ -45,7 +45,7 @@ PROJCRS["ETRS89 / UTM zone 34N (N-E)",
             ORDER[2],
             LENGTHUNIT["metre",1]],
     USAGE[
-        SCOPE["Pan-European medium scale conformal mapping."],
-        AREA["Europe between 18°E and 24°E: Finland - onshore and offshore; Norway including Svalbard - onshore and offshore."],
-        BBOX[58.84,17.99,84.54,24.01]],
+        SCOPE["Pan-European conformal mapping at scales larger than 1:500,000."],
+        AREA["Europe between 18°E and 24°E and approximately 33°36'N to 84°N: Bulgaria; Croatia; Italy - onshore and offshore; Norway including Svalbard - onshore and offshore."],
+        BBOX[33.59,18,84.01,24.01]],
     ID["EPSG",3046]]

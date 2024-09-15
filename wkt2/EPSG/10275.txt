@@ -34,5 +34,5 @@ PROJCRS["SMITB20 Grid",
     USAGE[
         SCOPE["Engineering survey and topographic mapping for railway applications."],
         AREA["United Kingdom (UK) - on or related to the rail route from Okehampton to Penstone."],
-        BBOX[50.65,-4.1,50.85,-3.6]],
+        BBOX[50.65,-4.11,50.86,-3.6]],
     ID["EPSG",10275]]

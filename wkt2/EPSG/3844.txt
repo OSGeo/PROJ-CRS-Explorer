@@ -32,7 +32,7 @@ PROJCRS["Pulkovo 1942(58) / Stereo70",
             ORDER[2],
             LENGTHUNIT["metre",1]],
     USAGE[
-        SCOPE["Engineering survey, topographic mapping."],
+        SCOPE["Cadastre, engineering survey, topographic mapping."],
         AREA["Romania - onshore and offshore."],
         BBOX[43.44,20.26,48.27,31.41]],
     ID["EPSG",3844]]

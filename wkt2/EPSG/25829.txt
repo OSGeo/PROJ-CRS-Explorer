@@ -46,6 +46,10 @@ PROJCRS["ETRS89 / UTM zone 29N",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
-        AREA["Europe between 12°W and 6°W: Faroe Islands - onshore and offshore; Ireland - offshore; Jan Mayen - onshore and offshore; Portugal - onshore and offshore; Spain - onshore and offshore; United Kingdom - UKCS offshore."],
+        AREA["Europe between 12°W and 6°W: Faroe Islands - offshore; Ireland - offshore; Jan Mayen - onshore and offshore; Portugal - mainland - onshore and offshore; Spain - mainland - onshore and offshore; United Kingdom - UKCS offshore."],
         BBOX[34.91,-12,74.13,-6]],
+    USAGE[
+        SCOPE["Pan-European conformal mapping at scales larger than 1:500,000."],
+        AREA["Europe between 12°W and 6°W and approximately 34°50'N to 74°10'N."],
+        BBOX[34.91,-12.01,74.13,-6]],
     ID["EPSG",25829]]

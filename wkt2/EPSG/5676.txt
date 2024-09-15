@@ -34,5 +34,5 @@ PROJCRS["DHDN / 3-degree Gauss-Kruger zone 2 (E-N)",
     USAGE[
         SCOPE["GIS."],
         AREA["Germany - former West Germany onshore west of 7°30'E - states of Niedersachsen, Nordrhein-Westfalen, Rheinland-Pfalz, Saarland."],
-        BBOX[49.11,5.86,53.81,7.5]],
+        BBOX[49.11,5.86,53.81,7.51]],
     ID["EPSG",5676]]

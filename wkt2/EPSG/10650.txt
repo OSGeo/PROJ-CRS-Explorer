@@ -1,0 +1,10 @@
+VERTCRS["GLLAT(2023) depth",
+    VDATUM["Greenland Lowest Astronomic Tide (2023)"],
+    CS[vertical,1],
+        AXIS["depth (D)",down,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Hydrography and nautical charting."],
+        AREA["Greenland - offshore."],
+        BBOX[56.38,-75,87.03,7.99]],
+    ID["EPSG",10650]]

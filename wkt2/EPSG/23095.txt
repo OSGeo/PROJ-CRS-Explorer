@@ -34,5 +34,5 @@ PROJCRS["ED50 / TM 5 NE",
     USAGE[
         SCOPE["Oil and gas exploration and production."],
         AREA["Netherlands - offshore North Sea."],
-        BBOX[51.45,2.53,55.77,6.41]],
+        BBOX[51.44,2.53,55.77,6.37]],
     ID["EPSG",23095]]

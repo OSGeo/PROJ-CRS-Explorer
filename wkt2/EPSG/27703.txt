@@ -39,6 +39,6 @@ PROJCRS["WGS 84 / Equi7 Asia",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Continental mapping of raster data."],
-        AREA["Asia excluding Russia west of the Ural Mountains."],
-        BBOX[-10.8,31.45,90,-168.43]],
+        AREA["Asia including Maldives and British Indian Ocean Territory."],
+        BBOX[-10.8,31.45,83.67,-168.43]],
     ID["EPSG",27703]]

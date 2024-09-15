@@ -46,6 +46,10 @@ PROJCRS["ETRS89 / UTM zone 36N",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
-        AREA["Europe between 30°E and 36°E: Finland - onshore and offshore; Norway including Svalbard - onshore and offshore."],
-        BBOX[61.73,30,84.7,36.01]],
+        AREA["Europe between 30°E and 36°E: Bulgaria - offshore; Norway including Svalbard - onshore and offshore."],
+        BBOX[42.56,30,84.01,36.01]],
+    USAGE[
+        SCOPE["Pan-European conformal mapping at scales larger than 1:500,000."],
+        AREA["Europe between 30°E and 36°E and approximately 33°55'N to 84°N."],
+        BBOX[33.91,30,84.01,36.01]],
     ID["EPSG",25836]]

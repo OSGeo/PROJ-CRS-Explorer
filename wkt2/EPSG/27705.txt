@@ -39,6 +39,6 @@ PROJCRS["WGS 84 / Equi7 North America",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Continental mapping of raster data."],
-        AREA["North America, the Caribbean and Central America excluding Panama."],
-        BBOX[7.98,167.65,90,15.72]],
+        AREA["North America including Greenland, the Caribbean and Central America, together with circum-polar area north of 83°40'N. Excluding the circum-polar area, the longitude extent is from 167.65° in west across the 180° meridian to 15.72° in east."],
+        BBOX[7.98,-180,90,180]],
     ID["EPSG",27705]]

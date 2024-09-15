@@ -1,4 +1,4 @@
-GEOGCRS["Bern 1898 (Bern)",
+GEOGCRS["CH1903 (Bern)",
     DATUM["CH1903 (Bern)",
         ELLIPSOID["Bessel 1841",6377397.155,299.1528128,
             LENGTHUNIT["metre",1]]],

@@ -17,5 +17,5 @@ GEOGCRS["ETRF97",
     USAGE[
         SCOPE["Geodesy."],
         AREA["Europe - onshore and offshore - ETRF extent - approximately 16°W to 33°E and 33°N to 84°N."],
-        BBOX[32.88,-16.1,84.73,40.18]],
+        BBOX[33.26,-16.1,84.73,38.01]],
     ID["EPSG",7929]]

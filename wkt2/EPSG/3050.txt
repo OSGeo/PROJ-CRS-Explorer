@@ -45,7 +45,7 @@ PROJCRS["ETRS89 / TM38",
             ORDER[2],
             LENGTHUNIT["metre",1]],
     USAGE[
-        SCOPE["Pan-European medium scale conformal mapping."],
+        SCOPE["Pan-European conformal mapping at scales larger than 1:500,000."],
         AREA["Europe - between 42°E and 48°E."],
         BBOX[36.95,42,75,48]],
     ID["EPSG",3050]]

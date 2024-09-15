@@ -45,7 +45,7 @@ PROJCRS["ETRS89 / UTM zone 37N",
             ORDER[2],
             LENGTHUNIT["metre",1]],
     USAGE[
-        SCOPE["Engineering survey, topographic mapping."],
+        SCOPE["Pan-European conformal mapping at scales larger than 1:500,000, engineering survey and topographic mapping at all scales."],
         AREA["Europe between 36°E and 42°E: Norway including Svalbard - offshore."],
         BBOX[72.99,36,79.07,38.01]],
     ID["EPSG",25837]]

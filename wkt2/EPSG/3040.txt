@@ -45,7 +45,7 @@ PROJCRS["ETRS89 / UTM zone 28N (N-E)",
             ORDER[2],
             LENGTHUNIT["metre",1]],
     USAGE[
-        SCOPE["Pan-European medium scale conformal mapping."],
+        SCOPE["Pan-European conformal mapping at scales larger than 1:500,000."],
         AREA["Europe between 18°W and 12°W: Faroe Islands - offshore; Ireland - offshore; Jan Mayen - offshore; Portugal - offshore mainland; Spain - offshore mainland; United Kingdom (UKCS) - offshore."],
         BBOX[34.93,-16.1,72.44,-11.99]],
     ID["EPSG",3040]]

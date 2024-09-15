@@ -45,7 +45,7 @@ PROJCRS["ETRS89 / UTM zone 31N (N-E)",
             ORDER[2],
             LENGTHUNIT["metre",1]],
     USAGE[
-        SCOPE["Pan-European medium scale conformal mapping."],
-        AREA["Europe between 0°E and 6°E: Andorra; Belgium - onshore and offshore; Denmark - offshore; Germany - offshore; Jan Mayen - offshore; Norway including Svalbard - onshore and offshore; Spain - onshore and offshore."],
+        SCOPE["Pan-European conformal mapping at scales larger than 1:500,000."],
+        AREA["Europe between 0°E and 6°E and approximately 37°N to 82°27'N: Andorra; Denmark - offshore; Germany - offshore; Jan Mayen - offshore; Norway including Svalbard - onshore and offshore; Spain - mainland and Balearic islands - onshore and offshore."],
         BBOX[37,0,82.45,6.01]],
     ID["EPSG",3043]]
