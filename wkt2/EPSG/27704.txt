@@ -40,5 +40,5 @@ PROJCRS["WGS 84 / Equi7 Europe",
     USAGE[
         SCOPE["Continental mapping of raster data."],
         AREA["Europe including Russia west of the Ural Mountains."],
-        BBOX[29.24,-42.01,90,51.73]],
+        BBOX[29.24,-42.52,83.67,51.73]],
     ID["EPSG",27704]]

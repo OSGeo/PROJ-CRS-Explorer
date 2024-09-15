@@ -33,6 +33,6 @@ PROJCRS["ETRF_1989_UTM_Zone_33N",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Europe between 12°E and 18°E: Austria; Denmark - offshore and offshore; Germany - onshore and offshore; Norway including Svalbard - onshore and offshore."],
-        BBOX[46.4,12,84.42,18.01]],
+        AREA["Europe between 12°E and 18°E: Austria; Croatia; Denmark - offshore and offshore; Germany - onshore and offshore; Italy - onshore and offshore; Norway including Svalbard - onshore and offshore."],
+        BBOX[34.79,12,84.01,18.01]],
     ID["ESRI",103533]]

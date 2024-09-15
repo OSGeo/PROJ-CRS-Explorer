@@ -33,6 +33,6 @@ PROJCRS["ETRF_1989_UTM_Zone_36N",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Europe between 30°E and 36°E: Finland - onshore and offshore; Norway including Svalbard - onshore and offshore."],
-        BBOX[61.73,30,84.7,36.01]],
+        AREA["Europe between 30°E and 36°E: Bulgaria - offshore; Norway including Svalbard - onshore and offshore."],
+        BBOX[42.56,30,84.01,36.01]],
     ID["ESRI",103536]]

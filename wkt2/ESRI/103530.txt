@@ -33,6 +33,6 @@ PROJCRS["ETRF_1989_UTM_Zone_30N",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Europe between 6°W and 0°W: Faroe Islands offshore; Ireland - offshore; Jan Mayen - offshore; Norway including Svalbard - offshore; Spain - onshore and offshore."],
+        AREA["Europe between 6°W and 0°W: Faroe Islands offshore; Ireland - offshore; Jan Mayen - offshore; Norway including Svalbard - offshore; Spain - mainland - onshore and offshore."],
         BBOX[35.26,-6,80.49,0.01]],
     ID["ESRI",103530]]

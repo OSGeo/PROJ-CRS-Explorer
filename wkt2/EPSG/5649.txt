@@ -47,5 +47,5 @@ PROJCRS["ETRS89 / UTM zone 31N (zE-N)",
     USAGE[
         SCOPE["Topographic mapping."],
         AREA["Germany - onshore and offshore west of 6°E."],
-        BBOX[50.97,3.34,55.92,6]],
+        BBOX[50.97,3.34,55.92,6.01]],
     ID["EPSG",5649]]

@@ -43,5 +43,5 @@ COMPOUNDCRS["RBEPP12 Grid + ODN height",
     USAGE[
         SCOPE["Engineering survey and topographic mapping for railway applications."],
         AREA["United Kingdom (UK) - on or related to the rail route from Reading via Newbury to Penzance."],
-        BBOX[50.05,-5.63,51.7,-0.85]],
+        BBOX[50.05,-5.63,51.71,-0.85]],
     ID["EPSG",10281]]

@@ -5,6 +5,6 @@ VERTCRS["DKMSL(2022) depth",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Hydrography and nautical charting."],
-        AREA["4756 - Denmark - offshore"],
+        AREA["Denmark - offshore."],
         BBOX[54.36,3.25,58.27,16.51]],
     ID["EPSG",10547]]

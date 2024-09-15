@@ -40,5 +40,5 @@ COMPOUNDCRS["DB_REF2003 zone 2",
     USAGE[
         SCOPE["Engineering survey and topographic mapping for railway applications."],
         AREA["Germany - former West Germany onshore west of 7°30'E - states of Niedersachsen, Nordrhein-Westfalen, Rheinland-Pfalz, Saarland."],
-        BBOX[49.11,5.86,53.81,7.5]],
+        BBOX[49.11,5.86,53.81,7.51]],
     ID["EPSG",9928]]
