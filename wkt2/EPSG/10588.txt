@@ -1,0 +1,11 @@
+VERTCRS["CGVD28(HTv2.0) height",
+    VDATUM["Canadian Geodetic Vertical Datum of 1928 (Height Transformation version 2.0)",
+        ANCHOREPOCH[1997]],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Derivation of approximate gravity-related heights from GNSS observations."],
+        AREA["Canada - onshore and offshore between 41°N and 84°N and west of 48°W - Alberta; British Columbia; Manitoba; New Brunswick; Newfoundland and Labrador; Northwest Territories; Nova Scotia; Nunavut; Ontario; Prince Edward Island; Quebec; Saskatchewan; Yukon."],
+        BBOX[41,-141.01,84,-48]],
+    ID["EPSG",10588]]
