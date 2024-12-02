@@ -33835,6 +33835,12 @@
         <loc>https://crs-explorer.proj.org/wkt2/EPSG/10571.txt</loc>
     </url>
     <url>
+        <loc>https://crs-explorer.proj.org/wkt1/EPSG/10588.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/EPSG/10588.txt</loc>
+    </url>
+    <url>
         <loc>https://crs-explorer.proj.org/wkt1/EPSG/10592.txt</loc>
     </url>
     <url>
@@ -33971,6 +33977,66 @@
     </url>
     <url>
         <loc>https://crs-explorer.proj.org/wkt2/EPSG/10665.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/EPSG/10669.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/EPSG/10669.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/EPSG/10670.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/EPSG/10670.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/EPSG/10671.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/EPSG/10671.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/EPSG/10672.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/EPSG/10672.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/EPSG/10673.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/EPSG/10673.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/EPSG/10674.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/EPSG/10674.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/EPSG/10678.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/EPSG/10678.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/EPSG/10679.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/EPSG/10679.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/EPSG/10686.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/EPSG/10686.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/EPSG/10687.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/EPSG/10687.txt</loc>
     </url>
     <url>
         <loc>https://crs-explorer.proj.org/wkt1/EPSG/10731.txt</loc>
@@ -45125,36 +45191,6 @@
     </url>
     <url>
         <loc>https://crs-explorer.proj.org/wkt2/ESRI/4812.txt</loc>
-    </url>
-    <url>
-        <loc>https://crs-explorer.proj.org/wkt1/ESRI/10481.txt</loc>
-    </url>
-    <url>
-        <loc>https://crs-explorer.proj.org/wkt2/ESRI/10481.txt</loc>
-    </url>
-    <url>
-        <loc>https://crs-explorer.proj.org/wkt1/ESRI/10516.txt</loc>
-    </url>
-    <url>
-        <loc>https://crs-explorer.proj.org/wkt2/ESRI/10516.txt</loc>
-    </url>
-    <url>
-        <loc>https://crs-explorer.proj.org/wkt1/ESRI/10731.txt</loc>
-    </url>
-    <url>
-        <loc>https://crs-explorer.proj.org/wkt2/ESRI/10731.txt</loc>
-    </url>
-    <url>
-        <loc>https://crs-explorer.proj.org/wkt1/ESRI/10732.txt</loc>
-    </url>
-    <url>
-        <loc>https://crs-explorer.proj.org/wkt2/ESRI/10732.txt</loc>
-    </url>
-    <url>
-        <loc>https://crs-explorer.proj.org/wkt1/ESRI/10733.txt</loc>
-    </url>
-    <url>
-        <loc>https://crs-explorer.proj.org/wkt2/ESRI/10733.txt</loc>
     </url>
     <url>
         <loc>https://crs-explorer.proj.org/wkt1/ESRI/20062.txt</loc>
@@ -58141,6 +58177,30 @@
         <loc>https://crs-explorer.proj.org/wkt2/ESRI/103977.txt</loc>
     </url>
     <url>
+        <loc>https://crs-explorer.proj.org/wkt1/ESRI/103978.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/ESRI/103978.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/ESRI/103979.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/ESRI/103979.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/ESRI/103980.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/ESRI/103980.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/ESRI/103981.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/ESRI/103981.txt</loc>
+    </url>
+    <url>
         <loc>https://crs-explorer.proj.org/wkt1/ESRI/104000.txt</loc>
     </url>
     <url>
@@ -62477,6 +62537,18 @@
     </url>
     <url>
         <loc>https://crs-explorer.proj.org/wkt2/ESRI/115931.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/ESRI/115932.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/ESRI/115932.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt1/ESRI/115933.txt</loc>
+    </url>
+    <url>
+        <loc>https://crs-explorer.proj.org/wkt2/ESRI/115933.txt</loc>
     </url>
     <url>
         <loc>https://crs-explorer.proj.org/wkt1/IAU_2015/1000.txt</loc>
