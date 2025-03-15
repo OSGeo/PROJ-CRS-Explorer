@@ -1,4 +1,4 @@
-PROJCS["Elara (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Elara (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Elara (2015) - Sphere / Ocentric",
         DATUM["Elara (2015) - Sphere",
             SPHEROID["Elara (2015) - Sphere",40000,0,

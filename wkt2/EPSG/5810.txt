@@ -1,0 +1,14 @@
+ENGCRS["La Rosa Grid",
+    EDATUM["La Rosa"],
+    CS[Cartesian,2],
+        AXIS["northing (N)",north,
+            ORDER[1],
+            LENGTHUNIT["metre",1]],
+        AXIS["easting (E)",east,
+            ORDER[2],
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Oil and gas exploration and production."],
+        AREA["Venezuela - Cabimas area."],
+        BBOX[10.14,-71.55,10.61,-71.29]],
+    ID["EPSG",5810]]

@@ -1,0 +1,14 @@
+ENGCRS["Barcelona Grid B2",
+    EDATUM["Barcelona"],
+    CS[Cartesian,2],
+        AXIS["northing (N)",north,
+            ORDER[1],
+            LENGTHUNIT["metre",1]],
+        AXIS["easting (E)",east,
+            ORDER[2],
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Oil and gas exploration and production."],
+        AREA["Venezuela - Puerto La Cruz area."],
+        BBOX[10,-64.7,10.31,-64.5]],
+    ID["EPSG",5802]]

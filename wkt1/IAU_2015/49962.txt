@@ -1,4 +1,4 @@
-PROJCS["Mars (2015) / Ocentric / Tranverse Mercator",
+PROJCS["Mars (2015) / Ocentric / Transverse Mercator",
     GEOGCS["Mars (2015) / Ocentric",
         DATUM["Mars (2015)",
             SPHEROID["Mars (2015)",3396190,169.894447223612,

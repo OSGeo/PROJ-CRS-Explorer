@@ -1,4 +1,4 @@
-PROJCS["Naiad (2015) / Ographic / Tranverse Mercator",
+PROJCS["Naiad (2015) / Ographic / Transverse Mercator",
     GEOGCS["Naiad (2015) / Ographic",
         DATUM["Naiad (2015)",
             SPHEROID["Naiad (2015)",29000,0,

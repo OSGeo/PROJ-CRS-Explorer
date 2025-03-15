@@ -1,0 +1,14 @@
+ENGCRS["Tucupita",
+    EDATUM["Tucupita"],
+    CS[Cartesian,2],
+        AXIS["northing (N)",north,
+            ORDER[1],
+            LENGTHUNIT["metre",1]],
+        AXIS["easting (E)",east,
+            ORDER[2],
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Oil and gas exploration and production."],
+        AREA["Venezuela - Deltana area."],
+        BBOX[7.89,-62.8,10.46,-59.8]],
+    ID["EPSG",5814]]

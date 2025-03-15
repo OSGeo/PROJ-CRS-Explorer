@@ -1,4 +1,4 @@
-PROJCS["Cordelia (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Cordelia (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Cordelia (2015) - Sphere / Ocentric",
         DATUM["Cordelia (2015) - Sphere",
             SPHEROID["Cordelia (2015) - Sphere",13000,0,

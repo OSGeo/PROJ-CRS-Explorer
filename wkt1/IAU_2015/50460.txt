@@ -1,4 +1,4 @@
-PROJCS["Callisto (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Callisto (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Callisto (2015) - Sphere / Ocentric",
         DATUM["Callisto (2015) - Sphere",
             SPHEROID["Callisto (2015) - Sphere",2410300,0,

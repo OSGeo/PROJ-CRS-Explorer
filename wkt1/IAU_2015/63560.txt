@@ -1,4 +1,4 @@
-PROJCS["Daphnis (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Daphnis (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Daphnis (2015) - Sphere / Ocentric",
         DATUM["Daphnis (2015) - Sphere",
             SPHEROID["Daphnis (2015) - Sphere",3800,0,

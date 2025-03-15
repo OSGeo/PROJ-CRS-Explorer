@@ -1,4 +1,4 @@
-PROJCS["Dione (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Dione (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Dione (2015) - Sphere / Ocentric",
         DATUM["Dione (2015) - Sphere",
             SPHEROID["Dione (2015) - Sphere",561400,0,

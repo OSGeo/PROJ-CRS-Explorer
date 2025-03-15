@@ -1,4 +1,4 @@
-PROJCS["Rhea (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Rhea (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Rhea (2015) - Sphere / Ocentric",
         DATUM["Rhea (2015) - Sphere",
             SPHEROID["Rhea (2015) - Sphere",763500,0,

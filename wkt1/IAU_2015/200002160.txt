@@ -1,4 +1,4 @@
-PROJCS["Lutetia (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Lutetia (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Lutetia (2015) - Sphere / Ocentric",
         DATUM["Lutetia (2015) - Sphere",
             SPHEROID["Lutetia (2015) - Sphere",52500,0,

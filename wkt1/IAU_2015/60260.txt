@@ -1,4 +1,4 @@
-PROJCS["Enceladus (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Enceladus (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Enceladus (2015) - Sphere / Ocentric",
         DATUM["Enceladus (2015) - Sphere",
             SPHEROID["Enceladus (2015) - Sphere",252100,0,

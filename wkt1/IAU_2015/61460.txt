@@ -1,4 +1,4 @@
-PROJCS["Calypso (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Calypso (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Calypso (2015) - Sphere / Ocentric",
         DATUM["Calypso (2015) - Sphere",
             SPHEROID["Calypso (2015) - Sphere",9600,0,

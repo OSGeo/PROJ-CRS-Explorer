@@ -1,4 +1,4 @@
-PROJCS["Miranda (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Miranda (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Miranda (2015) - Sphere / Ocentric",
         DATUM["Miranda (2015) - Sphere",
             SPHEROID["Miranda (2015) - Sphere",235800,0,

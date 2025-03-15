@@ -1,4 +1,4 @@
-PROJCS["Kleopatra (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Kleopatra (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Kleopatra (2015) - Sphere / Ocentric",
         DATUM["Kleopatra (2015) - Sphere",
             SPHEROID["Kleopatra (2015) - Sphere",65333.333333,0,

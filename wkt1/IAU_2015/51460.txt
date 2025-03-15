@@ -1,4 +1,4 @@
-PROJCS["Thebe (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Thebe (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Thebe (2015) - Sphere / Ocentric",
         DATUM["Thebe (2015) - Sphere",
             SPHEROID["Thebe (2015) - Sphere",49300,0,

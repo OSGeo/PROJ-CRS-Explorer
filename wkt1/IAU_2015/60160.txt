@@ -1,4 +1,4 @@
-PROJCS["Mimas (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Mimas (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Mimas (2015) - Sphere / Ocentric",
         DATUM["Mimas (2015) - Sphere",
             SPHEROID["Mimas (2015) - Sphere",198200,0,

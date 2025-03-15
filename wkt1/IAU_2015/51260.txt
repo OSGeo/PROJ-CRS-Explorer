@@ -1,4 +1,4 @@
-PROJCS["Ananke (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Ananke (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Ananke (2015) - Sphere / Ocentric",
         DATUM["Ananke (2015) - Sphere",
             SPHEROID["Ananke (2015) - Sphere",10000,0,

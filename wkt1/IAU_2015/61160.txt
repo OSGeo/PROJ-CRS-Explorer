@@ -1,4 +1,4 @@
-PROJCS["Epimetheus (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Epimetheus (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Epimetheus (2015) - Sphere / Ocentric",
         DATUM["Epimetheus (2015) - Sphere",
             SPHEROID["Epimetheus (2015) - Sphere",58200,0,

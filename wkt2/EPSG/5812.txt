@@ -1,0 +1,14 @@
+ENGCRS["El Cubo",
+    EDATUM["El Cubo"],
+    CS[Cartesian,2],
+        AXIS["northing (N)",north,
+            ORDER[1],
+            LENGTHUNIT["metre",1]],
+        AXIS["easting (E)",east,
+            ORDER[2],
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Oil and gas exploration and production."],
+        AREA["Venezuela - Pedregal area of Falcon state."],
+        BBOX[10.8,-70.4,11.26,-69.69]],
+    ID["EPSG",5812]]

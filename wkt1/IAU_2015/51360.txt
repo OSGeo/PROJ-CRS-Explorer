@@ -1,4 +1,4 @@
-PROJCS["Leda (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Leda (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Leda (2015) - Sphere / Ocentric",
         DATUM["Leda (2015) - Sphere",
             SPHEROID["Leda (2015) - Sphere",5000,0,

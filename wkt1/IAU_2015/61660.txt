@@ -1,4 +1,4 @@
-PROJCS["Prometheus (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Prometheus (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Prometheus (2015) - Sphere / Ocentric",
         DATUM["Prometheus (2015) - Sphere",
             SPHEROID["Prometheus (2015) - Sphere",43100,0,

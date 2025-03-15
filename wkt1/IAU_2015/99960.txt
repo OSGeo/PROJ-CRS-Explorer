@@ -1,4 +1,4 @@
-PROJCS["Pluto (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Pluto (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Pluto (2015) - Sphere / Ocentric",
         DATUM["Pluto (2015) - Sphere",
             SPHEROID["Pluto (2015) - Sphere",1188300,0,

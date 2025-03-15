@@ -1,4 +1,4 @@
-PROJCS["Phobos (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Phobos (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Phobos (2015) - Sphere / Ocentric",
         DATUM["Phobos (2015) - Sphere",
             SPHEROID["Phobos (2015) - Sphere",11080,0,

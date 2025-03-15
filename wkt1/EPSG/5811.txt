@@ -1,0 +1,7 @@
+LOCAL_CS["Mene Grande",
+    LOCAL_DATUM["Mene Grande",32767],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Northing",NORTH],
+    AXIS["Easting",EAST],
+    AUTHORITY["EPSG","5811"]]

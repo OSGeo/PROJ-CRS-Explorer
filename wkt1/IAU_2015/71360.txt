@@ -1,4 +1,4 @@
-PROJCS["Rosalind (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Rosalind (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Rosalind (2015) - Sphere / Ocentric",
         DATUM["Rosalind (2015) - Sphere",
             SPHEROID["Rosalind (2015) - Sphere",27000,0,

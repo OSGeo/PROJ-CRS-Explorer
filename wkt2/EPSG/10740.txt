@@ -1,0 +1,10 @@
+VERTCRS["Sint Eustatius height",
+    VDATUM["Sint Eustatius Vertical Datum"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Bonaire, Sint Eustatius and Saba (BES Islands or Caribbean Netherlands) - Sint Eustatius - onshore."],
+        BBOX[17.41,-63.05,17.58,-62.88]],
+    ID["EPSG",10740]]

@@ -1,0 +1,7 @@
+LOCAL_CS["Astra Minas Grid",
+    LOCAL_DATUM["Astra Minas",32767],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["First local axis",NORTH],
+    AXIS["Second local axis",WEST],
+    AUTHORITY["EPSG","5800"]]

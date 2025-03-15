@@ -1,4 +1,4 @@
-PROJCS["Helene (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Helene (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Helene (2015) - Sphere / Ocentric",
         DATUM["Helene (2015) - Sphere",
             SPHEROID["Helene (2015) - Sphere",18000,0,

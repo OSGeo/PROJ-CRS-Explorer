@@ -1,0 +1,14 @@
+ENGCRS["Maturin Grid",
+    EDATUM["Maturin"],
+    CS[Cartesian,2],
+        AXIS["northing (N)",north,
+            ORDER[1],
+            LENGTHUNIT["metre",1]],
+        AXIS["easting (E)",east,
+            ORDER[2],
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Oil and gas exploration and production."],
+        AREA["Venezuela - Maturin area."],
+        BBOX[9.1,-64.3,10.13,-63]],
+    ID["EPSG",5803]]

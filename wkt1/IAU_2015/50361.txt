@@ -1,4 +1,4 @@
-PROJCS["Ganymede (2015) / Ographic / Tranverse Mercator",
+PROJCS["Ganymede (2015) / Ographic / Transverse Mercator",
     GEOGCS["Ganymede (2015) / Ographic",
         DATUM["Ganymede (2015)",
             SPHEROID["Ganymede (2015)",2631200,0,

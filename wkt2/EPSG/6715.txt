@@ -1,0 +1,14 @@
+ENGCRS["Christmas Island Grid 1985",
+    EDATUM["Christmas Island Datum 1985"],
+    CS[Cartesian,2],
+        AXIS["(E)",east,
+            ORDER[1],
+            LENGTHUNIT["metre",1]],
+        AXIS["(N)",north,
+            ORDER[2],
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Cadastre, engineering survey, topographic mapping."],
+        AREA["Christmas Island - onshore."],
+        BBOX[-10.63,105.48,-10.36,105.77]],
+    ID["EPSG",6715]]

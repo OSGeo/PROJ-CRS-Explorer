@@ -1,4 +1,4 @@
-PROJCS["Wild 2 (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Wild 2 (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Wild 2 (2015) - Sphere / Ocentric",
         DATUM["Wild 2 (2015) - Sphere",
             SPHEROID["Wild 2 (2015) - Sphere",1975,0,

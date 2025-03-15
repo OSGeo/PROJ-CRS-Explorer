@@ -1,4 +1,4 @@
-PROJCS["Mathilde (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Mathilde (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Mathilde (2015) - Sphere / Ocentric",
         DATUM["Mathilde (2015) - Sphere",
             SPHEROID["Mathilde (2015) - Sphere",26500,0,

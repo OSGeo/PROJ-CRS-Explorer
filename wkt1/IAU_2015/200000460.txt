@@ -1,4 +1,4 @@
-PROJCS["Vesta (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Vesta (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Vesta (2015) - Sphere / Ocentric",
         DATUM["Vesta (2015) - Sphere",
             SPHEROID["Vesta (2015) - Sphere",255000,0,

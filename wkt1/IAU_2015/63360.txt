@@ -1,4 +1,4 @@
-PROJCS["Pallene (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Pallene (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Pallene (2015) - Sphere / Ocentric",
         DATUM["Pallene (2015) - Sphere",
             SPHEROID["Pallene (2015) - Sphere",2230,0,

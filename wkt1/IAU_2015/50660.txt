@@ -1,4 +1,4 @@
-PROJCS["Himalia (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Himalia (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Himalia (2015) - Sphere / Ocentric",
         DATUM["Himalia (2015) - Sphere",
             SPHEROID["Himalia (2015) - Sphere",85000,0,
