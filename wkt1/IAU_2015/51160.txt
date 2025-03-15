@@ -1,4 +1,4 @@
-PROJCS["Carme (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Carme (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Carme (2015) - Sphere / Ocentric",
         DATUM["Carme (2015) - Sphere",
             SPHEROID["Carme (2015) - Sphere",15000,0,

@@ -1,0 +1,14 @@
+ENGCRS["Tombak LNG plant",
+    EDATUM["Tombak LNG plant"],
+    CS[Cartesian,2],
+        AXIS["plant East (x)",northEast,
+            ORDER[1],
+            LENGTHUNIT["metre",1]],
+        AXIS["plant North (y)",northWest,
+            ORDER[2],
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Engineering survey."],
+        AREA["Iran - Kangan district."],
+        BBOX[27.3,51.8,28.2,53.01]],
+    ID["EPSG",5817]]

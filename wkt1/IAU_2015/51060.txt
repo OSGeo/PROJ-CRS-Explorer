@@ -1,4 +1,4 @@
-PROJCS["Lysithea (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Lysithea (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Lysithea (2015) - Sphere / Ocentric",
         DATUM["Lysithea (2015) - Sphere",
             SPHEROID["Lysithea (2015) - Sphere",12000,0,

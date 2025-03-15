@@ -1,4 +1,4 @@
-PROJCS["Oberon (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Oberon (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Oberon (2015) - Sphere / Ocentric",
         DATUM["Oberon (2015) - Sphere",
             SPHEROID["Oberon (2015) - Sphere",761400,0,

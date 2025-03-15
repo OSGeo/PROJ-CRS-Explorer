@@ -1,4 +1,4 @@
-PROJCS["Umbriel (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Umbriel (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Umbriel (2015) - Sphere / Ocentric",
         DATUM["Umbriel (2015) - Sphere",
             SPHEROID["Umbriel (2015) - Sphere",584700,0,

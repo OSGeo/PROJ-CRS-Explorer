@@ -1,4 +1,4 @@
-PROJCS["Galatea (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Galatea (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Galatea (2015) - Sphere / Ocentric",
         DATUM["Galatea (2015) - Sphere",
             SPHEROID["Galatea (2015) - Sphere",79000,0,

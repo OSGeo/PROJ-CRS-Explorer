@@ -1,4 +1,4 @@
-PROJCS["Thalassa (2015) / Ographic / Tranverse Mercator",
+PROJCS["Thalassa (2015) / Ographic / Transverse Mercator",
     GEOGCS["Thalassa (2015) / Ographic",
         DATUM["Thalassa (2015)",
             SPHEROID["Thalassa (2015)",40000,0,

@@ -1,4 +1,4 @@
-PROJCS["Iapetus (2015) / Ographic / Tranverse Mercator",
+PROJCS["Iapetus (2015) / Ographic / Transverse Mercator",
     GEOGCS["Iapetus (2015) / Ographic",
         DATUM["Iapetus (2015)",
             SPHEROID["Iapetus (2015)",745700,22.1934523809524,

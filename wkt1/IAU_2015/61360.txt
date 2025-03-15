@@ -1,4 +1,4 @@
-PROJCS["Telesto (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Telesto (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Telesto (2015) - Sphere / Ocentric",
         DATUM["Telesto (2015) - Sphere",
             SPHEROID["Telesto (2015) - Sphere",12400,0,

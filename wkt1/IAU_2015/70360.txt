@@ -1,4 +1,4 @@
-PROJCS["Titania (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Titania (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Titania (2015) - Sphere / Ocentric",
         DATUM["Titania (2015) - Sphere",
             SPHEROID["Titania (2015) - Sphere",788900,0,

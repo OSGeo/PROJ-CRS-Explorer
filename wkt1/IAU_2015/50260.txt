@@ -1,4 +1,4 @@
-PROJCS["Europa (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Europa (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Europa (2015) - Sphere / Ocentric",
         DATUM["Europa (2015) - Sphere",
             SPHEROID["Europa (2015) - Sphere",1560800,0,

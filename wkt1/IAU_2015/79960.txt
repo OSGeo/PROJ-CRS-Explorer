@@ -1,4 +1,4 @@
-PROJCS["Uranus (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Uranus (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Uranus (2015) - Sphere / Ocentric",
         DATUM["Uranus (2015) - Sphere",
             SPHEROID["Uranus (2015) - Sphere",25559000,0,

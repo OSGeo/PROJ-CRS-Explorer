@@ -1,4 +1,4 @@
-PROJCS["Adrastea (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Adrastea (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Adrastea (2015) - Sphere / Ocentric",
         DATUM["Adrastea (2015) - Sphere",
             SPHEROID["Adrastea (2015) - Sphere",8200,0,

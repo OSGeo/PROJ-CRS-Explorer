@@ -1,4 +1,4 @@
-PROJCS["Halley (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Halley (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Halley (2015) - Sphere / Ocentric",
         DATUM["Halley (2015) - Sphere",
             SPHEROID["Halley (2015) - Sphere",8000,0,

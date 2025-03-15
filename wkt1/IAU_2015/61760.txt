@@ -1,4 +1,4 @@
-PROJCS["Pandora (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Pandora (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Pandora (2015) - Sphere / Ocentric",
         DATUM["Pandora (2015) - Sphere",
             SPHEROID["Pandora (2015) - Sphere",40600,0,

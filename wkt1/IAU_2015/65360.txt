@@ -1,4 +1,4 @@
-PROJCS["Aegaeon (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Aegaeon (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Aegaeon (2015) - Sphere / Ocentric",
         DATUM["Aegaeon (2015) - Sphere",
             SPHEROID["Aegaeon (2015) - Sphere",330,0,

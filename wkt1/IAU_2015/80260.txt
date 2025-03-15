@@ -1,4 +1,4 @@
-PROJCS["Nereid (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Nereid (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Nereid (2015) - Sphere / Ocentric",
         DATUM["Nereid (2015) - Sphere",
             SPHEROID["Nereid (2015) - Sphere",170000,0,

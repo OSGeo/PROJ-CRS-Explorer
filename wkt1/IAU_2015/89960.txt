@@ -1,4 +1,4 @@
-PROJCS["Neptune (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Neptune (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Neptune (2015) - Sphere / Ocentric",
         DATUM["Neptune (2015) - Sphere",
             SPHEROID["Neptune (2015) - Sphere",24764000,0,

@@ -1,0 +1,14 @@
+ENGCRS["Santa Maria de Ipire",
+    EDATUM["Santa Maria de Ipire"],
+    CS[Cartesian,2],
+        AXIS["northing (N)",north,
+            ORDER[1],
+            LENGTHUNIT["metre",1]],
+        AXIS["easting (E)",east,
+            ORDER[2],
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Oil and gas exploration and production."],
+        AREA["Venezuela - Guarico state."],
+        BBOX[7.54,-68,10.03,-64.76]],
+    ID["EPSG",5815]]

@@ -1,4 +1,4 @@
-PROJCS["Larissa (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Larissa (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Larissa (2015) - Sphere / Ocentric",
         DATUM["Larissa (2015) - Sphere",
             SPHEROID["Larissa (2015) - Sphere",96000,0,

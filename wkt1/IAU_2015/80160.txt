@@ -1,4 +1,4 @@
-PROJCS["Triton (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Triton (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Triton (2015) - Sphere / Ocentric",
         DATUM["Triton (2015) - Sphere",
             SPHEROID["Triton (2015) - Sphere",1352600,0,

@@ -1,4 +1,4 @@
-PROJCS["Deimos (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Deimos (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Deimos (2015) - Sphere / Ocentric",
         DATUM["Deimos (2015) - Sphere",
             SPHEROID["Deimos (2015) - Sphere",6200,0,

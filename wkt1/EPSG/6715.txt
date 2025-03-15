@@ -1,0 +1,7 @@
+LOCAL_CS["Christmas Island Grid 1985",
+    LOCAL_DATUM["Christmas Island Datum 1985",32767],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Easting",EAST],
+    AXIS["Northing",NORTH],
+    AUTHORITY["EPSG","6715"]]

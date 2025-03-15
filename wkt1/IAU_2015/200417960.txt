@@ -1,4 +1,4 @@
-PROJCS["Toutatis (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Toutatis (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Toutatis (2015) - Sphere / Ocentric",
         DATUM["Toutatis (2015) - Sphere",
             SPHEROID["Toutatis (2015) - Sphere",1331.666667,0,

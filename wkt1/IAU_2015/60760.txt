@@ -1,4 +1,4 @@
-PROJCS["Hyperion (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Hyperion (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Hyperion (2015) - Sphere / Ocentric",
         DATUM["Hyperion (2015) - Sphere",
             SPHEROID["Hyperion (2015) - Sphere",135000,0,

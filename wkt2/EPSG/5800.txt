@@ -1,0 +1,14 @@
+ENGCRS["Astra Minas Grid",
+    EDATUM["Astra Minas"],
+    CS[Cartesian,2],
+        AXIS["first local axis (X)",north,
+            ORDER[1],
+            LENGTHUNIT["metre",1]],
+        AXIS["second local axis (Y)",west,
+            ORDER[2],
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Oil and gas exploration and production."],
+        AREA["Argentina - Comodoro Rivadavia area."],
+        BBOX[-46.7,-69.5,-45.19,-67.1]],
+    ID["EPSG",5800]]

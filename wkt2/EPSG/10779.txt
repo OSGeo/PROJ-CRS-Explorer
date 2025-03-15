@@ -1,0 +1,23 @@
+GEODCRS["ITRF2020-u2023",
+    DYNAMIC[
+        FRAMEEPOCH[2015]],
+    DATUM["International Terrestrial Reference Frame 2020-u2023",
+        ELLIPSOID["GRS 1980",6378137,298.257222101,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[Cartesian,3],
+        AXIS["(X)",geocentricX,
+            ORDER[1],
+            LENGTHUNIT["metre",1]],
+        AXIS["(Y)",geocentricY,
+            ORDER[2],
+            LENGTHUNIT["metre",1]],
+        AXIS["(Z)",geocentricZ,
+            ORDER[3],
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy."],
+        AREA["World: Afghanistan; Albania; Algeria; American Samoa; Andorra; Angola; Anguilla; Antarctica; Antigua and Barbuda; Argentina; Armenia; Aruba; Australia; Austria; Azerbaijan; Bahamas; Bahrain; Bangladesh; Barbados; Belgium; Belarus; Belize; Benin; Bermuda; Bhutan; Bolivia; BES Islands - Bonaire, St Eustatius and Saba; Bosnia and Herzegovina; Botswana; Bouvet Island; Brazil; British Indian Ocean Territory; British Virgin Islands; Brunei; Bulgaria; Burkina Faso; Burundi; Cambodia; Cameroon; Canada; Cape Verde; Cayman Islands; Central African Republic; Chad; Chile; China; China - Hong Kong; China - Macao; Christmas Island; Cocos (Keeling) Islands; Colombia; Comoros; Congo; Congo DR (Zaire); Cook Islands; Costa Rica; Côte d'Ivoire (Ivory Coast); Croatia; Cuba; Curacao; Cyprus; Czechia; Denmark; Djibouti; Dominica; Dominican Republic; East Timor; Ecuador; Egypt; El Salvador; Equatorial Guinea; Eritrea; Estonia; Eswatini (Swaziland); Ethiopia; Falkland Islands (Malvinas); Faroe Islands; Fiji; Finland; France; French Guiana; French Polynesia; French Southern Territories; Gabon; Gambia; Georgia; Germany; Ghana; Gibraltar; Greece; Greenland; Grenada; Guadeloupe; Guam; Guatemala; Guinea; Guinea-Bissau; Guyana; Haiti; Heard Island and McDonald Islands; Honduras; Hungary; Iceland; India; Indonesia; Iran; Iraq; Ireland; Israel; Italy; Jamaica; Japan; Jordan; Kazakhstan; Kenya; Kiribati; North Korea; South Korea; Kosovo; Kuwait; Kyrgyzstan; Laos; Latvia; Lebanon; Lesotho; Liberia; Libya; Liechtenstein; Lithuania; Luxembourg; Madagascar; Malawi; Malaysia; Maldives; Mali; Malta; Marshall Islands; Martinique; Mauritania; Mauritius; Mayotte; Mexico; Micronesia; Moldova; Monaco; Mongolia; Montenegro; Montserrat; Morocco; Mozambique; Myanmar (Burma); Namibia; Nauru; Nepal; Netherlands; New Caledonia; New Zealand; Nicaragua; Niger; Nigeria; Niue; Norfolk Island; North Macedonia; Northern Mariana Islands; Norway; Oman; Pakistan; Palau; Panama; Papua New Guinea (PNG); Paraguay; Peru; Philippines; Pitcairn; Poland; Portugal; Puerto Rico; Qatar; Reunion; Romania; Russia; Rwanda; St Barthelemy; St Helena, Ascension and Tristan da Cunha; St Kitts and Nevis; St Lucia; St Maarten; St Martin; St Pierre and Miquelon; St Vincent and the Grenadines; Samoa; San Marino; Sao Tome and Principe; Saudi Arabia; Senegal; Serbia; Seychelles; Sierra Leone; Singapore; Slovakia; Slovenia; Solomon Islands; Somalia; South Africa; South Georgia and the South Sandwich Islands; South Sudan; Spain; Sri Lanka; Sudan; Suriname; Svalbard and Jan Mayen; Sweden; Switzerland; Syria; Taiwan; Tajikistan; Tanzania; Thailand; Togo; Tokelau; Tonga; Trinidad and Tobago; Tunisia; Türkiye (Turkey); Turkmenistan; Turks and Caicos Islands; Tuvalu; Uganda; Ukraine; United Arab Emirates (UAE); United Kingdom (UK); United States (USA); US Minor Outlying Islands; US Virgin Islands; Uruguay; Uzbekistan; Vanuatu; Vatican; Venezuela; Vietnam; Wallis and Futuna; Western Sahara; Yemen; Zambia; Zimbabwe."],
+        BBOX[-90,-180,90,180]],
+    ID["EPSG",10779]]

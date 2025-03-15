@@ -1,0 +1,14 @@
+ENGCRS["Maracaibo Cross Grid M4",
+    EDATUM["Maracaibo Cross"],
+    CS[Cartesian,2],
+        AXIS["northing (N)",north,
+            ORDER[1],
+            LENGTHUNIT["metre",1]],
+        AXIS["easting (E)",east,
+            ORDER[2],
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Oil and gas exploration and production."],
+        AREA["Venezuela - Maracaibo area, onshore and offshore in lake."],
+        BBOX[10,-72.25,11,-71.5]],
+    ID["EPSG",5808]]

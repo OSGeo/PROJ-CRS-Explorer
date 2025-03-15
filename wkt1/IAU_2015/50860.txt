@@ -1,4 +1,4 @@
-PROJCS["Pasiphae (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Pasiphae (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Pasiphae (2015) - Sphere / Ocentric",
         DATUM["Pasiphae (2015) - Sphere",
             SPHEROID["Pasiphae (2015) - Sphere",18000,0,

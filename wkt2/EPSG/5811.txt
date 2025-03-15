@@ -1,0 +1,14 @@
+ENGCRS["Mene Grande",
+    EDATUM["Mene Grande"],
+    CS[Cartesian,2],
+        AXIS["northing (N)",north,
+            ORDER[1],
+            LENGTHUNIT["metre",1]],
+        AXIS["easting (E)",east,
+            ORDER[2],
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Oil and gas exploration and production."],
+        AREA["Venezuela - south Maracaibo area."],
+        BBOX[8.72,-72.4,10.01,-70.78]],
+    ID["EPSG",5811]]

@@ -42,6 +42,6 @@ PROJCRS["WGS 84 / UTM zone 43N",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Navigation and medium accuracy spatial referencing."],
-        AREA["Between 72°E and 78°E, northern hemisphere between equator and 84°N, onshore and offshore. China. India. Kazakhstan. Kyrgyzstan. Maldives. Pakistan. Russian Federation. Tajikistan."],
+        AREA["Between 72°E and 78°E, northern hemisphere between equator and 84°N, onshore and offshore. China. India. Kazakhstan. Kyrgyzstan. Maldives. Pakistan. Russian Federation. Tajikistan. Uzbekistan."],
         BBOX[0,72,84,78]],
     ID["EPSG",32643]]

@@ -1,4 +1,4 @@
-PROJCS["Davida (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Davida (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Davida (2015) - Sphere / Ocentric",
         DATUM["Davida (2015) - Sphere",
             SPHEROID["Davida (2015) - Sphere",150000,0,

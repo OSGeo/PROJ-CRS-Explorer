@@ -1,4 +1,4 @@
-PROJCS["Desdemona (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Desdemona (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Desdemona (2015) - Sphere / Ocentric",
         DATUM["Desdemona (2015) - Sphere",
             SPHEROID["Desdemona (2015) - Sphere",27000,0,

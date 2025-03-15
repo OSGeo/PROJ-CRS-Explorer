@@ -1,4 +1,4 @@
-PROJCS["Ariel (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Ariel (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Ariel (2015) - Sphere / Ocentric",
         DATUM["Ariel (2015) - Sphere",
             SPHEROID["Ariel (2015) - Sphere",578900,0,

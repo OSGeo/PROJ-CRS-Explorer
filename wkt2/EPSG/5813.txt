@@ -1,0 +1,14 @@
+ENGCRS["Dabajuro",
+    EDATUM["Dabajuro"],
+    CS[Cartesian,2],
+        AXIS["northing (N)",north,
+            ORDER[1],
+            LENGTHUNIT["metre",1]],
+        AXIS["easting (E)",east,
+            ORDER[2],
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Oil and gas exploration and production."],
+        AREA["Venezuela - Falcon state."],
+        BBOX[10.3,-71.3,12.25,-68.19]],
+    ID["EPSG",5813]]

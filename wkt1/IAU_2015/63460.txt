@@ -1,4 +1,4 @@
-PROJCS["Polydeuces (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Polydeuces (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Polydeuces (2015) - Sphere / Ocentric",
         DATUM["Polydeuces (2015) - Sphere",
             SPHEROID["Polydeuces (2015) - Sphere",1300,0,

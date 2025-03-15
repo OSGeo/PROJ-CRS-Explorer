@@ -1,4 +1,4 @@
-PROJCS["Gaspra (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Gaspra (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Gaspra (2015) - Sphere / Ocentric",
         DATUM["Gaspra (2015) - Sphere",
             SPHEROID["Gaspra (2015) - Sphere",6100,0,

@@ -1,4 +1,4 @@
-PROJCS["Despina (2015) / Ographic / Tranverse Mercator",
+PROJCS["Despina (2015) / Ographic / Transverse Mercator",
     GEOGCS["Despina (2015) / Ographic",
         DATUM["Despina (2015)",
             SPHEROID["Despina (2015)",74000,0,

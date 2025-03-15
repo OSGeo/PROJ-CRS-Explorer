@@ -1,0 +1,7 @@
+LOCAL_CS["Tombak LNG plant",
+    LOCAL_DATUM["Tombak LNG plant",32767],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Plant East",OTHER],
+    AXIS["Plant North",OTHER],
+    AUTHORITY["EPSG","5817"]]

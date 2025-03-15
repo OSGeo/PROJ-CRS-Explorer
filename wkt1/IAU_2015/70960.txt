@@ -1,4 +1,4 @@
-PROJCS["Cressida (2015) - Sphere / Ocentric / Tranverse Mercator",
+PROJCS["Cressida (2015) - Sphere / Ocentric / Transverse Mercator",
     GEOGCS["Cressida (2015) - Sphere / Ocentric",
         DATUM["Cressida (2015) - Sphere",
             SPHEROID["Cressida (2015) - Sphere",31000,0,
