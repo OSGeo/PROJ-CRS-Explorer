@@ -16,6 +16,6 @@ GEODCRS["IG05/12 Intermediate CRS",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Intermediate stage in transformations - not used otherwise."],
-        AREA["Israel - onshore; Palestine Territory - onshore."],
+        AREA["Israel - onshore; Palestine onshore."],
         BBOX[29.45,34.17,33.28,35.69]],
     ID["EPSG",6988]]

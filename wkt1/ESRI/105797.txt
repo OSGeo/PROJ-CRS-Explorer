@@ -1,4 +1,4 @@
-VERT_CS["EGM96_Geoid_(ftIntl)",
+VERT_CS["EGM96_height_(ftIntl)",
     VERT_DATUM["EGM96 geoid",2005,
         AUTHORITY["EPSG","5171"]],
     UNIT["foot",0.3048,

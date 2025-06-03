@@ -40,5 +40,5 @@ PROJCRS["CH1903 (Bern) / LV03C",
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
         AREA["Liechtenstein; Switzerland."],
-        BBOX[45.82,5.96,47.81,10.49]],
+        BBOX[45.81,5.95,47.81,10.5]],
     ID["EPSG",21780]]

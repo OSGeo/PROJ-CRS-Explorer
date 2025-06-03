@@ -30,6 +30,6 @@ PROJCRS["Palestine 1923 / Israeli CS Grid",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
-        AREA["Israel - onshore; Palestine Territory - onshore."],
+        AREA["Israel - onshore; Palestine onshore."],
         BBOX[29.45,34.17,33.28,35.69]],
     ID["EPSG",28193]]

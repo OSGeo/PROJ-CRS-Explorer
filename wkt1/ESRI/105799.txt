@@ -1,0 +1,7 @@
+VERT_CS["QVD_height",
+    VERT_DATUM["Qatari_Vertical_Datum",2005,
+        AUTHORITY["ESRI","105106"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["ESRI","105799"]]

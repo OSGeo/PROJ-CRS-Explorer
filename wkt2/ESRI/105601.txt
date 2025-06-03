@@ -1,0 +1,10 @@
+VERTCRS["HVD_height",
+    VDATUM["Hellenic_Vertical_Datum"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Greece - onshore."],
+        BBOX[34.88,19.57,41.75,28.3]],
+    ID["ESRI",105601]]

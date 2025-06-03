@@ -33,6 +33,6 @@ PROJCRS["Observatorio_Meteorologico_1965_Macau_Grid",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Not known."],
-        AREA["China - Macao - onshore and offshore."],
+        AREA["Macao - onshore and offshore."],
         BBOX[22.06,113.52,22.23,113.68]],
     ID["ESRI",102159]]

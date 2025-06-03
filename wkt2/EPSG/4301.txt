@@ -13,6 +13,6 @@ GEOGCRS["Tokyo",
             ANGLEUNIT["degree",0.0174532925199433]],
     USAGE[
         SCOPE["Geodesy."],
-        AREA["Japan - onshore; North Korea - onshore; South Korea - onshore."],
+        AREA["Japan - onshore; Democratic People's Republic of Korea (North Korea) - onshore; Republic of Korea (South Korea) - onshore."],
         BBOX[20.37,122.83,45.54,154.05]],
     ID["EPSG",4301]]

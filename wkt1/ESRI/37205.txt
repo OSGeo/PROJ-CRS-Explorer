@@ -1,4 +1,4 @@
-GEOGCS["GCS_Hong_Kong_1963_67 (deprecated)",
+GEOGCS["GCS_Hong_Kong_1963_67",
     DATUM["D_Hong_Kong_1963_67",
         SPHEROID["International 1924",6378388,297,
             AUTHORITY["EPSG","7022"]],

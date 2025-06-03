@@ -13,6 +13,6 @@ GEOGCRS["Palestine 1923",
             ANGLEUNIT["degree",0.0174532925199433]],
     USAGE[
         SCOPE["Geodesy."],
-        AREA["Israel - onshore; Jordan; Palestine Territory - onshore."],
+        AREA["Israel - onshore; Jordan; Palestine - onshore."],
         BBOX[29.18,34.17,33.38,39.31]],
     ID["EPSG",4281]]

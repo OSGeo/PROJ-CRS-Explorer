@@ -33,6 +33,6 @@ PROJCRS["Palestine_Grid_1923_Modified_TM",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Palestine Territory."],
+        AREA["Palestine."],
         BBOX[31.21,34.17,32.55,35.58]],
     ID["ESRI",103699]]

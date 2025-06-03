@@ -1,4 +1,4 @@
-VERT_CS["EGM2008_Geoid",
+VERT_CS["EGM2008_height",
     VERT_DATUM["EGM2008_Geoid",2005,
         AUTHORITY["ESRI","105290"]],
     UNIT["metre",1,

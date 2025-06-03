@@ -1,4 +1,4 @@
-GEOGCS["GCS_Johnston_Island_1961 (deprecated)",
+GEOGCS["GCS_Johnston_Island_1961",
     DATUM["D_Johnston_Island_1961",
         SPHEROID["International 1924",6378388,297,
             AUTHORITY["EPSG","7022"]],

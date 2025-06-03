@@ -42,6 +42,6 @@ PROJCRS["WGS 84 / UTM zone 51N",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Navigation and medium accuracy spatial referencing."],
-        AREA["Between 120°E and 126°E, northern hemisphere between equator and 84°N, onshore and offshore. China. Indonesia. Japan. North Korea. Philippines. Russian Federation. South Korea. Taiwan."],
+        AREA["Between 120°E and 126°E, northern hemisphere between equator and 84°N, onshore and offshore. China. Indonesia. Japan. Democratic People's Republic of Korea (North Korea). Republic of Korea (South Korea). Philippines. Russian Federation. Taiwan."],
         BBOX[0,120,84,126]],
     ID["EPSG",32651]]

@@ -1,0 +1,10 @@
+VERTCRS["Saba",
+    VDATUM["Saba"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Bonaire, Sint Eustatius and Saba (BES Islands or Caribbean Netherlands) - Saba - onshore."],
+        BBOX[17.56,-63.31,17.71,-63.16]],
+    ID["ESRI",115934]]

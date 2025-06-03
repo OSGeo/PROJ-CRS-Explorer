@@ -1,0 +1,10 @@
+VERTCRS["QVD_height",
+    VDATUM["Qatari_Vertical_Datum"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Qatar - onshore."],
+        BBOX[24.55,50.69,26.2,51.68]],
+    ID["ESRI",105799]]

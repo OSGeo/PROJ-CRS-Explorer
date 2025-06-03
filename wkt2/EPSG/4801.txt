@@ -14,5 +14,5 @@ GEOGCRS["CH1903 (Bern)",
     USAGE[
         SCOPE["Geodesy."],
         AREA["Liechtenstein; Switzerland."],
-        BBOX[45.82,5.96,47.81,10.49]],
+        BBOX[45.81,5.95,47.81,10.5]],
     ID["EPSG",4801]]

@@ -1,4 +1,4 @@
-VERTCRS["EGM96_Geoid_(ftIntl)",
+VERTCRS["EGM96_height_(ftIntl)",
     VDATUM["EGM96 geoid"],
     CS[vertical,1],
         AXIS["gravity-related height (H)",up,
