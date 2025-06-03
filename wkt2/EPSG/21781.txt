@@ -40,5 +40,5 @@ PROJCRS["CH1903 / LV03",
     USAGE[
         SCOPE["Cadastre, engineering survey, topographic mapping (large and medium scale)."],
         AREA["Liechtenstein; Switzerland."],
-        BBOX[45.82,5.96,47.81,10.49]],
+        BBOX[45.81,5.95,47.81,10.5]],
     ID["EPSG",21781]]

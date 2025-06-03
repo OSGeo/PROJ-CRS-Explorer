@@ -5,6 +5,6 @@ VERTCRS["IG05_Intermediate_CRS",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Israel - onshore; Palestine Territory - onshore."],
+        AREA["Israel - onshore; Palestine onshore."],
         BBOX[29.45,34.17,33.28,35.69]],
     ID["ESRI",115721]]

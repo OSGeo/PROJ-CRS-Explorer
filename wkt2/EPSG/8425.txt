@@ -16,6 +16,6 @@ GEODCRS["Hong Kong Geodetic CS",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Geodesy."],
-        AREA["China - Hong Kong - onshore and offshore."],
+        AREA["Hong Kong - onshore and offshore."],
         BBOX[22.13,113.76,22.58,114.51]],
     ID["EPSG",8425]]

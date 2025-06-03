@@ -13,6 +13,6 @@ GEOGCRS["GCS_Hong_Kong_1980",
             ANGLEUNIT["degree",0.0174532925199433]],
     USAGE[
         SCOPE["Not known."],
-        AREA["China - Hong Kong - onshore and offshore."],
+        AREA["Hong Kong - onshore and offshore."],
         BBOX[22.13,113.76,22.58,114.51]],
     ID["ESRI",104104]]

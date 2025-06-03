@@ -30,6 +30,6 @@ PROJCRS["Hong Kong 1963 Grid System",
             LENGTHUNIT["Clarke's foot",0.3047972654]],
     USAGE[
         SCOPE["Cadastre, engineering survey, topographic mapping (large scale)."],
-        AREA["China - Hong Kong - onshore and offshore."],
+        AREA["Hong Kong - onshore and offshore."],
         BBOX[22.13,113.76,22.58,114.51]],
     ID["EPSG",3407]]

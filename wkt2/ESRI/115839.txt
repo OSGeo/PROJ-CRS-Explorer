@@ -5,6 +5,6 @@ VERTCRS["Hong_Kong_Geodetic_CS",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Not known."],
-        AREA["China - Hong Kong - onshore and offshore."],
+        AREA["Hong Kong - onshore and offshore."],
         BBOX[22.13,113.76,22.58,114.51]],
     ID["ESRI",115839]]

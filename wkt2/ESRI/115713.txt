@@ -1,5 +1,5 @@
 VERTCRS["EUREF_FIN",
-    VDATUM["D_ETRS_1989"],
+    VDATUM["EUREF-FIN"],
     CS[vertical,1],
         AXIS["ellipsoidal height (h)",up,
             LENGTHUNIT["metre",1]],

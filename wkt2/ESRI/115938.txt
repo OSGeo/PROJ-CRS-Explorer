@@ -1,0 +1,10 @@
+VERTCRS["Bonaire_2004",
+    VDATUM["Bonaire_2004"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Bonaire, Sint Eustatius and Saba (BES Islands or Caribbean Netherlands) - Bonaire - onshore."],
+        BBOX[11.97,-68.47,12.36,-68.14]],
+    ID["ESRI",115938]]

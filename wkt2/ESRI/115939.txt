@@ -1,0 +1,10 @@
+VERTCRS["RGM23",
+    VDATUM["Mayotte_Geodetic_Reference_Frame_2023"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Mayotte - onshore and offshore."],
+        BBOX[-14.49,43.68,-11.33,46.7]],
+    ID["ESRI",115939]]

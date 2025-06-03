@@ -1,0 +1,7 @@
+VERT_CS["UZGD2024",
+    VERT_DATUM["Uzbekistan_Geodetic_Datum_2024",2002,
+        AUTHORITY["ESRI","from_geogdatum_EPSG_1392"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115941"]]

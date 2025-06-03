@@ -13,6 +13,6 @@ GEOGCRS["Hong Kong 1963(67)",
             ANGLEUNIT["degree",0.0174532925199433]],
     USAGE[
         SCOPE["Military survey."],
-        AREA["China - Hong Kong - onshore and offshore."],
+        AREA["Hong Kong - onshore and offshore."],
         BBOX[22.13,113.76,22.58,114.51]],
     ID["EPSG",4739]]
