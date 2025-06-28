@@ -22,7 +22,7 @@ jobs:
         run: scripts/gen_file.sh addgit
       - run: ls scripts/dist/ -lh
       - run: git diff
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@v6
         with:
           commit_message: Automatically generate files in branch ${{ github.ref }}
       - run: echo "This job's status is ${{ job.status }}."
