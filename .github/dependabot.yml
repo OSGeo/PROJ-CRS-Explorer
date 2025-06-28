@@ -1,0 +1,9 @@
+# `dependabot.yml` file with updates
+
+version: 2
+updates:
+  # Configuration for Dockerfile
+  - package-ecosystem: "docker"
+    directory: "/scripts/"
+    schedule:
+      interval: "daily"

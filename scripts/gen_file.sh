@@ -3,21 +3,22 @@ set -Eeuo pipefail
 
 echo 'Set first argument to "addgit" if you want to add wkt files automatically'
 
-# indicate DOCKER PROJ version
-PROJ_VERSION=9.6.1
-PYPROJ_VERSION=3.7.1
-TAG="crs-explorer:$PROJ_VERSION"
-
 # prepare destination
 DIRNAME=`dirname $(readlink -f $0)`
 mkdir -p $DIRNAME/dist
 test "$(ls -A $DIRNAME/dist/)" && rm -r $DIRNAME/dist/*
 
+# extract PROJ version from Dockerfile
+PROJ_VERSION=`cat $DIRNAME/Dockerfile | sed -n 's/^FROM .*:\(.*\)$/\1/p'`
+echo "PROJ_VERSION=$PROJ_VERSION"
+PYPROJ_VERSION=3.7.1
+DOCKER_TAG="crs-explorer:$PROJ_VERSION"
+
 # build container
-docker build --pull --build-arg VERSION=$PROJ_VERSION --build-arg PYPROJ_VERSION=$PYPROJ_VERSION --tag $TAG $DIRNAME
+docker build --pull --build-arg PYPROJ_VERSION=$PYPROJ_VERSION --tag $DOCKER_TAG $DIRNAME
 
 # execute container
-docker run --user $(id -u):$(id -g) --rm -v "$DIRNAME/dist:/home/dist" $TAG
+docker run --user $(id -u):$(id -g) --rm -v "$DIRNAME/dist:/home/dist" $DOCKER_TAG
 
 DEST=$DIRNAME/..
 # copy to root location
