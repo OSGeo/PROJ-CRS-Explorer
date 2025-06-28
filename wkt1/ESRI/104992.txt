@@ -1,4 +1,4 @@
-GEOGCS["GCS_MGI_1901",
+GEOGCS["GCS_MGI_1901 (deprecated)",
     DATUM["D_MGI_1901",
         SPHEROID["Bessel 1841",6377397.155,299.1528128,
             AUTHORITY["EPSG","7004"]],

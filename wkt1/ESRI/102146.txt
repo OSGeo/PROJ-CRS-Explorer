@@ -1,4 +1,4 @@
-PROJCS["JGD_2000_UTM_Zone_52N",
+PROJCS["JGD_2000_UTM_Zone_52N (deprecated)",
     GEOGCS["JGD2000",
         DATUM["Japanese_Geodetic_Datum_2000",
             SPHEROID["GRS 1980",6378137,298.257222101,

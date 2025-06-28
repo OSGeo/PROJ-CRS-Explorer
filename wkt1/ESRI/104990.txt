@@ -1,4 +1,4 @@
-GEOGCS["GCS_HD1909",
+GEOGCS["GCS_HD1909 (deprecated)",
     DATUM["D_Hungarian_Datum_1909",
         SPHEROID["Bessel 1841",6377397.155,299.1528128,
             AUTHORITY["EPSG","7004"]],

@@ -1,4 +1,4 @@
-GEOGCS["GCS_Ayabelle",
+GEOGCS["GCS_Ayabelle (deprecated)",
     DATUM["D_Ayabelle",
         SPHEROID["Clarke 1880 (RGS)",6378249.145,293.465,
             AUTHORITY["EPSG","7012"]],

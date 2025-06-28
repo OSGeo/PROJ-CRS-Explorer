@@ -1,4 +1,4 @@
-PROJCS["Germany_Zone_3",
+PROJCS["Germany_Zone_3 (deprecated)",
     GEOGCS["DHDN",
         DATUM["Deutsches_Hauptdreiecksnetz",
             SPHEROID["Bessel 1841",6377397.155,299.1528128,

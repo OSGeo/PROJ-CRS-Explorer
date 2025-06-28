@@ -1,4 +1,4 @@
-PROJCS["KGD2002_Central_Belt_2010",
+PROJCS["KGD2002_Central_Belt_2010 (deprecated)",
     GEOGCS["KGD2002",
         DATUM["Korean_Geodetic_Datum_2002",
             SPHEROID["GRS 1980",6378137,298.257222101,

@@ -1,4 +1,4 @@
-PROJCS["Tokyo_UTM_Zone_53N",
+PROJCS["Tokyo_UTM_Zone_53N (deprecated)",
     GEOGCS["Tokyo",
         DATUM["Tokyo",
             SPHEROID["Bessel 1841",6377397.155,299.1528128,

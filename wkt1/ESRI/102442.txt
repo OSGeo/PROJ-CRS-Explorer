@@ -1,4 +1,4 @@
-PROJCS["TWD_1967_TM_Penghu",
+PROJCS["TWD_1967_TM_Penghu (deprecated)",
     GEOGCS["TWD67",
         DATUM["Taiwan_Datum_1967",
             SPHEROID["GRS 1967 Modified",6378160,298.25,

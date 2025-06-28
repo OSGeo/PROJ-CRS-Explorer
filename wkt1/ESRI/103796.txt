@@ -1,4 +1,4 @@
-PROJCS["Mexican_Datum_1993_UTM_Zone_13N",
+PROJCS["Mexican_Datum_1993_UTM_Zone_13N (deprecated)",
     GEOGCS["Mexico ITRF92",
         DATUM["Mexico_ITRF92",
             SPHEROID["GRS 1980",6378137,298.257222101,

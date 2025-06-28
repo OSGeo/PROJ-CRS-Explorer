@@ -1,4 +1,4 @@
-GEOGCS["GCS_Ascension_Island_1958",
+GEOGCS["GCS_Ascension_Island_1958 (deprecated)",
     DATUM["D_Ascension_Island_1958",
         SPHEROID["International 1924",6378388,297,
             AUTHORITY["EPSG","7022"]],

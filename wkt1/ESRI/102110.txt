@@ -1,4 +1,4 @@
-PROJCS["RGF_1993_Lambert_93",
+PROJCS["RGF_1993_Lambert_93 (deprecated)",
     GEOGCS["RGF93 v1",
         DATUM["Reseau_Geodesique_Francais_1993_v1",
             SPHEROID["GRS 1980",6378137,298.257222101,

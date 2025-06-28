@@ -1,4 +1,4 @@
-PROJCS["ONGD17_UTM_Zone_39N",
+PROJCS["ONGD17_UTM_Zone_39N (deprecated)",
     GEOGCS["ONGD17",
         DATUM["Oman_National_Geodetic_Datum_2017",
             SPHEROID["GRS 1980",6378137,298.257222101,

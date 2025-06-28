@@ -1,4 +1,4 @@
-PROJCS["NAD_1983_StatePlane_Florida_East_FIPS_0901_Feet",
+PROJCS["NAD_1983_StatePlane_Florida_East_FIPS_0901_Feet (deprecated)",
     GEOGCS["NAD83",
         DATUM["North_American_Datum_1983",
             SPHEROID["GRS 1980",6378137,298.257222101,

@@ -1,4 +1,4 @@
-PROJCS["PTRA08_UTM_Zone_28N",
+PROJCS["PTRA08_UTM_Zone_28N (deprecated)",
     GEOGCS["PTRA08",
         DATUM["Autonomous_Regions_of_Portugal_2008",
             SPHEROID["GRS 1980",6378137,298.257222101,

@@ -1,4 +1,4 @@
-PROJCS["NAD_1983_StatePlane_West_Virginia_South_FIPS_4702_Feet",
+PROJCS["NAD_1983_StatePlane_West_Virginia_South_FIPS_4702_Feet (deprecated)",
     GEOGCS["NAD83",
         DATUM["North_American_Datum_1983",
             SPHEROID["GRS 1980",6378137,298.257222101,

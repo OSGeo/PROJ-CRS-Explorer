@@ -1,4 +1,4 @@
-GEOGCS["GCS_Wake_Eniwetok_1960",
+GEOGCS["GCS_Wake_Eniwetok_1960 (deprecated)",
     DATUM["D_Wake_Eniwetok_1960",
         SPHEROID["Hough 1960",6378270,297,
             AUTHORITY["EPSG","7053"]],

@@ -1,4 +1,4 @@
-GEOGCS["GCS_Beacon_E_1945",
+GEOGCS["GCS_Beacon_E_1945 (deprecated)",
     DATUM["D_Beacon_E_1945",
         SPHEROID["International 1924",6378388,297,
             AUTHORITY["EPSG","7022"]],

@@ -1,4 +1,4 @@
-PROJCS["GDA_1994_South_Australia_Lambert",
+PROJCS["GDA_1994_South_Australia_Lambert (deprecated)",
     GEOGCS["GDA94",
         DATUM["Geocentric_Datum_of_Australia_1994",
             SPHEROID["GRS 1980",6378137,298.257222101,

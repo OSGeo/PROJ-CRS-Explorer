@@ -1,4 +1,4 @@
-GEOGCS["GCS_JAD_2001",
+GEOGCS["GCS_JAD_2001 (deprecated)",
     DATUM["D_Jamaica_2001",
         SPHEROID["WGS 84",6378137,298.257223563,
             AUTHORITY["EPSG","7030"]],

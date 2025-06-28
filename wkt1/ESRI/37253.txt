@@ -1,4 +1,4 @@
-GEOGCS["GCS_Camp_Area",
+GEOGCS["GCS_Camp_Area (deprecated)",
     DATUM["D_Camp_Area",
         SPHEROID["International 1924",6378388,297,
             AUTHORITY["EPSG","7022"]],

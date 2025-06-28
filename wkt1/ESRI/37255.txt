@@ -1,4 +1,4 @@
-GEOGCS["GCS_Gunung_Segara",
+GEOGCS["GCS_Gunung_Segara (deprecated)",
     DATUM["D_Gunung_Segara",
         SPHEROID["Bessel 1841",6377397.155,299.1528128,
             AUTHORITY["EPSG","7004"]],

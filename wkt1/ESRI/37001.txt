@@ -1,4 +1,4 @@
-GEOGCS["GCS_WGS_1966",
+GEOGCS["GCS_WGS_1966 (deprecated)",
     DATUM["D_WGS_1966",
         SPHEROID["NWL 9D",6378145,298.25,
             AUTHORITY["EPSG","7025"]],

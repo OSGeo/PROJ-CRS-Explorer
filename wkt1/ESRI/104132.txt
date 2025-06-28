@@ -1,4 +1,4 @@
-GEOGCS["GCS_Ocotepeque_1935",
+GEOGCS["GCS_Ocotepeque_1935 (deprecated)",
     DATUM["D_Ocotepeque_1935",
         SPHEROID["Clarke 1866",6378206.4,294.978698213898,
             AUTHORITY["EPSG","7008"]],

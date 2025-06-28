@@ -1,4 +1,4 @@
-PROJCS["REGCAN95_UTM_Zone_27N",
+PROJCS["REGCAN95_UTM_Zone_27N (deprecated)",
     GEOGCS["REGCAN95",
         DATUM["Red_Geodesica_de_Canarias_1995",
             SPHEROID["GRS 1980",6378137,298.257222101,

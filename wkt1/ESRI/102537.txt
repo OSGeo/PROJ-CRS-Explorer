@@ -1,4 +1,4 @@
-PROJCS["OCRS_Cottage_Grove-Canyonville_NAD_1983_CORS96_TM_Meters",
+PROJCS["OCRS_Cottage_Grove-Canyonville_NAD_1983_CORS96_TM_Meters (deprecated)",
     GEOGCS["NAD83(CORS96)",
         DATUM["NAD83_Continuously_Operating_Reference_Station_1996",
             SPHEROID["GRS 1980",6378137,298.257222101,

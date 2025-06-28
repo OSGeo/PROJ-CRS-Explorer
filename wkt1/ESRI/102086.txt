@@ -1,4 +1,4 @@
-PROJCS["Korean_1985_Modified_Korea_Central_Belt",
+PROJCS["Korean_1985_Modified_Korea_Central_Belt (deprecated)",
     GEOGCS["Korean 1985",
         DATUM["Korean_Datum_1985",
             SPHEROID["Bessel 1841",6377397.155,299.1528128,

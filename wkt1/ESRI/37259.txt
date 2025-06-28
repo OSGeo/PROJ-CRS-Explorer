@@ -1,4 +1,4 @@
-GEOGCS["GCS_Kusaie_1951",
+GEOGCS["GCS_Kusaie_1951 (deprecated)",
     DATUM["D_Kusaie_1951",
         SPHEROID["International 1924",6378388,297,
             AUTHORITY["EPSG","7022"]],

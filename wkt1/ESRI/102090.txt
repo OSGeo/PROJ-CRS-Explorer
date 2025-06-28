@@ -1,4 +1,4 @@
-PROJCS["Bermuda_2000_National_Grid",
+PROJCS["Bermuda_2000_National_Grid (deprecated)",
     GEOGCS["BDA2000",
         DATUM["Bermuda_2000",
             SPHEROID["WGS 84",6378137,298.257223563,

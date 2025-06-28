@@ -1,4 +1,4 @@
-PROJCS["AGD_1966_VICGRID",
+PROJCS["AGD_1966_VICGRID (deprecated)",
     GEOGCS["AGD66",
         DATUM["Australian_Geodetic_Datum_1966",
             SPHEROID["Australian National Spheroid",6378160,298.25,

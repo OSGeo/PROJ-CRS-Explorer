@@ -1,4 +1,4 @@
-GEOGCS["PZ-90.02",
+GEOGCS["PZ-90.02 (deprecated)",
     DATUM["Parametry_Zemli_1990_02",
         SPHEROID["PZ-90",6378136,298.257839303,
             AUTHORITY["EPSG","7054"]],

@@ -1,4 +1,4 @@
-PROJCS["S-JTSK_Krovak",
+PROJCS["S-JTSK_Krovak (deprecated)",
     GEOGCS["S-JTSK",
         DATUM["System_of_the_Unified_Trigonometrical_Cadastral_Network",
             SPHEROID["Bessel 1841",6377397.155,299.1528128,

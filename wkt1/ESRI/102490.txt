@@ -1,4 +1,4 @@
-PROJCS["GDBD2009_GEORSO",
+PROJCS["GDBD2009_GEORSO (deprecated)",
     GEOGCS["GDBD2009",
         DATUM["Geocentric_Datum_Brunei_Darussalam_2009",
             SPHEROID["GRS 1980",6378137,298.257222101,

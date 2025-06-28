@@ -1,4 +1,4 @@
-PROJCS["CRTM05",
+PROJCS["CRTM05 (deprecated)",
     GEOGCS["CR05",
         DATUM["Costa_Rica_2005",
             SPHEROID["WGS 84",6378137,298.257223563,

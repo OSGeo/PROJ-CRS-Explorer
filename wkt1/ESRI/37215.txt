@@ -1,4 +1,4 @@
-GEOGCS["GCS_Bellevue_IGN",
+GEOGCS["GCS_Bellevue_IGN (deprecated)",
     DATUM["D_Bellevue_IGN",
         SPHEROID["International 1924",6378388,297,
             AUTHORITY["EPSG","7022"]],

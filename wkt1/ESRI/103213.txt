@@ -1,4 +1,4 @@
-PROJCS["Chua_UTM_Zone_23S",
+PROJCS["Chua_UTM_Zone_23S (deprecated)",
     GEOGCS["Chua",
         DATUM["Chua",
             SPHEROID["International 1924",6378388,297,

@@ -1,4 +1,4 @@
-GEOGCS["WGS_1984_(G1150)",
+GEOGCS["WGS_1984_(G1150) (deprecated)",
     DATUM["World_Geodetic_System_1984_G1150",
         SPHEROID["WGS 84",6378137,298.257223563,
             AUTHORITY["EPSG","7030"]],

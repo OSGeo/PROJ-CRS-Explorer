@@ -1,4 +1,4 @@
-PROJCS["Monte_Mario_Italy_1",
+PROJCS["Monte_Mario_Italy_1 (deprecated)",
     GEOGCS["Monte Mario",
         DATUM["Monte_Mario",
             SPHEROID["International 1924",6378388,297,

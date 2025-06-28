@@ -1,4 +1,4 @@
-GEOGCS["GCS_Midway_1961",
+GEOGCS["GCS_Midway_1961 (deprecated)",
     DATUM["D_Midway_1961",
         SPHEROID["International 1924",6378388,297,
             AUTHORITY["EPSG","7022"]],

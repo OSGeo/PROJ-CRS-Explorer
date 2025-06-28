@@ -1,4 +1,4 @@
-GEOGCS["GCS_Point_58",
+GEOGCS["GCS_Point_58 (deprecated)",
     DATUM["D_Point_58",
         SPHEROID["Clarke 1880 (RGS)",6378249.145,293.465,
             AUTHORITY["EPSG","7012"]],

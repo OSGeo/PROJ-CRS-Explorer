@@ -1,4 +1,4 @@
-PROJCS["ED_1950_Turkey_11",
+PROJCS["ED_1950_Turkey_11 (deprecated)",
     GEOGCS["ED50",
         DATUM["European_Datum_1950",
             SPHEROID["International 1924",6378388,297,

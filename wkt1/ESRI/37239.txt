@@ -1,4 +1,4 @@
-GEOGCS["GCS_Cape_Canaveral",
+GEOGCS["GCS_Cape_Canaveral (deprecated)",
     DATUM["D_Cape_Canaveral",
         SPHEROID["Clarke 1866",6378206.4,294.978698213898,
             AUTHORITY["EPSG","7008"]],

@@ -1,4 +1,4 @@
-PROJCS["Porto_Santo_1936_UTM_Zone_28N",
+PROJCS["Porto_Santo_1936_UTM_Zone_28N (deprecated)",
     GEOGCS["Porto Santo",
         DATUM["Porto_Santo_1936",
             SPHEROID["International 1924",6378388,297,
