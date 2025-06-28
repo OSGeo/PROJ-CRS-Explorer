@@ -1,0 +1,25 @@
+name: Tag repository
+on:
+  workflow_dispatch:
+    inputs:
+      tagValue:
+        description: 'tag string'
+        required: true
+        type: string
+
+jobs:
+  tag-master:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Create tag
+        uses: actions/github-script@v5
+        with:
+          script: |
+            github.rest.git.createRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: 'refs/tags/${{ inputs.tagValue }}',
+              sha: context.sha
+            })
