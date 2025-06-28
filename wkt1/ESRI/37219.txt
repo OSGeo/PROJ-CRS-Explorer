@@ -1,4 +1,4 @@
-GEOGCS["GCS_Easter_Island_1967",
+GEOGCS["GCS_Easter_Island_1967 (deprecated)",
     DATUM["D_Easter_Island_1967",
         SPHEROID["International 1924",6378388,297,
             AUTHORITY["EPSG","7022"]],

@@ -1,4 +1,4 @@
-GEOGCS["GCS_Pico_de_Las_Nieves",
+GEOGCS["GCS_Pico_de_Las_Nieves (deprecated)",
     DATUM["D_Pico_de_Las_Nieves",
         SPHEROID["International 1924",6378388,297,
             AUTHORITY["EPSG","7022"]],

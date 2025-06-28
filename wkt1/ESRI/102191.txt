@@ -1,4 +1,4 @@
-PROJCS["Nord_Maroc",
+PROJCS["Nord_Maroc (deprecated)",
     GEOGCS["Merchich",
         DATUM["Merchich",
             SPHEROID["Clarke 1880 (IGN)",6378249.2,293.466021293627,

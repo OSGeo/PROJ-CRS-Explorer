@@ -1,4 +1,4 @@
-GEOGCS["GCS_Kyrg-06",
+GEOGCS["GCS_Kyrg-06 (deprecated)",
     DATUM["D_Kyrgyz_Republic_2006",
         SPHEROID["GRS 1980",6378137,298.257222101,
             AUTHORITY["EPSG","7019"]],

@@ -1,4 +1,4 @@
-PROJCS["Katanga_1955_Katanga_Lambert",
+PROJCS["Katanga_1955_Katanga_Lambert (deprecated)",
     GEOGCS["Katanga 1955",
         DATUM["Katanga_1955",
             SPHEROID["Clarke 1866",6378206.4,294.978698213898,

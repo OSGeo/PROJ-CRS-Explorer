@@ -1,4 +1,4 @@
-GEOGCS["GCS_MACAO_2008",
+GEOGCS["GCS_MACAO_2008 (deprecated)",
     DATUM["D_MACAO_2008",
         SPHEROID["International 1924",6378388,297,
             AUTHORITY["EPSG","7022"]],

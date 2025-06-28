@@ -1,4 +1,4 @@
-PROJCS["NAD_1983_CSRS_UTM_Zone_16N",
+PROJCS["NAD_1983_CSRS_UTM_Zone_16N (deprecated)",
     GEOGCS["NAD83(CSRS)",
         DATUM["NAD83_Canadian_Spatial_Reference_System",
             SPHEROID["GRS 1980",6378137,298.257222101,

@@ -1,4 +1,4 @@
-PROJCS["RGRDC_2005_Congo_TM_Zone_28",
+PROJCS["RGRDC_2005_Congo_TM_Zone_28 (deprecated)",
     GEOGCS["RGRDC 2005",
         DATUM["Reseau_Geodesique_de_la_RDC_2005",
             SPHEROID["GRS 1980",6378137,298.257222101,

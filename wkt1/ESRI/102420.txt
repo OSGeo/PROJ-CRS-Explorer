@@ -1,4 +1,4 @@
-PROJCS["ISN_2004_Lambert_2004",
+PROJCS["ISN_2004_Lambert_2004 (deprecated)",
     GEOGCS["ISN2004",
         DATUM["Islands_Net_2004",
             SPHEROID["GRS 1980",6378137,298.257222101,

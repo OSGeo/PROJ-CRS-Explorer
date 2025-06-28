@@ -1,4 +1,4 @@
-GEOGCS["GCS_Voirol_Unifie_1960_Paris",
+GEOGCS["GCS_Voirol_Unifie_1960_Paris (deprecated)",
     DATUM["D_Voirol_Unifie_1960",
         SPHEROID["Clarke 1880 (RGS)",6378249.145,293.465,
             AUTHORITY["EPSG","7012"]],

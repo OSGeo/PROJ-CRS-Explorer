@@ -1,4 +1,4 @@
-PROJCS["NZGD_2000_Chatham_Island_Circuit",
+PROJCS["NZGD_2000_Chatham_Island_Circuit (deprecated)",
     GEOGCS["NZGD2000",
         DATUM["New_Zealand_Geodetic_Datum_2000",
             SPHEROID["GRS 1980",6378137,298.257222101,

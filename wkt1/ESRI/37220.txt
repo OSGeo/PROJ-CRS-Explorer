@@ -1,4 +1,4 @@
-GEOGCS["GCS_Guam_1963",
+GEOGCS["GCS_Guam_1963 (deprecated)",
     DATUM["D_Guam_1963",
         SPHEROID["Clarke 1866",6378206.4,294.978698213898,
             AUTHORITY["EPSG","7008"]],

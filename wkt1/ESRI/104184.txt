@@ -1,4 +1,4 @@
-GEOGCS["ETRF96",
+GEOGCS["ETRF96 (deprecated)",
     DATUM["European_Terrestrial_Reference_Frame_1996",
         SPHEROID["GRS 1980",6378137,298.257222101,
             AUTHORITY["EPSG","7019"]],

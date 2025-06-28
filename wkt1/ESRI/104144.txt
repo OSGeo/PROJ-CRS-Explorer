@@ -1,4 +1,4 @@
-GEOGCS["GCS_ISN_2004",
+GEOGCS["GCS_ISN_2004 (deprecated)",
     DATUM["D_Islands_Network_2004",
         SPHEROID["GRS 1980",6378137,298.257222101,
             AUTHORITY["EPSG","7019"]],

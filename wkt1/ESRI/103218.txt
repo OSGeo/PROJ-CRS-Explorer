@@ -1,4 +1,4 @@
-PROJCS["ETRS_1989_DKTM3",
+PROJCS["ETRS_1989_DKTM3 (deprecated)",
     GEOGCS["ETRS89",
         DATUM["European_Terrestrial_Reference_System_1989",
             SPHEROID["GRS 1980",6378137,298.257222101,

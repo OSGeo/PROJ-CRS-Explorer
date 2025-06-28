@@ -1,4 +1,4 @@
-GEOGCS["GCS_Anna_1_1965",
+GEOGCS["GCS_Anna_1_1965 (deprecated)",
     DATUM["D_Anna_1_1965",
         SPHEROID["Australian National Spheroid",6378160,298.25,
             AUTHORITY["EPSG","7003"]],

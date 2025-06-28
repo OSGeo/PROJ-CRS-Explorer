@@ -1,4 +1,4 @@
-GEOGCS["GCS_Nepal_Nagarkot",
+GEOGCS["GCS_Nepal_Nagarkot (deprecated)",
     DATUM["D_Nepal_Nagarkot",
         SPHEROID["Everest 1830 (1937 Adjustment)",6377276.345,300.8017,
             AUTHORITY["EPSG","7015"]],

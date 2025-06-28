@@ -1,4 +1,4 @@
-PROJCS["Pulkovo_1942_Adj_1983_3_Degree_GK_Zone_8",
+PROJCS["Pulkovo_1942_Adj_1983_3_Degree_GK_Zone_8 (deprecated)",
     GEOGCS["Pulkovo 1942(83)",
         DATUM["Pulkovo_1942_83",
             SPHEROID["Krassowsky 1940",6378245,298.3,

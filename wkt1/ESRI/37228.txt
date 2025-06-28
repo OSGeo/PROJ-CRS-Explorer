@@ -1,4 +1,4 @@
-GEOGCS["GCS_Viti_Levu_1916",
+GEOGCS["GCS_Viti_Levu_1916 (deprecated)",
     DATUM["D_Viti_Levu_1916",
         SPHEROID["Clarke 1880 (RGS)",6378249.145,293.465,
             AUTHORITY["EPSG","7012"]],

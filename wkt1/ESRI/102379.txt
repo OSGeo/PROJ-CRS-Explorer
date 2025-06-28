@@ -1,4 +1,4 @@
-PROJCS["NAD_1983_CORS96_StatePlane_Oregon_South_FIPS_3602_Ft_Intl",
+PROJCS["NAD_1983_CORS96_StatePlane_Oregon_South_FIPS_3602_Ft_Intl (deprecated)",
     GEOGCS["NAD83(CORS96)",
         DATUM["NAD83_Continuously_Operating_Reference_Station_1996",
             SPHEROID["GRS 1980",6378137,298.257222101,

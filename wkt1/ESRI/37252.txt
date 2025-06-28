@@ -1,4 +1,4 @@
-GEOGCS["GCS_American_Samoa_1962",
+GEOGCS["GCS_American_Samoa_1962 (deprecated)",
     DATUM["D_American_Samoa_1962",
         SPHEROID["Clarke 1866",6378206.4,294.978698213898,
             AUTHORITY["EPSG","7008"]],

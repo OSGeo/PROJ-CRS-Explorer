@@ -1,4 +1,4 @@
-PROJCS["Palestine_1923_Palestine_Grid_TM",
+PROJCS["Palestine_1923_Palestine_Grid_TM (deprecated)",
     GEOGCS["Palestine 1923",
         DATUM["Palestine_1923",
             SPHEROID["Clarke 1880 (Benoit)",6378300.789,293.466315538981,

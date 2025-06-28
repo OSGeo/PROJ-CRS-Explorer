@@ -1,4 +1,4 @@
-GEOGCS["GCS_Bermuda_2000",
+GEOGCS["GCS_Bermuda_2000 (deprecated)",
     DATUM["D_Bermuda_2000",
         SPHEROID["WGS 84",6378137,298.257223563,
             AUTHORITY["EPSG","7030"]],

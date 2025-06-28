@@ -1,4 +1,4 @@
-GEOGCS["GCS_ITRF_1988",
+GEOGCS["GCS_ITRF_1988 (deprecated)",
     DATUM["International_Terrestrial_Reference_Frame_1988",
         SPHEROID["GRS 1980",6378137,298.257222101,
             AUTHORITY["EPSG","7019"]],

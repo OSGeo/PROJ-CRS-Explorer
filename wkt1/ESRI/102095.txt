@@ -1,4 +1,4 @@
-PROJCS["JAD_2001_Jamaica_Grid",
+PROJCS["JAD_2001_Jamaica_Grid (deprecated)",
     GEOGCS["JAD2001",
         DATUM["Jamaica_2001",
             SPHEROID["WGS 84",6378137,298.257223563,

@@ -1,4 +1,4 @@
-GEOGCS["GCS_Tristan_1968",
+GEOGCS["GCS_Tristan_1968 (deprecated)",
     DATUM["D_Tristan_1968",
         SPHEROID["International 1924",6378388,297,
             AUTHORITY["EPSG","7022"]],

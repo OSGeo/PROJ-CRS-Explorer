@@ -1,4 +1,4 @@
-PROJCS["NAD_1983_HARN_StatePlane_Arizona_West_FIPS_0203",
+PROJCS["NAD_1983_HARN_StatePlane_Arizona_West_FIPS_0203 (deprecated)",
     GEOGCS["NAD83(HARN)",
         DATUM["NAD83_High_Accuracy_Reference_Network",
             SPHEROID["GRS 1980",6378137,298.257222101,

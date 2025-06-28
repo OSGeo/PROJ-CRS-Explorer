@@ -1,4 +1,4 @@
-PROJCS["Chatham_Islands_1979_Map_Grid",
+PROJCS["Chatham_Islands_1979_Map_Grid (deprecated)",
     GEOGCS["Chatham Islands 1979",
         DATUM["Chatham_Islands_Datum_1979",
             SPHEROID["International 1924",6378388,297,

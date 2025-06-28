@@ -1,4 +1,4 @@
-PROJCS["SIRGAS_UTM_Zone_19N",
+PROJCS["SIRGAS_UTM_Zone_19N (deprecated)",
     GEOGCS["SIRGAS 1995",
         DATUM["Sistema_de_Referencia_Geocentrico_para_America_del_Sur_1995",
             SPHEROID["GRS 1980",6378137,298.257222101,

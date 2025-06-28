@@ -1,4 +1,4 @@
-PROJCS["NAD_1983_NSRS2007_StatePlane_Puerto_Rico_Virgin_Isls_FIPS_5200",
+PROJCS["NAD_1983_NSRS2007_StatePlane_Puerto_Rico_Virgin_Isls_FIPS_5200 (deprecated)",
     GEOGCS["NAD83(NSRS2007)",
         DATUM["NAD83_National_Spatial_Reference_System_2007",
             SPHEROID["GRS 1980",6378137,298.257222101,

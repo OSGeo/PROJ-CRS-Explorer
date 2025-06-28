@@ -1,4 +1,4 @@
-PROJCS["Hong_Kong_1980_Grid",
+PROJCS["Hong_Kong_1980_Grid (deprecated)",
     GEOGCS["Hong Kong 1980",
         DATUM["Hong_Kong_1980",
             SPHEROID["International 1924",6378388,297,

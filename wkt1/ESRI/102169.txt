@@ -1,4 +1,4 @@
-PROJCS["Selvagem_Grande_1938_UTM_Zone_28N",
+PROJCS["Selvagem_Grande_1938_UTM_Zone_28N (deprecated)",
     GEOGCS["Selvagem Grande",
         DATUM["Selvagem_Grande",
             SPHEROID["International 1924",6378388,297,

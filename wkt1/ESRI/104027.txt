@@ -1,4 +1,4 @@
-GEOGCS["ONGD17",
+GEOGCS["ONGD17 (deprecated)",
     DATUM["Oman_National_Geodetic_Datum_2017",
         SPHEROID["GRS 1980",6378137,298.257222101,
             AUTHORITY["EPSG","7019"]],

@@ -1,4 +1,4 @@
-PROJCS["Kyrg-06_TM_Zone_4",
+PROJCS["Kyrg-06_TM_Zone_4 (deprecated)",
     GEOGCS["Kyrg-06",
         DATUM["Kyrgyzstan_Geodetic_Datum_2006",
             SPHEROID["GRS 1980",6378137,298.257222101,

@@ -1,4 +1,4 @@
-PROJCS["JGD_2011_Japan_Zone_11",
+PROJCS["JGD_2011_Japan_Zone_11 (deprecated)",
     GEOGCS["JGD2011",
         DATUM["Japanese_Geodetic_Datum_2011",
             SPHEROID["GRS 1980",6378137,298.257222101,

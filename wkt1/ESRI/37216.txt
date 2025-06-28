@@ -1,4 +1,4 @@
-GEOGCS["GCS_Canton_1966",
+GEOGCS["GCS_Canton_1966 (deprecated)",
     DATUM["D_Canton_1966",
         SPHEROID["International 1924",6378388,297,
             AUTHORITY["EPSG","7022"]],

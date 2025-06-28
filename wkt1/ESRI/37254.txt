@@ -1,4 +1,4 @@
-GEOGCS["GCS_Deception_Island",
+GEOGCS["GCS_Deception_Island (deprecated)",
     DATUM["D_Deception_Island",
         SPHEROID["Clarke 1880 (RGS)",6378249.145,293.465,
             AUTHORITY["EPSG","7012"]],

@@ -1,4 +1,4 @@
-GEOGCS["GCS_Merchich",
+GEOGCS["GCS_Merchich (deprecated)",
     DATUM["Merchich",
         SPHEROID["Clarke 1880 (IGN)",6378249.2,293.466021293627,
             AUTHORITY["EPSG","7011"]],

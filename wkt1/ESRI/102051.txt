@@ -1,4 +1,4 @@
-PROJCS["NAD_1983_2011_UTM_Zone_4N",
+PROJCS["NAD_1983_2011_UTM_Zone_4N (deprecated)",
     GEOGCS["NAD83(2011)",
         DATUM["NAD83_National_Spatial_Reference_System_2011",
             SPHEROID["GRS 1980",6378137,298.257222101,

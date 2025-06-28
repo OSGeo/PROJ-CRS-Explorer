@@ -1,4 +1,4 @@
-PROJCS["Tananarive_1925_Laborde_Grid",
+PROJCS["Tananarive_1925_Laborde_Grid (deprecated)",
     GEOGCS["Tananarive",
         DATUM["Tananarive_1925",
             SPHEROID["International 1924",6378388,297,

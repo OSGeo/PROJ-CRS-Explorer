@@ -1,4 +1,4 @@
-GEOGCS["GCS_Wake_Island_1952",
+GEOGCS["GCS_Wake_Island_1952 (deprecated)",
     DATUM["D_Wake_Island_1952",
         SPHEROID["International 1924",6378388,297,
             AUTHORITY["EPSG","7022"]],
