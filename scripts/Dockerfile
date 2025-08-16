@@ -14,6 +14,7 @@ ENV DEST_DIR=/home/dist
 WORKDIR /home/
 
 COPY conf .
+COPY .python-version .
 RUN /home/install.sh
 
 COPY proj2json.py .

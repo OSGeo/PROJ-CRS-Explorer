@@ -7,7 +7,14 @@ updates:
     directory: "/scripts/"
     schedule:
       interval: "daily"
-  
+
+  # Configuration for pyproj
+  - package-ecosystem: "pip"
+    directory: "/scripts/"
+    schedule:
+      interval: "weekly"
+
+  # GitHub actions themselves
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
