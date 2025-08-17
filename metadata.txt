@@ -1,5 +1,5 @@
 pyproj info:
-    pyproj: 3.7.1
+    pyproj: 3.7.2
 PROJ (runtime): 9.6.2
 PROJ (compiled): 9.6.2
   data dir: /usr/share/proj/
