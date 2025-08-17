@@ -2,4 +2,4 @@
 # but we do not install pyproj directly from pip.
 # pyproj is "compiled" for the specific version of PROJ
 # the file .python-version is needed to run properly with dependabot
-pyproj==3.7.1
+pyproj==3.7.2
