@@ -1,3 +1,20 @@
-Error: IAU_2015:951101090 cannot be written as WKT1_GDAL
- type: PROJECTED_CRS
- name: Gaspra (2015) - Sphere / Ocentric / Mercator
+PROJCS["Gaspra (2015) - Sphere / Ocentric / Mercator",
+    GEOGCS["Gaspra (2015) - Sphere / Ocentric",
+        DATUM["Gaspra (2015) - Sphere",
+            SPHEROID["Gaspra (2015) - Sphere",6100,0,
+                AUTHORITY["IAU","951101000"]],
+            AUTHORITY["IAU","951101000"]],
+        PRIMEM["Reference Meridian",0,
+            AUTHORITY["IAU","951101000"]],
+        UNIT["degree",0.0174532925199433,
+            AUTHORITY["EPSG","9122"]],
+        AUTHORITY["IAU","951101000"]],
+    PROJECTION["Mercator_1SP"],
+    PARAMETER["central_meridian",0],
+    PARAMETER["false_easting",0],
+    PARAMETER["false_northing",0],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Easting",EAST],
+    AXIS["Northing",NORTH],
+    AUTHORITY["IAU","951101090"]]

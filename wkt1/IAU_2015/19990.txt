@@ -1,3 +1,20 @@
-Error: IAU_2015:19990 cannot be written as WKT1_GDAL
- type: PROJECTED_CRS
- name: Mercury (2015) - Sphere / Ocentric / Mercator
+PROJCS["Mercury (2015) - Sphere / Ocentric / Mercator",
+    GEOGCS["Mercury (2015) - Sphere / Ocentric",
+        DATUM["Mercury (2015) - Sphere",
+            SPHEROID["Mercury (2015) - Sphere",2440530,0,
+                AUTHORITY["IAU","19900"]],
+            AUTHORITY["IAU","19900"]],
+        PRIMEM["Reference Meridian",0,
+            AUTHORITY["IAU","19900"]],
+        UNIT["degree",0.0174532925199433,
+            AUTHORITY["EPSG","9122"]],
+        AUTHORITY["IAU","19900"]],
+    PROJECTION["Mercator_1SP"],
+    PARAMETER["central_meridian",0],
+    PARAMETER["false_easting",0],
+    PARAMETER["false_northing",0],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Easting",EAST],
+    AXIS["Northing",NORTH],
+    AUTHORITY["IAU","19990"]]

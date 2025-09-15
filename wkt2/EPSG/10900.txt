@@ -1,0 +1,10 @@
+VERTCRS["Asse 2025 height",
+    VDATUM["Asse vertical datum 2025"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Germany - Lower Saxony - Asse mining area."],
+        BBOX[52.11,10.6,52.16,10.7]],
+    ID["EPSG",10900]]

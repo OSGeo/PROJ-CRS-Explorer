@@ -17,6 +17,6 @@ PROJCS["52 Europa (2015) - Sphere / Ocentric / North Polar",
     PARAMETER["false_northing",0],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],
-    AXIS["Easting",EAST],
-    AXIS["Northing",NORTH],
+    AXIS["Easting",SOUTH],
+    AXIS["Northing",SOUTH],
     AUTHORITY["IAU","200005230"]]

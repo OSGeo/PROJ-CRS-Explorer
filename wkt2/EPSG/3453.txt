@@ -35,7 +35,7 @@ PROJCRS["NAD83 / Louisiana Offshore (ftUS)",
             ORDER[2],
             LENGTHUNIT["US survey foot",0.304800609601219]],
     USAGE[
-        SCOPE["Engineering survey, topographic mapping."],
-        AREA["United States (USA) - Louisiana."],
-        BBOX[28.85,-94.05,33.03,-88.75]],
+        SCOPE["No official usage."],
+        AREA["United States (USA) - central Gulf of Mexico outer continental shelf (GoM OCS) planning area, deep water portion."],
+        BBOX[25.58,-93.38,29.35,-86.53]],
     ID["EPSG",3453]]

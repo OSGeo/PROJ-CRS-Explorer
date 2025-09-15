@@ -1,0 +1,10 @@
+VERTCRS["SVD2024 height",
+    VDATUM["Svalbard vertical datum 2024"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, topographic mapping."],
+        AREA["Svalbard including Bear Island."],
+        BBOX[74.3208,6.49005,81.8504,33.50985]],
+    ID["EPSG",10999]]

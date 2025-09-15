@@ -35,5 +35,5 @@ PROJCRS["NAD83(CSRS)v2 / UTM zone 20N",
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
         AREA["Canada between 66°W and 60°W onshore and offshore - New Brunswick, Labrador, Nova Scotia, Nunavut, Prince Edward Island, Quebec."],
-        BBOX[40.04,-66,84,-60]],
+        BBOX[38.21,-66,84,-59.99]],
     ID["EPSG",22220]]

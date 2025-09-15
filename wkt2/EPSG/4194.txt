@@ -1,5 +1,5 @@
-GEOGCRS["Qornoq 1927",
-    DATUM["Qornoq 1927",
+GEOGCRS["Qoornoq 1927",
+    DATUM["Qoornoq 1927",
         ELLIPSOID["International 1924",6378388,297,
             LENGTHUNIT["metre",1]]],
     PRIMEM["Greenwich",0,

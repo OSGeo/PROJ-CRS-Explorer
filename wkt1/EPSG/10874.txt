@@ -1,0 +1,3 @@
+Error: EPSG:10874 cannot be written as WKT1_GDAL
+ type: GEOGRAPHIC_3D_CRS
+ name: ETRS89-NOR [EUREF89]

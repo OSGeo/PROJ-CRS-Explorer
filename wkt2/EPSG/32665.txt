@@ -42,6 +42,7 @@ PROJCRS["WGS 84 / BLM 15N (ftUS)",
             LENGTHUNIT["US survey foot",0.304800609601219]],
     USAGE[
         SCOPE["No official usage."],
-        AREA["United States (USA) - Gulf of Mexico outer continental shelf (GoM OCS) between approximately 96°W and 90°W - protraction areas East Breaks; Alaminos Canyon; Garden Banks; Keathley Canyon; Sigsbee Escarpment; Ewing Bank; Green Canyon; Walker Ridge; Amery Terrace."],
+        AREA["United States (USA) - Gulf of Mexico outer continental shelf (GoM OCS) between approximately 96°W and 90°W - leasing areas Brazos, Galveston, High Island; Sabine Pass; West Cameron, East Cameron, Vermilion, South Marsh Island, Eugene Island, Ship Shoal, South Pelto, Bay Marchand, South Timbalier, Grand Isle; protraction areas East Breaks, Alaminos Canyon, Garden Banks, Keathley Canyon, Sigsbee Escarpment, Ewing Bank, Green Canyon, Walker Ridge, Amery Terrace.
+"],
         BBOX[25.61,-96,29.73,-89.86]],
     ID["EPSG",32665]]

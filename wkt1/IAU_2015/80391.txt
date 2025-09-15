@@ -1,3 +1,20 @@
-Error: IAU_2015:80391 cannot be written as WKT1_GDAL
- type: PROJECTED_CRS
- name: Naiad (2015) / Ographic / Mercator
+PROJCS["Naiad (2015) / Ographic / Mercator",
+    GEOGCS["Naiad (2015) / Ographic",
+        DATUM["Naiad (2015)",
+            SPHEROID["Naiad (2015)",29000,0,
+                AUTHORITY["IAU","80301"]],
+            AUTHORITY["IAU","80301"]],
+        PRIMEM["Reference Meridian",0,
+            AUTHORITY["IAU","80300"]],
+        UNIT["degree",0.0174532925199433,
+            AUTHORITY["EPSG","9122"]],
+        AUTHORITY["IAU","80301"]],
+    PROJECTION["Mercator_1SP"],
+    PARAMETER["central_meridian",0],
+    PARAMETER["false_easting",0],
+    PARAMETER["false_northing",0],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Westing",WEST],
+    AXIS["Northing",NORTH],
+    AUTHORITY["IAU","80391"]]

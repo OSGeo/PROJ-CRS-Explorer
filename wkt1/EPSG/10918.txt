@@ -1,0 +1,7 @@
+VERT_CS["COH88 2025 (NAVD88) height",
+    VERT_DATUM["Derived California Orthometric Heights of 1988 epoch 2025",2005,
+        AUTHORITY["EPSG","1416"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","10918"]]

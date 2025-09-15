@@ -1,3 +1,20 @@
-Error: IAU_2015:61190 cannot be written as WKT1_GDAL
- type: PROJECTED_CRS
- name: Epimetheus (2015) - Sphere / Ocentric / Mercator
+PROJCS["Epimetheus (2015) - Sphere / Ocentric / Mercator",
+    GEOGCS["Epimetheus (2015) - Sphere / Ocentric",
+        DATUM["Epimetheus (2015) - Sphere",
+            SPHEROID["Epimetheus (2015) - Sphere",58200,0,
+                AUTHORITY["IAU","61100"]],
+            AUTHORITY["IAU","61100"]],
+        PRIMEM["Reference Meridian",0,
+            AUTHORITY["IAU","61100"]],
+        UNIT["degree",0.0174532925199433,
+            AUTHORITY["EPSG","9122"]],
+        AUTHORITY["IAU","61100"]],
+    PROJECTION["Mercator_1SP"],
+    PARAMETER["central_meridian",0],
+    PARAMETER["false_easting",0],
+    PARAMETER["false_northing",0],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Easting",EAST],
+    AXIS["Northing",NORTH],
+    AUTHORITY["IAU","61190"]]

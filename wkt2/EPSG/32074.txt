@@ -33,6 +33,6 @@ PROJCRS["NAD27 / BLM 14N (feet)",
             LENGTHUNIT["US survey foot",0.304800609601219]],
     USAGE[
         SCOPE["Minerals management (including oil and gas exploration and production)."],
-        AREA["United States (USA) - Gulf of Mexico outer continental shelf (GoM OCS) west of approximately 96°W - protraction areas Corpus Christi; Port Isabel."],
+        AREA["United States (USA) - Gulf of Mexico west of approximately 96°W - leasing areas Matagorda Island, Mustang Island, North Padre Island and South Padre Island; outer continental shelf (GoM OCS) protraction areas Corpus Christi, Port Isabel."],
         BBOX[25.97,-97.22,28.43,-95.87]],
     ID["EPSG",32074]]

@@ -1,0 +1,3 @@
+Error: EPSG:10958 cannot be written as WKT1_GDAL
+ type: GEOGRAPHIC_3D_CRS
+ name: GR96(2021)

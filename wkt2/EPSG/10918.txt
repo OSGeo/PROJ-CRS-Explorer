@@ -1,0 +1,10 @@
+VERTCRS["COH88 2025 (NAVD88) height",
+    VDATUM["Derived California Orthometric Heights of 1988 epoch 2025"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["United States (USA) - California."],
+        BBOX[32.53,-124.45,42.01,-114.12]],
+    ID["EPSG",10918]]
