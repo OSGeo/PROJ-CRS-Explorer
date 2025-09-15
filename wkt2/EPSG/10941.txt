@@ -1,0 +1,18 @@
+GEOGCRS["QazTRF-23",
+    DATUM["Kazakhstan Terrestrial Reference Frame 2023",
+        ELLIPSOID["GRS 1980",6378137,298.257222101,
+            LENGTHUNIT["metre",1]]],
+    PRIMEM["Greenwich",0,
+        ANGLEUNIT["degree",0.0174532925199433]],
+    CS[ellipsoidal,2],
+        AXIS["geodetic latitude (Lat)",north,
+            ORDER[1],
+            ANGLEUNIT["degree",0.0174532925199433]],
+        AXIS["geodetic longitude (Lon)",east,
+            ORDER[2],
+            ANGLEUNIT["degree",0.0174532925199433]],
+    USAGE[
+        SCOPE["Horizontal component of 3D system."],
+        AREA["Kazakhstan - onshore and offshore, including Caspian Sea."],
+        BBOX[40.59,46.49,55.45,87.35]],
+    ID["EPSG",10941]]

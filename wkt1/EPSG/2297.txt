@@ -1,6 +1,6 @@
 PROJCS["Qornoq 1927 / Greenland zone 1 east (deprecated)",
-    GEOGCS["Qornoq 1927",
-        DATUM["Qornoq_1927",
+    GEOGCS["Qoornoq 1927",
+        DATUM["Qoornoq_1927",
             SPHEROID["International 1924",6378388,297,
                 AUTHORITY["EPSG","7022"]],
             AUTHORITY["EPSG","6194"]],

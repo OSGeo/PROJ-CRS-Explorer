@@ -42,6 +42,6 @@ PROJCRS["WGS 84 / BLM 16N (ftUS)",
             LENGTHUNIT["US survey foot",0.304800609601219]],
     USAGE[
         SCOPE["No official usage."],
-        AREA["United States (USA) - Gulf of Mexico outer continental shelf (GoM OCS) between approximately 90°W and 84°W - protraction areas Mobile; Viosca Knoll; Mississippi Canyon; Atwater Valley; Lund; Lund South; Pensacola; Destin Dome; De Soto Canyon; Lloyd Ridge; Henderson; Florida Plain; Campeche Escarpment; Apalachicola; Florida Middle Ground; The Elbow; Vernon Basin; Howell Hook; Rankin."],
+        AREA["United States (USA) - Gulf of Mexico outer continental shelf (GoM OCS) between approximately 90°W and 84°W - leasing areas Grand Isle, West Delta, South Pass, Breton Sound, Main Pass,  Chandeleur; protraction areas Mobile, Viosca Knoll, Mississippi Canyon, Atwater Valley, Lund, Lund South, Pensacola, Destin Dome, De Soto Canyon, Lloyd Ridge, Henderson, Florida Plain, Campeche Escarpment, Apalachicola, Florida Middle Ground, The Elbow, Vernon Basin, Howell Hook, Rankin."],
         BBOX[23.95,-90.01,30.25,-83.91]],
     ID["EPSG",32666]]

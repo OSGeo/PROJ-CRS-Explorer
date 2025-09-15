@@ -1,0 +1,7 @@
+VERT_CS["Asse 2025 height",
+    VERT_DATUM["Asse vertical datum 2025",2005,
+        AUTHORITY["EPSG","1415"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","10900"]]

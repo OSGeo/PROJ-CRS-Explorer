@@ -6,5 +6,5 @@ VERTCRS["RRAF_1991",
     USAGE[
         SCOPE["Not known."],
         AREA["French Antilles onshore and offshore - Guadeloupe (including Grande Terre, Basse Terre, Marie Galante, Les Saintes, Iles de la Petite Terre, La Desirade); Martinique; St Barthélemy; St Martin."],
-        BBOX[14.08,-63.66,18.53,-57.52]],
+        BBOX[14.08,-63.66,18.54,-57.52]],
     ID["ESRI",115787]]

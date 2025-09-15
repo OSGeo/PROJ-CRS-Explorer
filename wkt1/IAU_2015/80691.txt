@@ -1,3 +1,20 @@
-Error: IAU_2015:80691 cannot be written as WKT1_GDAL
- type: PROJECTED_CRS
- name: Galatea (2015) / Ographic / Mercator
+PROJCS["Galatea (2015) / Ographic / Mercator",
+    GEOGCS["Galatea (2015) / Ographic",
+        DATUM["Galatea (2015)",
+            SPHEROID["Galatea (2015)",79000,0,
+                AUTHORITY["IAU","80601"]],
+            AUTHORITY["IAU","80601"]],
+        PRIMEM["Reference Meridian",0,
+            AUTHORITY["IAU","80600"]],
+        UNIT["degree",0.0174532925199433,
+            AUTHORITY["EPSG","9122"]],
+        AUTHORITY["IAU","80601"]],
+    PROJECTION["Mercator_1SP"],
+    PARAMETER["central_meridian",0],
+    PARAMETER["false_easting",0],
+    PARAMETER["false_northing",0],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Westing",WEST],
+    AXIS["Northing",NORTH],
+    AUTHORITY["IAU","80691"]]

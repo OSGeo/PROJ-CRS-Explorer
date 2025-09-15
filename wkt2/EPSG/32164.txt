@@ -33,6 +33,6 @@ PROJCRS["NAD83 / BLM 14N (ftUS)",
             LENGTHUNIT["US survey foot",0.304800609601219]],
     USAGE[
         SCOPE["No official usage."],
-        AREA["United States (USA) - between 102°W and 96°W. Iowa; Kansas; Minnesota; Nebraska; North Dakota; Oklahoma; South Dakota; Texas; Gulf of Mexico outer continental shelf (GoM OCS) west of approximately 96°W - protraction areas Corpus Christi; Port Isabel."],
+        AREA["United States (USA) - between 102°W and 96°W. Iowa; Kansas; Minnesota; Nebraska; North Dakota; Oklahoma; South Dakota; Texas; Gulf of Mexico west of approximately 96°W - leasing areas Matagorda Island, Mustang Island, North Padre Island and South Padre Island; outer continental shelf (GoM OCS) protraction areas Corpus Christi, Port Isabel."],
         BBOX[25.83,-102,49.01,-95.87]],
     ID["EPSG",32164]]
