@@ -1,0 +1,10 @@
+VERTCRS["IGN 2023 Mayotte height",
+    VDATUM["IGN 2023 Mayotte"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Mayotte - onshore."],
+        BBOX[-13.05,44.98,-12.61,45.35]],
+    ID["EPSG",11157]]
