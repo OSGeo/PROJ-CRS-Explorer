@@ -1,0 +1,3 @@
+Error: PROJ:S_JTSK05_BALTIC_HEIGHT cannot be written as WKT1_GDAL
+ type: COMPOUND_CRS
+ name: S-JTSK/05 / Modified Krovak + Baltic 1957 height
