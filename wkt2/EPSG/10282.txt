@@ -1,7 +1,8 @@
-GEODCRS["ETRS89/DREF91/2016",
+GEODCRS["ETRS89-DEU [ETRS89/DREF91/2016]",
     DATUM["ETRS89/DREF91 Realization 2016",
         ELLIPSOID["GRS 1980",6378137,298.257222101,
-            LENGTHUNIT["metre",1]]],
+            LENGTHUNIT["metre",1]],
+        ANCHOREPOCH[2008.46]],
     PRIMEM["Greenwich",0,
         ANGLEUNIT["degree",0.0174532925199433]],
     CS[Cartesian,3],
@@ -18,4 +19,5 @@ GEODCRS["ETRS89/DREF91/2016",
         SCOPE["Geodesy."],
         AREA["Germany - onshore and offshore."],
         BBOX[47.27,3.34,55.92,15.04]],
-    ID["EPSG",10282]]
+    ID["EPSG",10282],
+    REMARK["German national realization of ETRS89.  Replaces ETRS89-DEU [ETRS89/DREF91/2002] from 2016-12-01. Replaced by ETRS89-DEU [ETRS89/DREF91/2025] from 2025-07-01."]]

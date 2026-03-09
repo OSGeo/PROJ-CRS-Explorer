@@ -15,4 +15,5 @@ GEOGCRS["IGCB 1955",
         SCOPE["Geodesy."],
         AREA["The Democratic Republic of the Congo (Zaire) - Lower Congo (Bas Congo)"],
         BBOX[-6.04,12.17,-4.28,16.28]],
-    ID["EPSG",4701]]
+    ID["EPSG",4701],
+    REMARK["Replaced by IGC 1962 Arc of the 6th Parallel South, except for oil industry activities."]]

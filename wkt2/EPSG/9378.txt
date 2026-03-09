@@ -20,4 +20,5 @@ GEODCRS["IGb14",
         SCOPE["Geodesy."],
         AREA["World."],
         BBOX[-90,-180,90,180]],
-    ID["EPSG",9378]]
+    ID["EPSG",9378],
+    REMARK["Used for products from the International GNSS Service (IGS) from 2020-05-17. Replaces IGS14 (code 8227), replaced by IGS20 (code 10176). For most practical purposes IGb14 is equivalent to ITRF2014."]]

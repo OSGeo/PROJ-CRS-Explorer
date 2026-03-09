@@ -18,4 +18,5 @@ GEOGCRS["RGTAAF07",
         SCOPE["Geodesy; air, land and sea navigation and safety of life purposes."],
         AREA["French Southern Territories - onshore and offshore: Amsterdam and St Paul, Crozet, Europa and Kerguelen. Antarctica - Adelie Land coastal area."],
         BBOX[-67.13,37.98,-20.91,142]],
-    ID["EPSG",7072]]
+    ID["EPSG",7072],
+    REMARK["See CRS code 7087 for alternate system with horizontal axes reversed used by IGN for GIS purposes."]]

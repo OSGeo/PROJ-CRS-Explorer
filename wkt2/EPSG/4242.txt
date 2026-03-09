@@ -15,4 +15,5 @@ GEOGCRS["JAD69",
         SCOPE["Geodesy."],
         AREA["Jamaica - onshore."],
         BBOX[17.64,-78.43,18.58,-76.17]],
-    ID["EPSG",4242]]
+    ID["EPSG",4242],
+    REMARK["Replaced by JAD2001 (CRS code 4758)."]]

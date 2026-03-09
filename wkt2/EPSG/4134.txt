@@ -15,4 +15,5 @@ GEOGCRS["PSD93",
         SCOPE["Geodesy."],
         AREA["Oman - onshore. Includes Musandam and the Kuria Muria (Al Hallaniyah) islands."],
         BBOX[16.59,51.99,26.58,59.91]],
-    ID["EPSG",4134]]
+    ID["EPSG",4134],
+    REMARK["Replaced Fahud geogCRS (code 4232) in 1993. Maximum differences to Fahud adjustment are 20 metres."]]

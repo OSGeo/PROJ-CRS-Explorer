@@ -15,4 +15,5 @@ GEOGCRS["GDBD2009",
         SCOPE["Horizontal component of 3D system."],
         AREA["Brunei Darussalam - onshore and offshore."],
         BBOX[4.01,112.37,6.31,115.37]],
-    ID["EPSG",5246]]
+    ID["EPSG",5246],
+    REMARK["Introduced from July 2009 to replace Timbalai 1948 (CRS code 4298) for government purposes."]]

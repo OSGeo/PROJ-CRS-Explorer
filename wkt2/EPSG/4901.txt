@@ -15,4 +15,5 @@ GEOGCRS["ATF (Paris)",
         SCOPE["Geodesy."],
         AREA["France - mainland onshore."],
         BBOX[42.33,-4.87,51.14,8.23]],
-    ID["EPSG",4901]]
+    ID["EPSG",4901],
+    REMARK["ProjCRS covering all mainland France based on this datum used Bonne projection. In Alsace, suspected to be an extension of core network based on transformation of old German system."]]

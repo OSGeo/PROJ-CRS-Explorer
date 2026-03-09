@@ -15,4 +15,5 @@ GEOGCRS["Malongo 1987",
         SCOPE["Oil and gas exploration and production."],
         AREA["Angola (Cabinda) - offshore; The Democratic Republic of the Congo (Zaire) - offshore."],
         BBOX[-6.04,10.53,-5.05,12.37]],
-    ID["EPSG",4259]]
+    ID["EPSG",4259],
+    REMARK["Replaced Mhast (offshore) (CRS code 4705) in 1987. References to ""Mhast"" since 1987 often should have stated ""Malongo 1987""."]]

@@ -19,4 +19,5 @@ GEODCRS["NAD83(CSRS)v4",
         SCOPE["Geodesy."],
         AREA["Canada - onshore and offshore - Alberta; British Columbia; Manitoba; New Brunswick; Newfoundland and Labrador; Northwest Territories; Nova Scotia; Nunavut; Ontario; Prince Edward Island; Quebec; Saskatchewan; Yukon."],
         BBOX[38.21,-141.01,86.46,-40.73]],
-    ID["EPSG",8242]]
+    ID["EPSG",8242],
+    REMARK["Adopted by the Canadian federal government from 2002-01-01 and by the provincial governments of Alberta and British Columbia. Replaces NAD83(CSRS)v3. Replaced by NAD83(CSRS)v5 (CRS code 8247)."]]

@@ -1,0 +1,10 @@
+VERTCRS["JGD2024_vertical_height",
+    VDATUM["Japanese_Geodetic_Datum_2024_vertical"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Japan including outlying islands - onshore."],
+        BBOX[20.37,122.83,45.54,154.05]],
+    ID["ESRI",105604]]

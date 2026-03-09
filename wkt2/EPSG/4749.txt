@@ -15,4 +15,5 @@ GEOGCRS["RGNC91-93",
         SCOPE["Geodesy; air, land and sea navigation and safety of life purposes."],
         AREA["New Caledonia - onshore and offshore. Isle de Pins, Loyalty Islands, Huon Islands, Belep archipelago, Chesterfield Islands, and Walpole."],
         BBOX[-26.45,156.25,-14.83,174.28]],
-    ID["EPSG",4749]]
+    ID["EPSG",4749],
+    REMARK["Replaces older systems IGN56 Lifou, IGN72 Grande Terre, ST87 Ouvea, IGN53 Mare, ST84 Ile des Pins, ST71 Belep and NEA74 Noumea. Replaced by RGNC15 (CRS 10310). See CRS code 10307 for alternate system with axes reversed used by DITTT for GIS purposes."]]

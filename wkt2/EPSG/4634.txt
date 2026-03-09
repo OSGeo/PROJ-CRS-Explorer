@@ -15,4 +15,5 @@ GEOGCRS["IGN72 Grand Terre",
         SCOPE["Geodesy."],
         AREA["New Caledonia - Grande Terre."],
         BBOX[-22.45,163.92,-20.03,167.09]],
-    ID["EPSG",4634]]
+    ID["EPSG",4634],
+    REMARK["Superseded by RGNC 1991 (CRS code 4645)."]]

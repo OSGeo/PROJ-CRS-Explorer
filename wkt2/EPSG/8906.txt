@@ -19,4 +19,5 @@ GEOGCRS["CR-SIRGAS epoch 2014.59",
         SCOPE["Geodesy."],
         AREA["Costa Rica - onshore and offshore."],
         BBOX[2.15,-90.45,11.77,-81.43]],
-    ID["EPSG",8906]]
+    ID["EPSG",8906],
+    REMARK["Replaces CR05 (CRS code 5364) from April 2018."]]

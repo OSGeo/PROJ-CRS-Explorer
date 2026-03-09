@@ -18,4 +18,5 @@ GEOGCRS["RGSPM06",
         SCOPE["Geodesy; air, land and sea navigation and safety of life purposes."],
         AREA["St Pierre and Miquelon - onshore and offshore."],
         BBOX[43.41,-57.1,47.37,-55.9]],
-    ID["EPSG",4466]]
+    ID["EPSG",4466],
+    REMARK["See CRS code 7034 for alternate system with horizontal axes reversed used by IGN for GIS purposes."]]

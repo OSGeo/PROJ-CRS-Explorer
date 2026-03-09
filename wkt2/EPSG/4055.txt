@@ -15,4 +15,5 @@ GEOGCRS["Popular Visualisation CRS",
         SCOPE["Web mapping and visualisation."],
         AREA["World."],
         BBOX[-90,-180,90,180]],
-    ID["EPSG",4055]]
+    ID["EPSG",4055],
+    REMARK["Some applications erroneously call this WGS 84. It uses a sphere with a radius having the same value as the semi-major axis of the WGS 84 ellipsoid. There is no geodetic recognition of this system."]]

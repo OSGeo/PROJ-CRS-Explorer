@@ -15,4 +15,5 @@ GEOGCRS["Corrego Alegre 1961",
         SCOPE["Geodesy."],
         AREA["Brazil - onshore - between 18°S and 27°30'S, also east of 54°W between 15°S and 18°S."],
         BBOX[-27.5,-58.16,-14.99,-38.82]],
-    ID["EPSG",5524]]
+    ID["EPSG",5524],
+    REMARK["Replaced by Corrego Alegre 1970-72 (CRS code 4225)."]]

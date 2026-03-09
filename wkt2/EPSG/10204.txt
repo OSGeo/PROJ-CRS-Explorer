@@ -15,4 +15,5 @@ GEOGCRS["DIBA15-IRF",
         SCOPE["Engineering survey and topographic mapping for railway applications."],
         AREA["United Kingdom (UK) - on or related to the rail route from Didcot to Banbury."],
         BBOX[51.57,-1.46,52.11,-1.15]],
-    ID["EPSG",10204]]
+    ID["EPSG",10204],
+    REMARK["Intermediate CRS created in 2022 to assist the emulation of the ETRS89 / DIBA15 SnakeGrid projected CRS through transformation ETRS89-GBR [OSNet v2009] to DIBA15-IRF (1) (code 10205) used in conjunction with the DIBA15-TM map projection (code 10206)."]]

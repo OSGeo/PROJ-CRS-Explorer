@@ -15,4 +15,5 @@ GEOGCRS["IGN 1962 Kerguelen",
         SCOPE["Geodesy."],
         AREA["French Southern Territories - Kerguelen onshore."],
         BBOX[-49.78,68.69,-48.6,70.62]],
-    ID["EPSG",4698]]
+    ID["EPSG",4698],
+    REMARK["Replaced by RGTAAF07 (CRS code 7073)."]]

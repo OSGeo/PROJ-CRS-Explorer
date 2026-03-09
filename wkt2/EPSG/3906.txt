@@ -15,4 +15,5 @@ GEOGCRS["MGI 1901",
         SCOPE["Geodesy."],
         AREA["Bosnia and Herzegovina; Croatia - onshore; Kosovo; Montenegro - onshore; North Macedonia; Serbia; Slovenia - onshore."],
         BBOX[40.85,13.38,46.88,23.04]],
-    ID["EPSG",3906]]
+    ID["EPSG",3906],
+    REMARK["Adopted in 1924 replacing MGI (Ferro) (CRS code 4805). Densified in 1948. In Slovenia replaced by D96 (CRS code 4765). In Croatia replaced by HTRS96 (CRS code 4761). In Serbia replaced by SREF98 and then by SRB_ETRS89 (STRS00) (CRS codes 4075 and 8691)."]]

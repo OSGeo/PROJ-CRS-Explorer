@@ -15,4 +15,5 @@ GEOGCRS["Jouik 1961",
         SCOPE["Hydrography and nautical charting."],
         AREA["Mauritania - coastal area north of Cape Timiris."],
         BBOX[19.37,-17.08,21.34,-15.88]],
-    ID["EPSG",4679]]
+    ID["EPSG",4679],
+    REMARK["Replaced by Mauritania 1999 (CRS code 4702)."]]

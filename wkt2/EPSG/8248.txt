@@ -19,4 +19,5 @@ GEOGCRS["NAD83(CSRS)v5",
         SCOPE["Geodesy."],
         AREA["Canada - onshore and offshore - Alberta; British Columbia; Manitoba; New Brunswick; Newfoundland and Labrador; Northwest Territories; Nova Scotia; Nunavut; Ontario; Prince Edward Island; Quebec; Saskatchewan; Yukon."],
         BBOX[38.21,-141.01,86.46,-40.73]],
-    ID["EPSG",8248]]
+    ID["EPSG",8248],
+    REMARK["Adopted by the Canadian federal government from 2006-01-01. Replaces NAD83(CSRS)v4. Replaced by NAD83(CSRS)v6. Longitudes are POSITIVE EAST."]]

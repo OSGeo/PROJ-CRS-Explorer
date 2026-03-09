@@ -20,4 +20,5 @@ GEOGCRS["WGS 72BE",
         SCOPE["Geodesy."],
         AREA["World."],
         BBOX[-90,-180,90,180]],
-    ID["EPSG",4987]]
+    ID["EPSG",4987],
+    REMARK["Broadcast ephemeris. Replaced by WGS 84."]]

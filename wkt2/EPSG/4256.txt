@@ -15,4 +15,5 @@ GEOGCRS["Mahe 1971",
         SCOPE["Military survey."],
         AREA["Seychelles - Mahe Island."],
         BBOX[-4.86,55.3,-4.5,55.59]],
-    ID["EPSG",4256]]
+    ID["EPSG",4256],
+    REMARK["This CRS has no known local application. South East Island 1943 (CRS codes 6892 and 6915) is used for topographic mapping, cadastral and hydrographic survey."]]

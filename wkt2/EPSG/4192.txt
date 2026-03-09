@@ -15,4 +15,5 @@ GEOGCRS["Douala 1948",
         SCOPE["Geodesy."],
         AREA["Cameroon - coastal area."],
         BBOX[2.16,8.45,4.99,10.4]],
-    ID["EPSG",4192]]
+    ID["EPSG",4192],
+    REMARK["Replaced by Manoca 1962 (code 4193)."]]

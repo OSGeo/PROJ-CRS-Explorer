@@ -15,4 +15,5 @@ GEOGCRS["Fort Marigot",
         SCOPE["Geodesy."],
         AREA["Guadeloupe - onshore - St Martin and St Barthélemy islands."],
         BBOX[17.82,-63.21,18.17,-62.73]],
-    ID["EPSG",4621]]
+    ID["EPSG",4621],
+    REMARK["Replaced by RRAF 1991 (CRS code 4558)."]]

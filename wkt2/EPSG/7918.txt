@@ -20,4 +20,5 @@ GEODCRS["ETRF91",
         SCOPE["Geodesy."],
         AREA["Europe - onshore and offshore - ETRF extent - approximately 16°W to 33°E and 33°N to 84°N."],
         BBOX[33.26,-16.1,84.73,38.01]],
-    ID["EPSG",7918]]
+    ID["EPSG",7918],
+    REMARK["Replaces ETRF90 (code 7916). Replaced by ETRF92 (code 7920)."]]

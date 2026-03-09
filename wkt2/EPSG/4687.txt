@@ -15,4 +15,5 @@ GEOGCRS["RGPF",
         SCOPE["Horizontal component of 3D system."],
         AREA["French Polynesia - onshore and offshore. Includes Society archipelago, Tuamotu archipelago, Marquesas Islands, Gambier Islands and Austral Islands."],
         BBOX[-31.24,-158.13,-4.52,-131.97]],
-    ID["EPSG",4687]]
+    ID["EPSG",4687],
+    REMARK["Replaces Tahaa 54 (CRS code 4629), IGN 63 Hiva Oa (4689), IGN 72 Nuku Hiva (4630), Maupiti 83 (4692), MHEFO 55 (4688), Moorea 87 (4691) and Tahiti 79 (4690)."]]

@@ -15,4 +15,5 @@ GEOGCRS["Moorea 87",
         SCOPE["Hydrography, topographic mapping."],
         AREA["French Polynesia - Society Islands - Moorea."],
         BBOX[-17.63,-150,-17.41,-149.73]],
-    ID["EPSG",4691]]
+    ID["EPSG",4691],
+    REMARK["Replaces Tahiti 52 (CRS code 4628) in Moorea. Replaced by RGPF (CRS code 4687)."]]

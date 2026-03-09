@@ -15,4 +15,5 @@ GEOGCRS["RGWF96 (lon-lat)",
         SCOPE["GIS."],
         AREA["Wallis and Futuna - onshore and offshore - Uvea, Futuna, and Alofi."],
         BBOX[-15.94,179.49,-9.84,-174.27]],
-    ID["EPSG",8902]]
+    ID["EPSG",8902],
+    REMARK["See CRS code 8900 for system with axes in sequence lat-lon to be used for air, land and sea navigation and safety of life purposes. On Wallis island, replaces MOP78 (CRS code 4639) for GIS purposes."]]

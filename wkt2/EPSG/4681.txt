@@ -15,4 +15,5 @@ GEOGCRS["Mauritania 1999",
         SCOPE["Minerals management (including oil and gas exploration and production)."],
         AREA["Mauritania - onshore and offshore."],
         BBOX[14.72,-20.04,27.3,-4.8]],
-    ID["EPSG",4681]]
+    ID["EPSG",4681],
+    REMARK["Mining title descriptions referring to ""Clarke 1880 ellipsoid"" should be assumed to be referenced to this CRS. Supersedes all earlier local systems."]]

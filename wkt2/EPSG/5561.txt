@@ -15,4 +15,5 @@ GEOGCRS["UCS-2000",
         SCOPE["Horizontal component of 3D system."],
         AREA["Ukraine - onshore and offshore."],
         BBOX[43.18,22.15,52.38,40.18]],
-    ID["EPSG",5561]]
+    ID["EPSG",5561],
+    REMARK["Adopted 1st January 2007, replacing Pulkovo 1942 (CRS 4284)."]]

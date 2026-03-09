@@ -15,4 +15,5 @@ GEOGCRS["Adindan",
         SCOPE["Geodesy."],
         AREA["Eritrea; Ethiopia; South Sudan; Sudan."],
         BBOX[3.4,21.82,22.24,47.99]],
-    ID["EPSG",4201]]
+    ID["EPSG",4201],
+    REMARK["The 12th parallel traverse of 1966-70 (geogCRS Point 58, code 4620) is connected to the Blue Nile 1958 network in western Sudan. This has given rise to misconceptions that the Blue Nile 1958 network is used in west Africa."]]

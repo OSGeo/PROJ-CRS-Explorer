@@ -18,4 +18,5 @@ GEOGCRS["RGSPM06 (lon-lat)",
         SCOPE["GIS."],
         AREA["St Pierre and Miquelon - onshore and offshore."],
         BBOX[43.41,-57.1,47.37,-55.9]],
-    ID["EPSG",7034]]
+    ID["EPSG",7034],
+    REMARK["See CRS code 4466 for system with horizontal axes in sequence lat-lon to be used for air, land and sea navigation and safety of life purposes."]]

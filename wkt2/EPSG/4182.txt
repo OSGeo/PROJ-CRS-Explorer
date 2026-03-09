@@ -15,4 +15,5 @@ GEOGCRS["Azores Occidental 1939",
         SCOPE["Geodesy."],
         AREA["Portugal - western Azores onshore - Flores, Corvo."],
         BBOX[39.3,-31.34,39.77,-31.02]],
-    ID["EPSG",4182]]
+    ID["EPSG",4182],
+    REMARK["Replaced by PTRA08 (CRS code 5013)."]]

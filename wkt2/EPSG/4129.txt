@@ -15,4 +15,5 @@ GEOGCRS["Observatario",
         SCOPE["Geodesy."],
         AREA["Mozambique - south."],
         BBOX[-26.87,31.29,-19.84,35.65]],
-    ID["EPSG",4129]]
+    ID["EPSG",4129],
+    REMARK["Replaced by values transformed to Tete geogCRS (code 4127)."]]

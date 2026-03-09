@@ -18,4 +18,5 @@ GEODCRS["SIRGAS_ES2007.8",
         SCOPE["Geodesy."],
         AREA["El Salvador - onshore and offshore."],
         BBOX[9.97,-91.43,14.44,-87.65]],
-    ID["EPSG",5391]]
+    ID["EPSG",5391],
+    REMARK["Densification of SIRGAS 2000 within El Salvador."]]

@@ -15,4 +15,5 @@ GEOGCRS["CNH22-IRF",
         SCOPE["Engineering survey and topographic mapping for railway applications."],
         AREA["United Kingdom (UK) - on or related to the rail route from Crewe via Chester to Holyhead."],
         BBOX[53.02,-4.71,53.46,-2.28]],
-    ID["EPSG",10191]]
+    ID["EPSG",10191],
+    REMARK["Intermediate CRS created in 2022 to assist the emulation of the ETRS89 / CNH22 SnakeGrid projected CRS through transformation ETRS89-GBR [OSNet v2009] to CNH22-IRF (1) (code 10192) used in conjunction with the CNH22-LCC map projection (code 10193)."]]

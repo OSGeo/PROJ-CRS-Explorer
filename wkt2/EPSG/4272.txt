@@ -15,4 +15,5 @@ GEOGCRS["NZGD49",
         SCOPE["Geodesy."],
         AREA["New Zealand - North Island, South Island, Stewart Island - onshore and nearshore."],
         BBOX[-47.65,165.87,-33.89,179.27]],
-    ID["EPSG",4272]]
+    ID["EPSG",4272],
+    REMARK["Replaced by NZGD2000 (CRS code 4167) in March 2000."]]

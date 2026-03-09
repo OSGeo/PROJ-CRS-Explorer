@@ -15,4 +15,5 @@ GEOGCRS["JGD2000",
         SCOPE["Horizontal component of 3D system."],
         AREA["Japan - onshore and offshore."],
         BBOX[17.09,122.38,46.05,157.65]],
-    ID["EPSG",4612]]
+    ID["EPSG",4612],
+    REMARK["Replaces Tokyo (CRS code 4301) from April 2002. From 21st October 2011 replaced by JGD2011 (CRS code 6668)."]]

@@ -15,4 +15,5 @@ GEOGCRS["Kalianpur 1975",
         SCOPE["Geodesy."],
         AREA["India - mainland onshore."],
         BBOX[8.02,68.13,35.51,97.42]],
-    ID["EPSG",4146]]
+    ID["EPSG",4146],
+    REMARK["Adopts 1975 metric conversion of 0.3047995 metres per Indian foot."]]

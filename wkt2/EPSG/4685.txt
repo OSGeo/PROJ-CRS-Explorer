@@ -15,4 +15,5 @@ GEOGCRS["Gandajika",
         SCOPE["Geodesy."],
         AREA["The Democratic Republic of the Congo (Zaire) - onshore and offshore."],
         BBOX[-13.46,11.79,5.39,31.31]],
-    ID["EPSG",4685]]
+    ID["EPSG",4685],
+    REMARK["In some references incorrectly attributed to the Maldives. See CRS ""Gan 1970"", code 4684."]]

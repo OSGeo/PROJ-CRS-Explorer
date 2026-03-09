@@ -15,4 +15,5 @@ GEOGCRS["Accra",
         SCOPE["Geodesy."],
         AREA["Ghana - onshore and offshore."],
         BBOX[1.4,-3.79,11.16,2.1]],
-    ID["EPSG",4168]]
+    ID["EPSG",4168],
+    REMARK["Ellipsoid semi-major axis (a)=20926201 exactly Gold Coast feet. Replaced by Leigon (code 4250) in 1978."]]

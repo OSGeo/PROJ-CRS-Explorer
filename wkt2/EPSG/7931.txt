@@ -20,4 +20,5 @@ GEOGCRS["ETRF2000",
         SCOPE["Geodesy."],
         AREA["Europe - onshore and offshore - ETRF extent - approximately 16°W to 33°E and 33°N to 84°N."],
         BBOX[33.26,-16.1,84.73,38.01]],
-    ID["EPSG",7931]]
+    ID["EPSG",7931],
+    REMARK["Replaces ETRF97 (code 7929). On the publication of ETRF2005 the EUREF Technical Working Group recommended ETRF2000 be the realization of ETRS89. ETRF2014 and ETRF2020 (codes 8403 and 10570) are technically superior to all earlier realizations of ETRS89."]]

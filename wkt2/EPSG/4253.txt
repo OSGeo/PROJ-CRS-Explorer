@@ -15,4 +15,5 @@ GEOGCRS["Luzon 1911",
         SCOPE["Geodesy."],
         AREA["Philippines - onshore."],
         BBOX[4.99,116.89,19.45,126.65]],
-    ID["EPSG",4253]]
+    ID["EPSG",4253],
+    REMARK["Replaced by PRS92 (CRS code 4683)."]]

@@ -15,4 +15,5 @@ GEOGCRS["NSIDC Authalic Sphere",
         SCOPE["Environmental science - used as basis for EASE grid."],
         AREA["World."],
         BBOX[-90,-180,90,180]],
-    ID["EPSG",10346]]
+    ID["EPSG",10346],
+    REMARK["Adopted by NSIDC for use with EASE-Grid v1. For EASE-Grid v2, WGS 84 is used."]]

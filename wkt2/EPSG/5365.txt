@@ -15,4 +15,5 @@ GEOGCRS["CR05",
         SCOPE["Horizontal component of 3D system."],
         AREA["Costa Rica - onshore and offshore."],
         BBOX[2.15,-90.45,11.77,-81.43]],
-    ID["EPSG",5365]]
+    ID["EPSG",5365],
+    REMARK["Replaces Ocotepeque (CRS code 5451) in Costa Rica from March 2007. Replaced by CR-SIRGAS epoch 2014.59 (CRS code 8907) from April 2018."]]

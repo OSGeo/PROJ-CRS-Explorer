@@ -20,4 +20,5 @@ GEODCRS["IGS08",
         SCOPE["Geodesy."],
         AREA["World."],
         BBOX[-90,-180,90,180]],
-    ID["EPSG",6934]]
+    ID["EPSG",6934],
+    REMARK["Used for products from International GNSS Service (IGS) analysis centres from 2011-04-17 through 2012-10-06. Replaces IGS05 (code 9010). Replaced by IGb08 (code 9015). For most practical purposes IGS08 is equivalent to ITRF2008."]]

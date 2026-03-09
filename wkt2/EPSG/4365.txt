@@ -18,4 +18,5 @@ GEOGCRS["POSGAR 98 (3D)",
         SCOPE["Geodesy."],
         AREA["Argentina - onshore and offshore."],
         BBOX[-58.41,-73.59,-21.78,-52.63]],
-    ID["EPSG",4365]]
+    ID["EPSG",4365],
+    REMARK["Densification in Argentina of SIRGAS."]]

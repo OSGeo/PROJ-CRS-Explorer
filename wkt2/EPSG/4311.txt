@@ -15,4 +15,5 @@ GEOGCRS["Zanderij",
         SCOPE["Geodesy."],
         AREA["Suriname - onshore and offshore."],
         BBOX[1.83,-58.08,9.35,-52.66]],
-    ID["EPSG",4311]]
+    ID["EPSG",4311],
+    REMARK["Introduced in 1975."]]

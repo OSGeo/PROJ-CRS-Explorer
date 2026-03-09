@@ -15,4 +15,5 @@ GEOGCRS["Pulkovo 1942(83)",
         SCOPE["Geodesy."],
         AREA["Onshore Bulgaria, Czechia, Germany (former DDR), Hungary and Slovakia."],
         BBOX[41.24,9.92,54.74,28.68]],
-    ID["EPSG",4178]]
+    ID["EPSG",4178],
+    REMARK["Replaces 1956 adjustment (CRS code 4179). In Brandenburg replaced by ETRS89. In Sachsen and Thuringen replaced by RD83 and PD/83 which for practical purposes may be considered to be the same as DHDN."]]

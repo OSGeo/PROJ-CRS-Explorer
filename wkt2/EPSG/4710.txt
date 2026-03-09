@@ -15,4 +15,5 @@ GEOGCRS["Astro DOS 71",
         SCOPE["Geodesy, topographic mapping."],
         AREA["St Helena, Ascension and Tristan da Cunha - St Helena Island - onshore."],
         BBOX[-16.08,-5.85,-15.85,-5.59]],
-    ID["EPSG",4710]]
+    ID["EPSG",4710],
+    REMARK["Used between 1972 and 2015. Replaced by SHGD2015 (CRS code 7886) from 2015."]]

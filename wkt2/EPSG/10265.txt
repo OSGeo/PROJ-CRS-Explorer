@@ -15,4 +15,5 @@ GEOGCRS["KK-IRF",
         SCOPE["Intermediate stage in transformations - not used otherwise."],
         AREA["Denmark - onshore - Copenhagen and surrounding area."],
         BBOX[55.51,12.23,55.82,12.73]],
-    ID["EPSG",10265]]
+    ID["EPSG",10265],
+    REMARK["Artificial CRS created in 2022 to assist the transformation of coordinates between the historic Københavns Kommunes CRS and ETRS89 through CT ETRS89 to KK-IRF (1) (code 10267) used in conjunction with the GS LCC map projection (code 10257)."]]

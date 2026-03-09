@@ -18,4 +18,5 @@ GEOGCRS["LUREF",
         SCOPE["Geodesy."],
         AREA["Luxembourg."],
         BBOX[49.44,5.73,50.19,6.53]],
-    ID["EPSG",9893]]
+    ID["EPSG",9893],
+    REMARK["Ellipsoidal height approximates to NG95 gravity-related heights to within 5-15cm. For accurate heighting use compound CRS LUREF / Luxembourg TM + NG95 height (code 9897)."]]

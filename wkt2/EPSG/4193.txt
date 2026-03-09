@@ -15,4 +15,5 @@ GEOGCRS["Manoca 1962",
         SCOPE["Geodesy."],
         AREA["Cameroon - coastal area."],
         BBOX[2.16,8.45,4.99,10.4]],
-    ID["EPSG",4193]]
+    ID["EPSG",4193],
+    REMARK["Replaces Doula 1948 (code 4192). The intent of the Bukavu 1953 conference was to adopt the Clarke 1880 (RGS) ellipsoid (code 7012) but in practice this CRS has used the IGN version."]]

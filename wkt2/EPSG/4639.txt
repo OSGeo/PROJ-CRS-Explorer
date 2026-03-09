@@ -15,4 +15,5 @@ GEOGCRS["MOP78",
         SCOPE["Geodesy."],
         AREA["Wallis and Futuna - Wallis."],
         BBOX[-13.41,-176.25,-13.16,-176.07]],
-    ID["EPSG",4639]]
+    ID["EPSG",4639],
+    REMARK["Replaced by RGWF96 (CRS code 8900) for geodetic survey and RGWF96 (lon-lat) (CRS code 8902) for GIS."]]

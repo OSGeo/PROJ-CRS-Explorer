@@ -15,4 +15,5 @@ GEOGCRS["ISN2004",
         SCOPE["Horizontal component of 3D system."],
         AREA["Iceland - onshore and offshore."],
         BBOX[59.96,-30.87,69.59,-5.55]],
-    ID["EPSG",5324]]
+    ID["EPSG",5324],
+    REMARK["Replaces ISN93 (CRS code 4659). Replaced by ISN2016 (CRS code 8086)."]]

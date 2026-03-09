@@ -15,4 +15,5 @@ GEOGCRS["S-JTSK (Ferro)",
         SCOPE["Geodesy."],
         AREA["Czechia; Slovakia."],
         BBOX[47.73,12.09,51.06,22.56]],
-    ID["EPSG",4818]]
+    ID["EPSG",4818],
+    REMARK["Initial realization, observed and calculated in projected CRS domain (CRS code 2065). Later densification introduced distortion with inaccuracy of several decimetres. In Slovakia has been deprecated and replaced by Greenwich equivalent, CRS code 4156."]]

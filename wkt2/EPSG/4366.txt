@@ -18,4 +18,5 @@ GEODCRS["POSGAR 98 (geocentric)",
         SCOPE["Geodesy."],
         AREA["Argentina - onshore and offshore."],
         BBOX[-58.41,-73.59,-21.78,-52.63]],
-    ID["EPSG",4366]]
+    ID["EPSG",4366],
+    REMARK["A geodetic network of 127 high accuracy surved points that define the National Geodetic System (Sistema Geodésico Nacional). Densification of SIRGAS 1995."]]

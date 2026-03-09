@@ -18,4 +18,5 @@ GEOGCRS["St. Helena Tritan",
         SCOPE["Engineering survey including Airport and Ruperts Wharf construction."],
         AREA["St Helena, Ascension and Tristan da Cunha - St Helena Island - onshore."],
         BBOX[-16.08,-5.85,-15.85,-5.59]],
-    ID["EPSG",7880]]
+    ID["EPSG",7880],
+    REMARK["Closely aligned to SHGD2015 (CRS code 7885) with difference attributable to different reference epoch and 10 cm difference in ellipsoid height. Replaced by SHGD2015 from 2015."]]

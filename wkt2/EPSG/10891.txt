@@ -19,4 +19,5 @@ GEOGCRS["ETRS89-DNK",
         SCOPE["Geodesy."],
         AREA["Denmark - onshore and offshore."],
         BBOX[54.36,3.24,58.27,16.51]],
-    ID["EPSG",10891]]
+    ID["EPSG",10891],
+    REMARK["ETRS89-DNK is the national realization of ETRS89 in Denmark."]]

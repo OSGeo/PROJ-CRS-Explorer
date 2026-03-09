@@ -18,4 +18,5 @@ GEODCRS["ISN2004",
         SCOPE["Geodesy."],
         AREA["Iceland - onshore and offshore."],
         BBOX[59.96,-30.87,69.59,-5.55]],
-    ID["EPSG",5322]]
+    ID["EPSG",5322],
+    REMARK["Replaces ISN93 (CRS code 4944). Replaced by ISN2016 (CRS code 8084)."]]

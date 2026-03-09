@@ -15,4 +15,5 @@ GEOGCRS["China Geodetic Coordinate System 2000",
         SCOPE["Horizontal component of 3D system."],
         AREA["China - onshore and offshore."],
         BBOX[16.7,73.62,53.56,134.77]],
-    ID["EPSG",4490]]
+    ID["EPSG",4490],
+    REMARK["Adopted July 2008. Replaces Xian 1980 (CRS code 4610)."]]

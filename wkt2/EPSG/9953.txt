@@ -43,5 +43,5 @@ COMPOUNDCRS["ISN2016 / Lambert 2016 + ISH2004 height",
     USAGE[
         SCOPE["Cadastre, engineering survey, topographic mapping."],
         AREA["Iceland - onshore."],
-        BBOX[63.24,-24.66,66.62,-13.38]],
+        BBOX[63.24,-24.63,66.63,-13.38]],
     ID["EPSG",9953]]

@@ -15,4 +15,5 @@ GEOGCRS["PRS92",
         SCOPE["Horizontal component of 3D system."],
         AREA["Philippines - onshore and offshore."],
         BBOX[3,116.04,22.18,129.95]],
-    ID["EPSG",4683]]
+    ID["EPSG",4683],
+    REMARK["Replaces Luzon 19111 (CRS code 4253)."]]

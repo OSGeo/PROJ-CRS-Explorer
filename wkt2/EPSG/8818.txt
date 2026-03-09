@@ -15,4 +15,5 @@ GEOGCRS["MTRF-2000",
         SCOPE["Horizontal component of 3D system."],
         AREA["Saudi Arabia - onshore and offshore."],
         BBOX[16.29,34.44,32.16,55.67]],
-    ID["EPSG",8818]]
+    ID["EPSG",8818],
+    REMARK["Replaces Ain el Abd (CRS 4204) in Saudi Arabia."]]

@@ -13,6 +13,7 @@ GEOGCRS["Pampa del Castillo",
             ANGLEUNIT["degree",0.0174532925199433]],
     USAGE[
         SCOPE["Oil and gas exploration and production."],
-        AREA["Argentina - Chibut province south of approximately 42°30'S and Santa Cruz province north of approximately 50°20'S."],
+        AREA["Argentina - Chibut province south of approximately 42°30'S, Santa Cruz province north of approximately 50°20'S, and offshore Golfo San Jorge."],
         BBOX[-50.34,-73.59,-42.49,-65.47]],
-    ID["EPSG",4161]]
+    ID["EPSG",4161],
+    REMARK["Replaced by Campo Inchauspe (geogCRS code 4221) for topographic mapping, use for oil exploration and production in Golfo San Jorge basin (44°S to 47.5°S) continues."]]

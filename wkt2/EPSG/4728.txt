@@ -15,4 +15,5 @@ GEOGCRS["PN84",
         SCOPE["Military survey."],
         AREA["Spain - Canary Islands - El Hierro, La Gomera, La Palma and Tenerife - onshore."],
         BBOX[27.58,-18.22,28.9,-16.08]],
-    ID["EPSG",4728]]
+    ID["EPSG",4728],
+    REMARK["Replaces PN68 (CRS code 9403) only on western islands (El Hierro, La Gomera, La Palma and Tenerife). Replaced by REGCAN95 (CRS code 4081)."]]

@@ -15,4 +15,5 @@ GEOGCRS["Camacupa 1948",
         SCOPE["Oil and gas exploration and production."],
         AREA["Angola - Angola proper - onshore and offshore."],
         BBOX[-18.02,8.2,-5.82,24.09]],
-    ID["EPSG",4220]]
+    ID["EPSG",4220],
+    REMARK["Provisional adjustment. Coastal stations used for offshore radio-navigation positioning and determination of transformations to WGS. Differs from second adjustment (Camacupa 2015, CRS code 8694), which is not used for offshore E&P, by up to 25m."]]

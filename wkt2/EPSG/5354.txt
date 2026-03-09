@@ -15,4 +15,5 @@ GEOGCRS["MARGEN",
         SCOPE["Horizontal component of 3D system."],
         AREA["Bolivia."],
         BBOX[-22.91,-69.66,-9.67,-57.52]],
-    ID["EPSG",5354]]
+    ID["EPSG",5354],
+    REMARK["Replaces PSAD56 (CRS code 4248) in Bolivia"]]

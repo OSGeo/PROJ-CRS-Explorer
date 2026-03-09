@@ -15,4 +15,5 @@ GEOGCRS["LibRef21",
         SCOPE["Geodesy, cadastre, engineering survey, topographic mapping."],
         AREA["Liberia - onshore and offshore."],
         BBOX[1.02,-13.59,8.52,-7.36]],
-    ID["EPSG",10800]]
+    ID["EPSG",10800],
+    REMARK["Replaces Liberia 1964 (code 4251)."]]

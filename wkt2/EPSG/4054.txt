@@ -15,4 +15,5 @@ GEOGCRS["Unspecified datum based upon the Hughes 1980 ellipsoid",
         SCOPE["US Defense Meteorological Satellite Program (DMSP) SSM/I microwave imagery products."],
         AREA["Not specified."],
         BBOX[-90,-180,90,180]],
-    ID["EPSG",4054]]
+    ID["EPSG",4054],
+    REMARK["DMSP SSM/I data sets provided by NSIDC for polar research."]]

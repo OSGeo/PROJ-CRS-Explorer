@@ -15,4 +15,5 @@ GEOGCRS["Bermuda 1957",
         SCOPE["Geodesy."],
         AREA["Bermuda - onshore."],
         BBOX[32.21,-64.89,32.43,-64.61]],
-    ID["EPSG",4216]]
+    ID["EPSG",4216],
+    REMARK["Replaced by BDA2000 (CRS code 4762)."]]

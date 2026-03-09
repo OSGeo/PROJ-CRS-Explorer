@@ -15,4 +15,5 @@ GEOGCRS["Hughes 1980",
         SCOPE["US Defense Meteorological Satellite Program (DMSP) SSM/I microwave imagery products."],
         AREA["World."],
         BBOX[-90,-180,90,180]],
-    ID["EPSG",10345]]
+    ID["EPSG",10345],
+    REMARK["Used as basis for DMSP SSM/I data sets provided by NSIDC for polar research."]]

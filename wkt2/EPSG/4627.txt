@@ -15,4 +15,5 @@ GEOGCRS["RGR92",
         SCOPE["Horizontal component of 3D system."],
         AREA["Reunion - onshore and offshore."],
         BBOX[-24.72,51.83,-18.28,58.24]],
-    ID["EPSG",4627]]
+    ID["EPSG",4627],
+    REMARK["Replaces Piton des Neiges (code 4626). See CRS code 7037 for alternate system with axes reversed used by IGN for GIS purposes."]]

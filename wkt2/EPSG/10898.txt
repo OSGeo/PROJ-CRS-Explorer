@@ -15,4 +15,5 @@ GEOGCRS["Asse 2025",
         SCOPE["Engineering survey, GIS, topographic mapping."],
         AREA["Germany - Lower Saxony - Asse mining area."],
         BBOX[52.11,10.6,52.16,10.7]],
-    ID["EPSG",10898]]
+    ID["EPSG",10898],
+    REMARK["Defined through 3-dimensional transformation from ETRS89/DREF91 Realization 2016 (see CT 10905). Coordinate values are close to but not identical to DHDN."]]

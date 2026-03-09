@@ -1,7 +1,8 @@
-GEODCRS["ETRF2000-PL",
+GEODCRS["ETRS89-POL [PL-ETRF2000]",
     DATUM["ETRF2000 Poland",
         ELLIPSOID["GRS 1980",6378137,298.257222101,
-            LENGTHUNIT["metre",1]]],
+            LENGTHUNIT["metre",1]],
+        ANCHOREPOCH[2011]],
     PRIMEM["Greenwich",0,
         ANGLEUNIT["degree",0.0174532925199433]],
     CS[Cartesian,3],
@@ -18,4 +19,5 @@ GEODCRS["ETRF2000-PL",
         SCOPE["Geodesy."],
         AREA["Poland - onshore and offshore."],
         BBOX[49,14.14,55.93,24.15]],
-    ID["EPSG",9700]]
+    ID["EPSG",9700],
+    REMARK["Adopted from 2012-12-01."]]

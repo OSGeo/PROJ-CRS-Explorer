@@ -15,4 +15,5 @@ GEOGCRS["Hartebeesthoek94",
         SCOPE["Horizontal component of 3D system."],
         AREA["Eswatini (Swaziland); Lesotho; South Africa - onshore and offshore."],
         BBOX[-50.32,13.33,-22.13,42.85]],
-    ID["EPSG",4148]]
+    ID["EPSG",4148],
+    REMARK["Replaces Cape (code 4222) from 1999."]]

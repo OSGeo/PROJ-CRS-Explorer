@@ -18,4 +18,5 @@ GEODCRS["NAD83(HARN Corrected)",
         SCOPE["Geodesy."],
         AREA["Puerto Rico and US Virgin Islands - onshore."],
         BBOX[17.62,-67.97,18.57,-64.51]],
-    ID["EPSG",8543]]
+    ID["EPSG",8543],
+    REMARK["In PRVI replaces NAD83(HARN) = NAD83(1993 PRVI) to correct errors. Replaced by NAD83(FBN) = NAD83(2002 PRVI)."]]

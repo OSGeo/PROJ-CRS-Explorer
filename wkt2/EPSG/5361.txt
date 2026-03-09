@@ -1,6 +1,6 @@
 PROJCRS["SIRGAS-Chile 2002 / UTM zone 19S",
     BASEGEOGCRS["SIRGAS-Chile 2002",
-        DATUM["SIRGAS-Chile realization 1 epoch 2002",
+        DATUM["SIRGAS-Chile 2002",
             ELLIPSOID["GRS 1980",6378137,298.257222101,
                 LENGTHUNIT["metre",1]]],
         PRIMEM["Greenwich",0,

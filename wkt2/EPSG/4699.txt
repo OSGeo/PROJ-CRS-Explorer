@@ -15,4 +15,5 @@ GEOGCRS["Le Pouce 1934",
         SCOPE["Geodesy."],
         AREA["Mauritius - mainland onshore."],
         BBOX[-20.57,57.25,-19.94,57.85]],
-    ID["EPSG",4699]]
+    ID["EPSG",4699],
+    REMARK["Densified with a GPS-derived coordinate set for 80 stations in 1994. This 1994 coordinate set is sometimes referred to as ""Mauritius 1994""."]]

@@ -15,4 +15,5 @@ GEOGCRS["TWD67",
         SCOPE["Geodesy."],
         AREA["Taiwan, Republic of China - onshore - Taiwan Island, Penghu (Pescadores) Islands."],
         BBOX[21.87,119.25,25.34,122.06]],
-    ID["EPSG",3821]]
+    ID["EPSG",3821],
+    REMARK["Shares the same origin point with the earlier Hu Tzu Shan system (CRS code 4236) but away from this point coordinates differ. Do not confuse!"]]

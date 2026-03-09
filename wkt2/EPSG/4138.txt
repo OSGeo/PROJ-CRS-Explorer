@@ -15,4 +15,5 @@ GEOGCRS["St. George Island",
         SCOPE["Geodesy."],
         AREA["United States (USA) - Alaska - Pribilof Islands - St George Island."],
         BBOX[56.49,-169.88,56.67,-169.38]],
-    ID["EPSG",4138]]
+    ID["EPSG",4138],
+    REMARK["Note: this CRS includes longitudes which are POSITIVE EAST."]]

@@ -15,4 +15,5 @@ GEOGCRS["Guadeloupe 1948",
         SCOPE["Geodesy."],
         AREA["Guadeloupe - onshore - Basse-Terre, Grande-Terre, La Desirade, Marie-Galante, Les Saintes."],
         BBOX[15.8,-61.85,16.55,-60.97]],
-    ID["EPSG",4622]]
+    ID["EPSG",4622],
+    REMARK["Replaced by RRAF 1991 (CRS code 4558)."]]

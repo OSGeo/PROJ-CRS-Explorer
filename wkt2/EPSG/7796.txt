@@ -1,7 +1,8 @@
-GEODCRS["BGS2005",
+GEODCRS["ETRS89-BGR [BGS2005]",
     DATUM["Bulgaria Geodetic System 2005",
         ELLIPSOID["GRS 1980",6378137,298.257222101,
-            LENGTHUNIT["metre",1]]],
+            LENGTHUNIT["metre",1]],
+        ANCHOREPOCH[2005]],
     PRIMEM["Greenwich",0,
         ANGLEUNIT["degree",0.0174532925199433]],
     CS[Cartesian,3],
@@ -18,4 +19,5 @@ GEODCRS["BGS2005",
         SCOPE["Geodesy."],
         AREA["Bulgaria - onshore and offshore."],
         BBOX[41.24,22.36,44.23,31.35]],
-    ID["EPSG",7796]]
+    ID["EPSG",7796],
+    REMARK["Adopted 2010-07-29."]]

@@ -18,4 +18,5 @@ GEOGCRS["UCS-2000",
         SCOPE["Geodesy."],
         AREA["Ukraine - onshore and offshore."],
         BBOX[43.18,22.15,52.38,40.18]],
-    ID["EPSG",5560]]
+    ID["EPSG",5560],
+    REMARK["Adopted 1st January 2007."]]

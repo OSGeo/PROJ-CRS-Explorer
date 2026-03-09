@@ -15,4 +15,5 @@ GEOGCRS["ID74",
         SCOPE["Geodesy."],
         AREA["Indonesia - onshore."],
         BBOX[-10.98,95.16,5.97,141.01]],
-    ID["EPSG",4238]]
+    ID["EPSG",4238],
+    REMARK["Replaced by DGN95."]]

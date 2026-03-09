@@ -15,4 +15,5 @@ GEOGCRS["MGI",
         SCOPE["Geodesy."],
         AREA["Austria."],
         BBOX[46.4,9.53,49.02,17.17]],
-    ID["EPSG",4312]]
+    ID["EPSG",4312],
+    REMARK["Retrospectively defined as derived after the introduction of geographic 3D CRS (code 9267)."]]

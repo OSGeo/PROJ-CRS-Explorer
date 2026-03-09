@@ -15,4 +15,5 @@ GEOGCRS["Dealul Piscului 1970",
         SCOPE["Geodesy."],
         AREA["Romania - onshore and offshore."],
         BBOX[43.44,20.26,48.27,31.41]],
-    ID["EPSG",4317]]
+    ID["EPSG",4317],
+    REMARK["Replaces 1933 system (geogCRS code 4316)."]]

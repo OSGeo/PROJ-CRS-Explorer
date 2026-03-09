@@ -15,4 +15,5 @@ GEOGCRS["Bern 1938",
         SCOPE["Topographic mapping."],
         AREA["Liechtenstein; Switzerland."],
         BBOX[45.81,5.95,47.81,10.5]],
-    ID["EPSG",4306]]
+    ID["EPSG",4306],
+    REMARK["Used for the geographic coordinates overprinted on topographic maps constructed on the CH1903 / LV03 projected CS (code 21781)."]]

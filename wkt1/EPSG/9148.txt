@@ -1,5 +1,5 @@
 GEOGCS["SIRGAS-Chile 2013",
-    DATUM["SIRGAS-Chile_realization_3_epoch_2013",
+    DATUM["SIRGAS-Chile_2013",
         SPHEROID["GRS 1980",6378137,298.257222101,
             AUTHORITY["EPSG","7019"]],
         AUTHORITY["EPSG","1252"]],

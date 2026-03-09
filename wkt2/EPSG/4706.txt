@@ -15,4 +15,5 @@ GEOGCRS["Egypt Gulf of Suez S-650 TL",
         SCOPE["Oil and gas exploration and production."],
         AREA["Egypt - Gulf of Suez."],
         BBOX[27.19,32.34,30.01,34.27]],
-    ID["EPSG",4706]]
+    ID["EPSG",4706],
+    REMARK["Differs from Egypt 1907 (CRS code 4229) by approximately 20m."]]

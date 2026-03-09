@@ -15,4 +15,5 @@ GEOGCRS["IGN63 Hiva Oa",
         SCOPE["Hydrography, topographic mapping."],
         AREA["French Polynesia - Marquesas Islands - Hiva Oa and Tahuata."],
         BBOX[-10.08,-139.23,-9.64,-138.75]],
-    ID["EPSG",4689]]
+    ID["EPSG",4689],
+    REMARK["Replaced by RGPF, CRS code 4687."]]

@@ -18,4 +18,5 @@ GEOGCRS["GDA94 (3D)",
         SCOPE["Geodesy."],
         AREA["Australia - onshore and offshore to 200 nautical mile EEZ boundary. Includes Lord Howe Island, Ashmore and Cartier Islands."],
         BBOX[-47.2,109.23,-8.88,163.2]],
-    ID["EPSG",4347]]
+    ID["EPSG",4347],
+    REMARK["Horizontal coordinates referenced to this CRS are in degrees. Any degree representation (e.g. DMSH, decimal, etc.) may be used but that used must be declared for the user."]]

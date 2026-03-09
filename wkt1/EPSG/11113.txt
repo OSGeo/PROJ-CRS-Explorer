@@ -1,0 +1,3 @@
+Error: EPSG:11113 cannot be written as WKT1_GDAL
+ type: GEOGRAPHIC_3D_CRS
+ name: ETRS89-ROU [ETRF2000]

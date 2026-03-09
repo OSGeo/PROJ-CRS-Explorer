@@ -15,4 +15,5 @@ GEOGCRS["Tahiti 79",
         SCOPE["Hydrography, topographic mapping."],
         AREA["French Polynesia - Society Islands - Tahiti."],
         BBOX[-17.93,-149.7,-17.44,-149.09]],
-    ID["EPSG",4690]]
+    ID["EPSG",4690],
+    REMARK["Replaces Tahiti 52 (CRS code 4628) in Tahiti. Replaced by RGPF (CRS code 4687)."]]

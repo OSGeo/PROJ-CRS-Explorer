@@ -17,4 +17,5 @@ GEOGCRS["PZ-90",
         SCOPE["Horizontal component of 3D system."],
         AREA["World."],
         BBOX[-90,-180,90,180]],
-    ID["EPSG",4740]]
+    ID["EPSG",4740],
+    REMARK["Used by the Glonass satellite navigation system prior to 2007-09-20."]]

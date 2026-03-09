@@ -15,4 +15,5 @@ GEOGCRS["Karbala 1979",
         SCOPE["Geodesy, engineering survey, topographic mapping."],
         AREA["Iraq - onshore."],
         BBOX[29.06,38.79,37.39,48.61]],
-    ID["EPSG",4743]]
+    ID["EPSG",4743],
+    REMARK["Geodetic network established by Polservice consortium. Replaces Nahrwan 1934 (CRS code 4744). Replaced by IGRS (CRS code 3889). At time of record population, information regarding usage within oil sector is not available."]]

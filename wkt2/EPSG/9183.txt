@@ -18,4 +18,5 @@ GEOGCRS["SIRGAS-Chile",
         SCOPE["Geodesy."],
         AREA["Chile - onshore and offshore. Includes Easter Island, Juan Fernandez Islands, San Felix, and Sala y Gomez."],
         BBOX[-59.87,-113.21,-17.5,-65.72]],
-    ID["EPSG",9183]]
+    ID["EPSG",9183],
+    REMARK["The datum ensemble underpinning this CRS describes all or any of the realizations without distinction. For a specific realization see CRSs 5359, 8948, 9147 or 9152."]]

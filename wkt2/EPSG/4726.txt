@@ -15,4 +15,5 @@ GEOGCRS["SIGD61",
         SCOPE["Cadastre, engineering survey, topographic mapping."],
         AREA["Cayman Islands - Little Cayman and Cayman Brac."],
         BBOX[19.63,-80.14,19.78,-79.69]],
-    ID["EPSG",4726]]
+    ID["EPSG",4726],
+    REMARK["Superseded by CIGD11 (CRS code 6135)."]]

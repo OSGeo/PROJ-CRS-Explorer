@@ -20,4 +20,5 @@ GEOGCRS["SRGI2013",
         SCOPE["Geodesy."],
         AREA["Indonesia - onshore and offshore."],
         BBOX[-13.95,92.01,7.79,141.46]],
-    ID["EPSG",9469]]
+    ID["EPSG",9469],
+    REMARK["Geometric component of national geodetic control network (JKG). Adopted 2013-10-11. Replaces DGN95 and all older systems."]]

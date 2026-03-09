@@ -15,4 +15,5 @@ GEOGCRS["S-JTSK",
         SCOPE["Geodesy."],
         AREA["Czechia; Slovakia."],
         BBOX[47.73,12.09,51.06,22.56]],
-    ID["EPSG",4156]]
+    ID["EPSG",4156],
+    REMARK["Greenwich-referenced equivalent to S-JTSK (CRS code 4818). Technically improved and replaced through S-JTSK [JTSK03] in Slovakia, CRS code 8351. Remains the legal system in Czechia but see scientific working system CRSs 5228 and 5229."]]

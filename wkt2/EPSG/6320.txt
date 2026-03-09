@@ -19,4 +19,5 @@ GEODCRS["NAD83(PA11)",
         SCOPE["Geodesy."],
         AREA["American Samoa, Marshall Islands, United States (USA) - Hawaii, United States minor outlying islands; onshore and offshore."],
         BBOX[-17.56,157.47,31.8,-151.27]],
-    ID["EPSG",6320]]
+    ID["EPSG",6320],
+    REMARK["Replaces NAD83(HARN) and NAD83(FBN) in Hawaii and American Samoa."]]

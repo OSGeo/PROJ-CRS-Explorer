@@ -15,4 +15,5 @@ GEOGCRS["Mhast 1951",
         SCOPE["Coastal hydrography. Not used by oil industry."],
         AREA["Angola - Cabinda."],
         BBOX[-6.04,10.53,-4.38,13.1]],
-    ID["EPSG",4703]]
+    ID["EPSG",4703],
+    REMARK["A variation of this system has been adopted by the oil industry but using the International 1924 ellipsoid - see Mhast (onshore) and Mhast (offshore) (codes 4704 and 4705)."]]

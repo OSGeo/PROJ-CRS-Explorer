@@ -15,4 +15,5 @@ GEOGCRS["Tapi Aike",
         SCOPE["Oil and gas exploration and production."],
         AREA["Argentina - Santa Cruz province south of approximately 50°20'S."],
         BBOX[-52.43,-73.28,-50.33,-68.3]],
-    ID["EPSG",9248]]
+    ID["EPSG",9248],
+    REMARK["Replaced by Campo Inchauspe (geogCRS code 4221) for topographic mapping, use for oil exploration and production continues."]]

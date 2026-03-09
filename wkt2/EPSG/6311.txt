@@ -15,4 +15,5 @@ GEOGCRS["CGRS93",
         SCOPE["Horizontal component of 3D system."],
         AREA["Cyprus - onshore."],
         BBOX[34.59,32.2,35.74,34.65]],
-    ID["EPSG",6311]]
+    ID["EPSG",6311],
+    REMARK["Adopted by DLS in 1993 for new survey plans and maps."]]

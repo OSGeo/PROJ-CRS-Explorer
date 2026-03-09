@@ -15,4 +15,5 @@ GEOGCRS["RBEPP12-IRF",
         SCOPE["Engineering survey and topographic mapping for railway applications."],
         AREA["United Kingdom (UK) - on or related to the rail route from Reading via Newbury to Penzance."],
         BBOX[50.05,-5.63,51.71,-0.85]],
-    ID["EPSG",10277]]
+    ID["EPSG",10277],
+    REMARK["Intermediate CRS created in 2022 to assist the emulation of the ETRS89 / RBEPP12 SnakeGrid projected CRS through transformation ETRS89-GBR [OSNet v2009] to RBEPP12-IRF (1) (code 10278) used in conjunction with the RBEPP12-LCC map projection (code 10279)."]]

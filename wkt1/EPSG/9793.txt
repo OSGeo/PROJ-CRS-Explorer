@@ -1,5 +1,5 @@
-PROJCS["RGF93 v2 / Lambert-93",
-    GEOGCS["RGF93 v2",
+PROJCS["ETRS89-FRA [RGF93 v2] / Lambert-93",
+    GEOGCS["ETRS89-FRA [RGF93 v2]",
         DATUM["Reseau_Geodesique_Francais_1993_v2",
             SPHEROID["GRS 1980",6378137,298.257222101,
                 AUTHORITY["EPSG","7019"]],

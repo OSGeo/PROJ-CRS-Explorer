@@ -15,4 +15,5 @@ GEOGCRS["IGN72 Nuku Hiva",
         SCOPE["Geodesy."],
         AREA["French Polynesia - Marquesas Islands - Nuku Hiva, Ua Huka and Ua Pou."],
         BBOX[-9.57,-140.31,-8.72,-139.44]],
-    ID["EPSG",4630]]
+    ID["EPSG",4630],
+    REMARK["Replaced by RGPF, CRS code 4687."]]

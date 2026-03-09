@@ -15,4 +15,5 @@ GEOGCRS["Guam 1963",
         SCOPE["Cadastre, engineering survey, topographic mapping."],
         AREA["Guam - onshore. Northern Mariana Islands - onshore."],
         BBOX[13.18,144.58,20.61,146.12]],
-    ID["EPSG",4675]]
+    ID["EPSG",4675],
+    REMARK["Replaced by NAD83(HARN) alias Guam Geodetic Network 1993 (CRS code 4152) from 1995."]]

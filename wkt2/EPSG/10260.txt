@@ -15,4 +15,5 @@ GEOGCRS["GSB-IRF",
         SCOPE["Intermediate stage in transformations - not used otherwise."],
         AREA["Denmark - Bornholm onshore."],
         BBOX[54.94,14.59,55.38,15.25]],
-    ID["EPSG",10260]]
+    ID["EPSG",10260],
+    REMARK["Artificial CRS created in 2022 to assist the transformation of coordinates between the historic Generalstabens System and ETRS89 through CT ETRS89 to GSB-IRF (1) (code 10263) used in conjunction with the GSB-reconstruction map projection (code 10261)."]]

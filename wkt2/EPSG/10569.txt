@@ -20,4 +20,5 @@ GEODCRS["ETRF2020",
         SCOPE["Geodesy."],
         AREA["Europe - onshore and offshore: Albania; Andorra; Austria; Belgium; Bosnia and Herzegovina; Bulgaria; Croatia; Czechia; Denmark; Estonia; Faroe Islands; Finland; France; Germany; Gibraltar; Greece; Hungary; Ireland; Italy; Kosovo; Latvia; Liechtenstein; Lithuania; Luxembourg; Malta; Moldova; Monaco; Montenegro; Netherlands; North Macedonia; Norway including Svalbard and Jan Mayen; Poland; Portugal - mainland; Romania; San Marino; Serbia; Slovakia; Slovenia; Spain - mainland and Balearic islands; Sweden; Switzerland; United Kingdom (UK) including Channel Islands and Isle of Man; Vatican City State."],
         BBOX[33.26,-16.1,84.73,38.01]],
-    ID["EPSG",10569]]
+    ID["EPSG",10569],
+    REMARK["Replaces ETRF2014 (code 8401). ETRF2020 is technically superior to ETRF2000 but ETRF2000 and other previous realizations may be preferred for backward compatibility reasons. Differences between ETRF2020 and ETRF2000 can reach 7cm."]]

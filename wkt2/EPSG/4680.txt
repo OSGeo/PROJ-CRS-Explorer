@@ -15,4 +15,5 @@ GEOGCRS["Nouakchott 1965",
         SCOPE["Hydrography and nautical charting."],
         AREA["Mauritania - coastal area south of Cape Timiris."],
         BBOX[16.81,-16.57,19.41,-15.59]],
-    ID["EPSG",4680]]
+    ID["EPSG",4680],
+    REMARK["Replaced by Mauritania 1999 (CRS code 4702)."]]

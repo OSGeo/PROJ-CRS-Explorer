@@ -15,4 +15,5 @@ GEOGCRS["GWPBS22-IRF",
         SCOPE["Engineering survey and topographic mapping for railway applications."],
         AREA["United Kingdom (UK) - on or related to the rail route from London (Paddington) to Swansea."],
         BBOX[51.25,-4.26,52.06,-0.1]],
-    ID["EPSG",10209]]
+    ID["EPSG",10209],
+    REMARK["Intermediate CRS created in 2022 to assist the emulation of the ETRS89 / GWPBS22 SnakeGrid projected CRS through transformation ETRS89-GBR [OSNet v2009] to GWPBS22-IRF (1) (code 10210) used in conjunction with the GW22-LCC map projection (code 10211)."]]

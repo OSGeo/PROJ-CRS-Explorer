@@ -15,4 +15,5 @@ GEOGCRS["NAD83(HARN Corrected)",
         SCOPE["Horizontal component of 3D system."],
         AREA["Puerto Rico and US Virgin Islands - onshore."],
         BBOX[17.62,-67.97,18.57,-64.51]],
-    ID["EPSG",8545]]
+    ID["EPSG",8545],
+    REMARK["Note: this CRS includes POSITIVE EAST longitudes. In PRVI replaces NAD83(HARN) = NAD83(1993 PRVI) to correct errors. Replaced by NAD83(FBN) = NAD83(2002 PRVI)."]]

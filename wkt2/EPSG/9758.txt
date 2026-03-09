@@ -15,4 +15,5 @@ GEOGCRS["ECML14_NB-IRF",
         SCOPE["Engineering survey and topographic mapping for railway applications."],
         AREA["United Kingdom (UK) - on or related to rail routes from Newcastle Central to Ashington via Benton North Junction, and the section from Bedlington to Morpeth."],
         BBOX[54.85,-1.9,55.3,-1.3]],
-    ID["EPSG",9758]]
+    ID["EPSG",9758],
+    REMARK["Intermediate CRS created in 2021 to assist the emulation of the ETRS89 / ECML14_NB SnakeGrid projected CRS through transformation ETRS89-GBR [OSNet v2009] to ECML14_NB-IRF (1) (code 9759) used in conjunction with the ECML14_NB-TM map projection (code 9760)."]]

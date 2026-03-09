@@ -15,4 +15,5 @@ GEOGCRS["Gan 1970",
         SCOPE["Geodesy."],
         AREA["Maldives - onshore."],
         BBOX[-0.69,72.81,7.08,73.69]],
-    ID["EPSG",4684]]
+    ID["EPSG",4684],
+    REMARK["In some references incorrectly named ""Gandajika 1970"". See CRS ""Gandajika"", code 4685, from the Democratic Republic of the Congo (Zaire)."]]

@@ -15,4 +15,5 @@ GEOGCRS["SIRGAS 2000",
         SCOPE["Horizontal component of 3D system."],
         AREA["Latin America - Central America and South America - onshore and offshore. Brazil - onshore and offshore."],
         BBOX[-59.87,-122.19,32.72,-25.28]],
-    ID["EPSG",4674]]
+    ID["EPSG",4674],
+    REMARK["Replaces SIRGAS 1995 system (CRS code 4179) for South America; expands SIRGAS to Central America."]]

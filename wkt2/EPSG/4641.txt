@@ -15,4 +15,5 @@ GEOGCRS["IGN53 Mare",
         SCOPE["Geodesy."],
         AREA["New Caledonia - Loyalty Islands - Mare."],
         BBOX[-21.71,167.75,-21.32,168.19]],
-    ID["EPSG",4641]]
+    ID["EPSG",4641],
+    REMARK["Replaced by RGNC91-93 (CRS code 4749)."]]

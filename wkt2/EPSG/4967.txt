@@ -18,4 +18,5 @@ GEOGCRS["RGFG95",
         SCOPE["Geodesy; air, land and sea navigation and safety of life purposes."],
         AREA["French Guiana - onshore and offshore."],
         BBOX[2.11,-54.61,8.88,-49.45]],
-    ID["EPSG",4967]]
+    ID["EPSG",4967],
+    REMARK["See CRS code 7040 for alternate system with horizontal axes reversed used by IGN for GIS purposes."]]

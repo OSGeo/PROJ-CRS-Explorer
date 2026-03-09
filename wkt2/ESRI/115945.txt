@@ -1,0 +1,10 @@
+VERTCRS["UGRF",
+    VDATUM["Uganda_Geodetic_Reference_Frame"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Uganda."],
+        BBOX[-1.48,29.57,4.23,35.01]],
+    ID["ESRI",115945]]

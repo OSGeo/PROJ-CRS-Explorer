@@ -18,4 +18,5 @@ GEOGCRS["RGR92",
         SCOPE["Geodesy; air, land and sea navigation and safety of life purposes."],
         AREA["Reunion - onshore and offshore."],
         BBOX[-24.72,51.83,-18.28,58.24]],
-    ID["EPSG",4971]]
+    ID["EPSG",4971],
+    REMARK["See CRS code 7036 for alternate system with horizontal axes reversed used by IGN for GIS purposes."]]

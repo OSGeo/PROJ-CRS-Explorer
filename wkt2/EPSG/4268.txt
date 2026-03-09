@@ -15,4 +15,5 @@ GEOGCRS["NAD27 Michigan",
         SCOPE["Geodesy."],
         AREA["United States (USA) - Michigan."],
         BBOX[41.69,-90.42,48.32,-82.13]],
-    ID["EPSG",4268]]
+    ID["EPSG",4268],
+    REMARK["Ellipsoid taken to be 800ft above the NAD27 reference ellipsoid. Note: this coordinate reference system includes longitudes which are POSITIVE EAST."]]

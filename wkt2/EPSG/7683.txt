@@ -15,4 +15,5 @@ GEOGCRS["GSK-2011",
         SCOPE["Horizontal component of 3D system."],
         AREA["Russian Federation - onshore and offshore."],
         BBOX[39.87,18.92,85.19,-168.97]],
-    ID["EPSG",7683]]
+    ID["EPSG",7683],
+    REMARK["Replaces Pulkovo 1995 (CRS code 4200) with effect from 21st October 2011."]]

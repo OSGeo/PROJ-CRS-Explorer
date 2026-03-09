@@ -1,5 +1,5 @@
 GEOGCRS["SIRGAS-Chile 2002",
-    DATUM["SIRGAS-Chile realization 1 epoch 2002",
+    DATUM["SIRGAS-Chile 2002",
         ELLIPSOID["GRS 1980",6378137,298.257222101,
             LENGTHUNIT["metre",1]]],
     PRIMEM["Greenwich",0,
@@ -15,4 +15,5 @@ GEOGCRS["SIRGAS-Chile 2002",
         SCOPE["Horizontal component of 3D system."],
         AREA["Chile - onshore and offshore. Includes Easter Island, Juan Fernandez Islands, San Felix, and Sala y Gomez."],
         BBOX[-59.87,-113.21,-17.5,-65.72]],
-    ID["EPSG",5360]]
+    ID["EPSG",5360],
+    REMARK["Densification of SIRGAS 2000 within Chile. Replaces PSAD56 (CRS code 6248) in Chile, HITO XVIII (CRS code 6254) in Chilean Tierra del Fuego and Easter Island 1967 (CRS code 6719) in Easter Island. Replaced by SIRGAS-Chile 2013 (CRS code 9148)."]]

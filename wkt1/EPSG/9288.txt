@@ -1,4 +1,4 @@
-VERT_CS["MSL NL depth",
+VERT_CS["MSL-NLD depth",
     VERT_DATUM["Mean Sea Level Netherlands",2005,
         AUTHORITY["EPSG","1270"]],
     UNIT["metre",1,

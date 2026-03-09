@@ -15,4 +15,5 @@ GEOGCRS["Vanua Levu 1915",
         SCOPE["Geodesy."],
         AREA["Fiji - Vanua Levu and Taveuni."],
         BBOX[-17.07,178.42,-16.1,-179.77]],
-    ID["EPSG",4748]]
+    ID["EPSG",4748],
+    REMARK["For topographic mapping, replaced by Fiji 1956 (CRS code 4721). For other purposes, replaced by Fiji 1986 (CRS code 4720)."]]

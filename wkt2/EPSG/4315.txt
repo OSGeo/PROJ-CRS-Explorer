@@ -15,4 +15,5 @@ GEOGCRS["Conakry 1905",
         SCOPE["Geodesy."],
         AREA["Guinea - onshore."],
         BBOX[7.19,-15.13,12.68,-7.65]],
-    ID["EPSG",4315]]
+    ID["EPSG",4315],
+    REMARK["Replaced by Dabola 1981 (EPSG code 4155)."]]

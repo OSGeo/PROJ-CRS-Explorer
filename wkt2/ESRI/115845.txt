@@ -5,6 +5,6 @@ VERTCRS["GGD",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Georgia - onshore."],
-        BBOX[41.04,39.99,43.59,46.72]],
+        AREA["Georgia - onshore and offshore."],
+        BBOX[41.04,38.97,43.59,46.72]],
     ID["ESRI",115845]]

@@ -15,4 +15,5 @@ GEOGCRS["GBK19-IRF",
         SCOPE["Engineering survey and topographic mapping for railway applications."],
         AREA["United Kingdom (UK) - on or related to the rail route from Glasgow to Kilmarnock via Barrhead and the branch to East Kilbride."],
         BBOX[55.55,-4.65,55.95,-4.05]],
-    ID["EPSG",9453]]
+    ID["EPSG",9453],
+    REMARK["Intermediate CRS created in 2020 to assist the emulation of the ETRS89 / GBK19 SnakeGrid projected CRS through transformation ETRS89-GBR [OSNet v2009] to GBK19-IRF (1) (code 9454) used in conjunction with the GBK19-TM map projection (code 9455)."]]

@@ -15,4 +15,5 @@ GEOGCRS["RGWF96",
         SCOPE["Horizontal component of 3D system."],
         AREA["Wallis and Futuna - onshore and offshore - Uvea, Futuna, and Alofi."],
         BBOX[-15.94,179.49,-9.84,-174.27]],
-    ID["EPSG",8900]]
+    ID["EPSG",8900],
+    REMARK["See CRS code 8902 for alternate system with axes reversed used by IGN for GIS purposes. On Wallis island, replaces MOP78 (CRS code 4639) for geodetic purposes."]]

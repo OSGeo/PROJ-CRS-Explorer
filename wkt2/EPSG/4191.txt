@@ -15,4 +15,5 @@ GEOGCRS["Albanian 1987",
         SCOPE["Geodesy."],
         AREA["Albania - onshore."],
         BBOX[39.64,19.22,42.67,21.06]],
-    ID["EPSG",4191]]
+    ID["EPSG",4191],
+    REMARK["Replaced by KRGJSH-2010."]]

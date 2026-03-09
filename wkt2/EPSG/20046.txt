@@ -15,4 +15,5 @@ GEOGCRS["MAGNA-SIRGAS 2018",
         SCOPE["Horizontal component of 3D system."],
         AREA["Colombia - onshore and offshore. Includes San Andres y Providencia, Malpelo Islands, Roncador Bank, Serrana Bank and Serranilla Bank."],
         BBOX[-4.23,-84.77,15.51,-66.87]],
-    ID["EPSG",20046]]
+    ID["EPSG",20046],
+    REMARK["Replaces MAGNA-SIRGAS (CRS code 4686) for high accuracy purposes. Change is approximately 0.31m in latitude, 0.02m in longitude. For mapping and cadastral purposes considered equivalent."]]

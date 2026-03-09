@@ -15,4 +15,5 @@ GEOGCRS["Kyrg-06",
         SCOPE["Horizontal component of 3D system."],
         AREA["Kyrgyzstan."],
         BBOX[39.19,69.24,43.22,80.29]],
-    ID["EPSG",7686]]
+    ID["EPSG",7686],
+    REMARK["Replaces usage of Pulkovo 1942 in Kyrgyzstan from 7th October 2010."]]

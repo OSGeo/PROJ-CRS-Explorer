@@ -15,4 +15,5 @@ GEOGCRS["Vientiane 1982",
         SCOPE["Topographic mapping (medium and small scale)."],
         AREA["Laos."],
         BBOX[13.92,100.09,22.5,107.64]],
-    ID["EPSG",4676]]
+    ID["EPSG",4676],
+    REMARK["Replaced by Lao 1993 and then by Lao 1997. Vientiane 1982 coordinate values are within 3m of Lao 1997 values."]]

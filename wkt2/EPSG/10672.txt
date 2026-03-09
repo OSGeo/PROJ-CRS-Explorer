@@ -18,4 +18,5 @@ GEOGCRS["RGM23 (lon-lat)",
         SCOPE["GIS."],
         AREA["Mayotte - onshore and offshore."],
         BBOX[-14.49,43.68,-11.33,46.7]],
-    ID["EPSG",10672]]
+    ID["EPSG",10672],
+    REMARK["Replaces RGM04 (lon-lat) (CRS code 7038) with effect from 2023-01-01. See CRS code 10670 for system with horizontal axes in sequence lat-lon to be used for air, land and sea navigation and safety of life purposes."]]

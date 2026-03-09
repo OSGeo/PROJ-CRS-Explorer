@@ -1,4 +1,4 @@
-GEOGCRS["EUREF-FIN",
+GEOGCRS["ETRS89-FIN [EUREF-FIN]",
     DATUM["EUREF-FIN",
         ELLIPSOID["GRS 1980",6378137,298.257222101,
             LENGTHUNIT["metre",1]],
@@ -19,4 +19,5 @@ GEOGCRS["EUREF-FIN",
         SCOPE["Geodesy, cadastre, engineering survey, topographic mapping."],
         AREA["Finland - onshore and offshore."],
         BBOX[58.84,19.08,70.09,31.59]],
-    ID["EPSG",10689]]
+    ID["EPSG",10689],
+    REMARK["EUREF-FIN is the national realization of ETRS89 in Finland."]]

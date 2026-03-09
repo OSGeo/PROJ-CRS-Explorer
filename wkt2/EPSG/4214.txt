@@ -15,4 +15,5 @@ GEOGCRS["Beijing 1954",
         SCOPE["Geodesy."],
         AREA["China - onshore and offshore."],
         BBOX[16.7,73.62,53.56,134.77]],
-    ID["EPSG",4214]]
+    ID["EPSG",4214],
+    REMARK["In 1982 replaced by Xian 1980 (CRS code 4610) and New Beijing (CRS code 4555)."]]

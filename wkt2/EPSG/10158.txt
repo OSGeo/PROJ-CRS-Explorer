@@ -15,4 +15,5 @@ GEOGCRS["S34J-IRF",
         SCOPE["Intermediate stage in transformations - not used otherwise."],
         AREA["Denmark - Jutland and Funen - onshore."],
         BBOX[54.67,8,57.8,11.29]],
-    ID["EPSG",10158]]
+    ID["EPSG",10158],
+    REMARK["Artificial CRS created in 2022 to assist the transformation of coordinates between the historic S34J CRS and ETRS89 through transformation ETRS89 to S34J-IRF (1) (code 10161) used in conjunction with the S34-reconstruction map projection (code 10159)."]]

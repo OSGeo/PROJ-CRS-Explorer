@@ -15,4 +15,5 @@ GEOGCRS["Unknown datum based upon the Krassowsky 1940 ellipsoid",
         SCOPE["Not recommended."],
         AREA["Not specified."],
         BBOX[-90,-180,90,180]],
-    ID["EPSG",4024]]
+    ID["EPSG",4024],
+    REMARK["Use only in cases where geodetic datum is unknown."]]

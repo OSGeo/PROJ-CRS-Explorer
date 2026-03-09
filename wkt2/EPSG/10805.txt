@@ -19,4 +19,5 @@ GEODCRS["NKG_ETRF14",
         SCOPE["Geodesy."],
         AREA["Denmark, Estonia, Finland, Latvia, Lithuania, and Sweden - onshore and offshore; Norway - onshore, nearshore, and offshore southeast of a line joining Haugesund and the western limit of the Norway-Denmark maritime boundary."],
         BBOX[53.89,3.24,71.39,31.77]],
-    ID["EPSG",10805]]
+    ID["EPSG",10805],
+    REMARK["Used as hub for NKG2020 transformations. Replaces NKG_ETRF00 (ETRF2000 at epoch 2000.0)."]]

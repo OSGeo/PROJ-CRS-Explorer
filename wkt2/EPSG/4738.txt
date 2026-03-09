@@ -15,4 +15,5 @@ GEOGCRS["Hong Kong 1963",
         SCOPE["Topographic mapping."],
         AREA["Hong Kong - onshore and offshore."],
         BBOX[22.13,113.76,22.58,114.51]],
-    ID["EPSG",4738]]
+    ID["EPSG",4738],
+    REMARK["Replaced by Hong Kong 1963(67) (CRS code 4839) for military purposes only. For all purposes, replaced by Hong Kong 1980 (CRS code 4611)."]]

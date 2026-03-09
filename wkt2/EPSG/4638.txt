@@ -15,4 +15,5 @@ GEOGCRS["Saint Pierre et Miquelon 1950",
         SCOPE["Geodesy."],
         AREA["St Pierre and Miquelon - onshore."],
         BBOX[46.69,-56.48,47.19,-56.07]],
-    ID["EPSG",4638]]
+    ID["EPSG",4638],
+    REMARK["Replaced by RGSPM06 (CRS code 4463)."]]

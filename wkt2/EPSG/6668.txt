@@ -15,4 +15,5 @@ GEOGCRS["JGD2011",
         SCOPE["Horizontal component of 3D system."],
         AREA["Japan - onshore and offshore."],
         BBOX[17.09,122.38,46.05,157.65]],
-    ID["EPSG",6668]]
+    ID["EPSG",6668],
+    REMARK["Replaces JGD2000 (CRS code 4612) with effect from 21st October 2011."]]

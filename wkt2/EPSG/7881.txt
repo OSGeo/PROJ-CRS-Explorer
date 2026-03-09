@@ -15,4 +15,5 @@ GEOGCRS["St. Helena Tritan",
         SCOPE["Horizontal component of 3D system."],
         AREA["St Helena, Ascension and Tristan da Cunha - St Helena Island - onshore."],
         BBOX[-16.08,-5.85,-15.85,-5.59]],
-    ID["EPSG",7881]]
+    ID["EPSG",7881],
+    REMARK["Replaced by SHGD2015 (CRS code 7886) from 2015."]]

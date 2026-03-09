@@ -15,4 +15,5 @@ GEOGCRS["CHTRS95",
         SCOPE["Horizontal component of 3D system."],
         AREA["Liechtenstein; Switzerland."],
         BBOX[45.81,5.95,47.81,10.5]],
-    ID["EPSG",4151]]
+    ID["EPSG",4151],
+    REMARK["First realized through CHTRF95 and subsequently CHTRF98, 2004, 2010 and 2016 with an aim to re-measure every 6 years. For CRS used for topographic and cadastral purposes see CH1903+ (CRS code 4150)."]]

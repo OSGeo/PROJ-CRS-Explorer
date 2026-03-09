@@ -15,4 +15,5 @@ GEOGCRS["PD/83",
         SCOPE["Cadastre, topographic mapping."],
         AREA["Germany - Thuringen."],
         BBOX[50.2,9.87,51.65,12.66]],
-    ID["EPSG",4746]]
+    ID["EPSG",4746],
+    REMARK["Consistent with DHDN (CRS code 4314) at the 1-metre level. For low accuracy applications PD/83 can be considered the same as DHDN."]]

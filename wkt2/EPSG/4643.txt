@@ -15,4 +15,5 @@ GEOGCRS["ST71 Belep",
         SCOPE["Geodesy."],
         AREA["New Caledonia - Belep."],
         BBOX[-19.85,163.54,-19.5,163.75]],
-    ID["EPSG",4643]]
+    ID["EPSG",4643],
+    REMARK["Replaced by RGNC91-93 (CRS code 4749)."]]

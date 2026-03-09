@@ -15,4 +15,5 @@ GEOGCRS["ONGD17",
         SCOPE["Horizontal component of 3D system."],
         AREA["Oman - onshore and offshore."],
         BBOX[14.33,51.99,26.74,63.38]],
-    ID["EPSG",9294]]
+    ID["EPSG",9294],
+    REMARK["Replaces ONGD14 (CRS code 7373) from March 2019."]]

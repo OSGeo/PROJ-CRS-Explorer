@@ -15,4 +15,5 @@ GEOGCRS["NZGD2000",
         SCOPE["Horizontal component of 3D system."],
         AREA["New Zealand - onshore and offshore. Includes Antipodes Islands, Auckland Islands, Bounty Islands, Chatham Islands, Cambell Island, Kermadec Islands, Raoul Island and Snares Islands."],
         BBOX[-55.95,160.6,-25.88,-171.2]],
-    ID["EPSG",4167]]
+    ID["EPSG",4167],
+    REMARK["Replaces NZGD49 (code 4272) and CI79 (code 4673) from March 2000."]]

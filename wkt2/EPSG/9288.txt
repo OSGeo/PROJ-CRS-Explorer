@@ -1,4 +1,4 @@
-VERTCRS["MSL NL depth",
+VERTCRS["MSL-NLD depth",
     VDATUM["Mean Sea Level Netherlands"],
     CS[vertical,1],
         AXIS["depth (D)",down,

@@ -15,4 +15,5 @@ GEOGCRS["Combani 1950",
         SCOPE["Geodesy."],
         AREA["Mayotte - onshore."],
         BBOX[-13.05,44.98,-12.61,45.35]],
-    ID["EPSG",4632]]
+    ID["EPSG",4632],
+    REMARK["Replaced by Cadastre 1997 (CRS code 4475) for cadastral purposes only and by RGM04 (CRS code 4470) for all other purposes."]]

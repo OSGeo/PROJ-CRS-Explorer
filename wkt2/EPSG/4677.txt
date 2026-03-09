@@ -15,4 +15,5 @@ GEOGCRS["Lao 1993",
         SCOPE["Horizontal component of 3D system."],
         AREA["Laos."],
         BBOX[13.92,100.09,22.5,107.64]],
-    ID["EPSG",4677]]
+    ID["EPSG",4677],
+    REMARK["Replaces Vientiane 1982. Replaced by Lao 1997. Lao 1993 coordinate values are within 1m of Lao 1997 values."]]

@@ -17,4 +17,5 @@ GEOGCRS["PZ-90.02",
         SCOPE["Horizontal component of 3D system."],
         AREA["World."],
         BBOX[-90,-180,90,180]],
-    ID["EPSG",9474]]
+    ID["EPSG",9474],
+    REMARK["Replaces PZ-90 (CRS code 4740) from 2007-09-20. Replaced by PZ-90.11 (CRS code 9475) from 2014-01-15."]]

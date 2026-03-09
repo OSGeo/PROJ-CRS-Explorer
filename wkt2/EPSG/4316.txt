@@ -15,4 +15,5 @@ GEOGCRS["Dealul Piscului 1930",
         SCOPE["Geodesy."],
         AREA["Romania - onshore."],
         BBOX[43.62,20.26,48.27,29.74]],
-    ID["EPSG",4316]]
+    ID["EPSG",4316],
+    REMARK["Replaced by Pulkovo 1942(58) (geogCRS code 4179)."]]

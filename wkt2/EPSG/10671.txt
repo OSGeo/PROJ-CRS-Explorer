@@ -15,4 +15,5 @@ GEOGCRS["RGM23",
         SCOPE["Horizontal component of 3D system."],
         AREA["Mayotte - onshore and offshore."],
         BBOX[-14.49,43.68,-11.33,46.7]],
-    ID["EPSG",10671]]
+    ID["EPSG",10671],
+    REMARK["Replaces RGM04 (CRS code 4470) with effect from 2023-01-01. See CRS code 10673 for alternate system with axes reversed used by IGN for GIS purposes."]]

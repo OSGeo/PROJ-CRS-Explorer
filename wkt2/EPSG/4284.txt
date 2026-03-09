@@ -15,4 +15,5 @@ GEOGCRS["Pulkovo 1942",
         SCOPE["Geodesy."],
         AREA["Armenia; Azerbaijan; Belarus; Estonia - onshore; Georgia - onshore; Kazakhstan; Kyrgyzstan; Latvia - onshore; Lithuania - onshore; Moldova; Russian Federation - onshore; Tajikistan; Turkmenistan; Ukraine - onshore; Uzbekistan."],
         BBOX[35.14,19.57,81.91,-168.97]],
-    ID["EPSG",4284]]
+    ID["EPSG",4284],
+    REMARK["Extended to Eastern Europe through Uniform Astro-Geodetic Network (UAGN) of 1956 - see CRS code 4179."]]

@@ -15,4 +15,5 @@ GEOGCRS["S-JTSK/05 (Ferro)",
         SCOPE["Geodesy."],
         AREA["Czechia."],
         BBOX[48.58,12.09,51.06,18.86]],
-    ID["EPSG",5229]]
+    ID["EPSG",5229],
+    REMARK["Derived through projCRS code 5224 to improve the scale and homogeneity of CRS 4818 within Czechia as a scientific working system, but CRS 4818 remains the legal system. See CRS code 5228 for Greenwich-referenced alternative."]]

@@ -15,4 +15,5 @@ GEOGCRS["Lisbon (Lisbon)",
         SCOPE["Geodesy."],
         AREA["Portugal - mainland - onshore."],
         BBOX[36.95,-9.56,42.16,-6.19]],
-    ID["EPSG",4803]]
+    ID["EPSG",4803],
+    REMARK["Replaces Lisbon 1890 (Lisbon) system which used Bessel 1841 ellipsoid (code 4904). Replaced by Datum 73 (code 4274)."]]

@@ -15,4 +15,5 @@ GEOGCRS["Xian 1980",
         SCOPE["Geodesy."],
         AREA["China - onshore."],
         BBOX[18.11,73.62,53.56,134.77]],
-    ID["EPSG",4610]]
+    ID["EPSG",4610],
+    REMARK["Replaces Beijing 1954 (CRS code 4214). Replaced by CGCS2000(CRS code 4490)."]]

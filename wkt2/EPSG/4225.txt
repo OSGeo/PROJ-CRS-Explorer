@@ -13,6 +13,7 @@ GEOGCRS["Corrego Alegre 1970-72",
             ANGLEUNIT["degree",0.0174532925199433]],
     USAGE[
         SCOPE["Geodesy."],
-        AREA["Brazil - onshore - west of 54°W and south of 18°S; also south of 15°S between 54°W and 42°W; also east of 42°W."],
-        BBOX[-33.78,-58.16,-2.68,-34.74]],
-    ID["EPSG",4225]]
+        AREA["Brazil - onshore - north of 15°S and east of 42°W, between 15°S and 18°S and east of 54°W, and between 18°S and 32°45'S."],
+        BBOX[-32.75,-58.16,-2.68,-34.74]],
+    ID["EPSG",4225],
+    REMARK["Replaces 1961 adjustment (CRS code 5524). Replaced by SAD69 (CRS code 4291)."]]

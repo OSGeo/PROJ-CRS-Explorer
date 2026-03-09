@@ -19,4 +19,5 @@ GEODCRS["ETRS89-NOR [EUREF89]",
         SCOPE["Geodesy, cadastre, engineering survey, topographic mapping."],
         AREA["Norway including Svalbard - onshore and offshore."],
         BBOX[56.08,-3.35,84.73,38.01]],
-    ID["EPSG",10873]]
+    ID["EPSG",10873],
+    REMARK["EUREF89 is the national realization of ETRS89 in Norway."]]

@@ -15,4 +15,5 @@ GEOGCRS["S34S-IRF",
         SCOPE["Cadastre."],
         AREA["Denmark - Zealand and Lolland (onshore)."],
         BBOX[54.51,10.79,56.79,12.87]],
-    ID["EPSG",10249]]
+    ID["EPSG",10249],
+    REMARK["Artificial CRS created in 2022 to assist the transformation of coordinates between the historic S34S CRS and ETRS89 through CT ETRS89 to S34S-IRF (1) (code 10251) used in conjunction with the S34-reconstruction map projection (code 10159)."]]

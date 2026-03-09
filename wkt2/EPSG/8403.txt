@@ -20,4 +20,5 @@ GEOGCRS["ETRF2014",
         SCOPE["Geodesy."],
         AREA["Europe - onshore and offshore - ETRF extent - approximately 16°W to 33°E and 33°N to 84°N."],
         BBOX[33.26,-16.1,84.73,38.01]],
-    ID["EPSG",8403]]
+    ID["EPSG",8403],
+    REMARK["Replaces ETRF2005 (code 8399). ETRF2014 is technically superior to ETRF2000 but ETRF2000 and other previous realizations may be preferred for backward compatibility reasons. Differences between ETRF2014 and ETRF2000 can reach 7cm."]]

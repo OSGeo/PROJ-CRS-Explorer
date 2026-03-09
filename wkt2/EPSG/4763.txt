@@ -15,4 +15,5 @@ GEOGCRS["Pitcairn 2006",
         SCOPE["Cadastre, topographic mapping."],
         AREA["Pitcairn - Pitcairn Island."],
         BBOX[-25.14,-130.16,-25,-130.01]],
-    ID["EPSG",4763]]
+    ID["EPSG",4763],
+    REMARK["Replaces Pitcairn 1967 (CRS code 4729). For practical purposes may be considered to be WGS 84."]]
