@@ -18,4 +18,5 @@ GEOGCRS["IGD05/12",
         SCOPE["Geodesy."],
         AREA["Israel - onshore and offshore."],
         BBOX[29.45,32.99,33.53,35.69]],
-    ID["EPSG",7138]]
+    ID["EPSG",7138],
+    REMARK["Replaces IGD05 (CRS code 7135)."]]

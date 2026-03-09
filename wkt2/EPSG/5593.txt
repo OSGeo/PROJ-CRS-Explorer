@@ -15,4 +15,5 @@ GEOGCRS["FEH2010",
         SCOPE["Horizontal component of 3D system."],
         AREA["Fehmarnbelt area of Denmark and Germany."],
         BBOX[54.33,10.66,54.83,12.01]],
-    ID["EPSG",5593]]
+    ID["EPSG",5593],
+    REMARK["Created for engineering survey and construction of Fehmarnbelt tunnel."]]

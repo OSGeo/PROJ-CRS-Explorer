@@ -1,0 +1,7 @@
+VERT_CS["HTRS07",
+    VERT_DATUM["Hellenic_Terrestrial_Reference_System_2007",2002,
+        AUTHORITY["ESRI","from_geogdatum_ESRI_106048"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115944"]]

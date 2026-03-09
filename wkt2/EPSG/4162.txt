@@ -15,4 +15,5 @@ GEOGCRS["Korean 1985",
         SCOPE["Geodesy."],
         AREA["Republic of Korea (South Korea) - onshore."],
         BBOX[33.14,124.53,38.64,131.01]],
-    ID["EPSG",4162]]
+    ID["EPSG",4162],
+    REMARK["Replaces use of Tokyo datum. Replaced by KGD2002."]]

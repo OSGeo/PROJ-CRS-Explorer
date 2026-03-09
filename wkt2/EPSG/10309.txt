@@ -18,4 +18,5 @@ GEOGCRS["RGNC15",
         SCOPE["Geodesy; air, land and sea navigation and safety of life purposes."],
         AREA["New Caledonia - onshore and offshore. Isle de Pins, Loyalty Islands, Huon Islands, Belep archipelago, Chesterfield Islands, and Walpole."],
         BBOX[-26.45,156.25,-14.83,174.28]],
-    ID["EPSG",10309]]
+    ID["EPSG",10309],
+    REMARK["Replaces RGNC91-93 (CRS code 4907). See CRS code 10311 for alternate system with horizontal axes reversed used by DITTT for GIS purposes."]]

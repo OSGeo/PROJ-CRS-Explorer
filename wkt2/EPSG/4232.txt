@@ -15,4 +15,5 @@ GEOGCRS["Fahud",
         SCOPE["Geodesy."],
         AREA["Oman - mainland onshore."],
         BBOX[16.59,51.99,26.42,59.91]],
-    ID["EPSG",4232]]
+    ID["EPSG",4232],
+    REMARK["Since 1993 replaced by PSD93 geogCRS (code 4134). Maximum differences to Fahud adjustment are 20 metres."]]

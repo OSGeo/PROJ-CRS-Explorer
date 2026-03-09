@@ -15,4 +15,5 @@ GEOGCRS["Kertau 1968",
         SCOPE["Geodesy."],
         AREA["Malaysia - West Malaysia onshore and offshore east coast; Singapore - onshore and offshore."],
         BBOX[1.13,99.59,7.81,105.82]],
-    ID["EPSG",4245]]
+    ID["EPSG",4245],
+    REMARK["Not used for metrication of RSO grid - see Kertau (RSO) (CRS code 4751). Replaced by GDM2000 (CRS code 4742)."]]

@@ -15,4 +15,5 @@ GEOGCRS["TM75",
         SCOPE["Basis for topographic mapping."],
         AREA["Ireland - onshore. United Kingdom (UK) - Northern Ireland (Ulster) - onshore."],
         BBOX[51.39,-10.56,55.43,-5.34]],
-    ID["EPSG",4300]]
+    ID["EPSG",4300],
+    REMARK["Uses Geodetic Datum of 1965 which should not be confused with the 1965 adjustment (TM65, datum code 6299 and CRS code 4299). Replaces OSNI52 (CRS code 4188) and TM65 (CRS code 4299). Replaced by IRENET95 (CRS code 4173)."]]

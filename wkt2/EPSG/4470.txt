@@ -15,4 +15,5 @@ GEOGCRS["RGM04",
         SCOPE["Horizontal component of 3D system."],
         AREA["Mayotte - onshore and offshore."],
         BBOX[-14.49,43.68,-11.33,46.7]],
-    ID["EPSG",4470]]
+    ID["EPSG",4470],
+    REMARK["Replaces Combani 1950 (CRS code 4632) except for cadastral purposes which uses Cadastre 1997 (CRS code 4475). Replaced by RGM23 (CRS code 10671) from 2023-01-01. See CRS code 7039 for alternate system with axes reversed used by IGN for GIS purposes."]]

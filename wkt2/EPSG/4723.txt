@@ -15,4 +15,5 @@ GEOGCRS["GCGD59",
         SCOPE["Cadastre, engineering survey, topographic mapping."],
         AREA["Cayman Islands - Grand Cayman."],
         BBOX[19.21,-81.46,19.41,-81.04]],
-    ID["EPSG",4723]]
+    ID["EPSG",4723],
+    REMARK["Superseded by CIGD11 (CRS code 6135)."]]

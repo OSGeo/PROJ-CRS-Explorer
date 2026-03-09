@@ -20,4 +20,5 @@ GEOGCRS["WGS 84 (G1150)",
         SCOPE["Geodesy. Navigation and positioning using GPS satellite system."],
         AREA["World."],
         BBOX[-90,-180,90,180]],
-    ID["EPSG",7661]]
+    ID["EPSG",7661],
+    REMARK["Replaces WGS 84 (G873) (CRS code 7659) from 2002-01-20. Replaced by WGS 84 (G1674) (CRS code 7663) from 2012-02-08."]]

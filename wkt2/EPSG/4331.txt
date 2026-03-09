@@ -20,4 +20,5 @@ GEODCRS["ITRF89 (geocentric)",
         SCOPE["Geodesy."],
         AREA["World."],
         BBOX[-90,-180,90,180]],
-    ID["EPSG",4331]]
+    ID["EPSG",4331],
+    REMARK["Supersedes ITRF88 (code 4330). Superseded by ITRF91 (code 4332)."]]

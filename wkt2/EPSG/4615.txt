@@ -15,4 +15,5 @@ GEOGCRS["Porto Santo",
         SCOPE["Geodesy."],
         AREA["Portugal - Madeira, Porto Santo and Desertas islands - onshore."],
         BBOX[32.35,-17.31,33.15,-16.23]],
-    ID["EPSG",4615]]
+    ID["EPSG",4615],
+    REMARK["Replaced by 1995 system (CRS code 4663)."]]

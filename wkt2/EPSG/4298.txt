@@ -15,4 +15,5 @@ GEOGCRS["Timbalai 1948",
         SCOPE["Geodesy."],
         AREA["Brunei - onshore and offshore; Malaysia - East Malaysia (Sabah; Sarawak) - onshore and offshore."],
         BBOX[0.85,109.31,7.67,119.61]],
-    ID["EPSG",4298]]
+    ID["EPSG",4298],
+    REMARK["Adopts metric conversion of 39.370147 inches per metre. Replaced by GDM2000 (CRS code 4742) in East Malaysia and by GDBD2009 (CRS code 5247) in Brunei."]]

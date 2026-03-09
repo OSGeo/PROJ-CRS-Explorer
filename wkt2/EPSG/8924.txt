@@ -20,4 +20,5 @@ GEOGCRS["SIRGAS-CON DGF04P01",
         SCOPE["Geodesy."],
         AREA["Latin America - Central America and South America, onshore and offshore."],
         BBOX[-59.87,-122.19,32.72,-25.28]],
-    ID["EPSG",8924]]
+    ID["EPSG",8924],
+    REMARK["Replaces SIRGAS-CON DGF02P01 (CRS code 8922). Replaced by SIRGAS-CON DGF05P01 (CRS code 8926)."]]

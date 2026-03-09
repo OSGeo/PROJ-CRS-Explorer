@@ -15,4 +15,5 @@ GEOGCRS["Pitcairn 1967",
         SCOPE["Military survey."],
         AREA["Pitcairn - Pitcairn Island."],
         BBOX[-25.14,-130.16,-25,-130.01]],
-    ID["EPSG",4729]]
+    ID["EPSG",4729],
+    REMARK["Replced by Pitcairn 2006 (CRS code 4763)."]]

@@ -15,4 +15,5 @@ GEOGCRS["Camacupa 2015",
         SCOPE["EEZ delimitation."],
         AREA["Angola - onshore and offshore."],
         BBOX[-18.02,8.2,-4.38,24.09]],
-    ID["EPSG",8694]]
+    ID["EPSG",8694],
+    REMARK["Camacupa 1948 (CRS code 4220) is used for offshore oil and gas exploration and production. Camacupa 2015 differs from Camacupa 1948 by up to 25m."]]

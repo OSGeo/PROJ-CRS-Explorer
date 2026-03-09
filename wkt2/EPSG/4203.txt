@@ -15,4 +15,5 @@ GEOGCRS["AGD84",
         SCOPE["Geodesy."],
         AREA["Australia - Queensland, South Australia, Western Australia, federal areas offshore west of 129°E."],
         BBOX[-38.53,109.23,-9.37,153.61]],
-    ID["EPSG",4203]]
+    ID["EPSG",4203],
+    REMARK["National system replacing AGD66 but officially adopted only in Queensland, South Australia and Western Australia. Replaced by GDA94."]]

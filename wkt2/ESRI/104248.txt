@@ -1,4 +1,4 @@
-GEOGCRS["GCS_MACAO_2008",
+GEOGCRS["Macao_2008",
     DATUM["D_MACAO_2008",
         ELLIPSOID["International 1924",6378388,297,
             LENGTHUNIT["metre",1]]],

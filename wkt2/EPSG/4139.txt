@@ -15,4 +15,5 @@ GEOGCRS["Puerto Rico",
         SCOPE["Geodesy."],
         AREA["Puerto Rico, US Virgin Islands and British Virgin Islands - onshore."],
         BBOX[17.62,-67.97,18.78,-64.25]],
-    ID["EPSG",4139]]
+    ID["EPSG",4139],
+    REMARK["NAD27 (CRS code 4267) used for military purposes. Note: this CRS includes longitudes which are POSITIVE EAST."]]

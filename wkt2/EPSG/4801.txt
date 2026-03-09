@@ -15,4 +15,5 @@ GEOGCRS["CH1903 (Bern)",
         SCOPE["Geodesy."],
         AREA["Liechtenstein; Switzerland."],
         BBOX[45.81,5.95,47.81,10.5]],
-    ID["EPSG",4801]]
+    ID["EPSG",4801],
+    REMARK["Replaced by CH1903 (CRS code 4149)."]]

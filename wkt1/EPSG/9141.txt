@@ -1,5 +1,5 @@
-PROJCS["KOSOVAREF01 / Balkans zone 7",
-    GEOGCS["KOSOVAREF01",
+PROJCS["ETRS89-XKX [KOSOVAREF01] / Balkans zone 7",
+    GEOGCS["ETRS89-XKX [KOSOVAREF01]",
         DATUM["Kosovo_Reference_System_2001",
             SPHEROID["GRS 1980",6378137,298.257222101,
                 AUTHORITY["EPSG","7019"]],

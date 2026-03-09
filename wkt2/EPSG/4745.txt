@@ -15,4 +15,5 @@ GEOGCRS["RD/83",
         SCOPE["Cadastre, topographic mapping."],
         AREA["Germany - Sachsen."],
         BBOX[50.2,11.89,51.66,15.04]],
-    ID["EPSG",4745]]
+    ID["EPSG",4745],
+    REMARK["Consistent with DHDN (CRS code 4314) at the 1-metre level. For low accuracy applications RD/83 can be considered the same as DHDN."]]

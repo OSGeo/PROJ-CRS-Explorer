@@ -15,4 +15,5 @@ GEOGCRS["Israel 1993",
         SCOPE["Geodesy."],
         AREA["Israel - onshore; Palestine onshore."],
         BBOX[29.45,34.17,33.28,35.69]],
-    ID["EPSG",4141]]
+    ID["EPSG",4141],
+    REMARK["Replaces Palestine 1923 (CRS code 4281) from June 1998. Replaced by IGD05 (CRS code 6980) from January 2005."]]

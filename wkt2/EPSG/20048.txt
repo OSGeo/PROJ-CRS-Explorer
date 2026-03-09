@@ -1,6 +1,6 @@
 PROJCRS["SIRGAS-Chile 2021 / UTM zone 18S",
     BASEGEOGCRS["SIRGAS-Chile 2021",
-        DATUM["SIRGAS-Chile realization 5 epoch 2021",
+        DATUM["SIRGAS-Chile 2021",
             ELLIPSOID["GRS 1980",6378137,298.257222101,
                 LENGTHUNIT["metre",1]]],
         PRIMEM["Greenwich",0,

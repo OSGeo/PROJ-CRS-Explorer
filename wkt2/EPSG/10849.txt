@@ -15,4 +15,5 @@ GEOGCRS["EWR3-IRF",
         SCOPE["Engineering survey and topographic mapping for railway applications."],
         AREA["United Kingdom (UK) - on or related to the East West Rail (Phases 2 and 3) route from Oxford to Cambridge via Bicester, Bletchley and Bedford, including the route from Claydon Junction to Aylesbury and Princes Risborough."],
         BBOX[51.7,-1.43,52.33,0.27]],
-    ID["EPSG",10849]]
+    ID["EPSG",10849],
+    REMARK["Intermediate CRS created in 2024 to assist the emulation of the ETRS89 / EWR3 SnakeGrid projected CRS through transformation ETRS89-GBR [OSNet v2009] to EWR3-IRF (1) (code 10850) used in conjunction with the EWR3-TM map projection (code 9765). The EWR3 SnakeGrid is an extension of the EWR2 SnakeGrid, and between Oxford and Bedford the two grids are identical. "]]

@@ -15,4 +15,5 @@ GEOGCRS["HD1909",
         SCOPE["Geodesy."],
         AREA["Hungary."],
         BBOX[45.74,16.11,48.58,22.9]],
-    ID["EPSG",3819]]
+    ID["EPSG",3819],
+    REMARK["Replaced earlier HD1863 adjustment also on Bessel ellipsoid. Both HD1863 and HD1909 were originally on Ferro Prime Meridian but subsequently converted to Greenwich. Replaced by HD72 (CRS code 4237)."]]

@@ -15,4 +15,5 @@ GEOGCRS["Old Hawaiian",
         SCOPE["Geodesy."],
         AREA["United States (USA) - Hawaii - main islands onshore."],
         BBOX[18.87,-160.3,22.29,-154.74]],
-    ID["EPSG",4135]]
+    ID["EPSG",4135],
+    REMARK["Note: this CRS includes longitudes which are POSITIVE EAST."]]

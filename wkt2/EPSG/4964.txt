@@ -1,7 +1,8 @@
-GEODCRS["RGF93 v1",
+GEODCRS["ETRS89-FRA [RGF93 v1]",
     DATUM["Reseau Geodesique Francais 1993 v1",
         ELLIPSOID["GRS 1980",6378137,298.257222101,
-            LENGTHUNIT["metre",1]]],
+            LENGTHUNIT["metre",1]],
+        ANCHOREPOCH[1993]],
     PRIMEM["Greenwich",0,
         ANGLEUNIT["degree",0.0174532925199433]],
     CS[Cartesian,3],
@@ -18,4 +19,5 @@ GEODCRS["RGF93 v1",
         SCOPE["Geodesy."],
         AREA["France - onshore and offshore, mainland and Corsica (France métropolitaine including Corsica)."],
         BBOX[41.15,-9.86,51.56,10.38]],
-    ID["EPSG",4964]]
+    ID["EPSG",4964],
+    REMARK["Replaced by ETRS89-FRA [RGF93 v2] (CRS code 9775) from 2010-06-18."]]

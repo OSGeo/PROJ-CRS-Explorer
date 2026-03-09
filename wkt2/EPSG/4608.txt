@@ -15,4 +15,5 @@ GEOGCRS["NAD27(76)",
         SCOPE["Geodesy."],
         AREA["Canada - Ontario."],
         BBOX[41.67,-95.16,56.9,-74.35]],
-    ID["EPSG",4608]]
+    ID["EPSG",4608],
+    REMARK["Note: this CRS includes longitudes which are POSITIVE EAST."]]

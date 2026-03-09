@@ -15,4 +15,5 @@ GEOGCRS["Azores Central 1995",
         SCOPE["Geodesy."],
         AREA["Portugal - central Azores onshore - Faial, Graciosa, Pico, Sao Jorge, Terceira."],
         BBOX[38.32,-28.9,39.14,-26.97]],
-    ID["EPSG",4665]]
+    ID["EPSG",4665],
+    REMARK["Replaces 1948 system (CRS code 4183). Replaced by PTRA08 (CRS code 5013)."]]

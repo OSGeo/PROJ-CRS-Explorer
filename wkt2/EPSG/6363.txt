@@ -18,4 +18,5 @@ GEODCRS["Mexico ITRF2008",
         SCOPE["Geodesy."],
         AREA["Mexico - onshore and offshore."],
         BBOX[12.1,-122.19,32.72,-84.64]],
-    ID["EPSG",6363]]
+    ID["EPSG",6363],
+    REMARK["Replaces Mexico ITRF92 (CRS code 4481) from December 2010."]]

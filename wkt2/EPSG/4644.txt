@@ -15,4 +15,5 @@ GEOGCRS["NEA74 Noumea",
         SCOPE["Geodesy."],
         AREA["New Caledonia - Grande Terre - Noumea district."],
         BBOX[-22.37,166.35,-22.19,166.54]],
-    ID["EPSG",4644]]
+    ID["EPSG",4644],
+    REMARK["Replaced by RGNC91-93 (CRS code 4749)."]]

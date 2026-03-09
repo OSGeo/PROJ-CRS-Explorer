@@ -18,4 +18,5 @@ GEOGCRS["RGR92 (lon-lat)",
         SCOPE["GIS."],
         AREA["Reunion - onshore and offshore."],
         BBOX[-24.72,51.83,-18.28,58.24]],
-    ID["EPSG",7036]]
+    ID["EPSG",7036],
+    REMARK["See CRS code 4971 for system with horizontal axes in sequence lat-lon to be used for air, land and sea navigation and safety of life purposes."]]

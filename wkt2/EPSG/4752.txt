@@ -15,4 +15,5 @@ GEOGCRS["Viti Levu 1912",
         SCOPE["Geodesy."],
         AREA["Fiji - Viti Levu island."],
         BBOX[-18.32,177.19,-17.25,178.75]],
-    ID["EPSG",4752]]
+    ID["EPSG",4752],
+    REMARK["For topographic mapping, replaced by Fiji 1956 (CRS code 4721). For other purposes, replaced by Fiji 1986 (CRS code 4720)."]]

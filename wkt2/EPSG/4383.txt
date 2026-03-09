@@ -18,4 +18,5 @@ GEOGCRS["RRAF 1991 (3D)",
         SCOPE["Geodesy."],
         AREA["French Antilles onshore and offshore - Guadeloupe (including Grande Terre, Basse Terre, Marie Galante, Les Saintes, Iles de la Petite Terre, La Desirade); Martinique; St Barthélemy; St Martin."],
         BBOX[14.08,-63.66,18.54,-57.52]],
-    ID["EPSG",4383]]
+    ID["EPSG",4383],
+    REMARK["Supersedes older local 2D systems Fort Marigot and Sainte Anne CRS (codes 4621-22) in Guadeloupe and Fort Desaix (CRS code 4625) in Martinique."]]

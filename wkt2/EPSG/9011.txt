@@ -20,4 +20,5 @@ GEOGCRS["IGS05",
         SCOPE["Geodesy."],
         AREA["World."],
         BBOX[-90,-180,90,180]],
-    ID["EPSG",9011]]
+    ID["EPSG",9011],
+    REMARK["Adopted by the International GNSS Service (IGS) from 2006-11-05 through 2011-04-16. Replaces IGb00, replaced by IGS08 (CRS codes 9008 and 9013). For all practical purposes IGS05 is equivalent to ITRF2005."]]

@@ -15,4 +15,5 @@ GEOGCRS["La Canoa",
         SCOPE["Geodesy."],
         AREA["Venezuela - onshore."],
         BBOX[0.64,-73.38,12.25,-59.8]],
-    ID["EPSG",4247]]
+    ID["EPSG",4247],
+    REMARK["This CRS is incorporated within PSAD56. See CRS code 4248."]]

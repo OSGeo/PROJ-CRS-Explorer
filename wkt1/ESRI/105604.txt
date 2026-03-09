@@ -1,0 +1,7 @@
+VERT_CS["JGD2024_vertical_height",
+    VERT_DATUM["Japanese_Geodetic_Datum_2024_vertical",2005,
+        AUTHORITY["ESRI","105108"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["ESRI","105604"]]

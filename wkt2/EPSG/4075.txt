@@ -1,7 +1,8 @@
-GEOGCRS["SREF98",
+GEOGCRS["ETRS89-SRB [SREF98]",
     DATUM["Serbian Reference Network 1998",
         ELLIPSOID["GRS 1980",6378137,298.257222101,
-            LENGTHUNIT["metre",1]]],
+            LENGTHUNIT["metre",1]],
+        ANCHOREPOCH[1998.7]],
     PRIMEM["Greenwich",0,
         ANGLEUNIT["degree",0.0174532925199433]],
     CS[ellipsoidal,2],
@@ -15,4 +16,5 @@ GEOGCRS["SREF98",
         SCOPE["Horizontal component of 3D system."],
         AREA["Serbia including Vojvodina."],
         BBOX[42.23,18.81,46.19,23.01]],
-    ID["EPSG",4075]]
+    ID["EPSG",4075],
+    REMARK["Replaces MGI 1901 (CRS code 3906) in Serbia. Replaced by ETRS89-SRB [STRS00] (CRS code 8685)."]]

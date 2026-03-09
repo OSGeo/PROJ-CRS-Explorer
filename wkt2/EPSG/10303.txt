@@ -1,4 +1,4 @@
-GEODCRS["LKS-2020",
+GEODCRS["ETRS89-LVA [LKS-2020]",
     DATUM["Latvian coordinate system 2020",
         ELLIPSOID["GRS 1980",6378137,298.257222101,
             LENGTHUNIT["metre",1]],
@@ -19,4 +19,5 @@ GEODCRS["LKS-2020",
         SCOPE["Spatial referencing."],
         AREA["Latvia - onshore and offshore."],
         BBOX[55.67,19.06,58.09,28.24]],
-    ID["EPSG",10303]]
+    ID["EPSG",10303],
+    REMARK["Replaces ETRS89-LVA [LKS-92] (CRS code 4948) from 2026-10-01."]]

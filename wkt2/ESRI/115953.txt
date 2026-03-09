@@ -1,0 +1,10 @@
+VERTCRS["PAL-GRF2023",
+    VDATUM["PAL-GRF2023"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Palestine."],
+        BBOX[31.21,34.17,32.55,35.58]],
+    ID["ESRI",115953]]

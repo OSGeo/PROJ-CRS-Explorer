@@ -19,4 +19,5 @@ GEODCRS["NAD83(MA11)",
         SCOPE["Geodesy."],
         AREA["Guam, Northern Mariana Islands and Palau; onshore and offshore."],
         BBOX[1.64,129.48,23.9,149.55]],
-    ID["EPSG",6323]]
+    ID["EPSG",6323],
+    REMARK["Replaces NAD83(HARN) (GGN93) and NAD83(FBN) in Guam."]]

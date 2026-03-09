@@ -20,4 +20,5 @@ GEODCRS["ITRF2008",
         SCOPE["Geodesy."],
         AREA["World."],
         BBOX[-90,-180,90,180]],
-    ID["EPSG",5332]]
+    ID["EPSG",5332],
+    REMARK["Replaces ITRF2005 (CRS code 4896). Replaced by ITRF2014 (CRS code 7789)."]]

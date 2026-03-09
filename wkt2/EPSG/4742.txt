@@ -15,4 +15,5 @@ GEOGCRS["GDM2000",
         SCOPE["Horizontal component of 3D system."],
         AREA["Malaysia - onshore and offshore. Includes peninsular Malayasia, Sabah and Sarawak."],
         BBOX[0.85,98.02,7.81,119.61]],
-    ID["EPSG",4742]]
+    ID["EPSG",4742],
+    REMARK["Replaces all earlier Malaysian geographic CRSs."]]

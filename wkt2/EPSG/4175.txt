@@ -15,4 +15,5 @@ GEOGCRS["Sierra Leone 1968",
         SCOPE["Geodesy."],
         AREA["Sierra Leone - onshore."],
         BBOX[6.88,-13.35,10,-10.26]],
-    ID["EPSG",4175]]
+    ID["EPSG",4175],
+    REMARK["Replaces Sierra Leone 1960. The 1968 readjustment coordinates are within 3m of the 1960 provisional adjustment."]]

@@ -15,4 +15,5 @@ GEOGCRS["Egypt 1930",
         SCOPE["Geodesy."],
         AREA["Egypt - onshore."],
         BBOX[21.97,24.7,31.68,36.95]],
-    ID["EPSG",4199]]
+    ID["EPSG",4199],
+    REMARK["Note that Egypt 1930 uses the International 1924 ellipsoid, unlike the Egypt 1907 CRS (code 4229) which uses the Helmert ellipsoid. Oil industry references to the Egypt 1930 name and the Helmert ellipsoid probably mean Egypt 1907."]]

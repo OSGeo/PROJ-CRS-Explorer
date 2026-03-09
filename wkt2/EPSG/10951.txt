@@ -19,4 +19,5 @@ GEOGCRS["CSRN epoch 2025.0 (ITRF2020)",
         SCOPE["Geodesy."],
         AREA["United States (USA) - California."],
         BBOX[32.53,-124.45,42.01,-114.12]],
-    ID["EPSG",10951]]
+    ID["EPSG",10951],
+    REMARK["Californian 'snapshot' of ITRF2020 taking into account local tectonic plate movement and deformation. Supersedes CSRS epoch 2017.5 (ITRF2014) from 2025-06-15."]]

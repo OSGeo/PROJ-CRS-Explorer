@@ -15,4 +15,5 @@ GEOGCRS["Kertau (RSO)",
         SCOPE["Metrication of RSO grid."],
         AREA["Malaysia - West Malaysia; Singapore."],
         BBOX[1.13,99.59,6.72,104.6]],
-    ID["EPSG",4751]]
+    ID["EPSG",4751],
+    REMARK["Used only for metrication of RSO grid. See Kertau 1968 (CRS code 4245) for other purposes. Replaced by GDM2000 (CRS code 4742)."]]

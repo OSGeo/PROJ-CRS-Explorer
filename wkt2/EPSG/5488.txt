@@ -18,4 +18,5 @@ GEOGCRS["RGAF09",
         SCOPE["Geodesy; air, land and sea navigation and safety of life purposes."],
         AREA["French Antilles onshore and offshore - Guadeloupe (including Grande Terre, Basse Terre, Marie Galante, Les Saintes, Iles de la Petite Terre, La Desirade); Martinique; St Barthélemy; St Martin."],
         BBOX[14.08,-63.66,18.54,-57.52]],
-    ID["EPSG",5488]]
+    ID["EPSG",5488],
+    REMARK["Replaces RRAF 1991 (CRS code 4557). See CRS code 7085 for alternate system with horizontal axes reversed used by IGN for GIS purposes."]]

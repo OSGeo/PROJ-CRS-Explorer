@@ -15,4 +15,5 @@ GEOGCRS["LGD2006",
         SCOPE["Horizontal component of 3D system."],
         AREA["Libya - onshore and offshore."],
         BBOX[19.5,9.31,35.23,26.21]],
-    ID["EPSG",4754]]
+    ID["EPSG",4754],
+    REMARK["Replaces ELD79."]]

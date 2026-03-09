@@ -15,4 +15,5 @@ GEOGCRS["Petrels 1972",
         SCOPE["Geodesy."],
         AREA["Antarctica - Adelie Land - Petrels island."],
         BBOX[-66.78,139.44,-66.1,141.5]],
-    ID["EPSG",4636]]
+    ID["EPSG",4636],
+    REMARK["Replaced by RGTAAF07 (CRS code 7073)."]]

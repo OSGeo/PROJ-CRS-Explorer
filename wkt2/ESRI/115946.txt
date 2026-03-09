@@ -1,0 +1,10 @@
+VERTCRS["CSRN_epoch_2025.0_(NAD83_2011)",
+    VDATUM["California_Spatial_Reference_Network_epoch_2025.0_(NAD83_2011)"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["United States (USA) - California."],
+        BBOX[32.53,-124.45,42.01,-114.12]],
+    ID["ESRI",115946]]

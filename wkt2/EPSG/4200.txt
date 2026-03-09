@@ -15,4 +15,5 @@ GEOGCRS["Pulkovo 1995",
         SCOPE["Geodesy."],
         AREA["Russian Federation - onshore and offshore."],
         BBOX[39.87,18.92,85.19,-168.97]],
-    ID["EPSG",4200]]
+    ID["EPSG",4200],
+    REMARK["Decree #1463 of 2012-12-28 announced that S-95 to be phased out and replaced by GSK-11 (CRS code 7683) by 2017."]]

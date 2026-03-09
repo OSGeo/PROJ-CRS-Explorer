@@ -15,4 +15,5 @@ GEOGCRS["Martinique 1938",
         SCOPE["Geodesy."],
         AREA["Martinique - onshore."],
         BBOX[14.35,-61.29,14.93,-60.76]],
-    ID["EPSG",4625]]
+    ID["EPSG",4625],
+    REMARK["Replaced by RRAF 1991 (CRS code 4558)."]]

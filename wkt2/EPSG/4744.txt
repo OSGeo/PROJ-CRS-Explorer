@@ -15,4 +15,5 @@ GEOGCRS["Nahrwan 1934",
         SCOPE["Oil and gas exploration and production."],
         AREA["Iraq - onshore; Iran - onshore northern Gulf coast and west bordering southeast Iraq."],
         BBOX[29.06,38.79,37.39,51.06]],
-    ID["EPSG",4744]]
+    ID["EPSG",4744],
+    REMARK["In Iran, replaced by FD58. In Iraq, replaced by Karbala 1979."]]

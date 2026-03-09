@@ -15,4 +15,5 @@ GEOGCRS["POSGAR 2007",
         SCOPE["Horizontal component of 3D system."],
         AREA["Argentina - onshore and offshore."],
         BBOX[-58.41,-73.59,-21.78,-52.63]],
-    ID["EPSG",5340]]
+    ID["EPSG",5340],
+    REMARK["Adopted as official replacement of POSGAR 94 in May 2009. Also replaces de facto use of POSGAR 98 as of same date."]]

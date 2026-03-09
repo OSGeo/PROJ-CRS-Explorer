@@ -15,4 +15,5 @@ GEOGCRS["NAD27(CGQ77)",
         SCOPE["Geodesy."],
         AREA["Canada - Quebec."],
         BBOX[44.99,-79.85,62.62,-57.1]],
-    ID["EPSG",4609]]
+    ID["EPSG",4609],
+    REMARK["Note: this CRS includes longitudes which are POSITIVE EAST."]]

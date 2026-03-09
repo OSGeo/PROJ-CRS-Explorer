@@ -15,4 +15,5 @@ GEOGCRS["Carthage (Paris)",
         SCOPE["Geodesy."],
         AREA["Tunisia - onshore."],
         BBOX[30.23,7.49,37.4,11.59]],
-    ID["EPSG",4816]]
+    ID["EPSG",4816],
+    REMARK["Replaced by Greenwich-based Carthage geogCRS."]]

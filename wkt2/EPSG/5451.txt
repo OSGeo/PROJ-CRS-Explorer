@@ -15,4 +15,5 @@ GEOGCRS["Ocotepeque 1935",
         SCOPE["Geodesy, topographic mapping."],
         AREA["Costa Rica; El Salvador; Guatemala; Honduras; Nicaragua."],
         BBOX[7.98,-92.29,17.83,-82.53]],
-    ID["EPSG",5451]]
+    ID["EPSG",5451],
+    REMARK["Replaced in Costa Rica by Costa Rica 2005 (CR05) from March 2007 and replaced in El Salvador by SIRGAS_ES2007 from August 2007."]]

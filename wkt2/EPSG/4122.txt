@@ -15,4 +15,5 @@ GEOGCRS["ATS77",
         SCOPE["Geodesy."],
         AREA["Canada - New Brunswick; Nova Scotia; Prince Edward Island."],
         BBOX[43.41,-69.05,48.07,-59.73]],
-    ID["EPSG",4122]]
+    ID["EPSG",4122],
+    REMARK["In use from 1979. To be phased out in late 1990's."]]

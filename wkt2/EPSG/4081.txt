@@ -15,4 +15,5 @@ GEOGCRS["REGCAN95",
         SCOPE["Horizontal component of 3D system."],
         AREA["Spain - Canary Islands onshore and offshore."],
         BBOX[24.6,-21.93,32.76,-11.75]],
-    ID["EPSG",4081]]
+    ID["EPSG",4081],
+    REMARK["Replaces Pico de las Nieves 1984 (PN84)."]]

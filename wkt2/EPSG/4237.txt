@@ -15,4 +15,5 @@ GEOGCRS["HD72",
         SCOPE["Geodesy."],
         AREA["Hungary."],
         BBOX[45.74,16.11,48.58,22.9]],
-    ID["EPSG",4237]]
+    ID["EPSG",4237],
+    REMARK["Replaced HD1909 (EPSG CRS code 3819)."]]

@@ -1,0 +1,7 @@
+VERT_CS["JGD_2024",
+    VERT_DATUM["Japanese_Geodetic_Datum_2024",2002,
+        AUTHORITY["ESRI","from_geogdatum_ESRI_106021"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115952"]]

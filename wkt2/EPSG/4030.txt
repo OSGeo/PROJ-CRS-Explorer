@@ -15,4 +15,5 @@ GEOGCRS["Unknown datum based upon the WGS 84 ellipsoid",
         SCOPE["Not recommended."],
         AREA["Not specified."],
         BBOX[-90,-180,90,180]],
-    ID["EPSG",4030]]
+    ID["EPSG",4030],
+    REMARK["Use only in cases where geodetic datum is unknown."]]

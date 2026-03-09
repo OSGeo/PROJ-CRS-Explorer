@@ -15,4 +15,5 @@ GEOGCRS["Leigon",
         SCOPE["Geodesy."],
         AREA["Ghana - onshore and offshore."],
         BBOX[1.4,-3.79,11.16,2.1]],
-    ID["EPSG",4250]]
+    ID["EPSG",4250],
+    REMARK["Replaced Accra (code 4168) from 1978."]]

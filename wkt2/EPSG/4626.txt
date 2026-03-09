@@ -15,4 +15,5 @@ GEOGCRS["Reunion 1947",
         SCOPE["Geodesy."],
         AREA["Reunion - onshore."],
         BBOX[-21.42,55.16,-20.81,55.91]],
-    ID["EPSG",4626]]
+    ID["EPSG",4626],
+    REMARK["Replaced by RGR92 (code 4627)."]]

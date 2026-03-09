@@ -15,4 +15,5 @@ GEOGCRS["Tahaa 54",
         SCOPE["Geodesy."],
         AREA["French Polynesia - Society Islands - Bora Bora, Huahine, Raiatea and Tahaa."],
         BBOX[-16.96,-151.91,-16.17,-150.89]],
-    ID["EPSG",4629]]
+    ID["EPSG",4629],
+    REMARK["Replaced by RGPF, CRS code 4687."]]

@@ -15,4 +15,5 @@ GEOGCRS["ECML14-IRF",
         SCOPE["Engineering survey and topographic mapping for railway applications."],
         AREA["United Kingdom (UK) - on or related to the east coast mainline rail route from London (Kings Cross) via Newcastle to Edinburgh."],
         BBOX[51.45,-3.45,56.1,0.05]],
-    ID["EPSG",10623]]
+    ID["EPSG",10623],
+    REMARK["Intermediate CRS created in 2024 to assist the emulation of the ETRS89 / ECML14 SnakeGrid projected CRS through transformation ETRS89-GBR [OSNet v2009] to ECML14-IRF (1) (code 10624) used in conjunction with the ECML14-TM map projection (code 10625)."]]

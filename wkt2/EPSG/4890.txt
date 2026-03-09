@@ -20,4 +20,5 @@ GEODCRS["WGS 66",
         SCOPE["Geodesy."],
         AREA["World."],
         BBOX[-90,-180,90,180]],
-    ID["EPSG",4890]]
+    ID["EPSG",4890],
+    REMARK["Replaced by WGS 72."]]

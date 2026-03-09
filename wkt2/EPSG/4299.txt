@@ -15,4 +15,5 @@ GEOGCRS["TM65",
         SCOPE["Basis for topographic mapping in Republic of Ireland between 1965 and 1975; for scientific purposes only in Northern Ireland."],
         AREA["Ireland - onshore. United Kingdom (UK) - Northern Ireland (Ulster) - onshore."],
         BBOX[51.39,-10.56,55.43,-5.34]],
-    ID["EPSG",4299]]
+    ID["EPSG",4299],
+    REMARK["Replaced by 1975 Mapping Adjustment alias TM75 (CRS code 4300). Not to be confused with the Geodetic Datum of 1965 (datum code 6300) which is used by TM75."]]

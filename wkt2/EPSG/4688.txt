@@ -15,4 +15,5 @@ GEOGCRS["Fatu Iva 72",
         SCOPE["Hydrography, topographic mapping."],
         AREA["French Polynesia - Marquesas Islands - Fatu Hiva."],
         BBOX[-10.6,-138.75,-10.36,-138.54]],
-    ID["EPSG",4688]]
+    ID["EPSG",4688],
+    REMARK["Recomputed by IGN in 1972 using origin and observations of 1953-1955 Mission Hydrographique des Etablissement Francais d'Oceanie (MHEFO 55). Replaced by RGPF, CRS code 4687."]]

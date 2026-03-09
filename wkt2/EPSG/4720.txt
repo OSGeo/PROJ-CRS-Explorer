@@ -15,4 +15,5 @@ GEOGCRS["Fiji 1986",
         SCOPE["Geodesy."],
         AREA["Fiji - onshore. Includes Viti Levu, Vanua Levu, Taveuni, the Yasawa Group, the Kadavu Group, the Lau Islands and Rotuma Islands."],
         BBOX[-20.81,176.81,-12.42,-178.15]],
-    ID["EPSG",4720]]
+    ID["EPSG",4720],
+    REMARK["Replaces Viti Levu 1912 (CRS code 4752), Vanua Levu 1915 (CRS code 4748) and Fiji 1956 (CRS code 4721)."]]

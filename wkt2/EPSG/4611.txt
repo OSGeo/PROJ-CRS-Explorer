@@ -15,4 +15,5 @@ GEOGCRS["Hong Kong 1980",
         SCOPE["Geodesy."],
         AREA["Hong Kong - onshore and offshore."],
         BBOX[22.13,113.76,22.58,114.51]],
-    ID["EPSG",4611]]
+    ID["EPSG",4611],
+    REMARK["Replaces Hong Kong 1963 and Hong Kong 1963(67)."]]

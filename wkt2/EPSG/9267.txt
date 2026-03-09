@@ -18,4 +18,5 @@ GEOGCRS["MGI",
         SCOPE["Geodesy."],
         AREA["Austria."],
         BBOX[46.4,9.53,49.02,17.17]],
-    ID["EPSG",9267]]
+    ID["EPSG",9267],
+    REMARK["Created retrospectively to support geoid model based on Bessel ellipsoid."]]

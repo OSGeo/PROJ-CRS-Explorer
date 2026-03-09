@@ -15,4 +15,5 @@ GEOGCRS["Cape",
         SCOPE["Geodesy."],
         AREA["Botswana; Eswatini (Swaziland); Lesotho; South Africa - mainland."],
         BBOX[-34.88,16.45,-17.78,32.95]],
-    ID["EPSG",4222]]
+    ID["EPSG",4222],
+    REMARK["Replaced by Hartbeesthoek94 from 1999."]]

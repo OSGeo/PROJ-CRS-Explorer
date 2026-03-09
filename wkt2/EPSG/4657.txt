@@ -14,5 +14,6 @@ GEOGCRS["Reykjavik 1900",
     USAGE[
         SCOPE["Geodesy."],
         AREA["Iceland - mainland."],
-        BBOX[63.34,-24.66,66.59,-13.38]],
-    ID["EPSG",4657]]
+        BBOX[63.34,-24.63,66.59,-13.38]],
+    ID["EPSG",4657],
+    REMARK["See ellipsoid remarks."]]

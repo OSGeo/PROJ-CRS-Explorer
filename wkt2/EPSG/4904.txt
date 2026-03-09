@@ -15,4 +15,5 @@ GEOGCRS["Lisbon 1890 (Lisbon)",
         SCOPE["Geodesy."],
         AREA["Portugal - mainland - onshore."],
         BBOX[36.95,-9.56,42.16,-6.19]],
-    ID["EPSG",4904]]
+    ID["EPSG",4904],
+    REMARK["Replaced by Lisbon 1937 system which uses International 1924 ellipsoid (code 4803)."]]

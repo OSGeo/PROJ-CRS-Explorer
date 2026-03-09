@@ -15,4 +15,5 @@ GEOGCRS["PSAD56",
         SCOPE["Geodesy."],
         AREA["Aruba - onshore; Bolivia; Bonaire - onshore; Brazil - offshore - Amazon Cone shelf; Chile - onshore north of 43°30'S; Curacao - onshore; Ecuador - mainland onshore; Guyana - onshore; Peru - onshore; Venezuela - onshore."],
         BBOX[-43.5,-81.41,12.68,-47.99]],
-    ID["EPSG",4248]]
+    ID["EPSG",4248],
+    REMARK["Incorporates La Canoa (CRS code 4247) and within Venezuela (but not beyond) the names La Canoa and PSAD56 are synonymous."]]

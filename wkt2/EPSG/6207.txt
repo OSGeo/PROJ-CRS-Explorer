@@ -15,4 +15,5 @@ GEOGCRS["Nepal 1981",
         SCOPE["Geodesy."],
         AREA["Nepal."],
         BBOX[26.34,80.06,30.43,88.21]],
-    ID["EPSG",6207]]
+    ID["EPSG",6207],
+    REMARK["Adopts 1937 metric conversion of 0.30479841 metres per Indian foot."]]

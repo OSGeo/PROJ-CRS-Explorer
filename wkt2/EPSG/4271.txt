@@ -15,4 +15,5 @@ GEOGCRS["Naparima 1972",
         SCOPE["Geodesy."],
         AREA["Trinidad and Tobago - Tobago - onshore."],
         BBOX[11.08,-60.9,11.41,-60.44]],
-    ID["EPSG",4271]]
+    ID["EPSG",4271],
+    REMARK["Naparima 1972 is an extension to Tobago of the Naparima 1955 network of Trinidad."]]

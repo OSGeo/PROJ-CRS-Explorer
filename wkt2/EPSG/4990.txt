@@ -18,4 +18,5 @@ GEODCRS["Lao 1993",
         SCOPE["Geodesy."],
         AREA["Laos."],
         BBOX[13.92,100.09,22.5,107.64]],
-    ID["EPSG",4990]]
+    ID["EPSG",4990],
+    REMARK["Replaced by Lao 1997. Lao 1993 coordinate values are within 1m of Lao 1997 values."]]

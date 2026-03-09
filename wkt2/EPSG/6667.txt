@@ -18,4 +18,5 @@ GEOGCRS["JGD2011",
         SCOPE["Geodesy."],
         AREA["Japan - onshore and offshore."],
         BBOX[17.09,122.38,46.05,157.65]],
-    ID["EPSG",6667]]
+    ID["EPSG",6667],
+    REMARK["Replaces JGD2000 (CRS code 4947) with effect from 21st October 2011."]]

@@ -15,4 +15,5 @@ GEOGCRS["ST84 Ile des Pins",
         SCOPE["Geodesy."],
         AREA["New Caledonia - Ile des Pins."],
         BBOX[-22.73,167.36,-22.49,167.61]],
-    ID["EPSG",4642]]
+    ID["EPSG",4642],
+    REMARK["Replaced by RGNC91-93 (CRS code 4749)."]]

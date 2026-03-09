@@ -15,4 +15,5 @@ GEOGCRS["Bogota 1975 (Bogota)",
         SCOPE["Geodesy."],
         AREA["Colombia - mainland onshore."],
         BBOX[-4.23,-79.1,12.52,-66.87]],
-    ID["EPSG",4802]]
+    ID["EPSG",4802],
+    REMARK["Replaces earlier 3 adjustments of 1951, 1944 and 1941."]]

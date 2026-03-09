@@ -15,4 +15,5 @@ GEOGCRS["RGSPM06",
         SCOPE["Horizontal component of 3D system."],
         AREA["St Pierre and Miquelon - onshore and offshore."],
         BBOX[43.41,-57.1,47.37,-55.9]],
-    ID["EPSG",4463]]
+    ID["EPSG",4463],
+    REMARK["Replaces Saint Pierre et Miquelon 1950 (CRS code 4638). See CRS code 7035 for alternate system with axes reversed used by IGN for GIS purposes."]]

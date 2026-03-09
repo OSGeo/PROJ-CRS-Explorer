@@ -5,6 +5,6 @@ VERTCRS["HVD_height",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Greece - onshore."],
-        BBOX[34.88,19.57,41.75,28.3]],
+        AREA["Greece - onshore and offshore. Includes Aegean Islands, Ionian Islands, Dodecanese Islands, Crete, and Mount Athos."],
+        BBOX[33.26,18.26,41.75,30.23]],
     ID["ESRI",105601]]

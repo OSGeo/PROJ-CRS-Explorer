@@ -15,4 +15,5 @@ GEOGCRS["IGN Astro 1960",
         SCOPE["Minerals management (including oil and gas exploration and production)."],
         AREA["Mauritania - onshore."],
         BBOX[14.72,-17.08,27.3,-4.8]],
-    ID["EPSG",4700]]
+    ID["EPSG",4700],
+    REMARK["Mining title descriptions referring only to ""Clarke 1880 ellipsoid"" should be assumed to be referenced to this CRS. Oil industry considers Mining Cadastre 1999 to be exactly defined through tfm codes 15857-9. Replaced by Mauritania 1999 (code 4702)."]]

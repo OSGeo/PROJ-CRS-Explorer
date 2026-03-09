@@ -18,4 +18,5 @@ GEODCRS["Peru96",
         SCOPE["Geodesy."],
         AREA["Peru - onshore and offshore."],
         BBOX[-21.05,-84.68,-0.03,-68.67]],
-    ID["EPSG",5369]]
+    ID["EPSG",5369],
+    REMARK["Densification of SIRGAS95 in Peru."]]

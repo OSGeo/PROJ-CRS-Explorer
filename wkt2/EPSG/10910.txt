@@ -16,4 +16,5 @@ GEOGCRS["CSRN epoch 2025.0 (NAD83 2011)",
         SCOPE["Horizontal component of 3D system."],
         AREA["United States (USA) - California."],
         BBOX[32.53,-124.45,42.01,-114.12]],
-    ID["EPSG",10910]]
+    ID["EPSG",10910],
+    REMARK["Replaces NAD83(2011) in California. Supersedes CSRS epoch 2017.5 (NAD83 2011) from 2025-06-15."]]

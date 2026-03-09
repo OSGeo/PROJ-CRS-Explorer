@@ -15,4 +15,5 @@ GEOGCRS["Pulkovo 1942(58)",
         SCOPE["Geodesy."],
         AREA["Onshore: Bulgaria, Czechia, Germany (former DDR), Hungary, Poland and Slovakia. Onshore and offshore: Albania and Romania."],
         BBOX[39.63,9.92,54.89,31.41]],
-    ID["EPSG",4179]]
+    ID["EPSG",4179],
+    REMARK["Shares same origin definition as Pulkovo 1942 (CRS code 4284) and for low accuracy purposes these systems can be considered consistent with each other. Locally densified during 1957 and 1958. Replaced by 1983 adjustment (CRS code 4178)."]]

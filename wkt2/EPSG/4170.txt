@@ -15,4 +15,5 @@ GEOGCRS["SIRGAS 1995",
         SCOPE["Horizontal component of 3D system."],
         AREA["South America - onshore and offshore. Ecuador (mainland and Galapagos) - onshore and offshore."],
         BBOX[-59.87,-113.21,16.75,-26]],
-    ID["EPSG",4170]]
+    ID["EPSG",4170],
+    REMARK["Replaced by SIRGAS 2000 (CRS code 4674)."]]

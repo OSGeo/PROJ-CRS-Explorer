@@ -1,7 +1,8 @@
-GEODCRS["LKS-92",
+GEODCRS["ETRS89-LVA [LKS-92]",
     DATUM["Latvian geodetic coordinate system 1992",
         ELLIPSOID["GRS 1980",6378137,298.257222101,
-            LENGTHUNIT["metre",1]]],
+            LENGTHUNIT["metre",1]],
+        ANCHOREPOCH[1992.75]],
     PRIMEM["Greenwich",0,
         ANGLEUNIT["degree",0.0174532925199433]],
     CS[Cartesian,3],
@@ -18,4 +19,5 @@ GEODCRS["LKS-92",
         SCOPE["Geodesy."],
         AREA["Latvia - onshore and offshore."],
         BBOX[55.67,19.06,58.09,28.24]],
-    ID["EPSG",4948]]
+    ID["EPSG",4948],
+    REMARK["Replaced by ETRS89-LVA [LKS-2020] (CRS code 10303) from 2026-10-01."]]

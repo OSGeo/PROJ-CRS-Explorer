@@ -18,4 +18,5 @@ GEOGCRS["SIRGAS-ROU98",
         SCOPE["Geodesy."],
         AREA["Uruguay - onshore and offshore."],
         BBOX[-37.77,-58.49,-30.09,-50.01]],
-    ID["EPSG",5380]]
+    ID["EPSG",5380],
+    REMARK["Densification of SIRGAS 1995 in Uruguay."]]

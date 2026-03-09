@@ -15,4 +15,5 @@ GEOGCRS["Voirol 1879 (Paris)",
         SCOPE["Geodesy."],
         AREA["Algeria - onshore north of 32°N."],
         BBOX[31.99,-2.95,37.14,9.09]],
-    ID["EPSG",4821]]
+    ID["EPSG",4821],
+    REMARK["The appropriate usage of CRSs using the Voirol 1875 and 1879 datums is lost in antiquity. They differ by about 9 metres. Oil industry references to one could in reality be to either. All replaced by Nord Sahara 1959 (CRS code 4307)."]]

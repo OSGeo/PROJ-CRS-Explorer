@@ -15,4 +15,5 @@ GEOGCRS["ST87 Ouvea",
         SCOPE["Geodesy."],
         AREA["New Caledonia - Loyalty Islands - Ouvea."],
         BBOX[-20.77,166.44,-20.34,166.71]],
-    ID["EPSG",4750]]
+    ID["EPSG",4750],
+    REMARK["Replaced by RGNC91-93 (CRS code 4749)."]]

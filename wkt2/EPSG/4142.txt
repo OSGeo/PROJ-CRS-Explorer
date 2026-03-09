@@ -15,4 +15,5 @@ GEOGCRS["Locodjo 1965",
         SCOPE["Geodesy."],
         AREA["Côte d'Ivoire (Ivory Coast) - onshore and offshore."],
         BBOX[1.02,-8.61,10.74,-2.48]],
-    ID["EPSG",4142]]
+    ID["EPSG",4142],
+    REMARK["Replaced by Abidjan 1987 (EPSG code 4143)."]]

@@ -15,4 +15,5 @@ GEOGCRS["Unspecified datum based upon the GRS 1980 Authalic Sphere",
         SCOPE["Statistical analysis."],
         AREA["Not specified."],
         BBOX[-90,-180,90,180]],
-    ID["EPSG",4047]]
+    ID["EPSG",4047],
+    REMARK["Use only in cases where geodetic datum is unknown."]]

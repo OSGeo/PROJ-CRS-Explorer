@@ -15,4 +15,5 @@ GEOGCRS["CH1903",
         SCOPE["Geodesy."],
         AREA["Liechtenstein; Switzerland."],
         BBOX[45.81,5.95,47.81,10.5]],
-    ID["EPSG",4149]]
+    ID["EPSG",4149],
+    REMARK["Replaced by CH1903+."]]

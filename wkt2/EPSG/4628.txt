@@ -15,4 +15,5 @@ GEOGCRS["Tahiti 52",
         SCOPE["Geodesy."],
         AREA["French Polynesia - Society Islands - Moorea and Tahiti."],
         BBOX[-17.93,-150,-17.41,-149.09]],
-    ID["EPSG",4628]]
+    ID["EPSG",4628],
+    REMARK["Replaced by Tahiti 79 (CRS code 4690) in Tahiti and Moorea 87 (CRS code 4691) in Moorea."]]

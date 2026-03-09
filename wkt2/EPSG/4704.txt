@@ -15,4 +15,5 @@ GEOGCRS["Mhast (onshore)",
         SCOPE["Oil and gas exploration and production."],
         AREA["Angola (Cabinda) - onshore and offshore; The Democratic Republic of the Congo (Zaire) - onshore coastal area and offshore."],
         BBOX[-6.04,10.53,-4.38,13.1]],
-    ID["EPSG",4704]]
+    ID["EPSG",4704],
+    REMARK["Adopted by CABGOC with intention of being Mhast 1951 (CRS code 4703) but because it uses a different ellipsoid it is a different system. From 1979, for offshore use replaced by Mhast (offshore) (CRS code 4705) from which this CRS differs by approximately 10m."]]

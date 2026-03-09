@@ -15,4 +15,5 @@ GEOGCRS["St. Paul Island",
         SCOPE["Geodesy."],
         AREA["United States (USA) - Alaska - Pribilof Islands - St Paul Island."],
         BBOX[57.06,-170.51,57.28,-170.04]],
-    ID["EPSG",4137]]
+    ID["EPSG",4137],
+    REMARK["Note: this CRS includes longitudes which are POSITIVE EAST."]]

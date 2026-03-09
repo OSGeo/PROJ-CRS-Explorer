@@ -15,4 +15,5 @@ GEOGCRS["St. Lawrence Island",
         SCOPE["Geodesy."],
         AREA["United States (USA) - Alaska - St Lawrence Island."],
         BBOX[62.89,-171.97,63.84,-168.59]],
-    ID["EPSG",4136]]
+    ID["EPSG",4136],
+    REMARK["Note: this CRS includes longitudes which are POSITIVE EAST."]]

@@ -15,4 +15,5 @@ GEOGCRS["Chos Malal 1914",
         SCOPE["Geodesy."],
         AREA["Argentina - Mendoza province, Neuquen province, western La Pampa province and western Rio Negro province."],
         BBOX[-43.41,-72.14,-31.91,-65.86]],
-    ID["EPSG",4160]]
+    ID["EPSG",4160],
+    REMARK["Replaced by Campo Inchauspe (geogCRS code 4221) for topographic mapping, use for oil exploration and production continues."]]

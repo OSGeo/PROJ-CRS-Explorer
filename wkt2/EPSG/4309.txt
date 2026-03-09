@@ -15,4 +15,5 @@ GEOGCRS["Yacare",
         SCOPE["Geodesy."],
         AREA["Uruguay - onshore."],
         BBOX[-35,-58.49,-30.09,-53.09]],
-    ID["EPSG",4309]]
+    ID["EPSG",4309],
+    REMARK["Replaced by SIRGAS-ROU98 (CRS code 5381)."]]

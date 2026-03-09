@@ -15,4 +15,5 @@ GEOGCRS["IGN56 Lifou",
         SCOPE["Geodesy."],
         AREA["New Caledonia - Loyalty Islands - Lifou."],
         BBOX[-21.24,166.98,-20.62,167.52]],
-    ID["EPSG",4633]]
+    ID["EPSG",4633],
+    REMARK["Replaced by RGNC91-93 (CRS code 4749)."]]

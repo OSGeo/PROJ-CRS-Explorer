@@ -15,4 +15,5 @@ GEOGCRS["PTRA08",
         SCOPE["Horizontal component of 3D system."],
         AREA["Portugal - Azores and Madeira island groups and surrounding EEZ - Flores, Corvo; Graciosa, Terceira, Sao Jorge, Pico, Faial; Sao Miguel, Santa Maria; Madeira, Porto Santo, Desertas; Selvagens."],
         BBOX[29.24,-35.58,43.07,-12.48]],
-    ID["EPSG",5013]]
+    ID["EPSG",5013],
+    REMARK["Replaces Azores Occidental 1939, Azores Central 1995, Azores Oriental 1995 and Porto Santo 1995 (CRS codes 4182 and 4663-65)."]]

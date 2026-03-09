@@ -15,4 +15,5 @@ GEOGCRS["S45B-IRF",
         SCOPE["Intermediate stage in transformations - not used otherwise."],
         AREA["Denmark - Bornholm onshore."],
         BBOX[54.94,14.59,55.38,15.25]],
-    ID["EPSG",10252]]
+    ID["EPSG",10252],
+    REMARK["Artificial CRS created in 2022 to assist the transformation of coordinates between the historic S45 CRS and ETRS89 through transformation ETRS89 to S45B-IRF (1) (code 10255) used in conjunction with the S45B-reconstruction map projection (code 10253)."]]

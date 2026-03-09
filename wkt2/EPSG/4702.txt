@@ -15,4 +15,5 @@ GEOGCRS["Mauritania 1999",
         SCOPE["Horizontal component of 3D system."],
         AREA["Mauritania - onshore and offshore."],
         BBOX[14.72,-20.04,27.3,-4.8]],
-    ID["EPSG",4702]]
+    ID["EPSG",4702],
+    REMARK["Replaces all earlier CRSs."]]

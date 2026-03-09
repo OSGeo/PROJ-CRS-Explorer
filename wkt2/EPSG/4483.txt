@@ -15,4 +15,5 @@ GEOGCRS["Mexico ITRF92",
         SCOPE["Horizontal component of 3D system."],
         AREA["Mexico - onshore and offshore."],
         BBOX[12.1,-122.19,32.72,-84.64]],
-    ID["EPSG",4483]]
+    ID["EPSG",4483],
+    REMARK["Replaces NAD27 (CRS code 4267). Replaced by Mexico ITRF2008 (CRS code 6365) from December 2010."]]

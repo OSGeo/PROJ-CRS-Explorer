@@ -15,4 +15,5 @@ GEOGCRS["EST92",
         SCOPE["Geodesy."],
         AREA["Estonia - onshore."],
         BBOX[57.52,21.74,59.75,28.2]],
-    ID["EPSG",4133]]
+    ID["EPSG",4133],
+    REMARK["This name is also used for a projected CRS (see projCRS code 3300). Replaced by EST97 (code 4180)."]]

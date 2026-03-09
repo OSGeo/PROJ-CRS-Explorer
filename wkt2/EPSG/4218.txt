@@ -15,4 +15,5 @@ GEOGCRS["Bogota 1975",
         SCOPE["Geodesy."],
         AREA["Colombia - mainland and offshore Caribbean."],
         BBOX[-4.23,-79.1,13.68,-66.87]],
-    ID["EPSG",4218]]
+    ID["EPSG",4218],
+    REMARK["Replaces earlier 3 adjustments of 1951, 1944 and 1941. Replaced by MAGNA-SIRGAS (CRS code 4685)."]]

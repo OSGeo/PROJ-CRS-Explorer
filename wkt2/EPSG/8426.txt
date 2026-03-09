@@ -18,4 +18,5 @@ GEOGCRS["Hong Kong Geodetic CS",
         SCOPE["Geodesy."],
         AREA["Hong Kong - onshore and offshore."],
         BBOX[22.13,113.76,22.58,114.51]],
-    ID["EPSG",8426]]
+    ID["EPSG",8426],
+    REMARK["Locally sometimes referred to as ITRF96 or WGS 84, these are not strictly correct."]]

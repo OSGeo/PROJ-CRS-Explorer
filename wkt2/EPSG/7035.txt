@@ -15,4 +15,5 @@ GEOGCRS["RGSPM06 (lon-lat)",
         SCOPE["GIS."],
         AREA["St Pierre and Miquelon - onshore and offshore."],
         BBOX[43.41,-57.1,47.37,-55.9]],
-    ID["EPSG",7035]]
+    ID["EPSG",7035],
+    REMARK["Replaces Saint Pierre et Miquelon 1950 (CRS code 4638). See CRS code 4463 for system with axes in sequence lat-lon to be used for air, land and sea navigation and safety of life purposes."]]

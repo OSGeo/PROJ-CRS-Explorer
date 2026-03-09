@@ -20,4 +20,5 @@ GEOGCRS["PZ-90.11",
         SCOPE["Geodesy. Navigation and positioning using Glonass satellite system."],
         AREA["World."],
         BBOX[-90,-180,90,180]],
-    ID["EPSG",7680]]
+    ID["EPSG",7680],
+    REMARK["Replaces PZ-90.02 (CRS code 7678) from 2014-01-15."]]

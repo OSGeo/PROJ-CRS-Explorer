@@ -18,4 +18,5 @@ GEODCRS["POSGAR 98",
         SCOPE["Geodesy."],
         AREA["Argentina - onshore and offshore."],
         BBOX[-58.41,-73.59,-21.78,-52.63]],
-    ID["EPSG",4960]]
+    ID["EPSG",4960],
+    REMARK["Densification in Argentina of SIRGAS 1995. Until May 2009 replaced POSGAR 94 for many practical purposes (but not as the legal system). POSGAR 94 was officially replaced by POSGAR 2007 in May 2009."]]

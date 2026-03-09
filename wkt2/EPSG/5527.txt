@@ -15,4 +15,5 @@ GEOGCRS["SAD69(96)",
         SCOPE["Geodesy."],
         AREA["Brazil - onshore and offshore. Includes Rocas, Fernando de Noronha archipelago, Trindade, Ihlas Martim Vaz and Sao Pedro e Sao Paulo."],
         BBOX[-35.71,-74.01,7.04,-25.28]],
-    ID["EPSG",5527]]
+    ID["EPSG",5527],
+    REMARK["Uses GRS 1967 ellipsoid with 1/f to exactly 2 decimal places. Replaces SAD69 original adjustment (CRS code 4618) only in Brazil."]]

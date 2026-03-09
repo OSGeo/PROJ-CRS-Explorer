@@ -15,4 +15,5 @@ GEOGCRS["DB_REF",
         SCOPE["Geodesy."],
         AREA["Germany - onshore - states of Baden-Wurtemberg, Bayern, Berlin, Brandenburg, Bremen, Hamburg, Hessen, Mecklenburg-Vorpommern, Niedersachsen, Nordrhein-Westfalen, Rheinland-Pfalz, Saarland, Sachsen, Sachsen-Anhalt, Schleswig-Holstein, Thuringen."],
         BBOX[47.27,5.86,55.09,15.04]],
-    ID["EPSG",5681]]
+    ID["EPSG",5681],
+    REMARK["Geometric component of both DB_REF2003 and DB_REF2016 systems. Differs from DHDN by 0.5-1m in former West Germany and by a maximum of 3m in former East Germany."]]

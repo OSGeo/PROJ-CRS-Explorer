@@ -18,4 +18,5 @@ GEOGCRS["ONGD17",
         SCOPE["Geodesy."],
         AREA["Oman - onshore and offshore."],
         BBOX[14.33,51.99,26.74,63.38]],
-    ID["EPSG",9293]]
+    ID["EPSG",9293],
+    REMARK["Replaces ONGD14 (CRS code 7372) from March 2019."]]

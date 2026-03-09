@@ -17,4 +17,5 @@ GEOGCRS["WGS 72BE",
         SCOPE["Horizontal component of 3D system."],
         AREA["World."],
         BBOX[-90,-180,90,180]],
-    ID["EPSG",4324]]
+    ID["EPSG",4324],
+    REMARK["Broadcast ephemeris. Replaced by WGS 84."]]

@@ -15,4 +15,5 @@ GEOGCRS["BDA2000",
         SCOPE["Horizontal component of 3D system."],
         AREA["Bermuda - onshore and offshore."],
         BBOX[28.91,-68.83,35.73,-60.7]],
-    ID["EPSG",4762]]
+    ID["EPSG",4762],
+    REMARK["Replaces Bermuda 1957 (CRS code 4216)."]]

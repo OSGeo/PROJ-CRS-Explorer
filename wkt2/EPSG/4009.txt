@@ -15,4 +15,5 @@ GEOGCRS["Unknown datum based upon the Clarke 1866 Michigan ellipsoid",
         SCOPE["Not recommended."],
         AREA["Not specified."],
         BBOX[-90,-180,90,180]],
-    ID["EPSG",4009]]
+    ID["EPSG",4009],
+    REMARK["Use only in cases where geodetic datum is unknown."]]

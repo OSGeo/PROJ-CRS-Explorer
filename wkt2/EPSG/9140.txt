@@ -1,7 +1,8 @@
-GEOGCRS["KOSOVAREF01",
+GEOGCRS["ETRS89-XKX [KOSOVAREF01]",
     DATUM["Kosovo Reference System 2001",
         ELLIPSOID["GRS 1980",6378137,298.257222101,
-            LENGTHUNIT["metre",1]]],
+            LENGTHUNIT["metre",1]],
+        ANCHOREPOCH[2001.25]],
     PRIMEM["Greenwich",0,
         ANGLEUNIT["degree",0.0174532925199433]],
     CS[ellipsoidal,2],
@@ -15,4 +16,5 @@ GEOGCRS["KOSOVAREF01",
         SCOPE["Horizontal component of 3D system."],
         AREA["Kosovo."],
         BBOX[41.85,19.97,43.25,21.8]],
-    ID["EPSG",9140]]
+    ID["EPSG",9140],
+    REMARK["In Kosovo replaces MGI 1901 (CRS code 3906)."]]

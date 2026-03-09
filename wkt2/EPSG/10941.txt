@@ -15,4 +15,5 @@ GEOGCRS["QazTRF-23",
         SCOPE["Horizontal component of 3D system."],
         AREA["Kazakhstan - onshore and offshore, including Caspian Sea."],
         BBOX[40.59,46.49,55.45,87.35]],
-    ID["EPSG",10941]]
+    ID["EPSG",10941],
+    REMARK["Replaces usage of Pulkovo 1942 (CRS code 4284) in Kazakhstan from 2025-01-01."]]

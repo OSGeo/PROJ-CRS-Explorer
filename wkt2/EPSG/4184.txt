@@ -15,4 +15,5 @@ GEOGCRS["Azores Oriental 1940",
         SCOPE["Geodesy."],
         AREA["Portugal - eastern Azores onshore - Sao Miguel, Santa Maria, Formigas."],
         BBOX[36.87,-25.92,37.96,-24.72]],
-    ID["EPSG",4184]]
+    ID["EPSG",4184],
+    REMARK["Replaced by 1995 system (CRS code 4664)."]]

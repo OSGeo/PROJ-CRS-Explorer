@@ -17,4 +17,5 @@ GEOGCRS["SIRGAS-CON SIR11P01",
         SCOPE["Geodesy."],
         AREA["Latin America - Central America and South America, onshore and offshore."],
         BBOX[-59.87,-122.19,32.72,-25.28]],
-    ID["EPSG",8983]]
+    ID["EPSG",8983],
+    REMARK["Replaces SIRGAS-CON SIR10P01 (CRS code 8982). Replaced by SIRGAS-CON SIR13P01 (CRS code 8984)."]]

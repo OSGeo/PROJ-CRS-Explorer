@@ -15,4 +15,5 @@ GEOGCRS["MGI (Ferro)",
         SCOPE["Geodesy."],
         AREA["Austria. Bosnia and Herzegovina. Croatia - onshore. Kosovo. Montenegro - onshore. North Macedonia. Serbia. Slovenia - onshore."],
         BBOX[40.85,9.53,49.02,23.04]],
-    ID["EPSG",4805]]
+    ID["EPSG",4805],
+    REMARK["Replaced by MGI (CRS code 4312) in Austria and MGI 1901 (CRS code 3906) in former Yugoslavia."]]

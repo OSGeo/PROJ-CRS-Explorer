@@ -15,4 +15,5 @@ GEOGCRS["Nord Sahara 1959",
         SCOPE["Geodesy."],
         AREA["Algeria - onshore and offshore."],
         BBOX[18.97,-8.67,38.8,11.99]],
-    ID["EPSG",4307]]
+    ID["EPSG",4307],
+    REMARK["Sometimes incorrectly referred to as Voirol Unifie 1960: this is NOT a GeogCRS but two projected CRSs based on Nord Sahara 1959 (codes 30791-92). Strictly applicable only to north of 32°N but extended southwards non-homogoneously by oil industry."]]

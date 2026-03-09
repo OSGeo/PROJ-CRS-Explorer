@@ -1,0 +1,3 @@
+Error: ESRI:104049 cannot be written as WKT1_GDAL
+ type: GEOGRAPHIC_3D_CRS
+ name: HTRS07_3D

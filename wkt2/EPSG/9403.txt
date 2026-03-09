@@ -15,4 +15,5 @@ GEOGCRS["PN68",
         SCOPE["Geodesy, engineering survey, topographic mapping."],
         AREA["Spain - Canary Islands onshore."],
         BBOX[27.58,-18.22,29.47,-13.37]],
-    ID["EPSG",9403]]
+    ID["EPSG",9403],
+    REMARK["On western islands (El Hierro, La Gomera, La Palma and Tenerife) replaced by PN84 (CRS code 4728) and later by REGCAN95 (CRS code 4081). On eastern islands (Fuerteventura, Gran Canaria and Lanzarote) replaced by REGCAN95 (CRS code 4081)."]]

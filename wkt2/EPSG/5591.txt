@@ -18,4 +18,5 @@ GEODCRS["FEH2010",
         SCOPE["Engineering survey and construction for Fehmarnbelt tunnel."],
         AREA["Fehmarnbelt area of Denmark and Germany."],
         BBOX[54.33,10.66,54.83,12.01]],
-    ID["EPSG",5591]]
+    ID["EPSG",5591],
+    REMARK["Trans-national system created due to small (but unacceptable for engineering tolerance) differences between the German and Danish realisations of ETRS89."]]

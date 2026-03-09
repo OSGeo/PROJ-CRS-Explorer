@@ -15,4 +15,5 @@ GEOGCRS["RGR92 (lon-lat)",
         SCOPE["GIS."],
         AREA["Reunion - onshore and offshore."],
         BBOX[-24.72,51.83,-18.28,58.24]],
-    ID["EPSG",7037]]
+    ID["EPSG",7037],
+    REMARK["Replaces Piton des Neiges (code 4626). See CRS code 4627 for system with axes in sequence lat-lon to be used for air, land and sea navigation and safety of life purposes."]]

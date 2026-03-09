@@ -15,4 +15,5 @@ GEOGCRS["JAD2001",
         SCOPE["Horizontal component of 3D system."],
         AREA["Jamaica - onshore and offshore. Includes Morant Cays and Pedro Cays."],
         BBOX[14.08,-80.6,19.36,-74.51]],
-    ID["EPSG",4758]]
+    ID["EPSG",4758],
+    REMARK["Replaces JAD69 (CRS code 4242)."]]

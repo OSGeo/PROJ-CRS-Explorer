@@ -15,4 +15,5 @@ GEOGCRS["Madzansua",
         SCOPE["Geodesy."],
         AREA["Mozambique - west - Tete province."],
         BBOX[-17.76,30.21,-14.01,35.37]],
-    ID["EPSG",4128]]
+    ID["EPSG",4128],
+    REMARK["Replaced by values transformed to Tete GeogCRS (code 4127)."]]

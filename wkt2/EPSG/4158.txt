@@ -15,4 +15,5 @@ GEOGCRS["Naparima 1955",
         SCOPE["Geodesy."],
         AREA["Trinidad and Tobago - Trinidad - onshore."],
         BBOX[9.99,-61.98,10.9,-60.85]],
-    ID["EPSG",4158]]
+    ID["EPSG",4158],
+    REMARK["Extended to Tobago as Naparima 1972. (Note: Naparima 1972 is not used in Trinidad)."]]

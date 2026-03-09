@@ -15,4 +15,5 @@ GEOGCRS["Chatham Islands 1971",
         SCOPE["Geodesy."],
         AREA["New Zealand - Chatham Islands group - onshore."],
         BBOX[-44.64,-177.25,-43.3,-175.54]],
-    ID["EPSG",4672]]
+    ID["EPSG",4672],
+    REMARK["Replaced by CI1979."]]

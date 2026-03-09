@@ -15,4 +15,5 @@ GEOGCRS["Unknown datum based upon the Indonesian National Spheroid",
         SCOPE["Not recommended."],
         AREA["Not specified."],
         BBOX[-90,-180,90,180]],
-    ID["EPSG",4021]]
+    ID["EPSG",4021],
+    REMARK["Use only in cases where geodetic datum is unknown."]]

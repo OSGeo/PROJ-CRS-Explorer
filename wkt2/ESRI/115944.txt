@@ -1,0 +1,10 @@
+VERTCRS["HTRS07",
+    VDATUM["Hellenic_Terrestrial_Reference_System_2007"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Greece - onshore and offshore. Includes Aegean Islands, Ionian Islands, Dodecanese Islands, Crete, and Mount Athos."],
+        BBOX[33.26,18.26,41.75,30.23]],
+    ID["ESRI",115944]]

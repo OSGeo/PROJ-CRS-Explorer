@@ -1,0 +1,10 @@
+VERTCRS["QazTRF-23",
+    VDATUM["Kazakhstan_Terrestrial_Reference_Frame_2023"],
+    CS[vertical,1],
+        AXIS["ellipsoidal height (h)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Not known."],
+        AREA["Kazakhstan - onshore and offshore, including Caspian Sea."],
+        BBOX[40.59,46.49,55.45,87.35]],
+    ID["ESRI",115947]]

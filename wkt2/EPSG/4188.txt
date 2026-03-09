@@ -15,4 +15,5 @@ GEOGCRS["OSNI 1952",
         SCOPE["Geodesy."],
         AREA["United Kingdom (UK) - Northern Ireland (Ulster) - onshore."],
         BBOX[53.96,-8.18,55.36,-5.34]],
-    ID["EPSG",4188]]
+    ID["EPSG",4188],
+    REMARK["Replaced by 1975 Mapping Adjustment alias TM75. See CRS code 4300."]]

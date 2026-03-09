@@ -15,4 +15,5 @@ GEOGCRS["MRH21-IRF",
         SCOPE["Engineering survey and topographic mapping for railway applications."],
         AREA["United Kingdom (UK) - on or related to Midland Rail Hub, covering routes through Cardiff, Bristol, Gloucester, Derby, Birmingham, Leicester, and Lincoln."],
         BBOX[51.35,-3.27,53.26,-0.36]],
-    ID["EPSG",9866]]
+    ID["EPSG",9866],
+    REMARK["Intermediate CRS created in 2021 to assist the emulation of the ETRS89 / MRH21 SnakeGrid projected CRS through transformation ETRS89-GBR [OSNet v2009] to MRH21-IRF (1) (code 9867) used in conjunction with the MRH21-TM map projection (code 9868)."]]

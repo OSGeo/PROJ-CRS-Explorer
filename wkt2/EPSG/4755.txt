@@ -15,4 +15,5 @@ GEOGCRS["DGN95",
         SCOPE["Horizontal component of 3D system."],
         AREA["Indonesia - onshore and offshore."],
         BBOX[-13.95,92.01,7.79,141.46]],
-    ID["EPSG",4755]]
+    ID["EPSG",4755],
+    REMARK["Replaces ID74."]]

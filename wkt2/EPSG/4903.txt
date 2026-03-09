@@ -15,4 +15,5 @@ GEOGCRS["Madrid 1870 (Madrid)",
         SCOPE["Geodesy."],
         AREA["Spain - mainland onshore."],
         BBOX[35.95,-9.37,43.82,3.39]],
-    ID["EPSG",4903]]
+    ID["EPSG",4903],
+    REMARK["Replaced by ED50 in 1970."]]

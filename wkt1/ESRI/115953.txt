@@ -1,0 +1,7 @@
+VERT_CS["PAL-GRF2023",
+    VERT_DATUM["PAL-GRF2023",2002,
+        AUTHORITY["ESRI","from_geogdatum_ESRI_106022"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115953"]]

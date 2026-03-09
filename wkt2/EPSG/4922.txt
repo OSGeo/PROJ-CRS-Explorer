@@ -20,4 +20,5 @@ GEODCRS["PZ-90",
         SCOPE["Geodesy. Navigation and positioning using Glonass satellite system."],
         AREA["World."],
         BBOX[-90,-180,90,180]],
-    ID["EPSG",4922]]
+    ID["EPSG",4922],
+    REMARK["Replaced by PZ-90.02 from 2007-09-20."]]

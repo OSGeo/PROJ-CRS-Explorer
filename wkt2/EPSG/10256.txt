@@ -15,4 +15,5 @@ GEOGCRS["GS-IRF",
         SCOPE["Intermediate stage in transformations - not used otherwise."],
         AREA["Denmark - onshore Jutland, Funen, Zealand and Lolland."],
         BBOX[54.51,8,57.8,12.87]],
-    ID["EPSG",10256]]
+    ID["EPSG",10256],
+    REMARK["Artificial CRS created in 2022 to assist the transformation of coordinates between the historic Generalstabens System and ETRS89 through CT ETRS89 to GS-IRF (1) (code 10259) used in conjunction with the GS LCC map projection (code 10257)."]]

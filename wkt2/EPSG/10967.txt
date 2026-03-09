@@ -19,4 +19,5 @@ GEOGCRS["NATRF2022",
         SCOPE["Geodesy."],
         AREA["North America - onshore and offshore: Canada - Alberta; British Columbia; Manitoba; New Brunswick; Newfoundland and Labrador; Northwest Territories; Nova Scotia; Nunavut; Ontario; Prince Edward Island; Quebec; Saskatchewan; Yukon. United States (USA) - Alabama; Alaska; Arizona; Arkansas; California; Colorado; Connecticut; Delaware; Florida; Georgia; Idaho; Illinois; Indiana; Iowa; Kansas; Kentucky; Louisiana; Maine; Maryland; Massachusetts; Michigan; Minnesota; Mississippi; Missouri; Montana; Nebraska; Nevada; New Hampshire; New Jersey; New Mexico; New York; North Carolina; North Dakota; Ohio; Oklahoma; Oregon; Pennsylvania; Rhode Island; South Carolina; South Dakota; Tennessee; Texas; Utah; Vermont; Virginia; Washington; West Virginia; Wisconsin; Wyoming"],
         BBOX[23.81,167.65,86.46,-40.73]],
-    ID["EPSG",10967]]
+    ID["EPSG",10967],
+    REMARK["CAUTION: Preliminary data from NGS beta website (https://beta.ngs.noaa.gov/). This data has been added to the EPSG Dataset prior to official adoption to facilitate software testing and evaluation. In the unlikely event that definitions change, the record will be deprecated and replaced with a new EPSG code."]]

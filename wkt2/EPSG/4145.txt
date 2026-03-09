@@ -15,4 +15,5 @@ GEOGCRS["Kalianpur 1962",
         SCOPE["Geodesy."],
         AREA["Pakistan - onshore and offshore."],
         BBOX[21.05,60.86,37.07,77.83]],
-    ID["EPSG",4145]]
+    ID["EPSG",4145],
+    REMARK["Adopts 1962 metric conversion of 0.3047996 metres per Indian foot."]]

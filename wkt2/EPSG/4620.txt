@@ -15,4 +15,5 @@ GEOGCRS["Point 58",
         SCOPE["Geodesy."],
         AREA["Senegal - central, Mali - southwest, Burkina Faso - central, Niger - southwest, Nigeria - north, Chad - central. All in proximity to the parallel of latitude of 12°N."],
         BBOX[10.26,-17.19,15.7,30.42]],
-    ID["EPSG",4620]]
+    ID["EPSG",4620],
+    REMARK["The 12th parallel traverse of 1966-70 is connected to the Blue Nile 1958 (Adindan) network in western Sudan (geogCRS code 4201)."]]

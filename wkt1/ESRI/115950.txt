@@ -1,0 +1,7 @@
+VERT_CS["GR96(2021)",
+    VERT_DATUM["Greenland_Reference_1996_(2021)",2002,
+        AUTHORITY["ESRI","from_geogdatum_EPSG_1419"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Ellipsoidal height",UP],
+    AUTHORITY["ESRI","115950"]]

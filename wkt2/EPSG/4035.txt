@@ -15,4 +15,5 @@ GEOGCRS["Unknown datum based upon the Authalic Sphere",
         SCOPE["Not recommended."],
         AREA["Not specified."],
         BBOX[-90,-180,90,180]],
-    ID["EPSG",4035]]
+    ID["EPSG",4035],
+    REMARK["Deprecated. Use code 4047."]]

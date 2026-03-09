@@ -1,7 +1,8 @@
-GEOGCRS["RGF93 v2b (lon-lat)",
+GEOGCRS["ETRS89-FRA [RGF93 v2b] (lon-lat)",
     DATUM["Reseau Geodesique Francais 1993 v2b",
         ELLIPSOID["GRS 1980",6378137,298.257222101,
-            LENGTHUNIT["metre",1]]],
+            LENGTHUNIT["metre",1]],
+        ANCHOREPOCH[2019]],
     PRIMEM["Greenwich",0,
         ANGLEUNIT["degree",0.0174532925199433]],
     CS[ellipsoidal,2],
@@ -15,4 +16,5 @@ GEOGCRS["RGF93 v2b (lon-lat)",
         SCOPE["GIS."],
         AREA["France - onshore and offshore, mainland and Corsica (France métropolitaine including Corsica)."],
         BBOX[41.15,-9.86,51.56,10.38]],
-    ID["EPSG",9784]]
+    ID["EPSG",9784],
+    REMARK["Replaces ETRS89-FRA [RGF93 v2] (CRS code 9779) from 2021-01-05. See CRS code 9782 for system with axes in sequence lat-lon to be used for air, land and sea navigation and safety of life purposes."]]

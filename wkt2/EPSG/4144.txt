@@ -15,4 +15,5 @@ GEOGCRS["Kalianpur 1937",
         SCOPE["Geodesy."],
         AREA["Bangladesh - onshore; India - mainland onshore; Myanmar - onshore and Moattama area offshore; Pakistan - onshore."],
         BBOX[8.02,60.86,37.07,101.17]],
-    ID["EPSG",4144]]
+    ID["EPSG",4144],
+    REMARK["Adopts 1937 metric conversion of 0.30479841 metres per Indian foot."]]
