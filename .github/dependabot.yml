@@ -6,7 +6,7 @@ updates:
   - package-ecosystem: "docker"
     directory: "/scripts/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
 
   # Configuration for pyproj
   - package-ecosystem: "pip"
