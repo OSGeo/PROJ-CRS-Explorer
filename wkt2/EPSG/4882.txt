@@ -1,8 +1,7 @@
-GEODCRS["ETRS89-SVN [D96]",
+GEODCRS["Slovenia 1996",
     DATUM["Slovenia Geodetic Datum 1996",
         ELLIPSOID["GRS 1980",6378137,298.257222101,
-            LENGTHUNIT["metre",1]],
-        ANCHOREPOCH[2016.75]],
+            LENGTHUNIT["metre",1]]],
     PRIMEM["Greenwich",0,
         ANGLEUNIT["degree",0.0174532925199433]],
     CS[Cartesian,3],
@@ -19,5 +18,4 @@ GEODCRS["ETRS89-SVN [D96]",
         SCOPE["Geodesy."],
         AREA["Slovenia - onshore and offshore."],
         BBOX[45.42,13.38,46.88,16.61]],
-    ID["EPSG",4882],
-    REMARK["The CORS station coordinates in the D96 SIGNAL network have been referenced to D96-17 since 2020-01-01. For practical purposes D96-17 is considered to be consistent with D96."]]
+    ID["EPSG",4882]]

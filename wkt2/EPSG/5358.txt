@@ -1,5 +1,5 @@
 GEODCRS["SIRGAS-Chile 2002",
-    DATUM["SIRGAS-Chile 2002",
+    DATUM["SIRGAS-Chile realization 1 epoch 2002",
         ELLIPSOID["GRS 1980",6378137,298.257222101,
             LENGTHUNIT["metre",1]]],
     PRIMEM["Greenwich",0,
@@ -19,4 +19,4 @@ GEODCRS["SIRGAS-Chile 2002",
         AREA["Chile - onshore and offshore. Includes Easter Island, Juan Fernandez Islands, San Felix, and Sala y Gomez."],
         BBOX[-59.87,-113.21,-17.5,-65.72]],
     ID["EPSG",5358],
-    REMARK["Densification of SIRGAS 2000 within Chile. Replaced by SIRGAS-Chile 2013 (CRS code 9146)."]]
+    REMARK["Densification of SIRGAS 2000 within Chile. Replaced by SIRGAS-Chile 2010 (CRS code 8947)."]]

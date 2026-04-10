@@ -16,4 +16,4 @@ GEOGCRS["ShAb07-IRF",
         AREA["United Kingdom (UK) - on or related to the rail route from Shrewsbury to Aberystwyth."],
         BBOX[52.37,-4.16,52.77,-2.6]],
     ID["EPSG",10185],
-    REMARK["Intermediate CRS created in 2022 to assist the emulation of the ETRS89 / ShAb07 SnakeGrid projected CRS through transformation ETRS89-GBR [OSNet v2009] to ShAb07-IRF (1) (code 10186) used in conjunction with the ShAb07-TM map projection (code 10187)."]]
+    REMARK["Intermediate CRS created in 2022 to assist the emulation of the ETRS89 / ShAb07 SnakeGrid projected CRS through transformation ETRS89 to ShAb07-IRF (1) (code 10186) used in conjunction with the ShAb07-TM map projection (code 10187)."]]

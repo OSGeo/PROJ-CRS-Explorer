@@ -16,4 +16,4 @@ GEOGCRS["MWC18-IRF",
         AREA["United Kingdom (UK) - on or related to the rail route from Manchester via Wigan and Liverpool to Chester."],
         BBOX[53.09,-3.15,53.65,-2.1]],
     ID["EPSG",20033],
-    REMARK["Intermediate CRS created in 2022 to assist the emulation of the ETRS89 / MWC18 SnakeGrid projected CRS through transformation ETRS89-GBR [OSNet v2009] to MWC18 (1) (code 10108) used in conjunction with the MWC18-TM map projection (code 10127)."]]
+    REMARK["Intermediate CRS created in 2022 to assist the emulation of the ETRS89 / MWC18 SnakeGrid projected CRS through transformation ETRS89 to MWC18 (1) (code 10108) used in conjunction with the MWC18-TM map projection (code 10127)."]]

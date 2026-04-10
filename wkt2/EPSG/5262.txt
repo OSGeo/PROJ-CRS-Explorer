@@ -18,5 +18,4 @@ GEODCRS["DRUKREF 03",
         SCOPE["Geodesy."],
         AREA["Bhutan."],
         BBOX[26.7,88.74,28.33,92.13]],
-    ID["EPSG",5262],
-    REMARK["Replaced by DrukRef23 (CRS code 11224)."]]
+    ID["EPSG",5262]]

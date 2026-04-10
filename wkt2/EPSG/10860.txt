@@ -16,4 +16,4 @@ GEOGCRS["WSPG-IRF",
         AREA["United Kingdom (UK) - covering the surface level works associated with the Woodsmith mining project between Sneatonthorpe and Wilton works, Redcar."],
         BBOX[54.35,-1.25,54.7,-0.45]],
     ID["EPSG",10860],
-    REMARK["Intermediate CRS created in 2025 to assist the emulation of the ETRS89 / WSPG SnakeGrid projected CRS through transformation ETRS89-GBR [OSNet v2009] to WSPG-IRF (1) (code 10861) used in conjunction with the WSPG-TM map projection (code 10862)."]]
+    REMARK["Intermediate CRS created in 2025 to assist the emulation of the ETRS89 / WSPG SnakeGrid projected CRS through transformation ETRS89 to WSPG-IRF (1) (code 10861) used in conjunction with the WSPG-TM map projection (code 10862)."]]

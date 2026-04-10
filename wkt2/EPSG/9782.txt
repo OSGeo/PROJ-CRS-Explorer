@@ -1,8 +1,7 @@
-GEOGCRS["ETRS89-FRA [RGF93 v2b]",
+GEOGCRS["RGF93 v2b",
     DATUM["Reseau Geodesique Francais 1993 v2b",
         ELLIPSOID["GRS 1980",6378137,298.257222101,
-            LENGTHUNIT["metre",1]],
-        ANCHOREPOCH[2019]],
+            LENGTHUNIT["metre",1]]],
     PRIMEM["Greenwich",0,
         ANGLEUNIT["degree",0.0174532925199433]],
     CS[ellipsoidal,2],
@@ -17,4 +16,4 @@ GEOGCRS["ETRS89-FRA [RGF93 v2b]",
         AREA["France - onshore and offshore, mainland and Corsica (France métropolitaine including Corsica)."],
         BBOX[41.15,-9.86,51.56,10.38]],
     ID["EPSG",9782],
-    REMARK["Replaces ETRS89-FRA [RGF93 v2] (CRS code 9777) from 2021-01-05. See CRS code 9784 for alternate system with axes reversed used by IGN for GIS purposes."]]
+    REMARK["Replaces RGF93 v2 (CRS code 9777) from 2021-01-05. See CRS code 9784 for alternate system with axes reversed used by IGN for GIS purposes."]]

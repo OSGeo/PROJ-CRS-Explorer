@@ -16,4 +16,4 @@ GEOGCRS["GWWWA22-IRF",
         AREA["United Kingdom (UK) - on or related to the rail routes from Swansea to Pembroke Dock, Milford Haven and Fishguard."],
         BBOX[51.55,-5.16,52.06,-3.6]],
     ID["EPSG",10219],
-    REMARK["Intermediate CRS created in 2022 to assist the emulation of the ETRS89 / GWWWA22 SnakeGrid projected CRS through transformation ETRS89-GBR [OSNet v2009] to GWWWA22-IRF (1) (code 10220) used in conjunction with the GW22-LCC map projection (code 10211)."]]
+    REMARK["Intermediate CRS created in 2022 to assist the emulation of the ETRS89 / GWWWA22 SnakeGrid projected CRS through transformation ETRS89 to GWWWA22-IRF (1) (code 10220) used in conjunction with the GW22-LCC map projection (code 10211)."]]

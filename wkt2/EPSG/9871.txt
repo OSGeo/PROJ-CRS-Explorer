@@ -16,4 +16,4 @@ GEOGCRS["MOLDOR11-IRF",
         AREA["United Kingdom (UK) - on or related to the rail route from Manchester via Ordsall Lane and the Hope Valley to Dore Junction."],
         BBOX[53.25,-2.4,53.55,-1.39]],
     ID["EPSG",9871],
-    REMARK["Intermediate CRS created in 2021 to assist the emulation of the ETRS89 / MOLDOR11 SnakeGrid projected CRS through transformation ETRS89-GBR [OSNet v2009] to MOLDOR11-IRF (1) (code 9878) used in conjunction with the MOLDOR11-TM map projection (code 9879)."]]
+    REMARK["Intermediate CRS created in 2021 to assist the emulation of the ETRS89 / MOLDOR11 SnakeGrid projected CRS through transformation ETRS89 to MOLDOR11-IRF (1) (code 9878) used in conjunction with the MOLDOR11-TM map projection (code 9879)."]]

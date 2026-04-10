@@ -1,4 +1,4 @@
-GEOGCS["ETRS89-SVN [D96]",
+GEOGCS["Slovenia 1996",
     DATUM["Slovenia_Geodetic_Datum_1996",
         SPHEROID["GRS 1980",6378137,298.257222101,
             AUTHORITY["EPSG","7019"]],

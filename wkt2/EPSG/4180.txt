@@ -1,8 +1,7 @@
-GEOGCRS["ETRS89-EST [EST97]",
+GEOGCRS["EST97",
     DATUM["Estonia 1997",
         ELLIPSOID["GRS 1980",6378137,298.257222101,
-            LENGTHUNIT["metre",1]],
-        ANCHOREPOCH[1997.56]],
+            LENGTHUNIT["metre",1]]],
     PRIMEM["Greenwich",0,
         ANGLEUNIT["degree",0.0174532925199433]],
     CS[ellipsoidal,2],
@@ -17,4 +16,4 @@ GEOGCRS["ETRS89-EST [EST97]",
         AREA["Estonia - onshore and offshore."],
         BBOX[57.52,20.37,60,28.2]],
     ID["EPSG",4180],
-    REMARK["Replaces EST92 (code 4133)."]]
+    REMARK["This name is also used for a projected CRS (see projCRS code 3301). Replaces EST92 (code 4133)."]]

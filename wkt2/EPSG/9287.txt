@@ -1,4 +1,4 @@
-VERTCRS["LAT-NLD depth",
+VERTCRS["LAT NL depth",
     VDATUM["Lowest Astronomical Tide Netherlands"],
     CS[vertical,1],
         AXIS["depth (D)",down,

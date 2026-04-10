@@ -16,4 +16,4 @@ GEOGCRS["MALS09-IRF",
         AREA["United Kingdom (UK) - on or related to the rail route from London (Marylebone) to Leamington Spa."],
         BBOX[51.45,-2.26,52.91,-0.05]],
     ID["EPSG",10224],
-    REMARK["Intermediate CRS created in 2022 to assist the emulation of the ETRS89 / MALS09 SnakeGrid projected CRS through transformation ETRS89-GBR [OSNet v2009] to MALS09-IRF (1) (code 10225) used in conjunction with the MALS09-TM map projection (code 10226)."]]
+    REMARK["Intermediate CRS created in 2022 to assist the emulation of the ETRS89 / MALS09 SnakeGrid projected CRS through transformation ETRS89 to MALS09-IRF (1) (code 10225) used in conjunction with the MALS09-TM map projection (code 10226)."]]

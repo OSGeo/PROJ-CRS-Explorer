@@ -33,6 +33,6 @@ PROJCRS["Pampa del Castillo / Argentina 3",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Oil and gas exploration and production."],
-        AREA["Argentina - Chibut province east of 67°30'W and south of approximately 43°35'S, Santa Cruz province east of 67°30'W and north of approximately 49°23'S, and offshore Golfo san Jorge."],
+        AREA["Argentina - Chibut province east of 67°30'W and south of approximately 43°35'S and Santa Cruz province east of 67°30'W and north of approximately 49°23'S."],
         BBOX[-49.05,-67.5,-43.58,-65.47]],
     ID["EPSG",9285]]

@@ -1,5 +1,5 @@
-PROJCS["ETRS89-ITA [RDN2008] / Zone 12 (E-N)",
-    GEOGCS["ETRS89-ITA [RDN2008]",
+PROJCS["RDN2008 / Zone 12 (E-N)",
+    GEOGCS["RDN2008",
         DATUM["Rete_Dinamica_Nazionale_2008",
             SPHEROID["GRS 1980",6378137,298.257222101,
                 AUTHORITY["EPSG","7019"]],

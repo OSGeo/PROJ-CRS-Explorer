@@ -33,6 +33,6 @@ PROJCRS["Corrego Alegre 1970-72 / UTM zone 22S",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
-        AREA["Brazil - onshore between 54°W and 48°W and between 15°S and 32°45'S."],
-        BBOX[-32.75,-54,-15,-48]],
+        AREA["Brazil - onshore between 54°W and 48°W and south of 15°S."],
+        BBOX[-33.78,-54,-15,-48]],
     ID["EPSG",22522]]

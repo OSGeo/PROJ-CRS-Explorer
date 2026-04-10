@@ -16,4 +16,4 @@ GEOGCRS["WC05-IRF",
         AREA["United Kingdom (UK) - on or related to the west coast mainline rail route from London (Euston) via Carlisle to Glasgow."],
         BBOX[51.4,-4.33,55.92,-0.04]],
     ID["EPSG",10628],
-    REMARK["Intermediate CRS created in 2024 to assist the emulation of the ETRS89 / WC05 SnakeGrid projected CRS through transformation ETRS89-GBR [OSNet v2009] to WC05-IRF (1) (code 10629) used in conjunction with the WC05-TM map projection (code 10631)."]]
+    REMARK["Intermediate CRS created in 2024 to assist the emulation of the ETRS89 / WC05 SnakeGrid projected CRS through transformation ETRS89 to WC05-IRF (1) (code 10629) used in conjunction with the WC05-TM map projection (code 10631)."]]

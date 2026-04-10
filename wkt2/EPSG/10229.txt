@@ -16,4 +16,4 @@ GEOGCRS["OxWo08-IRF",
         AREA["United Kingdom (UK) - on or related to the rail route from Oxford to Worcester."],
         BBOX[51.65,-2.31,52.26,-1.15]],
     ID["EPSG",10229],
-    REMARK["Intermediate CRS created in 2022 to assist the emulation of the ETRS89 / OxWo08 SnakeGrid projected CRS through transformation ETRS89-GBR [OSNet v2009] to OxWo08-IRF (1) (code 10230) used in conjunction with the OxWo08-TM map projection (code 10234)."]]
+    REMARK["Intermediate CRS created in 2022 to assist the emulation of the ETRS89 / OxWo08 SnakeGrid projected CRS through transformation ETRS89 to OxWo08-IRF (1) (code 10230) used in conjunction with the OxWo08-TM map projection (code 10234)."]]

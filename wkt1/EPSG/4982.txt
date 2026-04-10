@@ -1,4 +1,4 @@
-GEOCCS["ETRS89-ITA [IGM95]",
+GEOCCS["IGM95",
     DATUM["Istituto_Geografico_Militaire_1995",
         SPHEROID["GRS 1980",6378137,298.257222101,
             AUTHORITY["EPSG","7019"]],

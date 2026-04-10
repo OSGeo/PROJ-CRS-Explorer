@@ -16,4 +16,4 @@ GEOGCRS["SYC20-IRF",
         AREA["United Kingdom (UK) - on or related to the rail route from Shrewsbury to Crewe."],
         BBOX[52.65,-2.91,53.16,-2.3]],
     ID["EPSG",10237],
-    REMARK["Intermediate CRS created in 2022 to assist the emulation of the ETRS89 / SYC20 SnakeGrid projected CRS through transformation ETRS89-GBR [OSNet v2009] to SYC20-IRF (1) (code 10238) used in conjunction with the SYC20-TM map projection (code 10239)."]]
+    REMARK["Intermediate CRS created in 2022 to assist the emulation of the ETRS89 / SYC20 SnakeGrid projected CRS through transformation ETRS89 to SYC20-IRF (1) (code 10238) used in conjunction with the SYC20-TM map projection (code 10239)."]]
