@@ -1,4 +1,4 @@
-FROM ghcr.io/osgeo/proj:9.8.0
+FROM ghcr.io/osgeo/proj:9.8.1
 
 ARG PYPROJ_VERSION 3.3.0
 ENV PYPROJ_VERSIONi=$PYPROJ_VERSION
