@@ -1,5 +1,5 @@
-PROJCRS["ETRS89-LVA [LKS-2020] / Latvia TM",
-    BASEGEOGCRS["ETRS89-LVA [LKS-2020]",
+PROJCRS["LKS-2020 / Latvia TM",
+    BASEGEOGCRS["LKS-2020",
         DATUM["Latvian coordinate system 2020",
             ELLIPSOID["GRS 1980",6378137,298.257222101,
                 LENGTHUNIT["metre",1]],

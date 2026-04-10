@@ -1,5 +1,5 @@
-COMPD_CS["ETRS89-SVN [D96] + SVS2010 height",
-    GEOGCS["ETRS89-SVN [D96]",
+COMPD_CS["Slovenia 1996 + SVS2010 height",
+    GEOGCS["Slovenia 1996",
         DATUM["Slovenia_Geodetic_Datum_1996",
             SPHEROID["GRS 1980",6378137,298.257222101,
                 AUTHORITY["EPSG","7019"]],

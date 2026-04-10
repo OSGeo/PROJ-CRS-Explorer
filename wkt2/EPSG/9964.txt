@@ -16,4 +16,4 @@ GEOGCRS["HULLEE13-IRF",
         AREA["United Kingdom (UK) - on or related to the rail route from the Morley tunnel through Leeds to Hull."],
         BBOX[53.6,-1.7,53.9,-0.27]],
     ID["EPSG",9964],
-    REMARK["Intermediate CRS created in 2022 to assist the emulation of the ETRS89 / HULLEE13 SnakeGrid projected CRS through transformation ETRS89-GBR [OSNet v2009] to HULLEE13-IRF (1) (code 9965) used in conjunction with the HULLEE13-TM map projection (code 9966)."]]
+    REMARK["Intermediate CRS created in 2022 to assist the emulation of the ETRS89 / HULLEE13 SnakeGrid projected CRS through transformation ETRS89 to HULLEE13-IRF (1) (code 9965) used in conjunction with the HULLEE13-TM map projection (code 9966)."]]

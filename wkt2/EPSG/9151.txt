@@ -1,5 +1,5 @@
 GEODCRS["SIRGAS-Chile 2016",
-    DATUM["SIRGAS-Chile 2016",
+    DATUM["SIRGAS-Chile realization 4 epoch 2016",
         ELLIPSOID["GRS 1980",6378137,298.257222101,
             LENGTHUNIT["metre",1]]],
     PRIMEM["Greenwich",0,

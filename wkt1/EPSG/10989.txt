@@ -1,7 +1,0 @@
-VERT_CS["London Survey Grid height",
-    VERT_DATUM["London Survey Grid height datum",2005,
-        AUTHORITY["EPSG","1423"]],
-    UNIT["metre",1,
-        AUTHORITY["EPSG","9001"]],
-    AXIS["Gravity-related height",UP],
-    AUTHORITY["EPSG","10989"]]

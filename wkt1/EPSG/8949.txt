@@ -1,4 +1,4 @@
-GEOGCS["SIRGAS-Chile 2010 (deprecated)",
+GEOGCS["SIRGAS-Chile 2010",
     DATUM["SIRGAS-Chile_realization_2_epoch_2010",
         SPHEROID["GRS 1980",6378137,298.257222101,
             AUTHORITY["EPSG","7019"]],

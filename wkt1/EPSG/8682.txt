@@ -1,5 +1,5 @@
-PROJCS["ETRS89-SRB [STRS00] / UTM zone 34N",
-    GEOGCS["ETRS89-SRB [STRS00]",
+PROJCS["SRB_ETRS89 / UTM zone 34N",
+    GEOGCS["SRB_ETRS89",
         DATUM["Serbian_Spatial_Reference_System_2000",
             SPHEROID["GRS 1980",6378137,298.257222101,
                 AUTHORITY["EPSG","7019"]],

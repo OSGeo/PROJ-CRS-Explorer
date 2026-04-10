@@ -1,4 +1,4 @@
-GEOCCS["ETRS89-FRA [RGF93 v1]",
+GEOCCS["RGF93 v1",
     DATUM["Reseau_Geodesique_Francais_1993_v1",
         SPHEROID["GRS 1980",6378137,298.257222101,
             AUTHORITY["EPSG","7019"]],

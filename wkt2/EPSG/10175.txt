@@ -16,4 +16,4 @@ GEOGCRS["DoPw22-IRF",
         AREA["United Kingdom (UK) - on or related to the rail route from Dovey Junction to Pwllheli."],
         BBOX[52.45,-4.51,53.01,-3.8]],
     ID["EPSG",10175],
-    REMARK["Intermediate CRS created in 2022 to assist the emulation of the ETRS89 / DoPw22 SnakeGrid projected CRS through transformation ETRS89-GBR [OSNet v2009] to DoPw22-IRF (1) (code 10181) used in conjunction with the DoPw22-TM map projection (code 10182)."]]
+    REMARK["Intermediate CRS created in 2022 to assist the emulation of the ETRS89 / DoPw22 SnakeGrid projected CRS through transformation ETRS89 to DoPw22-IRF (1) (code 10181) used in conjunction with the DoPw22-TM map projection (code 10182)."]]

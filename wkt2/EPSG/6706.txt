@@ -1,8 +1,7 @@
-GEOGCRS["ETRS89-ITA [RDN2008]",
+GEOGCRS["RDN2008",
     DATUM["Rete Dinamica Nazionale 2008",
         ELLIPSOID["GRS 1980",6378137,298.257222101,
-            LENGTHUNIT["metre",1]],
-        ANCHOREPOCH[2008]],
+            LENGTHUNIT["metre",1]]],
     PRIMEM["Greenwich",0,
         ANGLEUNIT["degree",0.0174532925199433]],
     CS[ellipsoidal,2],
@@ -17,4 +16,4 @@ GEOGCRS["ETRS89-ITA [RDN2008]",
         AREA["Italy - onshore and offshore; San Marino, Vatican City State."],
         BBOX[34.76,5.93,47.1,18.99]],
     ID["EPSG",6706],
-    REMARK["Replaces ETRS89-ITA [IGM95] (CRS code 4670) from 2011-11-10."]]
+    REMARK["Replaces IGM95 (CRS code 4670) from 2011-11-10."]]

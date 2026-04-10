@@ -1,4 +1,4 @@
-VERT_CS["LAT-NLD depth",
+VERT_CS["LAT NL depth",
     VERT_DATUM["Lowest Astronomical Tide Netherlands",2005,
         AUTHORITY["EPSG","1290"]],
     UNIT["metre",1,
