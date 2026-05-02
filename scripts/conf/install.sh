@@ -13,8 +13,16 @@ fi
 PACKAGE_LIST=/home/apt-packages.txt
 if [ -f "$PACKAGE_LIST" ]; then
     apt-get update -qq > /dev/null
-    apt-get -qq --yes install software-properties-common
-    add-apt-repository --yes ppa:deadsnakes/ppa  # for different python versions
+
+    # apt-get -qq --yes install software-properties-common
+    # add-apt-repository --yes ppa:deadsnakes/ppa  # for different python versions
+
+    # Added curl and gnupg to manually handle deadsnakes repository key
+    apt-get -qq --yes install software-properties-common curl gnupg
+    # Bypass add-apt-repository to avoid connection timeouts with Launchpad API
+    curl -fsSL "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xF23C5A6CF475977595C89F51BA6932366A755776" | gpg --dearmor -o /usr/share/keyrings/deadsnakes.gpg
+    echo "deb [signed-by=/usr/share/keyrings/deadsnakes.gpg] https://ppa.launchpadcontent.net/deadsnakes/ppa/ubuntu $(lsb_release -cs) main" > /etc/apt/sources.list.d/deadsnakes.list
+
     apt-get update -qq > /dev/null
 
     apt-get \
