@@ -11,12 +11,12 @@ ESRI Database: ArcGIS Pro 3.6 [2025-12-01]
 IGNF Database: 3.1.0 [2019-05-24]
 
 System:
-    python: 3.12.3 (main, Mar  3 2026, 12:15:18) [GCC 13.3.0]
+    python: 3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]
 executable: /home/venv/bin/python3
    machine: Linux-6.17.0-1010-azure-x86_64-with-glibc2.39
 
 Python deps:
-   certifi: 2026.2.25
+   certifi: 2026.4.22
     Cython: None
 setuptools: None
-       pip: 26.0.1
+       pip: 26.1
