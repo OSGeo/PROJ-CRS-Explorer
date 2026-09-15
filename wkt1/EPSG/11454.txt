@@ -1,0 +1,7 @@
+VERT_CS["GLLAT depth",
+    VERT_DATUM["Greenland Lowest Astronomical Tide ",2005,
+        AUTHORITY["EPSG","1459"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Depth",DOWN],
+    AUTHORITY["EPSG","11454"]]

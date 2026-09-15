@@ -1,0 +1,7 @@
+VERT_CS["NN2000:2025 height",
+    VERT_DATUM["Norway Normal Null 2000:2025",2005,
+        AUTHORITY["EPSG","1454"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","11394"]]

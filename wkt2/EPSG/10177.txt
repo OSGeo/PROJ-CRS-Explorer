@@ -21,4 +21,4 @@ GEOGCRS["IGS20",
         AREA["World."],
         BBOX[-90,-180,90,180]],
     ID["EPSG",10177],
-    REMARK["Used for products from the International GNSS Service (IGS) from 2022-11-27 to 2025-02-01. Replaces IGb14 (code 9379). Replaced by IGb20 (code 10784). For most practical purposes IGS20 is equivalent to ITRF2020."]]
+    REMARK["For most practical purposes IGS20 is equivalent to ITRF2020. Replaces IGb14 (code 9379). Used for products from the International GNSS Service (IGS) from 2022-11-27: IGS20 used from 2022-11-27 to 2025-02-01 (GPS weeks 2238 through 2351); IGb20 (extract from ITRF2020-u2023) used from 2025-02-02 to 2026-01-10 (GPS weeks 2352 through 2400); IGc20 used from 2026-01-11 (GPS week 2401). Users referencing updates should include this information in their metadata."]]

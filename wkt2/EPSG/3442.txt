@@ -36,6 +36,6 @@ PROJCRS["NAD83(HARN) / Arkansas South (ftUS)",
             LENGTHUNIT["US survey foot",0.304800609601219]],
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
-        AREA["United States (USA) - Arkansas - counties Arkansas; Ashley; Bradley; Calhoun; Chicot; Clark; Cleveland; Columbia; Dallas; Desha; Drew; Garland; Grant; Hempstead; Hot Spring; Howard; Jefferson; Lafayette; Lee; Lincoln; Little River; Lonoke; Miller; Monroe; Montgomery; Nevada; Ouachita; Phillips; Pike; Polk; Prairie; Pulaski; Saline; Sevier; Union."],
-        BBOX[33.01,-94.48,35.1,-90.4]],
+        AREA["United States (USA) - Arkansas - counties Arkansas; Ashley; Bradley; Calhoun; Chicot; Clark; Cleveland; Columbia; Dallas; Desha; Drew; Garland; Grant; Hempstead; Hot Spring; Howard; Jefferson; Lafayette; Lee; Lincoln; Little River; Lonoke; Miller; Monroe; Montgomery; Nevada; Ouachita; Phillips; Pike; Polk; Prairie; Saline; Sevier; Union."],
+        BBOX[33,-94.49,35.1,-90.4]],
     ID["EPSG",3442]]

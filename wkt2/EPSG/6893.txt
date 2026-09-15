@@ -48,6 +48,6 @@ COMPOUNDCRS["WGS 84 / World Mercator + EGM2008 height",
                 LENGTHUNIT["metre",1]]],
     USAGE[
         SCOPE["Engineering design concept visualisation."],
-        AREA["World."],
-        BBOX[-90,-180,90,180]],
+        AREA["World between 80°S and 84°N."],
+        BBOX[-80,-180,84,180]],
     ID["EPSG",6893]]

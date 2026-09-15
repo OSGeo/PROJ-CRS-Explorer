@@ -1,0 +1,13 @@
+VERTCRS["GLMSL depth",
+    ENSEMBLE["Greenland Mean Sea Level ",
+        MEMBER["Greenland Mean Sea Level (2023)"],
+        MEMBER["Greenland Mean Sea Level (2025)"],
+        ENSEMBLEACCURACY[0.5]],
+    CS[vertical,1],
+        AXIS["depth (D)",down,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Hydrography and nautical charting."],
+        AREA["Greenland - offshore."],
+        BBOX[56.38,-75,87.03,7.99]],
+    ID["EPSG",11455]]

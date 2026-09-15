@@ -1,7 +1,8 @@
-GEODCRS["CHTRS95",
+GEODCRS["ETRS89-CHE [CHTRS95]",
     DATUM["Swiss Terrestrial Reference System 1995",
         ELLIPSOID["GRS 1980",6378137,298.257222101,
-            LENGTHUNIT["metre",1]]],
+            LENGTHUNIT["metre",1]],
+        ANCHOREPOCH[1993]],
     PRIMEM["Greenwich",0,
         ANGLEUNIT["degree",0.0174532925199433]],
     CS[Cartesian,3],
@@ -19,4 +20,4 @@ GEODCRS["CHTRS95",
         AREA["Liechtenstein; Switzerland."],
         BBOX[45.81,5.95,47.81,10.5]],
     ID["EPSG",4932],
-    REMARK["Referenced to ETRS89 at epoch 1993.0. For CRS used for topographic and cadastral purposes see CH1903+ (CRS code 4150)."]]
+    REMARK["Referenced to ETRF93 at epoch 1993.0. First realized through CHTRF95 and subsequently CHTRF98, with an aim to re-measure every 6 years. CHTRF98, CHTRF2004, CHTRF2010 and CHTRF2016 are all within 2cm of CHTRF95 and used for scientific applications, but for most practical purposes differences are considered insignificant. For CRS used for topographic and cadastral purposes see CH1903+ (CRS code 4150)."]]

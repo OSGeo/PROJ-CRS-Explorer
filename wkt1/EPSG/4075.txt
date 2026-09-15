@@ -1,4 +1,4 @@
-GEOGCS["SREF98",
+GEOGCS["ETRS89-SRB [SREF98]",
     DATUM["Serbian_Reference_Network_1998",
         SPHEROID["GRS 1980",6378137,298.257222101,
             AUTHORITY["EPSG","7019"]],

@@ -1,0 +1,7 @@
+VERT_CS["GLMSL depth",
+    VERT_DATUM["Greenland Mean Sea Level ",2005,
+        AUTHORITY["EPSG","1458"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Depth",DOWN],
+    AUTHORITY["EPSG","11455"]]

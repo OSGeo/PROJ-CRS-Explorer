@@ -33,6 +33,6 @@ PROJCRS["MOP78 / UTM zone 1S",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
-        AREA["Wallis and Futuna - Wallis."],
-        BBOX[-13.41,-176.25,-13.16,-176.07]],
+        AREA["Wallis and Futuna - Wallis - onshore."],
+        BBOX[-13.42,-176.29,-13.17,-176.11]],
     ID["EPSG",2988]]

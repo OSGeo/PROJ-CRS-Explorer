@@ -37,6 +37,6 @@ PROJCRS["NAD_1983_2011_USA_Contiguous_Albers_Equal_Area_Conic",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Not known."],
-        AREA["United States (USA) - CONUS onshore - Alabama; Arizona; Arkansas; California; Colorado; Connecticut; Delaware; Florida; Georgia; Idaho; Illinois; Indiana; Iowa; Kansas; Kentucky; Louisiana; Maine; Maryland; Massachusetts; Michigan; Minnesota; Mississippi; Missouri; Montana; Nebraska; Nevada; New Hampshire; New Jersey; New Mexico; New York; North Carolina; North Dakota; Ohio; Oklahoma; Oregon; Pennsylvania; Rhode Island; South Carolina; South Dakota; Tennessee; Texas; Utah; Vermont; Virginia; Washington; West Virginia; Wisconsin; Wyoming."],
+        AREA["United States (USA) - conterminous (contiguous) lower 48 states (CONUS) - onshore."],
         BBOX[24.41,-124.79,49.38,-66.91]],
     ID["ESRI",54093]]

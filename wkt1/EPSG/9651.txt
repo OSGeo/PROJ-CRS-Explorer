@@ -1,4 +1,4 @@
-VERT_CS["EVRF2007-PL height",
+VERT_CS["PL-EVRF2007 height",
     VERT_DATUM["European Vertical Reference Frame 2007 Poland",2005,
         AUTHORITY["EPSG","1297"]],
     UNIT["metre",1,

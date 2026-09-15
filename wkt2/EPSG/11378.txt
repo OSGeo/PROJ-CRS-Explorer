@@ -1,0 +1,14 @@
+ENGCRS["Heathrow Airport Grid",
+    EDATUM["Heathrow Airport Grid"],
+    CS[Cartesian,2],
+        AXIS["(E)",east,
+            ORDER[1],
+            LENGTHUNIT["metre",1]],
+        AXIS["(N)",north,
+            ORDER[2],
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Engineering survey, topographic mapping."],
+        AREA["UK - Heathrow airport and surrounding area."],
+        BBOX[51.42,-0.56,51.52,-0.37]],
+    ID["EPSG",11378]]

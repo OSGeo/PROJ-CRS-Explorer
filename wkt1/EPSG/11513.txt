@@ -1,0 +1,7 @@
+VERT_CS["COLGVD2023 height",
+    VERT_DATUM["Colombian Geodetic Vertical Datum 2023",2005,
+        AUTHORITY["EPSG","1464"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","11513"]]

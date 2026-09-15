@@ -21,4 +21,4 @@ GEODCRS["ITRF2020",
         AREA["World."],
         BBOX[-90,-180,90,180]],
     ID["EPSG",9988],
-    REMARK["Replaces ITRF2014 (CRS code 7789). Replaced by ITRF2020-u2023 (CRS code 10779)."]]
+    REMARK["Replaces ITRF2014 (CRS code 7789). Updated through ITRF2020-u2023 from December 2024 and through ITRF2020-u2024 from October 2025. Users referencing updates should include this information in their metadata."]]

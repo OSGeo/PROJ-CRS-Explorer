@@ -1,0 +1,10 @@
+VERTCRS["NGFA 2022 height",
+    VDATUM["Nivellement General de Futuna et d’Alofi 2022"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Wallis and Futuna - Futuna and Alofi - onshore."],
+        BBOX[-14.42,-178.24,-14.18,-177.94]],
+    ID["EPSG",11446]]

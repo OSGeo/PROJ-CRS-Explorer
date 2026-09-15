@@ -1,7 +1,7 @@
 PROJCRS["REDGEOMIN / UTM zone 12S",
     BASEGEOGCRS["REDGEOMIN",
         DYNAMIC[
-            FRAMEEPOCH[2019]],
+            FRAMEEPOCH[2024]],
         DATUM["Red Geodesica Para Mineria en Chile",
             ELLIPSOID["GRS 1980",6378137,298.257222101,
                 LENGTHUNIT["metre",1]]],
@@ -34,7 +34,7 @@ PROJCRS["REDGEOMIN / UTM zone 12S",
             ORDER[2],
             LENGTHUNIT["metre",1]],
     USAGE[
-        SCOPE["Geodesy, cadastre, engineering survey, topographic mapping."],
+        SCOPE["Minerals management."],
         AREA["Chile - Easter Island onshore."],
         BBOX[-27.25,-109.51,-27.01,-109.16]],
     ID["EPSG",9697]]

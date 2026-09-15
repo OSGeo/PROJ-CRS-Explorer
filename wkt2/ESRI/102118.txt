@@ -37,5 +37,5 @@ PROJCRS["NAD_1927_Georgia_Statewide_Albers",
     USAGE[
         SCOPE["Not known."],
         AREA["United States (USA) - Georgia."],
-        BBOX[30.36,-85.61,35.01,-80.77]],
+        BBOX[30.35,-85.61,35.01,-80.75]],
     ID["ESRI",102118]]

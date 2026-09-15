@@ -16,7 +16,7 @@ GEODCRS["NAD83(NSRS2007)",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Geodesy."],
-        AREA["Puerto Rico - onshore and offshore. United States (USA) onshore and offshore - Alabama; Alaska; Arizona; Arkansas; California; Colorado; Connecticut; Delaware; Florida; Georgia; Idaho; Illinois; Indiana; Iowa; Kansas; Kentucky; Louisiana; Maine; Maryland; Massachusetts; Michigan; Minnesota; Mississippi; Missouri; Montana; Nebraska; Nevada; New Hampshire; New Jersey; New Mexico; New York; North Carolina; North Dakota; Ohio; Oklahoma; Oregon; Pennsylvania; Rhode Island; South Carolina; South Dakota; Tennessee; Texas; Utah; Vermont; Virginia; Washington; West Virginia; Wisconsin; Wyoming. US Virgin Islands - onshore and offshore."],
+        AREA["Puerto Rico - onshore and offshore. United States (USA) - Alaska and conterminous (contiguous) lower 48 states (CONUS) - onshore and offshore."],
         BBOX[14.92,167.65,74.71,-63.88]],
     ID["EPSG",4892],
     REMARK["Replaces NAD83(HARN) and NAD83(FBN). Replaced by NAD83(2011)."]]

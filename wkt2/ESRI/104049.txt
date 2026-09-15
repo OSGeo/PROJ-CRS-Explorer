@@ -17,5 +17,5 @@ GEOGCRS["HTRS07_3D",
     USAGE[
         SCOPE["Not known."],
         AREA["Greece - onshore and offshore. Includes Aegean Islands, Ionian Islands, Dodecanese Islands, Crete, and Mount Athos."],
-        BBOX[33.26,18.26,41.75,30.23]],
+        BBOX[33.26,18.26,41.75,30.11]],
     ID["ESRI",104049]]

@@ -5,6 +5,6 @@ VERTCRS["REDNAP_height",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Not known."],
-        AREA["Spain - mainland, Balearic Islands, Ceuta and Melila - onshore."],
-        BBOX[35.26,-9.37,43.82,4.39]],
+        AREA["Spain - mainland, Balearic Islands and Ceuta - onshore."],
+        BBOX[35.84,-9.37,43.82,4.39]],
     ID["ESRI",105603]]
