@@ -1,5 +1,5 @@
-COMPD_CS["Amersfoort / RD New + NAP height",
-    PROJCS["Amersfoort / RD New",
+COMPD_CS["RD + NAP height",
+    PROJCS["RD",
         GEOGCS["Amersfoort",
             DATUM["Amersfoort",
                 SPHEROID["Bessel 1841",6377397.155,299.1528128,

@@ -1,5 +1,5 @@
-COMPD_CS["LKS-92 + Latvia 2000 height",
-    GEOGCS["LKS-92",
+COMPD_CS["ETRS89-LVA [LKS-92] + Latvia 2000 height",
+    GEOGCS["ETRS89-LVA [LKS-92]",
         DATUM["Latvian_geodetic_coordinate_system_1992",
             SPHEROID["GRS 1980",6378137,298.257222101,
                 AUTHORITY["EPSG","7019"]],

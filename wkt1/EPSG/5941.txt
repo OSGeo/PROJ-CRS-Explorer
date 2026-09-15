@@ -1,5 +1,5 @@
-VERT_CS["NN2000 height",
-    VERT_DATUM["Norway Normal Null 2000",2005,
+VERT_CS["NN2000:2018 height",
+    VERT_DATUM["Norway Normal Null 2000:2018",2005,
         AUTHORITY["EPSG","1096"]],
     UNIT["metre",1,
         AUTHORITY["EPSG","9001"]],

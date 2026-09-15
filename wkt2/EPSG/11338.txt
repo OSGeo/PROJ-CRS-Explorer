@@ -1,0 +1,10 @@
+VERTCRS["Bhutan Vertical Datum 2022 height",
+    VDATUM["Bhutan Vertical Datum 2022"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey, topographic mapping."],
+        AREA["Bhutan."],
+        BBOX[26.7,88.74,28.33,92.13]],
+    ID["EPSG",11338]]

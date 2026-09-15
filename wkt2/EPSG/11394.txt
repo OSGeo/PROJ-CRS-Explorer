@@ -1,0 +1,10 @@
+VERTCRS["NN2000:2025 height",
+    VDATUM["Norway Normal Null 2000:2025"],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, engineering survey."],
+        AREA["Norway - onshore."],
+        BBOX[57.9,4.39,71.24,31.32]],
+    ID["EPSG",11394]]

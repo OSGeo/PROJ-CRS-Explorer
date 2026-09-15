@@ -1,6 +1,6 @@
 PROJCRS["JGD_2011_Japan_Zone_16",
-    BASEGEOGCRS["JGD2011",
-        DATUM["Japanese Geodetic Datum 2011",
+    BASEGEOGCRS["JGD2024",
+        DATUM["Japanese Geodetic Datum 2024",
             ELLIPSOID["GRS 1980",6378137,298.257222101,
                 LENGTHUNIT["metre",1]]],
         PRIMEM["Greenwich",0,

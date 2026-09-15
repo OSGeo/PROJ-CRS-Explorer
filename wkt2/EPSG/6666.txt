@@ -1,5 +1,5 @@
-GEODCRS["JGD2011",
-    DATUM["Japanese Geodetic Datum 2011",
+GEODCRS["JGD2024",
+    DATUM["Japanese Geodetic Datum 2024",
         ELLIPSOID["GRS 1980",6378137,298.257222101,
             LENGTHUNIT["metre",1]]],
     PRIMEM["Greenwich",0,
@@ -19,4 +19,4 @@ GEODCRS["JGD2011",
         AREA["Japan - onshore and offshore."],
         BBOX[17.09,122.38,46.05,157.65]],
     ID["EPSG",6666],
-    REMARK["Replaces JGD2000 (CRS code 4946) with effect from 21st October 2011."]]
+    REMARK["Replaces JGD2000 (CRS code 4946) with effect from 21st October 2011. On adoption of JGD2024 (vertical) with effect from 1st April 2025, the name of this geodetic CRS was changed from JGD2011 to JGD2024; there is no change of definition or of coordinate values."]]

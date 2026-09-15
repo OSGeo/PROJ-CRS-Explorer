@@ -36,6 +36,6 @@ PROJCRS["NAD83(HARN) / Arkansas North",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
-        AREA["United States (USA) - Arkansas - counties of Baxter; Benton; Boone; Carroll; Clay; Cleburne; Conway; Craighead; Crawford; Crittenden; Cross; Faulkner; Franklin; Fulton; Greene; Independence; Izard; Jackson; Johnson; Lawrence; Logan; Madison; Marion; Mississippi; Newton; Perry; Poinsett; Pope; Randolph; Scott; Searcy; Sebastian; Sharp; St Francis; Stone; Van Buren; Washington; White; Woodruff; Yell."],
-        BBOX[34.67,-94.62,36.5,-89.64]],
+        AREA["United States (USA) - Arkansas - counties of Baxter; Benton; Boone; Carroll; Clay; Cleburne; Conway; Craighead; Crawford; Crittenden; Cross; Faulkner; Franklin; Fulton; Greene; Independence; Izard; Jackson; Johnson; Lawrence; Logan; Madison; Marion; Mississippi; Newton; Perry; Poinsett; Pope; Pulaski; Randolph; Scott; Searcy; Sebastian; Sharp; St Francis; Stone; Van Buren; Washington; White; Woodruff; Yell."],
+        BBOX[34.48,-94.62,36.5,-89.64]],
     ID["EPSG",2764]]

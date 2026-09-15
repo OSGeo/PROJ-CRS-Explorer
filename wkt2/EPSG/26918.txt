@@ -33,6 +33,6 @@ PROJCRS["NAD83 / UTM zone 18N",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
-        AREA["North America - between 78°W and 72°W - onshore and offshore. Canada - Nunavut; Ontario; Quebec. United States (USA) - Connecticut; Delaware; Maryland; Massachusetts; New Hampshire; New Jersey; New York; North Carolina; Pennsylvania; Virginia; Vermont."],
+        AREA["North America - between 78°W and 72°W - onshore and offshore. Canada - Nunavut; Ontario; Quebec. United States (USA) - Connecticut; Delaware; District of Columbia (DC); Maryland; Massachusetts; New Hampshire; New Jersey; New York; North Carolina; Pennsylvania; Virginia; Vermont."],
         BBOX[28.28,-78,84,-72]],
     ID["EPSG",26918]]

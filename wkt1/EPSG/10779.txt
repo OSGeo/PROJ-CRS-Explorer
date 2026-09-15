@@ -1,4 +1,4 @@
-GEOCCS["ITRF2020-u2023",
+GEOCCS["ITRF2020-u2023 (deprecated)",
     DATUM["International_Terrestrial_Reference_Frame_2020-u2023",
         SPHEROID["GRS 1980",6378137,298.257222101,
             AUTHORITY["EPSG","7019"]],

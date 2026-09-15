@@ -1,4 +1,4 @@
-PROJCS["GGRS87 / Greek Grid",
+PROJCS["GGRS87 / TM87",
     GEOGCS["GGRS87",
         DATUM["Greek_Geodetic_Reference_System_1987",
             SPHEROID["GRS 1980",6378137,298.257222101,

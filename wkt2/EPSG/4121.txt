@@ -14,5 +14,5 @@ GEOGCRS["GGRS87",
     USAGE[
         SCOPE["Geodesy."],
         AREA["Greece - onshore."],
-        BBOX[34.88,19.57,41.75,28.3]],
+        BBOX[34.75,19.57,41.75,29.69]],
     ID["EPSG",4121]]

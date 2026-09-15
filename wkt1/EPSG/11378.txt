@@ -1,0 +1,7 @@
+LOCAL_CS["Heathrow Airport Grid",
+    LOCAL_DATUM["Heathrow Airport Grid",32767],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Easting",EAST],
+    AXIS["Northing",NORTH],
+    AUTHORITY["EPSG","11378"]]

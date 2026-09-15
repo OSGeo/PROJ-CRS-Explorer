@@ -1,7 +1,5 @@
-VERTCRS["NN2000 height",
-    DYNAMIC[
-        FRAMEEPOCH[2000]],
-    VDATUM["Norway Normal Null 2000"],
+VERTCRS["NN2000:2018 height",
+    VDATUM["Norway Normal Null 2000:2018"],
     CS[vertical,1],
         AXIS["gravity-related height (H)",up,
             LENGTHUNIT["metre",1]],

@@ -13,7 +13,7 @@ GEOGCRS["SAD69",
             ANGLEUNIT["degree minute second hemisphere",0.0174532925199433]],
     USAGE[
         SCOPE["Geodesy."],
-        AREA["Brazil - onshore and offshore. In rest of South America - onshore north of approximately 45°S and Tierra del Fuego."],
+        AREA["Brazil - onshore and offshore. Chile - onshore south of 43°30'S including Tierra del Fuego. In rest of South America - onshore north of approximately 45°S."],
         BBOX[-55.96,-91.72,12.52,-25.28]],
     ID["EPSG",4291],
     REMARK["Uses GRS67 ellipsoid with 1/f to exactly 2 decimal places. Precision of ellipsoid entry increased from 2 to 5 dp with change id 97.251. Error introduced if not using the truncated precision is 0 to 31mm."]]

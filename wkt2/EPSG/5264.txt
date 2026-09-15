@@ -15,4 +15,5 @@ GEOGCRS["DRUKREF 03",
         SCOPE["Horizontal component of 3D system."],
         AREA["Bhutan."],
         BBOX[26.7,88.74,28.33,92.13]],
-    ID["EPSG",5264]]
+    ID["EPSG",5264],
+    REMARK["Replaced by DrukRef23 (CRS code 11226)."]]

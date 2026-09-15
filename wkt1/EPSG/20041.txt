@@ -1,5 +1,5 @@
 GEOGCS["SIRGAS-Chile 2021",
-    DATUM["SIRGAS-Chile_realization_5_epoch_2021",
+    DATUM["SIRGAS-Chile_2021",
         SPHEROID["GRS 1980",6378137,298.257222101,
             AUTHORITY["EPSG","7019"]],
         AUTHORITY["EPSG","1327"]],

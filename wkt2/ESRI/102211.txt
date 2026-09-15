@@ -33,6 +33,6 @@ PROJCRS["NAD_1983_HARN_UTM_Zone_18N",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Not known."],
-        AREA["United States (USA) - between 78°W and 72°W - onshore - Connecticut; Delaware; Maryland; Massachusetts; New Hampshire; New Jersey; New York; North Carolina; Pennsylvania; Virginia; Vermont."],
+        AREA["United States (USA) - between 78°W and 72°W - onshore - Connecticut; Delaware; District of Columbia (DC); Maryland; Massachusetts; New Hampshire; New Jersey; New York; North Carolina; Pennsylvania; Virginia; Vermont."],
         BBOX[33.84,-78,45.03,-72]],
     ID["ESRI",102211]]

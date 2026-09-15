@@ -33,6 +33,6 @@ PROJCRS["NAD27 / UTM zone 18N",
             LENGTHUNIT["metre",1]],
     USAGE[
         SCOPE["Engineering survey, topographic mapping."],
-        AREA["North America - between 78°W and 72°W. Bahamas. Canada - Nunavut; Ontario; Quebec. Cuba. United States (USA) - Connecticut; Delaware; Maryland; Massachusetts; New Hampshire; New Jersey; New York; North Carolina; Pennsylvania; Virginia; Vermont. Onshore for Canadian arctic. onshore and offshore for US east coast and Cuba, with usage in Bahamas onshore plus offshore over internal continental shelf only."],
+        AREA["North America - between 78°W and 72°W. Bahamas. Canada - Nunavut; Ontario; Quebec. Cuba. United States (USA) - Connecticut; Delaware; District of Columbia (DC); Maryland; Massachusetts; New Hampshire; New Jersey; New York; North Carolina; Pennsylvania; Virginia; Vermont. Onshore for Canadian arctic. onshore and offshore for US east coast and Cuba, with usage in Bahamas onshore plus offshore over internal continental shelf only."],
         BBOX[18.83,-78,83.16,-72]],
     ID["EPSG",26718]]

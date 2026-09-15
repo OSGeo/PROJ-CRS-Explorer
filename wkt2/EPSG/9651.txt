@@ -1,4 +1,4 @@
-VERTCRS["EVRF2007-PL height",
+VERTCRS["PL-EVRF2007 height",
     VDATUM["European Vertical Reference Frame 2007 Poland"],
     CS[vertical,1],
         AXIS["gravity-related height (H)",up,

@@ -1,0 +1,11 @@
+VERTCRS["JGD2024 (vertical) height",
+    VDATUM["Japanese Geodetic Datum 2024 (vertical)",
+        ANCHOREPOCH[2024.415]],
+    CS[vertical,1],
+        AXIS["gravity-related height (H)",up,
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["Geodesy, cadastre, engineering survey, topographic mapping."],
+        AREA["Japan - onshore and offshore."],
+        BBOX[17.09,122.38,46.05,157.65]],
+    ID["EPSG",11317]]

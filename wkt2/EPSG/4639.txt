@@ -13,7 +13,7 @@ GEOGCRS["MOP78",
             ANGLEUNIT["degree",0.0174532925199433]],
     USAGE[
         SCOPE["Geodesy."],
-        AREA["Wallis and Futuna - Wallis."],
-        BBOX[-13.41,-176.25,-13.16,-176.07]],
+        AREA["Wallis and Futuna - Wallis - onshore."],
+        BBOX[-13.42,-176.29,-13.17,-176.11]],
     ID["EPSG",4639],
     REMARK["Replaced by RGWF96 (CRS code 8900) for geodetic survey and RGWF96 (lon-lat) (CRS code 8902) for GIS."]]

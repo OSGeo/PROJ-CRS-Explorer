@@ -1,0 +1,7 @@
+VERT_CS["NGFA 2022 height",
+    VERT_DATUM["Nivellement General de Futuna et d’Alofi 2022",2005,
+        AUTHORITY["EPSG","1455"]],
+    UNIT["metre",1,
+        AUTHORITY["EPSG","9001"]],
+    AXIS["Gravity-related height",UP],
+    AUTHORITY["EPSG","11446"]]

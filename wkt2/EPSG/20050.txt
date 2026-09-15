@@ -40,6 +40,6 @@ PROJCRS["NAD83(2011) / Amtrak NECCS21 (ft)",
             LENGTHUNIT["foot",0.3048]],
     USAGE[
         SCOPE["Engineering survey and topographic mapping for railway applications."],
-        AREA["United States (USA) - parts of Connecticut, Delaware, District of Columbia, Maryland, Massachusetts, New Jersey, New York, Pennsylvania, Rhode Island and Virginia on or related to the Amtrak northeast corridor rail route from Boston to Washington DC via New York and Philadelphia."],
+        AREA["United States (USA) - parts of Connecticut, Delaware, District of Columbia (DC), Maryland, Massachusetts, New Jersey, New York, Pennsylvania, Rhode Island and Virginia on or related to the Amtrak northeast corridor rail route from Boston to Washington DC via New York and Philadelphia."],
         BBOX[38.64,-78.51,42.74,-70.48]],
     ID["EPSG",20050]]

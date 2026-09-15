@@ -1,7 +1,7 @@
 COMPOUNDCRS["ETRS89-NOR [EUREF89] / UTM zone 32N + NN54 height",
     PROJCRS["ETRS89-NOR [EUREF89] / UTM zone 32N",
         BASEGEOGCRS["ETRS89-NOR [EUREF89]",
-            DATUM["ETRS89-NOR [EUREF89]",
+            DATUM["EUREF89",
                 ELLIPSOID["GRS 1980",6378137,298.257222101,
                     LENGTHUNIT["metre",1]],
                 ANCHOREPOCH[1995]],
@@ -41,5 +41,5 @@ COMPOUNDCRS["ETRS89-NOR [EUREF89] / UTM zone 32N + NN54 height",
     USAGE[
         SCOPE["Topographic mapping."],
         AREA["Norway - onshore - between 6°E and 12°E."],
-        BBOX[57.9,6,67.58,12.01]],
+        BBOX[57.9,6,67.58,12]],
     ID["EPSG",6172]]
